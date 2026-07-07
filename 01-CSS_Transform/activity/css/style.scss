@@ -1,0 +1,109 @@
+/* Lesson 01a - Transitions */
+/*
+body {
+  padding: 50px;
+    .trigger {
+      .box {
+        display: inline-block;
+        background: red;
+        width: 100px;
+        height: 100px;
+        transition: transform 300ms ease;
+    }
+  }
+  .trigger:hover .box {
+     transform: translate(200px, 150px) rotate(20deg);
+  }
+}
+*/
+
+/* Lesson 01b - Animations */
+/*
+.box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation: myframes 2s ease-in-out 0s infinite;
+}
+@keyframes myframes {
+  0% {
+    height: 100px;
+  }
+  50%, 100% {
+    width: 200px;
+  }
+  100% {
+    height: 600px;
+    background: green;
+  }
+}
+*/
+
+/* Lesson 01c - Menu with Animations */
+/*
+nav {
+  padding: 50px;
+  text-align: center;
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #ddd;
+    border-radius: 5px;
+    li {
+      width: 150px;
+      height: 65px;
+      line-height: 65px;
+      position: relative;
+      text-transform: uppercase;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.7);
+      cursor: pointer;
+      .menu-1 {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        li {
+          display: none;
+          background: #666;
+          color: rgba(255, 255, 255, 0.7);
+          &:hover {
+            background: #606060;
+          }
+          &:last-child {
+            border-radius: 0px 0px 5px 5px;
+          }
+        }
+      }
+    }
+  }
+}
+li:hover > .menu-1 > li {
+  display: block;
+  opacity: 0;
+  //animation: menu1 300ms;
+  @for $i from 1 through 5 {
+    &:nth-child(#{$i}) {
+      animation-name: menu1;
+      animation-duration: 300ms;
+      animation-delay: (300ms * $i) - 300;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
+    }
+  } 
+  @keyframes menu1 {
+    0% {
+      opacity: 0;
+      transform: rotateY(-90deg) translate(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: rotateY(0deg) translateY(0px);
+    }
+  }
+}
+*/
