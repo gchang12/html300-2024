@@ -6,9 +6,46 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
   <title>Document</title>
+  <script defer src="scripts/script.js"></script>
 </head>
 <body>
   <main class="main">
+    <!-- Excerpted from: https://codepen.io/kotAndy/pen/MxKVOj -->
+    <header class="header">
+      <nav id="navigation">
+        <div class="dropdown-bg">
+          <span class="arrow"></span>
+        </div>
+        <ul class="list-unstyled">
+          <li data-dropdown>
+            <a href="#">About</a>
+            <div data-position="left" class="dropdown dropdown--about">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque facilisis nisi risus, at tristique augue euismod vel.</div>
+          </li>
+          <li data-dropdown>
+            <a href="#">Works</a>
+            <div class="dropdown dropdown--works">
+              <ul class="list-unstyled">
+                <li>Project one</li>
+                <li>Project two</li>
+                <li>Project three</li>
+              </ul>
+            </div>
+          </li>
+          <li data-dropdown>
+            <a href="#">Socials</a>
+            <div class="dropdown dropdown--socials">
+              <a href="#" class="social social--fb">Facebook</a>
+              <a href="#" class="social social--tw">Twitter</a>
+              <a href="#" class="social social--in">Instagram</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <footer>
+      <p><u>Hover</u> on this links</p>
+      <p>💈 Along follow dropdown 💈</p>
+    </footer>
   </main>
 </body>
 </html>
