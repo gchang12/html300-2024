@@ -150,7 +150,7 @@ body {
     > ul {
       display: flex;
       justify-content: center;
-      li {
+      li[data-dropdown] {
         @media (max-width: 767px) {
           &:first-child {
             .dropdown {
@@ -163,7 +163,7 @@ body {
         display: block;
         padding: 10px 12px;
         background: -webkit-gradient(linear,left top,right top,from(#ff6e7f),to(#bfe9ff));
-        background: linear-gradient(to right,#ff6e7f,#bfe9ff);
+        background: linear-gradient(to right,white,white);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         -webkit-box-decoration-break: clone;
@@ -176,7 +176,7 @@ body {
         letter-spacing: 1px;
         &:hover {
           background: -webkit-gradient(linear,left top,right top,from(#bfe9ff),to(#ff6e7f));
-          background: linear-gradient(to right,#bfe9ff,#ff6e7f);
+          background: linear-gradient(to top,yellow,green);
           -webkit-background-clip: text;
           }
         }
