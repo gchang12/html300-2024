@@ -15,6 +15,7 @@ $trs-ease: ease;
   background: linear-gradient(to top, white, yellow 70%, white);
 }
 
+// Makes it so that the specified width is the width of the whole box, and not the content box.
 html {   box-sizing: border-box; } *, *:before, *:after {   box-sizing: inherit; }
 
 body {
@@ -36,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  
+
   position: relative;
 
   background: $bg;
@@ -44,19 +45,19 @@ body {
 
   &::after {
     content: '';
-    
+
     display: block;
     width: 100%;
     height: 100px;
-    
+
     position: absolute;
     left: 0;
-                          
+
     backface-visibility: hidden;
     transition: all $trs-time $trs-ease;
     transition-delay: $trs-time-sm;
   }
-  
+
   .active & {
     &::after {
       transition-delay: 0s;
@@ -78,7 +79,7 @@ body {
     transform: rotate3d(1, 0, 0, -90deg);
     transform-origin: top center;
   }
-  
+
   .active & {
     &::after {
       background: $bg;
@@ -91,22 +92,22 @@ body {
 .lower {
   transition: transform $trs-time $trs-ease;
   transition-delay: $trs-time-sm;
-  
+
   &::after {
     bottom: 100%;
-    
+
     background: darken($bg, 8%);
-          
+
     transform: rotate3d(1, 0, 0, 90deg);
     transform-origin: bottom center;
   }
-  
+
   .active & {
     border-top: none;
-    
+
     transform: translateY(200px);
     transition-delay: 0s;
-    
+
     &::after {
       background: $bg;
       transform: rotate3d(1, 0, 0, 0deg);
@@ -117,7 +118,7 @@ body {
 // Text styles
 h1 {
   margin: 10px 0 20px;    
-  
+
   &.page-title {
     text-align: center;
     margin-bottom: 60px;
@@ -173,10 +174,12 @@ button {
   opacity: 0;
   // NOTE: Changed this.
   //transform: rotateZ(0);
+  // Change opacity, transform, and background properties during transition
   @include transform-bg-trs($trs-ease, $trs-time-sm);
   transition-delay: 0s;
 
   .active & {
+    // Declare new opacity, transform, and bg properties of element when active
     @include newspaper-spin();
     opacity: 1;
     transition-delay: $trs-time;
@@ -184,11 +187,11 @@ button {
 }
 
 table {
-width: 100%;
+  width: 100%;
 }
 
 tr {
-display: flex;
-justify-content: space-between;
-margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
 }
