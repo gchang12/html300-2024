@@ -6,6 +6,15 @@ $trs-time: .8s;
 $trs-time-sm: .35s;
 $trs-ease: ease;
 
+@mixin transform-bg-trs($ease, $time-sm) {
+  transition: opacity $ease $time-sm, transform $ease $time-sm, background $ease $time-sm;
+}
+
+@mixin newspaper-spin() {
+  transform: rotateZ(360deg);
+  background: linear-gradient(to top, white, yellow 70%, white);
+}
+
 html {   box-sizing: border-box; } *, *:before, *:after {   box-sizing: inherit; }
 
 body {
@@ -162,13 +171,14 @@ button {
   
   pointer-events: none;
   opacity: 0;
-  transform: translateY(-8px);
-  transition: opacity $trs-ease $trs-time-sm, transform $trs-ease $trs-time-sm;
+  // NOTE: Changed this.
+  //transform: rotateZ(0);
+  @include transform-bg-trs($trs-ease, $trs-time-sm);
   transition-delay: 0s;
-  
+
   .active & {
+    @include newspaper-spin();
     opacity: 1;
-    transform: translateY(0);
     transition-delay: $trs-time;
   }
 }
