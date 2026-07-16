@@ -4,3 +4,84 @@
 @import 'settings.responsive';
 @import 'components.content';
 
+// Declare colors
+$header-color: #F1352B;
+$nav-color: #7ACB00;
+$sidebar-color: #6E27C5;
+$main-content-color: #FF6600;
+$footer-color: #150F96;
+
+// Horizontally and vertically centers content inside tag it's included in.
+@mixin centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: $header-color;
+  @include centering;
+}
+
+nav {
+  background-color: $nav-color;
+}
+
+.sidebar {
+  background-color: $sidebar-color;
+  @include centering;
+}
+
+.main-content {
+  background-color: $main-content-color;
+  @include centering;
+}
+
+footer {
+  background-color: $footer-color;
+  @include centering;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+  // Remove left-padding that interferes with horizontal centering.
+  padding-left: 0;
+  // Remove bullet-point that's on left of all items inside.
+  list-style-type: none;
+  // Remove margins for centering purposes.
+  margin: 0;
+  // Make ul the same size as containing nav
+  height: 100%;
+}
+
+nav > ul > li {
+  @include centering;
+}
+
+nav a {
+  // Make hyperlinks look like regular text.
+  color: inherit;
+  text-decoration: inherit;
+}
+
+main.main {
+  display: grid;
+  // Make sure proportions of content inside are right.
+  grid-template-columns: 2fr 5fr;
+  // Remove padding that's on all four sides.
+  padding: 0;
+}
+
+body {
+  display: grid;
+  // Make sure proportions of all direct children of body are right.
+  grid-template-rows: 2fr 1fr 8fr 2fr;
+  // Ensure that content fills the whole screen.
+  min-height: 100vh;
+}
+
+:root {
+  color: white;
+  font-size: 1.5em;
+}
