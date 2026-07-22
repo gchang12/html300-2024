@@ -6,8 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Activity 06 - Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous" defer></script>
   </head>
   <body>
-    <main class="main"></main>
+    <main class="main">
+      <form>
+        <button id="click-me" type="button">click me</button>
+        <div id="submit-button-wrapper" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="click the other button">
+          <button disabled id="submit">
+            submit
+          </button>
+        </div>
+      </form>
+    </main>
+    <script>
+      const clickMeButton = document.getElementById("click-me");
+      const submitButton = document.getElementById("submit");
+      const submitButtonWrapper = document.getElementById("submit-button-wrapper");
+      clickMeButton.addEventListener("click", () => {
+        submitButton.removeAttribute("disabled");
+        submitButtonWrapper.removeAttribute("title");
+      });
+    </script>
   </body>
 </html>
+
+<!-- Create a form using Bootstrap with these characteristics:
+
+    Form has two buttons.
+        One says "click me".
+        The other says "submit".
+    The submit button should be grayed out and unclickable (the form should not submit).
+    When you hover over the submit button, a tooltip should appear letting the user know to click the other button.
+    Once the user clicks on the other button, the submit button should no longer be grayed out; the button should be clickable (the form will submit), and a tooltip should not show when you hover over it.
+
+Note: When the submit button is pressed it won't actually submit any data anywhere and will just refresh the page.  -->

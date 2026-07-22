@@ -4,3 +4,13 @@
 @import 'settings.responsive';
 @import 'components.content';
 
+#submit {
+  background-color: inherit;
+  &[disabled] {
+    opacity: 0.5;
+  }
+}
+
+#submit-button-wrapper {
+  padding: 0;
+}
