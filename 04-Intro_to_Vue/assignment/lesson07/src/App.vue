@@ -43,6 +43,31 @@ const currentView = computed(() => {
   <div id="app">
     <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+    <nav>
+      <!-- Nav-bar where user can navigate between four pages. -->
+      <ul>
+        <li>
+          <a href="/landing-page">
+            Landing Page
+          </a>
+        </li>
+        <li>
+          <a href="/images">
+            Images
+          </a>
+        </li>
+        <li>
+          <a href="/accordion">
+            Accordion Page
+          </a>
+        </li>
+        <li>
+          <a href="/grid-system">
+            Grid System
+          </a>
+        </li>
+      </ul>
+    </nav>
     <component :is="currentView" />
   </div>
 </template>
