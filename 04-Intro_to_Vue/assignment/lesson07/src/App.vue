@@ -6,7 +6,7 @@ import { ref, computed } from "vue";
 import IndexPage from './components/IndexPage.vue'
 import ImageGallery from './components/ImageGallery.vue'
 import GridSystem from './components/GridSystem.vue'
-import LandingPage from './components/LandingPage.vue'
+//import LandingPage from './components/LandingPage.vue'
 import AccordionPage from './components/AccordionPage.vue'
 
 /*
@@ -28,7 +28,7 @@ export default {
 
 const routes = {
   "/": IndexPage,
-  "/landing-page": LandingPage,
+  //"/landing-page": LandingPage,
   "/images": ImageGallery,
   "/accordion": AccordionPage,
   "/grid-system": GridSystem,
@@ -55,11 +55,7 @@ const currentView = computed(() => {
     <nav>
       <!-- Nav-bar where user can navigate between four pages. -->
       <ul>
-        <li>
-          <a href="#/landing-page">
-            Landing Page
-          </a>
-        </li>
+        <!--<li> <a href="#/landing-page"> Landing Page </a></li>-->
         <li>
           <a href="#/images">
             Images
