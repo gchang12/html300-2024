@@ -11,14 +11,14 @@ nav > ul > li {
   list-style-type: none;
 }
 
-#grid-system-header-row.row {
+#grid-system-header-row {
   position: sticky;
   top: 0;
   background-color: black;
   color: white;
-  z-index: 0;
+  /* z-index: 0; */
 }
 
-#grid-system .row {
+#grid-system .book-cover {
   z-index: -1;
 }

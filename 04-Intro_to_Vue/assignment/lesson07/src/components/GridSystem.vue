@@ -98,7 +98,7 @@
         <div class="col-1">
           {{book.no}}
         </div>
-        <div class="col-2">
+        <div class="col-2 book-cover">
           <figure>
             <img width="100" :src="book.imgSrc" :alt="book.imgSrc" />
             <figcaption>Harry Potter and the {{book.title}}</figcaption>
