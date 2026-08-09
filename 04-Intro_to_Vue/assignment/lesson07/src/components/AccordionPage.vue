@@ -43,9 +43,13 @@
       ],
     }
   ]);
-  const activeWord = ref("mercurial");
+  const activeWord = ref("");
   function changeActiveWord(e) {
-    activeWord.value = e.currentTarget.dataset.word;
+    if (activeWord.value === e.currentTarget.dataset.word) {
+      activeWord.value = "";
+    } else {
+      activeWord.value = e.currentTarget.dataset.word;
+    }
   }
 </script>
 
