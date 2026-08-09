@@ -71,6 +71,9 @@
           </dl>
         </div>
       </div>
+      <div v-else class="card-body">
+        (Press word-text to view definitions)
+      </div>
     </div>
   </div>
 </template>
