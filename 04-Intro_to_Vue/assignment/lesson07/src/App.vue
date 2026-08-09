@@ -46,6 +46,12 @@ const currentView = computed(() => {
 
 /* End: Routing. */
 
+const expandNavibar = ref(false);
+
+function toggleNavibarVisibility() {
+  expandNavibar.value = !expandNavibar.value;
+}
+
 </script>
 
 <template>
@@ -54,7 +60,8 @@ const currentView = computed(() => {
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
     <nav>
       <!-- Nav-bar where user can navigate between four pages. -->
-      <ul>
+      <button v-on:click="toggleNavibarVisibility">Expand</button>
+      <ul v-if="expandNavibar">
         <!--<li> <a href="#/landing-page"> Landing Page </a></li>-->
         <li>
           <a href="#/images">
