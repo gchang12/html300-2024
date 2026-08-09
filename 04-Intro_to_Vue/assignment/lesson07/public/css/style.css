@@ -22,3 +22,23 @@ nav > ul > li {
 #grid-system .book-cover {
   z-index: -1;
 }
+
+#figures {
+  display: flex;
+  justify-content: space-around;
+}
+
+#figures img {
+  max-width: 750px;
+}
+
+@media (max-width: 1500px) {
+  #figures {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  #figures img {
+    max-width: 50%;
+  }
+}
