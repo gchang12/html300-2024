@@ -43,6 +43,10 @@
       ],
     }
   ]);
+  const activeWord = ref("mercurial");
+  function changeActiveWord(e) {
+    activeWord.value = e.currentTarget.dataset.word;
+  }
 </script>
 
 <template>
@@ -53,13 +57,13 @@
         <!-- NOTE: Added tooltip here! -->
         <h5 class="mb-0" data-toggle="tooltip" title="Click me for a definition!">
           <!-- Press to activate accordion -->
-          <button class="btn btn-link" data-toggle="collapse" :data-target="definition.dataToggle" aria-expanded="true" :aria-controls="definition.ariaControls">
+          <button v-on:click="changeActiveWord" class="btn btn-link" data-toggle="collapse" :data-target="definition.dataToggle" :data-word="definition.word" aria-expanded="true" :aria-controls="definition.ariaControls">
             {{ definition.word }}
           </button>
         </h5>
       </div>
       <!-- Conditionally renders -->
-      <div :id="definition.cardHeader" class="collapse show" :aria-labelledby="definition.cardHeader" data-parent="#accordion">
+      <div v-if="activeWord === definition.word" :id="definition.cardHeader" class="collapse show" :aria-labelledby="definition.cardHeader" data-parent="#accordion">
         <div class="card-body">
           <dl v-for="([partOfSpeech, defText]) in definition.definitions" :key="defText">
             <dt>{{partOfSpeech}}</dt>
