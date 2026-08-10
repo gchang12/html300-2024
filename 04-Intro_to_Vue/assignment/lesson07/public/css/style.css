@@ -37,6 +37,8 @@ nav > ul > li {
   max-width: 750px;
 }
 
+/* On small displays, make images display vertically */
+
 @media (max-width: 1500px) {
   #figures {
     display: flex;
@@ -48,11 +50,31 @@ nav > ul > li {
   }
 }
 
+/* On small displays, make navi-items display vertically */
+
 @media (max-width: 593px) {
   #app nav {
     flex-direction: column;
   }
   nav > ul {
     flex-direction: column;
+  }
+}
+
+/* Give table some borders */
+
+.row {
+  border: 1px solid black;
+}
+
+.cell + .cell {
+  border-left: 1px solid black;
+}
+
+/* Give table-text some padding */
+
+@media (max-width: 771px) {
+  .col-6 p {
+    padding: 3rem;
   }
 }

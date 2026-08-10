@@ -89,25 +89,25 @@
         <div class="col-6">
           Description
         </div>
-        <div class="col-2 fw-bold fs-3">
+        <div class="col-2">
           Release Date
         </div>
       </div>
       <div class="row" v-for="book in bookList" :key="book.no">
         <!-- Contains columns of increasing size. -->
-        <div class="col-1">
+        <div class="col-1 cell">
           {{book.no}}
         </div>
-        <div class="col-2 book-cover">
+        <div class="col-2 cell book-cover">
           <figure>
             <img width="100" :src="book.imgSrc" :alt="book.imgSrc" />
             <figcaption>Harry Potter and the {{book.title}}</figcaption>
           </figure>
         </div>
-        <div class="col-6">
+        <div class="col-6 cell">
           <p v-for="descLine in book.description" :key="descLine">{{descLine}}</p>
         </div>
-        <div class="col-2">
+        <div class="col-2 cell">
           {{book.releaseDate}}
         </div>
       </div>
