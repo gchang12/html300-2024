@@ -52,6 +52,21 @@ function toggleNavibarVisibility() {
   expandNavibar.value = !expandNavibar.value;
 }
 
+const pageList = ref([
+  {
+    href: "#/images",
+    text: "Images",
+  },
+  {
+    href: "#/accordion",
+    text: "Accordion Page",
+  },
+  {
+    href: "#/grid-system",
+    text: "Grid System",
+  }
+]);
+
 </script>
 
 <template>
@@ -63,20 +78,14 @@ function toggleNavibarVisibility() {
       <button v-on:click="toggleNavibarVisibility">Expand</button>
       <ul v-if="expandNavibar">
         <!--<li> <a href="#/landing-page"> Landing Page </a></li>-->
-        <li>
-          <a href="#/images">
-            Images
+        <li class="navibar-item" v-for="page in pageList" :key="page.href">
+          <a :href="page.href">
+            {{ page.text }}
           </a>
         </li>
-        <li>
-          <a href="#/accordion">
-            Accordion Page
-          </a>
-        </li>
-        <li>
-          <a href="#/grid-system">
-            Grid System
-          </a>
+      </ul>
+      <ul v-else>
+        <li class="navibar-item" v-for="page in pageList" :key="page.href">
         </li>
       </ul>
     </nav>

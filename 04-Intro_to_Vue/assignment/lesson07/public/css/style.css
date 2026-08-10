@@ -1,5 +1,6 @@
-nav {
+#app nav {
   display: flex;
+  justify-content: center;
 }
 
 nav > ul {
@@ -9,6 +10,10 @@ nav > ul {
 
 nav > ul > li {
   list-style-type: none;
+}
+
+.navibar-item {
+  width: 10em;
 }
 
 #grid-system-header-row {
@@ -40,5 +45,14 @@ nav > ul > li {
   }
   #figures img {
     max-width: 50%;
+  }
+}
+
+@media (max-width: 593px) {
+  #app nav {
+    flex-direction: column;
+  }
+  nav > ul {
+    flex-direction: column;
   }
 }
