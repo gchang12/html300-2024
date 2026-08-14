@@ -81,7 +81,6 @@ def generate_transcriptline_index(episode_index):
             if (speaker is None) and ("\n" in dialogue):
                 speaker = lines2[-1][0]
             elif (speaker is None) \
-                and (lines2) \
                 and (previous_speaker is not None) \
                 and (previous_speaker.endswith("]") \
                     and previous_speaker.startswith("[")) \
@@ -128,8 +127,7 @@ def regenerate_unicorn_index(episode_index):
         "episodes",
     ))
     unicorn_index2 = list(filter(lambda episode: set(episode.keys()) == desired_fields, unicorn_index))
-    for index_no, unicorn in enumerate(unicorn_index2):
-        unicorn['id'] = index_no
+    for unicorn in unicorn_index2:
         episodes = unicorn['episodes'].copy()
         unicorn['gender'] = {
             "mare": "F",
@@ -152,21 +150,26 @@ def regenerate_unicorn_index(episode_index):
                     )
                 )
             )
-        unicorn['episodes'].update({
+        unicorn['episodes'] = {
             "speaking": convert_appearance_code("Y"), # Y
             "silent": convert_appearance_code("S"), # S
             "background": convert_appearance_code("B"), # B
             "imagined": convert_appearance_code("F"), # F
             "inMedia": convert_appearance_code("P"), # P
             "mentioned": convert_appearance_code("M"), # M
-        })
+        }
     unicorn_index3 = []
+    index_no = 0
     for unicorn in unicorn_index2:
+        if unicorn['name'] in ("Discord", "Big McIntosh"):
+            continue
         total = 0
         for episodes in unicorn['episodes'].values():
             total += len(episodes)
         if total > 0:
+            unicorn['id'] = index_no
             unicorn_index3.append(unicorn)
+            index_no += 1
     return unicorn_index3
 
 if __name__ == "__main__":
