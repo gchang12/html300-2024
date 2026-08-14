@@ -9,6 +9,7 @@ Also transforms raw transcript data into the following format.
 }
 """
 
+import re
 from datetime import date
 import json
 from pathlib import Path
@@ -39,7 +40,7 @@ def regenerate_episode_index():
         episode["title"] = episode["title"].strip()
         episode["urlName"] = episode["urlName"].strip()
         episode["airdate"] = episode["airdate"].strip()
-        episode["summary"] = list(map(lambda line: line.strip(), episode["summary"]))
+        episode["summary"] = list(map(lambda line: re.sub(r"\[\d+\]", "", line).strip(), episode["summary"]))
         episode["episodeNo"] = int(episode["episodeNo"].lstrip("0"))
         # validate airdate
         try:
