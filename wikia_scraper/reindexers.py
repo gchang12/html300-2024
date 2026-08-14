@@ -67,7 +67,29 @@ def generate_transcriptline_index(episode_index):
         with open(Path("output", "FiM", "transcripts", "S%d" % episode['seasonNo'], "E%02d.json" % episode['episodeNo'])) as rfile:
             lines = json.load(rfile)
         #print(lines)
-        for (line_no, line) in enumerate(lines, start=1):
+        # consolidate lyrical lines
+        lines2 = []
+        for line in lines:
+            speaker, dialogue = line
+            dialogue = dialogue.strip()
+            # remove blank lines
+            if not dialogue:
+                continue
+            # ignore lines that have both dialogue and no speaker speaking it
+            #if (speaker is None) and 
+            previous_speaker = (None if not lines2 else lines2[-1][0])
+            if (speaker is None) and ("\n" in dialogue):
+                speaker = lines2[-1][0]
+            elif (speaker is None) \
+                and (lines2) \
+                and (previous_speaker is not None) \
+                and (previous_speaker.endswith("]") \
+                    and previous_speaker.startswith("[")) \
+                and not (dialogue.endswith("]") and dialogue.startswith("[")):
+                # skip lyrics that lack newlines
+                continue
+            lines2.append((speaker, dialogue))
+        for (line_no, line) in enumerate(lines2, start=1):
             #if len(line) > 2: line[1] = " ".join(line[1:]) line = [line[0], line[1]]
             #if len(line) == 1: print(line)
             #print(line_no)
@@ -76,7 +98,7 @@ def generate_transcriptline_index(episode_index):
                 {
                     "lineNo": line_no,
                     "speaker": (None if speaker is None else speaker.strip()),
-                    "dialogue": dialogue.strip(),
+                    "dialogue": dialogue.strip().replace("\n", "~ "),
                 }
             )
             transcriptline_index.append(transcriptline.copy())
