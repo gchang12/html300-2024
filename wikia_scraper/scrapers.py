@@ -208,7 +208,7 @@ class TranscriptScrapers:
                         break
                     else:
                         href = td.find("a")['href']
-                        dirpath = Path("output", "FiM", "rawTranscripts", "S%d" % season_no)
+                        dirpath = Path("output", "FiM", "html", "S%d" % season_no)
                         dirpath.mkdir(exist_ok=True)
                         filepath = dirpath.joinpath("E%02d.html" % episode_no)
                         if not filepath.exists():
@@ -235,13 +235,22 @@ class CharacterMetadataScraper:
     """
     ROOT = "https://mlp.fandom.com"
 
-    @classmethod
-    def scrape_unicorn_appearances(cls, url):
+    @staticmethod
+    def download_unicorn_page(path, url):
         """
         """
         scraper = cloudscraper.create_scraper()
-        logging.debug("Sending GET to '%s'.", url)
-        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+        #logging.debug("Sending GET to '%s'.", url)
+        return path.write_text(scraper.get(url).text, encoding="utf-8")
+        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+
+    @staticmethod
+    def parse_unicorn_appearances(soup):
+        """
+        """
+        #scraper = cloudscraper.create_scraper()
+        #logging.debug("Sending GET to '%s'.", url)
+        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         appearances = {}
         season_conversion_table = {
             "Season one": 1,
@@ -263,6 +272,18 @@ class CharacterMetadataScraper:
                 appearances["S%d-E%02d" % (season_no, episode_no)] = td.text
         logging.debug("Compiled %d appearances", len(appearances))
         return appearances
+
+    @staticmethod
+    def parse_unicorn_summary(soup):
+        """
+        """
+        summary_lines = []
+        for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
+            if _tag.name == "p":
+                summary_lines.append(_tag.text)
+            elif "id" in _tag.attrs and _tag["id"] == "toc":
+                break
+        return summary_lines
 
     @classmethod
     def scrape_unicorn_profiles(cls):
@@ -316,7 +337,15 @@ class CharacterMetadataScraper:
                     if td.text.startswith("See ") and td.find("a") is not None and profile['name'] in td.find("a").text:
                         href = td.find("a")['href']
                         profile["urlName"] = href.split("/")[-1]
-                        profile["episodes"] = cls.scrape_unicorn_appearances(cls.ROOT + href)
+                        filepath = Path("output", "FiM", "html", profile["urlName"] + ".html")
+                        if not filepath.exists():
+                            cls.download_unicorn_page(filepath, cls.ROOT + href)
+                        soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+                        #scraper = cloudscraper.create_scraper()
+                        #logging.debug("Sending GET to '%s'.", url)
+                        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+                        profile["episodes"] = cls.parse_unicorn_appearances(soup)
+                        profile["summary"] = cls.parse_unicorn_summary(soup)
             index.append(profile)
         logging.debug("Compiled %d entries into the index", len(index))
         return index
@@ -373,8 +402,8 @@ if __name__ == "__main__":
             json.dump(index, wfile, indent=2)
         logging.debug("Dumped unicorn index into '%s'.", filepath)
     #save_episode_index()
-    save_episode_transcripts()
-    #save_unicorn_profiles()
+    #save_episode_transcripts()
+    save_unicorn_profiles()
     #FiMScrapers.scrape_episode_summary("https://mlp.fandom.com/wiki/Owl%27s_Well_That_Ends_Well")
     #url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
     #CharacterMetadataScraper.scrape_unicorn_profiles()
