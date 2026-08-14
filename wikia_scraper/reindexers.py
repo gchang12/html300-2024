@@ -127,9 +127,8 @@ def regenerate_unicorn_index(episode_index):
         "urlName",
         "episodes",
     ))
-    new_unicorn_index = list(filter(lambda episode: set(episode.keys()) == desired_fields, unicorn_index))
-    #print(new_unicorn_index)
-    for index_no, unicorn in enumerate(new_unicorn_index):
+    unicorn_index2 = list(filter(lambda episode: set(episode.keys()) == desired_fields, unicorn_index))
+    for index_no, unicorn in enumerate(unicorn_index2):
         unicorn['id'] = index_no
         episodes = unicorn['episodes'].copy()
         unicorn['gender'] = {
@@ -153,15 +152,22 @@ def regenerate_unicorn_index(episode_index):
                     )
                 )
             )
-        unicorn['episodes'] = {
+        unicorn['episodes'].update({
             "speaking": convert_appearance_code("Y"), # Y
             "silent": convert_appearance_code("S"), # S
             "background": convert_appearance_code("B"), # B
             "imagined": convert_appearance_code("F"), # F
             "inMedia": convert_appearance_code("P"), # P
             "mentioned": convert_appearance_code("M"), # M
-        }
-    return new_unicorn_index
+        })
+    unicorn_index3 = []
+    for unicorn in unicorn_index2:
+        total = 0
+        for episodes in unicorn['episodes'].values():
+            total += len(episodes)
+        if total > 0:
+            unicorn_index3.append(unicorn)
+    return unicorn_index3
 
 if __name__ == "__main__":
     def save_regenerated_episode_index():
@@ -182,7 +188,7 @@ if __name__ == "__main__":
         transcriptindex_filename = "output/FiM/websiteIndexes/transcriptLines.json"
         with open(transcriptindex_filename, mode="w") as wfile:
             json.dump(transcriptline_index, wfile, indent=2)
-    save_transcriptline_index()
+    #save_transcriptline_index()
     def save_unicorn_index():
         """
         """
@@ -193,4 +199,4 @@ if __name__ == "__main__":
         unicornindex_filename = "output/FiM/websiteIndexes/unicorns.json"
         with open(unicornindex_filename, mode="w") as wfile:
             json.dump(unicorn_index, wfile, indent=2)
-    #save_unicorn_index()
+    save_unicorn_index()
