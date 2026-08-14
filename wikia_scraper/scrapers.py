@@ -26,9 +26,20 @@ def get_speaker_and_dialogue(line):
         speaker = line[:line.index(":")]
         dialogue = line[line.index(":") + 1:]
     except ValueError:
+        speaker = None
+        dialogue = line
+    return (speaker, dialogue)
+
+def get_speaker_and_dialogue_in_song(line):
+    """
+    """
+    try:
+        speaker = line[:line.index(":")]
+        dialogue = line[line.index(":") + 1:]
+    except ValueError:
         try:
-            speaker = line[line.index("]") + 1:]
-            dialogue = line[:line.index("]") + 1]
+            speaker = line[:line.index("]") + 1]
+            dialogue = line[line.index("]") + 1:]
         except ValueError:
             speaker = None
             dialogue = line
@@ -134,32 +145,20 @@ class TranscriptScrapers:
     NUM_SEASONS = 9
 
     @staticmethod
-    def scrape_episode_transcript2(url):
+    def download_episode_transcript(path, url):
         """
         """
         scraper = cloudscraper.create_scraper()
-        logging.debug("Sending GET to '%s'.", url)
-        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
-        dl = soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl")
-        transcript_lines = [dl.text]
-        for _tag in dl.find_next_siblings():
-            transcript_lines.append(_tag.text)
-        transcript_lines2 = []
-        for line in transcript_lines:
-            transcript_lines2.extend(line.split("\n"))
-        transcript_lines3 = []
-        for line in transcript_lines2:
-            speaker, dialogue = get_speaker_and_dialogue(line)
-            transcript_lines3.append((speaker, dialogue))
-        return transcript_lines3
+        logging.warning("Sending GET to '%s'.", url)
+        return path.write_text(scraper.get(url).text, encoding="utf-8")
 
     @staticmethod
-    def scrape_episode_transcript(url):
+    def parse_episode_transcript(soup):
         """
         """
-        scraper = cloudscraper.create_scraper()
-        logging.debug("Sending GET to '%s'.", url)
-        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+        #scraper = cloudscraper.create_scraper()
+        #logging.debug("Sending GET to '%s'.", url)
+        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         transcript_lines = []
         for dd in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_all("dd"):
             line = dd.text
@@ -179,9 +178,9 @@ class TranscriptScrapers:
                     transcript_lines.append((speaker, dialogue))
         for tagno, _tag in enumerate(soup.css.select(".mw-content-ltr.mw-parser-output > *")):
             if not tagno and _tag.name == "table":
-                logging.error("Transcript table for '%s' has a table tag as the first element.", url)
+                logging.error("Transcript table has a table tag as the first element.")
             break
-        logging.info("Number of lines retrieved from '%s': %d", url, len(transcript_lines))
+        logging.info("Number of lines retrieved: %d", len(transcript_lines))
         return transcript_lines
 
     @classmethod
@@ -211,7 +210,13 @@ class TranscriptScrapers:
                         break
                     else:
                         href = td.find("a")['href']
-                        transcripts[(season_no, int(true_episode_no.lstrip("0")))] = cls.scrape_episode_transcript(cls.ROOT + href)
+                        dirpath = Path("output", "FiM", "rawTranscripts", "S%d" % season_no)
+                        dirpath.mkdir(exist_ok=True)
+                        filepath = dirpath.joinpath("E%02d.html" % episode_no)
+                        if not filepath.exists():
+                            cls.download_episode_transcript(filepath, cls.ROOT + href)
+                        soup = bs4.BeautifulSoup(filepath.read_text(), 'html.parser')
+                        transcripts[(season_no, int(true_episode_no.lstrip("0")))] = cls.parse_episode_transcript(soup)
         return transcripts
 
 class CharacterMetadataScraper:
