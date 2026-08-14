@@ -18,6 +18,11 @@ import logging
 # reformat episode index
 # regenerate episode index with id's
 
+def _remove_citation_numbers(line):
+    """
+    """
+    return re.sub(r"\[.+?\]", "", line)
+
 def regenerate_episode_index():
     """
     """
@@ -40,7 +45,7 @@ def regenerate_episode_index():
         episode["title"] = episode["title"].strip()
         episode["urlName"] = episode["urlName"].strip()
         episode["airdate"] = episode["airdate"].strip()
-        episode["summary"] = list(map(lambda line: re.sub(r"\[\d+\]", "", line).strip(), episode["summary"]))
+        episode["summary"] = list(map(lambda line: _remove_citation_numbers(line).strip(), episode["summary"]))
         episode["episodeNo"] = int(episode["episodeNo"].lstrip("0"))
         # validate airdate
         try:
@@ -126,8 +131,17 @@ def regenerate_unicorn_index(episode_index):
         "gender",
         "urlName",
         "episodes",
+        "summary",
     ))
-    unicorn_index2 = list(filter(lambda episode: set(episode.keys()) == desired_fields, unicorn_index))
+    unicorn_index2 = list(
+        filter(
+            lambda unicorn: unicorn["episodes"] != {},
+            filter(
+                lambda unicorn: set(unicorn.keys()) == desired_fields,
+                unicorn_index,
+            )
+        )
+    )
     for unicorn in unicorn_index2:
         episodes = unicorn['episodes'].copy()
         unicorn['gender'] = {
@@ -159,18 +173,15 @@ def regenerate_unicorn_index(episode_index):
             "inMedia": convert_appearance_code("P"), # P
             "mentioned": convert_appearance_code("M"), # M
         }
+        unicorn["summary"] = list(map(lambda line: _remove_citation_numbers(line).strip(), unicorn["summary"]))
     unicorn_index3 = []
     index_no = 0
     for unicorn in unicorn_index2:
         if unicorn['name'] in ("Discord", "Big McIntosh"):
             continue
-        total = 0
-        for episodes in unicorn['episodes'].values():
-            total += len(episodes)
-        if total > 0:
-            unicorn['id'] = index_no
-            unicorn_index3.append(unicorn)
-            index_no += 1
+        unicorn['id'] = index_no
+        unicorn_index3.append(unicorn)
+        index_no += 1
     return unicorn_index3
 
 if __name__ == "__main__":
