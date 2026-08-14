@@ -1,0 +1,13 @@
+## The following requirements were added by pip freeze:
+beautifulsoup4==4.15.0
+bs4==0.0.2
+certifi==2026.7.22
+charset-normalizer==3.5.0
+cloudscraper==1.2.71
+idna==3.18
+pyparsing==3.3.2
+requests==2.34.2
+requests-toolbelt==1.0.0
+soupsieve==2.9.2
+typing_extensions==4.16.0
+urllib3==2.7.0
