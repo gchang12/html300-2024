@@ -158,19 +158,19 @@ class TranscriptScrapers:
         #logging.debug("Sending GET to '%s'.", url)
         #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         transcript_lines = []
-        for dd in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_all("dd"):
+        for dd in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_all("dd", recursive=False):
             line = dd.text
             speaker, dialogue = get_speaker_and_dialogue(line)
             transcript_lines.append((speaker, dialogue))
         # assumes every table has dl as the first element.
         for _sibling in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_next_siblings():
             if _sibling.name == "dl":
-                for dd in _sibling.find_all("dd"):
+                for dd in _sibling.find_all("dd", recursive=False):
                     line = dd.text
                     speaker, dialogue = get_speaker_and_dialogue(line)
                     transcript_lines.append((speaker, dialogue))
             elif _sibling.name == "table":
-                for dl in _sibling.find_all("dl"):
+                for dl in _sibling.find_all("dl", recursive=False):
                     line = dl.text
                     speaker, dialogue = get_speaker_and_dialogue(line)
                     transcript_lines.append((speaker, dialogue))
@@ -402,8 +402,8 @@ if __name__ == "__main__":
             json.dump(index, wfile, indent=2)
         logging.debug("Dumped unicorn index into '%s'.", filepath)
     #save_episode_index()
-    #save_episode_transcripts()
-    save_unicorn_profiles()
+    save_episode_transcripts()
+    #save_unicorn_profiles()
     #FiMScrapers.scrape_episode_summary("https://mlp.fandom.com/wiki/Owl%27s_Well_That_Ends_Well")
     #url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
     #CharacterMetadataScraper.scrape_unicorn_profiles()

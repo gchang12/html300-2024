@@ -18,6 +18,7 @@ Things to scrape:
     - urlName
     - species
     - gender
+    - summary
     - episodes: {
         vocally: [],
         silently: [],

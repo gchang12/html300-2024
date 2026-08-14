@@ -203,7 +203,7 @@ if __name__ == "__main__":
         transcriptindex_filename = "output/FiM/websiteIndexes/transcriptLines.json"
         with open(transcriptindex_filename, mode="w") as wfile:
             json.dump(transcriptline_index, wfile, indent=2)
-    #save_transcriptline_index()
+    save_transcriptline_index()
     def save_unicorn_index():
         """
         """
@@ -214,4 +214,4 @@ if __name__ == "__main__":
         unicornindex_filename = "output/FiM/websiteIndexes/unicorns.json"
         with open(unicornindex_filename, mode="w") as wfile:
             json.dump(unicorn_index, wfile, indent=2)
-    save_unicorn_index()
+    #save_unicorn_index()
