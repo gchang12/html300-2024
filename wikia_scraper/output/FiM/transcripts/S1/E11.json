@@ -5,43 +5,43 @@
   ],
   [
     "Spike",
-    "[snore]"
+    " [snore]"
   ],
   [
     "Twilight Sparkle",
-    "[gasp] Spike, wake up. Wake up, wake up, it's Winter Wrap Up day!"
+    " [gasp] Spike, wake up. Wake up, wake up, it's Winter Wrap Up day!"
   ],
   [
     "Spike",
-    "Huh? Mommy?"
+    " Huh? Mommy?"
   ],
   [
     "Twilight Sparkle",
-    "Winter Wrap Up!"
+    " Winter Wrap Up!"
   ],
   [
     "Spike",
-    "You're not mommy."
+    " You're not mommy."
   ],
   [
     "Twilight Sparkle",
-    "Spike, the first day of spring is tomorrow, so everypony in Ponyville needs to clean up winter. Now help me get ready."
+    " Spike, the first day of spring is tomorrow, so everypony in Ponyville needs to clean up winter. Now help me get ready."
   ],
   [
     "Spike",
-    "Clean up winter? Who cleans up winter? Don't they just use magic to change the seasons like they do in Canterlot?"
+    " Clean up winter? Who cleans up winter? Don't they just use magic to change the seasons like they do in Canterlot?"
   ],
   [
     "Twilight Sparkle",
-    "No Spike, Ponyville was started by Earth ponies, so for hundreds of years they've never used magic to clean up winter. It's traditional. [sigh]"
+    " No Spike, Ponyville was started by Earth ponies, so for hundreds of years they've never used magic to clean up winter. It's traditional. [sigh]"
   ],
   [
     "Spike",
-    "It's ridiculous. No magic... Fuh."
+    " It's ridiculous. No magic... Fuh."
   ],
   [
     "Twilight Sparkle",
-    "Okay, let's see: scarf, check; saddle, check; boots, check; Spike refusing to get up and going back to sleep, check. It's a good thing I'm so organized, I'm ready. Bright and early. Oh... maybe a little too early."
+    " Okay, let's see: scarf, check; saddle, check; boots, check; Spike refusing to get up and going back to sleep, check. It's a good thing I'm so organized, I'm ready. Bright and early. Oh... maybe a little too early."
   ],
   [
     null,
@@ -49,15 +49,15 @@
   ],
   [
     "Twilight Sparkle",
-    "Those must be the team vests Rarity designed. Blue for the weather team, green for the plant team, and tan for the animal team. I wonder which team vest I'll be wearing."
+    " Those must be the team vests Rarity designed. Blue for the weather team, green for the plant team, and tan for the animal team. I wonder which team vest I'll be wearing."
   ],
   [
     "Spike",
-    "I'll take a blue vest, same color as my blankie, which I think I hear calling my name. \"Spike! Spike! Come to bed!\" Ugh, it's too early."
+    " I'll take a blue vest, same color as my blankie, which I think I hear calling my name. \"Spike! Spike! Come to bed!\" Ugh, it's too early."
   ],
   [
     "Mayor Mare",
-    "Thank you, everypony, for being here bright and early. We need every single pony's help to wrap up winter, and bring in spring."
+    " Thank you, everypony, for being here bright and early. We need every single pony's help to wrap up winter, and bring in spring."
   ],
   [
     null,
@@ -65,7 +65,7 @@
   ],
   [
     "Mayor Mare",
-    "Now, all of you have your vests, and have been assigned to your teams, so let's do even better than last year, and have the quickest Winter Wrap Up ever!"
+    " Now, all of you have your vests, and have been assigned to your teams, so let's do even better than last year, and have the quickest Winter Wrap Up ever!"
   ],
   [
     null,
@@ -73,19 +73,19 @@
   ],
   [
     "Twilight Sparkle",
-    "Oh, this is so exciting."
+    " Oh, this is so exciting."
   ],
   [
     "Mayor Mare",
-    "All right, everypony, find your team leader, and let's get galloping!"
+    " All right, everypony, find your team leader, and let's get galloping!"
   ],
   [
     "Twilight Sparkle",
-    "Oh gosh, where should I go? I'm not sure where I fit in. What exactly does everypony do?"
+    " Oh gosh, where should I go? I'm not sure where I fit in. What exactly does everypony do?"
   ],
   [
-    null,
-    "[Rainbow Dash]\nThree months of winter coolness\nAnd awesome holidays"
+    "[Rainbow Dash]",
+    "\nThree months of winter coolness\nAnd awesome holidays"
   ],
   [
     null,
@@ -96,8 +96,8 @@
     "And awesome holidays"
   ],
   [
-    null,
-    "[Pinkie Pie]\nWe've kept our hoofsies warm at home\nTime off from work to play"
+    "[Pinkie Pie]",
+    "\nWe've kept our hoofsies warm at home\nTime off from work to play"
   ],
   [
     null,
@@ -108,8 +108,8 @@
     "Time off from work to play"
   ],
   [
-    null,
-    "[Applejack]\nBut the food we've stored is runnin' out\nAnd we can't grow in this cold"
+    "[Applejack]",
+    "\nBut the food we've stored is runnin' out\nAnd we can't grow in this cold"
   ],
   [
     null,
@@ -120,8 +120,8 @@
     "And we can't grow in this cold"
   ],
   [
-    null,
-    "[Rarity]\nAnd even though I love my boots\nThis fashion's getting old"
+    "[Rarity]",
+    "\nAnd even though I love my boots\nThis fashion's getting old"
   ],
   [
     null,
@@ -132,8 +132,8 @@
     "This fashion's getting old"
   ],
   [
-    null,
-    "[Twilight Sparkle]\nThe time has come to welcome spring\nAnd all things warm and green\nBut it's also time to say goodbye\nIt's winter we must clean\nHow can I help? I'm new, you see\nWhat does everypony do?\nHow do I fit in without magic?\nI haven't got a clue!"
+    "[Twilight Sparkle]",
+    "\nThe time has come to welcome spring\nAnd all things warm and green\nBut it's also time to say goodbye\nIt's winter we must clean\nHow can I help? I'm new, you see\nWhat does everypony do?\nHow do I fit in without magic?\nI haven't got a clue!"
   ],
   [
     null,
@@ -168,8 +168,8 @@
     "I haven't got a clue!"
   ],
   [
-    null,
-    "[Choir]\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!"
+    "[Choir]",
+    "\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!"
   ],
   [
     null,
@@ -184,32 +184,32 @@
     "Winter Wrap Up! Winter Wrap Up!"
   ],
   [
-    null,
-    "[Applejack]\n'Cause tomorrow spring\u2013"
+    "[Applejack]",
+    "\n'Cause tomorrow spring\u2013"
   ],
   [
     null,
     "'Cause tomorrow spring\u2013"
   ],
   [
-    null,
-    "[Rainbow Dash]\n\u2013is here!"
+    "[Rainbow Dash]",
+    "\n\u2013is here!"
   ],
   [
     null,
     "\u2013is here!"
   ],
   [
-    null,
-    "[Choir]\n'Cause tomorrow spring is here!"
+    "[Choir]",
+    "\n'Cause tomorrow spring is here!"
   ],
   [
     null,
     "'Cause tomorrow spring is here!"
   ],
   [
-    null,
-    "[Rainbow Dash]\nBringing home the southern birds\nA Pegasus' job begins\nAnd clearing all the gloomy skies\nTo let the sunshine in\nWe move the clouds\nAnd we melt the white snow"
+    "[Rainbow Dash]",
+    "\nBringing home the southern birds\nA Pegasus' job begins\nAnd clearing all the gloomy skies\nTo let the sunshine in\nWe move the clouds\nAnd we melt the white snow"
   ],
   [
     null,
@@ -236,8 +236,8 @@
     "And we melt the white snow"
   ],
   [
-    null,
-    "[Rainbow Dash and Pinkie Pie]\nWhen the sun comes up\nIts warmth and beauty will glow!"
+    "[Rainbow Dash and Pinkie Pie]",
+    "\nWhen the sun comes up\nIts warmth and beauty will glow!"
   ],
   [
     null,
@@ -248,8 +248,8 @@
     "Its warmth and beauty will glow!"
   ],
   [
-    null,
-    "[Choir]\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here!"
+    "[Choir]",
+    "\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here!"
   ],
   [
     null,
@@ -280,8 +280,8 @@
     "'Cause tomorrow spring is here!"
   ],
   [
-    null,
-    "[Rarity]\nLittle critters hibernate\nUnder the snow and ice"
+    "[Rarity]",
+    "\nLittle critters hibernate\nUnder the snow and ice"
   ],
   [
     null,
@@ -292,8 +292,8 @@
     "Under the snow and ice"
   ],
   [
-    null,
-    "[Fluttershy]\nWe wake up all their sleepy heads\nSo quietly and nice"
+    "[Fluttershy]",
+    "\nWe wake up all their sleepy heads\nSo quietly and nice"
   ],
   [
     null,
@@ -304,8 +304,8 @@
     "So quietly and nice"
   ],
   [
-    null,
-    "[Rarity]\nWe help them gather up their food\nFix their homes below"
+    "[Rarity]",
+    "\nWe help them gather up their food\nFix their homes below"
   ],
   [
     null,
@@ -316,44 +316,44 @@
     "Fix their homes below"
   ],
   [
-    null,
-    "[Fluttershy]\nWe welcome back the southern birds"
+    "[Fluttershy]",
+    "\nWe welcome back the southern birds"
   ],
   [
     null,
     "We welcome back the southern birds"
   ],
   [
-    null,
-    "[Fluttershy and Rarity]\nSo their families can grow!"
+    "[Fluttershy and Rarity]",
+    "\nSo their families can grow!"
   ],
   [
     null,
     "So their families can grow!"
   ],
   [
-    null,
-    "[Choir]\nWinter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here!"
+    "[Choir]",
+    "\nWinter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here!"
   ],
   [
-    null,
-    "Winter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)"
+    "Winter Wrap Up! Winter Wrap Up! ([Rarity]",
+    " Winter, winter)"
   ],
   [
     null,
     "Let's finish our holiday cheer"
   ],
   [
-    null,
-    "Winter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)"
+    "Winter Wrap Up! Winter Wrap Up! ([Rarity]",
+    " Winter, winter)"
   ],
   [
     null,
     "'Cause tomorrow spring is here"
   ],
   [
-    null,
-    "Winter Wrap Up! Winter Wrap Up! ([Rarity] Winter, winter)"
+    "Winter Wrap Up! Winter Wrap Up! ([Rarity]",
+    " Winter, winter)"
   ],
   [
     null,
@@ -364,8 +364,8 @@
     "'Cause tomorrow spring is here!"
   ],
   [
-    null,
-    "[Applejack]\nNo easy task to clear the ground\nPlant our tiny seeds\nWith proper care and sunshine\nEveryone it feeds\nApples, carrots, celery stalks\nColorful flowers too\nWe must work so very hard"
+    "[Applejack]",
+    "\nNo easy task to clear the ground\nPlant our tiny seeds\nWith proper care and sunshine\nEveryone it feeds\nApples, carrots, celery stalks\nColorful flowers too\nWe must work so very hard"
   ],
   [
     null,
@@ -396,16 +396,16 @@
     "We must work so very hard"
   ],
   [
-    null,
-    "[Applejack, Cherry Berry, and Golden Harvest]\nIt's just so much to do!"
+    "[Applejack, Cherry Berry, and Golden Harvest]",
+    "\nIt's just so much to do!"
   ],
   [
     null,
     "It's just so much to do!"
   ],
   [
-    null,
-    "[Choir]\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up!"
+    "[Choir]",
+    "\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up!"
   ],
   [
     null,
@@ -428,24 +428,24 @@
     "Winter Wrap Up! Winter Wrap Up!"
   ],
   [
-    null,
-    "[Pinkie Pie]\n'Cause tomorrow spring is here"
+    "[Pinkie Pie]",
+    "\n'Cause tomorrow spring is here"
   ],
   [
     null,
     "'Cause tomorrow spring is here"
   ],
   [
-    null,
-    "[Choir]\n'Cause tomorrow spring is here!"
+    "[Choir]",
+    "\n'Cause tomorrow spring is here!"
   ],
   [
     null,
     "'Cause tomorrow spring is here!"
   ],
   [
-    null,
-    "[Twilight Sparkle]\nNow that I know what they all do\nI have to find my place\nAnd help with all of my heart\nTough task ahead I face\nHow will I do without my magic\nHelp the Earth pony way\nI wanna belong so I must\nDo my best today\nDo my best today!"
+    "[Twilight Sparkle]",
+    "\nNow that I know what they all do\nI have to find my place\nAnd help with all of my heart\nTough task ahead I face\nHow will I do without my magic\nHelp the Earth pony way\nI wanna belong so I must\nDo my best today\nDo my best today!"
   ],
   [
     null,
@@ -484,8 +484,8 @@
     "Do my best today!"
   ],
   [
-    null,
-    "[Choir]\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up!"
+    "[Choir]",
+    "\nWinter Wrap Up! Winter Wrap Up!\nLet's finish our holiday cheer\nWinter Wrap Up! Winter Wrap Up!\n'Cause tomorrow spring is here\nWinter Wrap Up! Winter Wrap Up!"
   ],
   [
     null,
@@ -508,8 +508,8 @@
     "Winter Wrap Up! Winter Wrap Up!"
   ],
   [
-    null,
-    "[Twilight Sparkle]\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here!"
+    "[Twilight Sparkle]",
+    "\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here\n'Cause tomorrow spring is here!"
   ],
   [
     null,
@@ -525,303 +525,303 @@
   ],
   [
     "Twilight Sparkle",
-    "Everypony belongs to a team. What should I do? Where should I go?"
+    " Everypony belongs to a team. What should I do? Where should I go?"
   ],
   [
     "Rainbow Dash",
-    "All right team, you're clear for takeoff."
+    " All right team, you're clear for takeoff."
   ],
   [
     "Twilight Sparkle",
-    "Rainbow Dash!"
+    " Rainbow Dash!"
   ],
   [
     "Rainbow Dash",
-    "Oh, hey Twilight, what's up?"
+    " Oh, hey Twilight, what's up?"
   ],
   [
     "Twilight Sparkle",
-    "What are you doing?"
+    " What are you doing?"
   ],
   [
     "Rainbow Dash",
-    "Sending off one of my flight crews to retrieve the birds that have flown south for the winter."
+    " Sending off one of my flight crews to retrieve the birds that have flown south for the winter."
   ],
   [
     "Twilight Sparkle",
-    "Oh, can I help? How about if I help clear out the clouds?"
+    " Oh, can I help? How about if I help clear out the clouds?"
   ],
   [
     "Rainbow Dash",
-    "Um..."
+    " Um..."
   ],
   [
     "Twilight Sparkle",
-    "Right. No wings."
+    " Right. No wings."
   ],
   [
     "Rainbow Dash",
-    "Sorry, Twilight."
+    " Sorry, Twilight."
   ],
   [
     "Twilight Sparkle",
-    "[gasp] Great, now what do we do?"
+    " [gasp] Great, now what do we do?"
   ],
   [
     "Spike",
-    "I don't know about you, but I'm gonna be nappin'. [snore]"
+    " I don't know about you, but I'm gonna be nappin'. [snore]"
   ],
   [
     "Twilight Sparkle",
-    "Come on Spike, this is serious business. Winter needs to be wrapped up, and I'm determined to do my part. Somehow."
+    " Come on Spike, this is serious business. Winter needs to be wrapped up, and I'm determined to do my part. Somehow."
   ],
   [
     "Twilight Sparkle",
-    "Rarity, please tell me there's something, anything I can help you with."
+    " Rarity, please tell me there's something, anything I can help you with."
   ],
   [
     "Rarity",
-    "Well, how would you like to help create Ponyville's finest birds' nests?"
+    " Well, how would you like to help create Ponyville's finest birds' nests?"
   ],
   [
     "Twilight Sparkle",
-    "Birds' nests?"
+    " Birds' nests?"
   ],
   [
     "Rarity",
-    "Why yes. When the weather team guides the birds back north for the spring, they'll need a place to live and lay their eggs."
+    " Why yes. When the weather team guides the birds back north for the spring, they'll need a place to live and lay their eggs."
   ],
   [
     "Twilight Sparkle",
-    "Wow, Rarity, that one's really beautiful."
+    " Wow, Rarity, that one's really beautiful."
   ],
   [
     "Rarity",
-    "Oh why, thank you most sincerely. Would you like to try your hoof at a nest?"
+    " Oh why, thank you most sincerely. Would you like to try your hoof at a nest?"
   ],
   [
     "Twilight Sparkle",
-    "Would I? Yes! Where do I begin?"
+    " Would I? Yes! Where do I begin?"
   ],
   [
     "Rarity",
-    "Okay. Now... uh, take some of that straw and hay over there, and a little bit of branch. Now, weave them through there, yes. Uh, take some ribbon, yes, oh uh, n-not there, oooh, yes, uh, tuck it in over there, uh but be careful not to... oh, no, no, I-I guess that will do... oh dear."
+    " Okay. Now... uh, take some of that straw and hay over there, and a little bit of branch. Now, weave them through there, yes. Uh, take some ribbon, yes, oh uh, n-not there, oooh, yes, uh, tuck it in over there, uh but be careful not to... oh, no, no, I-I guess that will do... oh dear."
   ],
   [
     "Twilight Sparkle",
-    "There! It looks just like... yours. Oh my."
+    " There! It looks just like... yours. Oh my."
   ],
   [
     "Spike",
-    "That nest needs to be condemned."
+    " That nest needs to be condemned."
   ],
   [
     "Rarity",
-    "Oh, Spa-ha-hike, it's not so bad, ah, maybe birds can use it as a..."
+    " Oh, Spa-ha-hike, it's not so bad, ah, maybe birds can use it as a..."
   ],
   [
     "Spike",
-    "An outhouse?"
+    " An outhouse?"
   ],
   [
     "Rarity",
-    "Spike. It's just fine. It's just a little rough around the edges. Let me lend you a hoof. Let's just untie this ribbon, and if we take out these sticks here, and we shape this... [mumbling]"
+    " Spike. It's just fine. It's just a little rough around the edges. Let me lend you a hoof. Let's just untie this ribbon, and if we take out these sticks here, and we shape this... [mumbling]"
   ],
   [
     "Twilight Sparkle",
-    "Hw..."
+    " Hw..."
   ],
   [
     "Spike",
-    "I think we lost her."
+    " I think we lost her."
   ],
   [
     "Rarity",
-    "Ah, and we need to weave the string..."
+    " Ah, and we need to weave the string..."
   ],
   [
     "Pinkie Pie",
-    "Hellooooooo, Twilight! Wheeeeeeee!"
+    " Hellooooooo, Twilight! Wheeeeeeee!"
   ],
   [
     "Twilight Sparkle",
-    "Wow, Pinkie Pie, you're quite the skater. Probably the best skater I've ever seen."
+    " Wow, Pinkie Pie, you're quite the skater. Probably the best skater I've ever seen."
   ],
   [
     "Pinkie Pie",
-    "Thanks Twilight, I've been doing this since I was an itty-bitty little-wittle Twinkie-Pinkie. Just comes naturally. Which is probably why they designated me the lake scorer. I cut lines in the lake with my skates. That way, when the rest of the weather team comes here to break the ice, it'll be easy as pie."
+    " Thanks Twilight, I've been doing this since I was an itty-bitty little-wittle Twinkie-Pinkie. Just comes naturally. Which is probably why they designated me the lake scorer. I cut lines in the lake with my skates. That way, when the rest of the weather team comes here to break the ice, it'll be easy as pie."
   ],
   [
     "Twilight Sparkle",
-    "How clever. When the thick ice begins to melt, it'll break along the lines. Well, you sure have a lot of work ahead of you; there's quite a few lakes in Ponyville."
+    " How clever. When the thick ice begins to melt, it'll break along the lines. Well, you sure have a lot of work ahead of you; there's quite a few lakes in Ponyville."
   ],
   [
     "Pinkie Pie",
-    "Ha, tell me about it. Hey, Twilight, wanna help me out?"
+    " Ha, tell me about it. Hey, Twilight, wanna help me out?"
   ],
   [
     "Twilight Sparkle",
-    "Would I?"
+    " Would I?"
   ],
   [
     "Pinkie Pie",
-    "Come on, put on those skates over there. I bet you'll be a natural too."
+    " Come on, put on those skates over there. I bet you'll be a natural too."
   ],
   [
     "Twilight Sparkle",
-    "Okay."
+    " Okay."
   ],
   [
     "Pinkie Pie",
-    "Yaaaaay! [cheers]"
+    " Yaaaaay! [cheers]"
   ],
   [
     "Twilight Sparkle",
-    "Uh... maybe on second thought."
+    " Uh... maybe on second thought."
   ],
   [
     "Spike",
-    "What are you talking about? You said you wanted to be helpful."
+    " What are you talking about? You said you wanted to be helpful."
   ],
   [
     "Pinkie Pie",
-    "Yippie!"
+    " Yippie!"
   ],
   [
     "Spike",
-    "Now get out there."
+    " Now get out there."
   ],
   [
     "Twilight Sparkle",
-    "Whoa, whoa, wow..."
+    " Whoa, whoa, wow..."
   ],
   [
     "Pinkie Pie",
-    "Twilight, steer! Steer!"
+    " Twilight, steer! Steer!"
   ],
   [
     "Twilight Sparkle",
-    "Yaaaaa!"
+    " Yaaaaa!"
   ],
   [
     "Pinkie Pie",
-    "Oh boy!"
+    " Oh boy!"
   ],
   [
     "Twilight Sparkle and Pinkie Pie",
-    "[scream]"
+    " [scream]"
   ],
   [
     "Spike",
-    "[yelp] Pwuh."
+    " [yelp] Pwuh."
   ],
   [
     "Pinkie Pie",
-    "[lip trill]"
+    " [lip trill]"
   ],
   [
     "Spike",
-    "Ha ha, you are a natural, Twilight. A natural disaster. [laughter]"
+    " Ha ha, you are a natural, Twilight. A natural disaster. [laughter]"
   ],
   [
     "Pinkie Pie",
-    "Twilight, you did a great job your first time around. I'm sure my first time was just as wobbly and bobbly and crasheriffic as yours."
+    " Twilight, you did a great job your first time around. I'm sure my first time was just as wobbly and bobbly and crasheriffic as yours."
   ],
   [
     "Twilight Sparkle",
-    "Really?"
+    " Really?"
   ],
   [
     "Pinkie Pie",
-    "No."
+    " No."
   ],
   [
     "Spike",
-    "[chuckles]"
+    " [chuckles]"
   ],
   [
     "Pinkie Pie",
-    "But did I make you feel better?"
+    " But did I make you feel better?"
   ],
   [
     "Twilight Sparkle",
-    "Ehe, yeah, I guess."
+    " Ehe, yeah, I guess."
   ],
   [
     "Pinkie Pie",
-    "I think you'll be super awesome at something that keeps your hooves on the ground. I know, Fluttershy could probably use your help with the critters."
+    " I think you'll be super awesome at something that keeps your hooves on the ground. I know, Fluttershy could probably use your help with the critters."
   ],
   [
     "Twilight Sparkle",
-    "Well... I'm pretty good with little animals. Yeah, I'll go help her."
+    " Well... I'm pretty good with little animals. Yeah, I'll go help her."
   ],
   [
     "Pinkie Pie",
-    "Uh... it's, ah, that a-way."
+    " Uh... it's, ah, that a-way."
   ],
   [
     "Twilight Sparkle",
-    "Yaaaaaa!"
+    " Yaaaaaa!"
   ],
   [
     "Spike",
-    "[chuckles]"
+    " [chuckles]"
   ],
   [
     "Fluttershy",
-    "Wake up, little sleepy heads. Hope you had some wonderful dreams and restful hibernation, but it's time to get up now, spring is coming."
+    " Wake up, little sleepy heads. Hope you had some wonderful dreams and restful hibernation, but it's time to get up now, spring is coming."
   ],
   [
     "Hedgehogs",
-    "[yawn]"
+    " [yawn]"
   ],
   [
     "Twilight Sparkle",
-    "Awww, how cute."
+    " Awww, how cute."
   ],
   [
     "Fluttershy",
-    "Aren't they? This is my favorite task the whole season, when I get to see all my little animal friends again."
+    " Aren't they? This is my favorite task the whole season, when I get to see all my little animal friends again."
   ],
   [
     "Spike",
-    "Uh, what's \"hibernation\"?"
+    " Uh, what's \"hibernation\"?"
   ],
   [
     "Fluttershy",
-    "It's like a long sleep."
+    " It's like a long sleep."
   ],
   [
     "Spike",
-    "Long sleep?"
+    " Long sleep?"
   ],
   [
     "Fluttershy",
-    "Yes. [bell rings] Wake up, little porcupines. Animals often hibernate through the winter to save their energy and eat less food."
+    " Yes. [bell rings] Wake up, little porcupines. Animals often hibernate through the winter to save their energy and eat less food."
   ],
   [
     "Spike",
-    "I definitely like the idea of hibernation, uh, except for the \"eat less food\" part."
+    " I definitely like the idea of hibernation, uh, except for the \"eat less food\" part."
   ],
   [
     "Porcupines",
-    "[yawn] [yelp]"
+    " [yawn] [yelp]"
   ],
   [
     "Fluttershy",
-    "Oh, would you just look at all these warrens and dens? I'm worried that I won't be able to wake up every animal before spring comes."
+    " Oh, would you just look at all these warrens and dens? I'm worried that I won't be able to wake up every animal before spring comes."
   ],
   [
     "Twilight Sparkle",
-    "Well, I'll help, Fluttershy."
+    " Well, I'll help, Fluttershy."
   ],
   [
     "Fluttershy",
-    "You will? Oh, that would be wonderful."
+    " You will? Oh, that would be wonderful."
   ],
   [
     "Twilight Sparkle",
-    "Okay, let's start there."
+    " Okay, let's start there."
   ],
   [
     null,
@@ -829,111 +829,111 @@
   ],
   [
     "Twilight Sparkle",
-    "Hello? Wake up little friends, wherever you are. Spring is coming. [bell rings] I wonder which cute little furry creatures I've awoken."
+    " Hello? Wake up little friends, wherever you are. Spring is coming. [bell rings] I wonder which cute little furry creatures I've awoken."
   ],
   [
     "Snakes",
-    "[hiss]"
+    " [hiss]"
   ],
   [
     "Twilight Sparkle",
-    "Waaa! Snakes! Snakes! [scream] Ugh! [grunt] [scream] Ugh!"
+    " Waaa! Snakes! Snakes! [scream] Ugh! [grunt] [scream] Ugh!"
   ],
   [
     "Fluttershy",
-    "Good morning, friends."
+    " Good morning, friends."
   ],
   [
     "Twilight Sparkle",
-    "[groan]"
+    " [groan]"
   ],
   [
     "Twilight Sparkle",
-    "[sigh] All this Winter Wrap Up stuff is a lot harder than it looks."
+    " [sigh] All this Winter Wrap Up stuff is a lot harder than it looks."
   ],
   [
     "Spike",
-    "[nasally] Right, because there's no magic. Why don't you just use magic, Twilight, and get it done the right way?"
+    " [nasally] Right, because there's no magic. Why don't you just use magic, Twilight, and get it done the right way?"
   ],
   [
     "Twilight Sparkle",
-    "No, Spike, I have to do it the traditional way. Ponyville has never needed magic to wrap up winter."
+    " No, Spike, I have to do it the traditional way. Ponyville has never needed magic to wrap up winter."
   ],
   [
     "Spike",
-    "[nasally] Well, they never had you here before, either. Think how much quicker they could wrap up winter with your magic."
+    " [nasally] Well, they never had you here before, either. Think how much quicker they could wrap up winter with your magic."
   ],
   [
     "Twilight Sparkle",
-    "No, no, no! I'm gonna find some other way that I can help out if it kills me! [grunt]"
+    " No, no, no! I'm gonna find some other way that I can help out if it kills me! [grunt]"
   ],
   [
     "Applejack",
-    "Keep pushin', Caramel. That's it, Bumpkin. I know it's hard work, but you guys are doin' great. Yee-haw!"
+    " Keep pushin', Caramel. That's it, Bumpkin. I know it's hard work, but you guys are doin' great. Yee-haw!"
   ],
   [
     "Twilight Sparkle",
-    "Hey, Applejack. How's everything going?"
+    " Hey, Applejack. How's everything going?"
   ],
   [
     "Applejack",
-    "Oh, just dandy. A little slow startin', but peachy all the same. There's a lot of ground to clear, ya hear? We can't even start the plantin' and the waterin' until we git all these heap a' snow hightailed outta here."
+    " Oh, just dandy. A little slow startin', but peachy all the same. There's a lot of ground to clear, ya hear? We can't even start the plantin' and the waterin' until we git all these heap a' snow hightailed outta here."
   ],
   [
     "Twilight Sparkle",
-    "Well, I'd like to help."
+    " Well, I'd like to help."
   ],
   [
     "Applejack",
-    "Well, I... I dunno Twilight."
+    " Well, I... I dunno Twilight."
   ],
   [
     "Twilight Sparkle",
-    "Just give me a chance."
+    " Just give me a chance."
   ],
   [
     "Applejack",
-    "Well, I never turn down a hard worker, but..."
+    " Well, I never turn down a hard worker, but..."
   ],
   [
     "Twilight Sparkle",
-    "[struggle] Ugh... [struggle] Ugh... [gasp]"
+    " [struggle] Ugh... [struggle] Ugh... [gasp]"
   ],
   [
     "Spike",
-    "Think of how much quicker they could wrap up winter with your magic."
+    " Think of how much quicker they could wrap up winter with your magic."
   ],
   [
     "Twilight Sparkle",
-    "I could use a come-to-life spell. Hwww... Here goes..."
+    " I could use a come-to-life spell. Hwww... Here goes..."
   ],
   [
     "Applejack",
-    "Hmm. She's awful strong for such a little pony."
+    " Hmm. She's awful strong for such a little pony."
   ],
   [
     "Spike",
-    "That's my girl, following my advice!"
+    " That's my girl, following my advice!"
   ],
   [
     "Applejack",
-    "And what in tarnation does that mean?"
+    " And what in tarnation does that mean?"
   ],
   [
     "Twilight Sparkle",
-    "[gasp] Uh-oh. Slow down. Slow down!"
+    " [gasp] Uh-oh. Slow down. Slow down!"
   ],
   [
     "Spike",
-    "[yelp]"
+    " [yelp]"
   ],
   [
     "Spike and Applejack",
-    "Whoa-oa-oa!"
+    " Whoa-oa-oa!"
   ],
   [
     "Applejack",
-    "What's going on? Wha'd'ya do? You used magic, didn't you?"
+    " What's going on? Wha'd'ya do? You used magic, didn't you?"
   ],
   [
     null,
@@ -945,151 +945,151 @@
   ],
   [
     "Applejack",
-    "Nuts, Twilight! You used magic!"
+    " Nuts, Twilight! You used magic!"
   ],
   [
     "Spike",
-    "The nerve! Can you believe her?"
+    " The nerve! Can you believe her?"
   ],
   [
     "Applejack",
-    "That's not how we do it around here, Twilight, and especially not on my farm!"
+    " That's not how we do it around here, Twilight, and especially not on my farm!"
   ],
   [
     "Twilight Sparkle",
-    "Well, see, I just wanted to... [whine]"
+    " Well, see, I just wanted to... [whine]"
   ],
   [
     "Spike",
-    "Come on, Twilight. Come on out."
+    " Come on, Twilight. Come on out."
   ],
   [
     "Twilight Sparkle",
-    "I'm a winter mess up."
+    " I'm a winter mess up."
   ],
   [
     "Spike",
-    "Well you're good at a lot of things, just not nest-making, ice-skating, animal-waking, snow-clearing."
+    " Well you're good at a lot of things, just not nest-making, ice-skating, animal-waking, snow-clearing."
   ],
   [
     "Twilight Sparkle",
-    "[whine] Thanks a lot for making me feel so much better."
+    " [whine] Thanks a lot for making me feel so much better."
   ],
   [
     "Spike",
-    "That's what I'm here for, sister."
+    " That's what I'm here for, sister."
   ],
   [
     "Applejack",
-    "Rainbow Dash, y'all on the weather team need to melt the rest of the snow here on the ground and the trees, pronto."
+    " Rainbow Dash, y'all on the weather team need to melt the rest of the snow here on the ground and the trees, pronto."
   ],
   [
     "Rainbow Dash",
-    "Got it."
+    " Got it."
   ],
   [
     "Fluttershy",
-    "You can't. My poor little animals' homes will get flooded if the snow melts too fast."
+    " You can't. My poor little animals' homes will get flooded if the snow melts too fast."
   ],
   [
     "Rainbow Dash",
-    "Got it."
+    " Got it."
   ],
   [
     "Applejack",
-    "I'm tellin' you, Rainbow, you gotta melt that snow now."
+    " I'm tellin' you, Rainbow, you gotta melt that snow now."
   ],
   [
     "Fluttershy",
-    "No, you simply must wait."
+    " No, you simply must wait."
   ],
   [
     "Rainbow Dash",
-    "Okay."
+    " Okay."
   ],
   [
     "Applejack",
-    "Go."
+    " Go."
   ],
   [
     "Fluttershy",
-    "Stop."
+    " Stop."
   ],
   [
     "Applejack",
-    "Go."
+    " Go."
   ],
   [
     "Fluttershy",
-    "Stop."
+    " Stop."
   ],
   [
     "Applejack",
-    "GO!"
+    " GO!"
   ],
   [
     "Fluttershy",
-    "STOP!"
+    " STOP!"
   ],
   [
     "Rainbow Dash",
-    "Ugh! Make up your minds!"
+    " Ugh! Make up your minds!"
   ],
   [
     "Mayor Mare",
-    "Oh! What in Equestria are all you arguing about? This sort of silliness is why we were late for spring last year, and the year before that, and the year before that."
+    " Oh! What in Equestria are all you arguing about? This sort of silliness is why we were late for spring last year, and the year before that, and the year before that."
   ],
   [
     "Twilight Sparkle",
-    "Did she say late?"
+    " Did she say late?"
   ],
   [
     "Mayor Mare",
-    "I was hoping my amazingly inspirational speech would urge everyone to do better than last year, but now it looks like we're going to be later than ever. I mean just look at this catastrophe! The ice scorers made the ice chunks too big to melt. The nest designer is horrendously behind. We need several hundred, and she's only made one!"
+    " I was hoping my amazingly inspirational speech would urge everyone to do better than last year, but now it looks like we're going to be later than ever. I mean just look at this catastrophe! The ice scorers made the ice chunks too big to melt. The nest designer is horrendously behind. We need several hundred, and she's only made one!"
   ],
   [
     "Rarity",
-    "[sob]"
+    " [sob]"
   ],
   [
     "Mayor Mare",
-    "And don't get me started on all the clouds in the sky, the icicles on the trees... this isn't good, not at all!"
+    " And don't get me started on all the clouds in the sky, the icicles on the trees... this isn't good, not at all!"
   ],
   [
     "Applejack",
-    "And it's gonna be all to pieces disastrous if we can't get our seeds all planted."
+    " And it's gonna be all to pieces disastrous if we can't get our seeds all planted."
   ],
   [
     "Rainbow Dash",
-    "Chillax Applejack, we're bustin' our chops as fast as we can."
+    " Chillax Applejack, we're bustin' our chops as fast as we can."
   ],
   [
     "Fluttershy",
-    "No, not fast. We have to wake animals slowly."
+    " No, not fast. We have to wake animals slowly."
   ],
   [
     "Big McIntosh",
-    "Uh, AJ?"
+    " Uh, AJ?"
   ],
   [
     "Applejack",
-    "Oh good gravy, Caramel lost the grass seeds again, didn't he?"
+    " Oh good gravy, Caramel lost the grass seeds again, didn't he?"
   ],
   [
     "Big McIntosh",
-    "Eeyup."
+    " Eeyup."
   ],
   [
     "Caramel",
-    "[whimpers]"
+    " [whimpers]"
   ],
   [
     "Rainbowshine",
-    "[grunt] Ditzy Doo accidentally went north to get the southern birds!"
+    " [grunt] Ditzy Doo accidentally went north to get the southern birds!"
   ],
   [
     "Rainbow Dash",
-    "Oh, that featherbrain. Didn't she learn her lesson last year when she went west?"
+    " Oh, that featherbrain. Didn't she learn her lesson last year when she went west?"
   ],
   [
     null,
@@ -1097,19 +1097,19 @@
   ],
   [
     "Mayor Mare",
-    "Stop this at once. We don't have time to argue. It's almost sundown. Spring is going to be late again. Another year of scandal and shame. If only we could be more organized."
+    " Stop this at once. We don't have time to argue. It's almost sundown. Spring is going to be late again. Another year of scandal and shame. If only we could be more organized."
   ],
   [
     "Twilight Sparkle",
-    "Spike! Get my checklist and clipboard, STAT!"
+    " Spike! Get my checklist and clipboard, STAT!"
   ],
   [
     "Spike",
-    "Eh, yes, ma'am."
+    " Eh, yes, ma'am."
   ],
   [
     "Twilight Sparkle",
-    "Stop, everypony!"
+    " Stop, everypony!"
   ],
   [
     null,
@@ -1117,7 +1117,7 @@
   ],
   [
     "Twilight Sparkle",
-    "Stop!"
+    " Stop!"
   ],
   [
     null,
@@ -1125,7 +1125,7 @@
   ],
   [
     "Twilight Sparkle",
-    "Sorry. I know you all want to complete your jobs on time, but arguing is no way to go about it. What you need is organization, and I'm just the pony for the job."
+    " Sorry. I know you all want to complete your jobs on time, but arguing is no way to go about it. What you need is organization, and I'm just the pony for the job."
   ],
   [
     null,
@@ -1133,11 +1133,11 @@
   ],
   [
     "Mayor Mare",
-    "I can't believe it. Spring is here, on time! And we have you to thank for it. If it weren't for your organizing skills, we would still be arguing."
+    " I can't believe it. Spring is here, on time! And we have you to thank for it. If it weren't for your organizing skills, we would still be arguing."
   ],
   [
     "Big McIntosh",
-    "Eeyup."
+    " Eeyup."
   ],
   [
     null,
@@ -1145,19 +1145,19 @@
   ],
   [
     "Twilight Sparkle",
-    "It was a team effort."
+    " It was a team effort."
   ],
   [
     "Mayor Mare",
-    "And since you helped every team, we have an official vest for you. We give you the title \"All-Team Organizer\"."
+    " And since you helped every team, we have an official vest for you. We give you the title \"All-Team Organizer\"."
   ],
   [
     "Twilight Sparkle",
-    "Gosh, I don't even know what to say. Thank you, everypony!"
+    " Gosh, I don't even know what to say. Thank you, everypony!"
   ],
   [
     "Mayor Mare",
-    "And hereby I declare that winter is... wrapped up on time!"
+    " And hereby I declare that winter is... wrapped up on time!"
   ],
   [
     null,
@@ -1165,7 +1165,7 @@
   ],
   [
     "Applejack",
-    "Spike's sure gonna be in for a hog-sized surprise when that last piece a' ice melts."
+    " Spike's sure gonna be in for a hog-sized surprise when that last piece a' ice melts."
   ],
   [
     null,
@@ -1173,7 +1173,7 @@
   ],
   [
     "Twilight Sparkle",
-    "Dear Princess Celestia,"
+    " Dear Princess Celestia,"
   ],
   [
     null,
@@ -1181,11 +1181,11 @@
   ],
   [
     "Spike",
-    "[snoring]"
+    " [snoring]"
   ],
   [
     "Twilight Sparkle",
-    "Oh, Spike. [laughs]"
+    " Oh, Spike. [laughs]"
   ],
   [
     null,

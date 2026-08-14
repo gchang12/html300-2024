@@ -5,7 +5,7 @@
   ],
   [
     "Cheese Sandwich",
-    "Well, Boneless. Looks like our work here is done."
+    " Well, Boneless. Looks like our work here is done."
   ],
   [
     null,
@@ -13,7 +13,7 @@
   ],
   [
     "Cheese Sandwich",
-    "Yep, those ponies never partied so hard. Thanks to me: Cheese. Cheese Sandwich."
+    " Yep, those ponies never partied so hard. Thanks to me: Cheese. Cheese Sandwich."
   ],
   [
     null,
@@ -21,15 +21,15 @@
   ],
   [
     "Cheese Sandwich",
-    "Woo-hoo-hoo! That was a doozy! Well, Boneless. Looks like our next party is gonna be in... Ponyville."
+    " Woo-hoo-hoo! That was a doozy! Well, Boneless. Looks like our next party is gonna be in... Ponyville."
   ],
   [
     null,
     "[theme song]"
   ],
   [
-    null,
-    "[Pinkie Pie]\nEvery single day there's something new you can plan for\nEvery single day there's something wonderful to do\nBut nothing makes me happy like a day that I can say\n\"Today I planned a party, and it's just for you!\""
+    "[Pinkie Pie]",
+    "\nEvery single day there's something new you can plan for\nEvery single day there's something wonderful to do\nBut nothing makes me happy like a day that I can say\n\"Today I planned a party, and it's just for you!\""
   ],
   [
     null,
@@ -49,23 +49,23 @@
   ],
   [
     "Vendor Pony",
-    "How's it going today, Pinkie?"
+    " How's it going today, Pinkie?"
   ],
   [
     "Pinkie Pie",
-    "Great, thanks! Got any streamers today?"
+    " Great, thanks! Got any streamers today?"
   ],
   [
     "Vendor Pony",
-    "[chuckles] You betcha! Big party planned?"
+    " [chuckles] You betcha! Big party planned?"
   ],
   [
     "Pinkie Pie",
-    "Don't you know it!"
+    " Don't you know it!"
   ],
   [
-    null,
-    "[Pinkie Pie]\nDon't have much time to gather all the things I need\nIf I'm really gonna make this party fly\nFor today's another day that all of Ponyville will say"
+    "[Pinkie Pie]",
+    "\nDon't have much time to gather all the things I need\nIf I'm really gonna make this party fly\nFor today's another day that all of Ponyville will say"
   ],
   [
     null,
@@ -80,16 +80,16 @@
     "For today's another day that all of Ponyville will say"
   ],
   [
-    null,
-    "[Crowd]\nThere goes the super party pony Pinkie Pie!"
+    "[Crowd]",
+    "\nThere goes the super party pony Pinkie Pie!"
   ],
   [
     null,
     "There goes the super party pony Pinkie Pie!"
   ],
   [
-    null,
-    "[Mr. and Mrs. Cake]\nShe planned our first foal shower where we played all sorts of games\nHaving so much fun as we chose Pound and Pumpkin's names"
+    "[Mr. and Mrs. Cake]",
+    "\nShe planned our first foal shower where we played all sorts of games\nHaving so much fun as we chose Pound and Pumpkin's names"
   ],
   [
     null,
@@ -100,8 +100,8 @@
     "Having so much fun as we chose Pound and Pumpkin's names"
   ],
   [
-    null,
-    "[Diamond Tiara]\nShe planned my cute-cea\u00f1era my dad made me, I won't lie\nI demanded all the best, I suppose she passed the test\nSure it was pretty good all thanks to Pinkie Pie"
+    "[Diamond Tiara]",
+    "\nShe planned my cute-cea\u00f1era my dad made me, I won't lie\nI demanded all the best, I suppose she passed the test\nSure it was pretty good all thanks to Pinkie Pie"
   ],
   [
     null,
@@ -117,39 +117,39 @@
   ],
   [
     "Pinkie Pie",
-    "Thanks, I guess?"
+    " Thanks, I guess?"
   ],
   [
     "Art Vendor",
-    "What color paints do you need?"
+    " What color paints do you need?"
   ],
   [
     "Pinkie Pie",
-    "I'm gonna need the full rainbow!"
+    " I'm gonna need the full rainbow!"
   ],
   [
     "Art Vendor",
-    "A paintbrush too?"
+    " A paintbrush too?"
   ],
   [
     "Pinkie Pie",
-    "Yes, if you please!"
+    " Yes, if you please!"
   ],
   [
     "Peachy Pitt",
-    "And what from me?"
+    " And what from me?"
   ],
   [
     "Pinkie Pie",
-    "Your biggest banner! This party's gonna be the best!"
+    " Your biggest banner! This party's gonna be the best!"
   ],
   [
     "Peachy Pitt",
-    "Haha I don't doubt it!"
+    " Haha I don't doubt it!"
   ],
   [
-    null,
-    "[Crowd]\nEvery single day there's something new we can plan for\nEvery single day there's something wonderful to try\nBut nothing makes us happy like a day that we can say\n\"Today there'll be a party planned by Pinkie Pie!\""
+    "[Crowd]",
+    "\nEvery single day there's something new we can plan for\nEvery single day there's something wonderful to try\nBut nothing makes us happy like a day that we can say\n\"Today there'll be a party planned by Pinkie Pie!\""
   ],
   [
     null,
@@ -169,23 +169,23 @@
   ],
   [
     "Rarity",
-    "I don't know how she does it."
+    " I don't know how she does it."
   ],
   [
     "Twilight Sparkle",
-    "Wow, look at her go!"
+    " Wow, look at her go!"
   ],
   [
     "Applejack",
-    "Oh, boy! This is gonna be good!"
+    " Oh, boy! This is gonna be good!"
   ],
   [
     "Fluttershy",
-    "Go, Pinkie, go!"
+    " Go, Pinkie, go!"
   ],
   [
-    null,
-    "[Crowd]\nThere's no other pony like her, no pony that could be\nAs great! (As great!) As fun! (As fun!)\nAs our super party pony Pinkie!"
+    "[Crowd]",
+    "\nThere's no other pony like her, no pony that could be\nAs great! (As great!) As fun! (As fun!)\nAs our super party pony Pinkie!"
   ],
   [
     null,
@@ -201,59 +201,59 @@
   ],
   [
     "Pinkie Pie",
-    "Ooh, I am so, so, SO excited because today I'm planning the birthday bash of... Rainbow Dash!"
+    " Ooh, I am so, so, SO excited because today I'm planning the birthday bash of... Rainbow Dash!"
   ],
   [
     "Rainbow Dash",
-    "Yeah!"
+    " Yeah!"
   ],
   [
     "Pinkie Pie",
-    "Rainbow Dash."
+    " Rainbow Dash."
   ],
   [
     "Rainbow Dash",
-    "Yes, Pinkie?"
+    " Yes, Pinkie?"
   ],
   [
     "Pinkie Pie",
-    "You realize that, by enlisting me as your party planner, I guarantee that this is going to be the funnest, most fantabulous, superbial party in Ponyville?"
+    " You realize that, by enlisting me as your party planner, I guarantee that this is going to be the funnest, most fantabulous, superbial party in Ponyville?"
   ],
   [
     "Rainbow Dash",
-    "Uh...yeah? I guess."
+    " Uh...yeah? I guess."
   ],
   [
     "Pinkie Pie",
-    "No guesses! Parties are no picnic."
+    " No guesses! Parties are no picnic."
   ],
   [
     "Fluttershy",
-    "Oh, I like a nice picnic party."
+    " Oh, I like a nice picnic party."
   ],
   [
     "Pinkie Pie",
-    "[growls]"
+    " [growls]"
   ],
   [
     "Fluttershy",
-    "Oh!"
+    " Oh!"
   ],
   [
     "Pinkie Pie",
-    "Parties. Are. Serious! And you have my certified Pinkie Party Promise that you will have the best birthday party ever!"
+    " Parties. Are. Serious! And you have my certified Pinkie Party Promise that you will have the best birthday party ever!"
   ],
   [
     "Rainbow Dash",
-    "Okay."
+    " Okay."
   ],
   [
     "Pinkie Pie",
-    "Great! Now, who's ready to join this super duper party pony to plan this super duper pa-rty?"
+    " Great! Now, who's ready to join this super duper party pony to plan this super duper pa-rty?"
   ],
   [
     "Cheese Sandwich",
-    "I am."
+    " I am."
   ],
   [
     null,
@@ -261,67 +261,67 @@
   ],
   [
     "Cheese Sandwich",
-    "[blows party horn]"
+    " [blows party horn]"
   ],
   [
     "Pinkie Pie",
-    "Who are you, stranger?"
+    " Who are you, stranger?"
   ],
   [
     "Cheese Sandwich",
-    "Name's Cheese Sandwich. I plan parties."
+    " Name's Cheese Sandwich. I plan parties."
   ],
   [
     "Pinkie Pie",
-    "What an amazing coincidence! I'm Pinkie Pie, and I'm planning a party!"
+    " What an amazing coincidence! I'm Pinkie Pie, and I'm planning a party!"
   ],
   [
     "Cheese Sandwich",
-    "Oh, it's no coincidence, my little pony. My cheesy sense was a-tingling, telling me a party was in the works."
+    " Oh, it's no coincidence, my little pony. My cheesy sense was a-tingling, telling me a party was in the works."
   ],
   [
     "Pinkie Pie",
-    "A cheesy sense? Ah! Double amazing! I have a Pinkie Sense!"
+    " A cheesy sense? Ah! Double amazing! I have a Pinkie Sense!"
   ],
   [
     "Cheese Sandwich",
-    "Yes. I sensed you did. And I happen to be the premiere party planner in all of Equestria. If there's a party in need, there I'll be. Be it wingding, hoedown, hootenanny, or shindig, I'm your pony."
+    " Yes. I sensed you did. And I happen to be the premiere party planner in all of Equestria. If there's a party in need, there I'll be. Be it wingding, hoedown, hootenanny, or shindig, I'm your pony."
   ],
   [
     "Pinkie Pie",
-    "A pair of party pony planners in Ponyville?! What can be more perfect?!"
+    " A pair of party pony planners in Ponyville?! What can be more perfect?!"
   ],
   [
     "Rainbow Dash",
-    "I'll tell you what\u2014making this party epic! 'Cause this isn't just any birthday. It's also the anniversary of when I moved to Ponyville!"
+    " I'll tell you what\u2014making this party epic! 'Cause this isn't just any birthday. It's also the anniversary of when I moved to Ponyville!"
   ],
   [
     "Rarity",
-    "Good heavens, Rainbow Dash. It's your \"birth-iversary\"!"
+    " Good heavens, Rainbow Dash. It's your \"birth-iversary\"!"
   ],
   [
     "Rainbow Dash",
-    "Exactly! So what do you say, party planners?"
+    " Exactly! So what do you say, party planners?"
   ],
   [
     "Pinkie Pie",
-    "Oh, I think we can do it!"
+    " Oh, I think we can do it!"
   ],
   [
     "Cheese Sandwich",
-    "Oh, I don't think so."
+    " Oh, I don't think so."
   ],
   [
     "Rainbow Dash and Pinkie Pie",
-    "[gasps]"
+    " [gasps]"
   ],
   [
     "Cheese Sandwich",
-    "I know so! After all..."
+    " I know so! After all..."
   ],
   [
-    null,
-    "[Cheese Sandwich]\nThe super-duper party pony\u2014that pony is me\nI always knew that was the kind of pony I would be"
+    "[Cheese Sandwich]",
+    "\nThe super-duper party pony\u2014that pony is me\nI always knew that was the kind of pony I would be"
   ],
   [
     null,
@@ -333,11 +333,11 @@
   ],
   [
     "Pinkie Pie",
-    "Me too!"
+    " Me too!"
   ],
   [
     "Cheese Sandwich",
-    "Come on, ponies! Who here likes to party? Ha-ha! You do! I can tell!"
+    " Come on, ponies! Who here likes to party? Ha-ha! You do! I can tell!"
   ],
   [
     null,
@@ -349,11 +349,11 @@
   ],
   [
     "Pinkie Pie",
-    "Like me!"
+    " Like me!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nBut everypony told me, \"Cheese, that fun just wastes the day\""
+    "[Cheese Sandwich]",
+    "\nBut everypony told me, \"Cheese, that fun just wastes the day\""
   ],
   [
     null,
@@ -361,11 +361,11 @@
   ],
   [
     "Pinkie Pie",
-    "As if!"
+    " As if!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nBut when I threw a party and I busted out some moves"
+    "[Cheese Sandwich]",
+    "\nBut when I threw a party and I busted out some moves"
   ],
   [
     null,
@@ -373,11 +373,11 @@
   ],
   [
     "Pinkie Pie",
-    "Uh-huh!"
+    " Uh-huh!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nThe ponies finally saw the light and got into the groove"
+    "[Cheese Sandwich]",
+    "\nThe ponies finally saw the light and got into the groove"
   ],
   [
     null,
@@ -385,11 +385,11 @@
   ],
   [
     "Pinkie Pie",
-    "You know it!"
+    " You know it!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nThe super-duper party pony\u2014that pony is me"
+    "[Cheese Sandwich]",
+    "\nThe super-duper party pony\u2014that pony is me"
   ],
   [
     null,
@@ -397,11 +397,11 @@
   ],
   [
     "Pinkie Pie",
-    "And me!"
+    " And me!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nYou'll never meet another party pony quite like Cheese!"
+    "[Cheese Sandwich]",
+    "\nYou'll never meet another party pony quite like Cheese!"
   ],
   [
     null,
@@ -409,11 +409,11 @@
   ],
   [
     "Pinkie Pie",
-    "Uh, Pinkie?"
+    " Uh, Pinkie?"
   ],
   [
     "Cheese Sandwich",
-    "Hey, good-lookin', want some mayonnaise?"
+    " Hey, good-lookin', want some mayonnaise?"
   ],
   [
     null,
@@ -457,11 +457,11 @@
   ],
   [
     "Goldengrape",
-    "Geronimo!"
+    " Geronimo!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nThe super-duper party pony\u2014that pony is me\nYou'll never meet another party pony quite like Cheese"
+    "[Cheese Sandwich]",
+    "\nThe super-duper party pony\u2014that pony is me\nYou'll never meet another party pony quite like Cheese"
   ],
   [
     null,
@@ -477,11 +477,11 @@
   ],
   [
     "Colt",
-    "Golly! Thanks, mister!"
+    " Golly! Thanks, mister!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nOh, when I throw a Cheese party, be sure to not be lame\nAnd miss my pie fights, wacky kites, and streamers in your mane\nFizzy drinks, Hawaiian shirts, and brie fondue delight\nYou know that with Cheese Sandwich, you'll be partying all night!"
+    "[Cheese Sandwich]",
+    "\nOh, when I throw a Cheese party, be sure to not be lame\nAnd miss my pie fights, wacky kites, and streamers in your mane\nFizzy drinks, Hawaiian shirts, and brie fondue delight\nYou know that with Cheese Sandwich, you'll be partying all night!"
   ],
   [
     null,
@@ -501,15 +501,15 @@
   ],
   [
     "Rainbow Dash",
-    "C'mon, everypony! Let's party down with Cheese!"
+    " C'mon, everypony! Let's party down with Cheese!"
   ],
   [
     "Fluttershy",
-    "You're really a certified party pony?"
+    " You're really a certified party pony?"
   ],
   [
     "Cheese Sandwich",
-    "That's right! That's my guarantee!"
+    " That's right! That's my guarantee!"
   ],
   [
     null,
@@ -520,8 +520,8 @@
     "The super-duper party pony\u2014that pony is me..."
   ],
   [
-    null,
-    "[Pinkie Pie]\nBut what about the super party pony named Pinkie?"
+    "[Pinkie Pie]",
+    "\nBut what about the super party pony named Pinkie?"
   ],
   [
     null,
@@ -529,59 +529,59 @@
   ],
   [
     "Cheese Sandwich",
-    "[indistinct] Thanks buddy! You're gonna love this party! Hey kid, have a streamer, on me!"
+    " [indistinct] Thanks buddy! You're gonna love this party! Hey kid, have a streamer, on me!"
   ],
   [
     "Rainbow Dash",
-    "Yeah! Hah, now that's what I'm talking about! I'm so stoked you're here, Cheese Sandwich!"
+    " Yeah! Hah, now that's what I'm talking about! I'm so stoked you're here, Cheese Sandwich!"
   ],
   [
     "Applejack",
-    "Yeah. You sure did come on the right day."
+    " Yeah. You sure did come on the right day."
   ],
   [
     "Rarity",
-    "[sighs] Your party sounds simply divine."
+    " [sighs] Your party sounds simply divine."
   ],
   [
     "Twilight Sparkle",
-    "We're so lucky to have you here."
+    " We're so lucky to have you here."
   ],
   [
     "Cheese Sandwich",
-    "Just doing my job, little fillies."
+    " Just doing my job, little fillies."
   ],
   [
     "Rainbow Dash",
-    "I mean, Pinkie Pie's parties are fun and sweet and all, but now this party's gonna be\u2014"
+    " I mean, Pinkie Pie's parties are fun and sweet and all, but now this party's gonna be\u2014"
   ],
   [
     "Cheese Sandwich",
-    "Epic?"
+    " Epic?"
   ],
   [
     "Rainbow Dash",
-    "You said it! Oh, yeah!"
+    " You said it! Oh, yeah!"
   ],
   [
     "Cheese Sandwich",
-    "Feels gouda!"
+    " Feels gouda!"
   ],
   [
     "Rainbow Dash",
-    "Uh, heh, no offense, Pinkie."
+    " Uh, heh, no offense, Pinkie."
   ],
   [
     "Pinkie Pie",
-    "Uh, n-none taken. [squee]"
+    " Uh, n-none taken. [squee]"
   ],
   [
     "Rainbow Dash",
-    "My birth-iversary's already looking way cooler! You are my kind of party pony, Cheese Sandwich."
+    " My birth-iversary's already looking way cooler! You are my kind of party pony, Cheese Sandwich."
   ],
   [
     "Cheese Sandwich",
-    "[chuckles] You got that right, Rainbow Dash. All right, party ponies, I've got some planning to do!"
+    " [chuckles] You got that right, Rainbow Dash. All right, party ponies, I've got some planning to do!"
   ],
   [
     null,
@@ -589,23 +589,23 @@
   ],
   [
     "Twilight Sparkle",
-    "Pinkie! Aren't you gonna help Cheese Sandwich plan the party?"
+    " Pinkie! Aren't you gonna help Cheese Sandwich plan the party?"
   ],
   [
     "Pinkie Pie",
-    "That's okay. [chuckles nervously] He obviously has what it takes to do it all by himself. Heh."
+    " That's okay. [chuckles nervously] He obviously has what it takes to do it all by himself. Heh."
   ],
   [
     "Twilight Sparkle",
-    "Really?"
+    " Really?"
   ],
   [
     "Pinkie Pie",
-    "Yes, indeedy! [chuckles nervously] After all, if Cheese really is the super duperiest partying-est pony of them all, maybe that means... I'm... not."
+    " Yes, indeedy! [chuckles nervously] After all, if Cheese really is the super duperiest partying-est pony of them all, maybe that means... I'm... not."
   ],
   [
-    null,
-    "[Pinkie Pie]\nFor all my life, all I've wanted to do\nWas make my friends want to smile true\nBut maybe I was wrong\nAnd Pinkie Pie shouldn't plan parties at all"
+    "[Pinkie Pie]",
+    "\nFor all my life, all I've wanted to do\nWas make my friends want to smile true\nBut maybe I was wrong\nAnd Pinkie Pie shouldn't plan parties at all"
   ],
   [
     null,
@@ -661,7 +661,7 @@
   ],
   [
     "Oh, I remember this one",
-    "my first party ever. My whole family was there. And that's Twilight's welcome-to-Ponyville party. She didn't even expect that one. [giggles] Oh, look at Gummy! He just looks so excited for this birthday party! Hmm. Shining Armor and Cadance's wedding sure was special, especially once I got a hold of the music."
+    " my first party ever. My whole family was there. And that's Twilight's welcome-to-Ponyville party. She didn't even expect that one. [giggles] Oh, look at Gummy! He just looks so excited for this birthday party! Hmm. Shining Armor and Cadance's wedding sure was special, especially once I got a hold of the music."
   ],
   [
     null,
@@ -717,27 +717,27 @@
   ],
   [
     "Rarity",
-    "I must say I marvel at your superior party planning expertise, Cheese Sandwich. [giggles]"
+    " I must say I marvel at your superior party planning expertise, Cheese Sandwich. [giggles]"
   ],
   [
     "Applejack",
-    "Well, they don't call him the super duper party planner for nothin'."
+    " Well, they don't call him the super duper party planner for nothin'."
   ],
   [
     "Pinkie Pie",
-    "That's it! This pony has gotta get her title back! And I know just what to do!"
+    " That's it! This pony has gotta get her title back! And I know just what to do!"
   ],
   [
     "Rainbow Dash",
-    "Totally awesome!"
+    " Totally awesome!"
   ],
   [
     "Applejack",
-    "Huh. Best I've ever seen."
+    " Huh. Best I've ever seen."
   ],
   [
     "Twilight Sparkle",
-    "I can't believe it!"
+    " I can't believe it!"
   ],
   [
     null,
@@ -745,7 +745,7 @@
   ],
   [
     "Pinkie Pie",
-    "Freeze, Cheese! I challenge you... to a goof off!"
+    " Freeze, Cheese! I challenge you... to a goof off!"
   ],
   [
     null,
@@ -753,59 +753,59 @@
   ],
   [
     "Fluttershy",
-    "Oh, no! Not a goof off!"
+    " Oh, no! Not a goof off!"
   ],
   [
     "Applejack",
-    "[whispering] What's a goof off?"
+    " [whispering] What's a goof off?"
   ],
   [
     "Fluttershy",
-    "I have no idea, hehe."
+    " I have no idea, hehe."
   ],
   [
     "Cheese Sandwich",
-    "This Cheese has stood alone a long time, Pinkie Pie. You think you can out-goof me?"
+    " This Cheese has stood alone a long time, Pinkie Pie. You think you can out-goof me?"
   ],
   [
     "Pinkie Pie",
-    "Oh, I don't think so. I know so! And the stakes are high, Cheese Sandwich. Whoever wins will be dubbed the ultimate super duper party pony and headline the Rainbow Dash birth-iversary bash!"
+    " Oh, I don't think so. I know so! And the stakes are high, Cheese Sandwich. Whoever wins will be dubbed the ultimate super duper party pony and headline the Rainbow Dash birth-iversary bash!"
   ],
   [
     "Twilight Sparkle",
-    "And the loser?"
+    " And the loser?"
   ],
   [
     "Pinkie Pie",
-    "Doesn't!"
+    " Doesn't!"
   ],
   [
     "Rainbow Dash",
-    "[gasps]"
+    " [gasps]"
   ],
   [
     "Rest of main cast",
-    "[gasps]"
+    " [gasps]"
   ],
   [
     "Pinkie Pie",
-    "So, are you in, Cheese? Or are you... boneless?"
+    " So, are you in, Cheese? Or are you... boneless?"
   ],
   [
     "Cheese Sandwich",
-    "Nopony calls me boneless. Right, Boneless?"
+    " Nopony calls me boneless. Right, Boneless?"
   ],
   [
     "Pinkie Pie",
-    "Then the goof off is on for high noon!"
+    " Then the goof off is on for high noon!"
   ],
   [
     "Twilight Sparkle",
-    "Um, Pinkie? It's already 3 o'clock."
+    " Um, Pinkie? It's already 3 o'clock."
   ],
   [
     "Pinkie Pie",
-    "Oh. Oh, well then. Make it 3:10 to goof off!"
+    " Oh. Oh, well then. Make it 3:10 to goof off!"
   ],
   [
     null,
@@ -825,27 +825,27 @@
   ],
   [
     "Pinkie Pie",
-    "[blows party horn]"
+    " [blows party horn]"
   ],
   [
     "Twilight Sparkle",
-    "All right, everypony. According to my official goof off rulebook..."
+    " All right, everypony. According to my official goof off rulebook..."
   ],
   [
     "Rainbow Dash",
-    "She actually has a goof off rulebook?"
+    " She actually has a goof off rulebook?"
   ],
   [
     "Spike",
-    "Are you kidding? Twilight can find a rulebook for everything!"
+    " Are you kidding? Twilight can find a rulebook for everything!"
   ],
   [
     "Matilda",
-    "Shhh."
+    " Shhh."
   ],
   [
     "Twilight Sparkle",
-    "The two competitors have free range to goof about\u2014be it by singing, dancing, playing, prancing, joking, or performing\u2014to make the judge chortle, chuckle, giggle, guffaw, hoot and holler, whoop it up, and party down."
+    " The two competitors have free range to goof about\u2014be it by singing, dancing, playing, prancing, joking, or performing\u2014to make the judge chortle, chuckle, giggle, guffaw, hoot and holler, whoop it up, and party down."
   ],
   [
     null,
@@ -853,35 +853,35 @@
   ],
   [
     "Twilight Sparkle",
-    "The funnier, sillier, wilder, and goofier, the better. Rainbow Dash, since the winner will be headlining your party, you are the judge."
+    " The funnier, sillier, wilder, and goofier, the better. Rainbow Dash, since the winner will be headlining your party, you are the judge."
   ],
   [
     "Rainbow Dash",
-    "Heh. Big tense competition on my birth-iversary. What could be better?"
+    " Heh. Big tense competition on my birth-iversary. What could be better?"
   ],
   [
     "Twilight Sparkle",
-    "Cheese Sandwich, Pinkie Pie, are you ready?"
+    " Cheese Sandwich, Pinkie Pie, are you ready?"
   ],
   [
     "Pinkie Pie",
-    "I was born ready!"
+    " I was born ready!"
   ],
   [
     "Cheese Sandwich",
-    "I was ready before I was born!"
+    " I was ready before I was born!"
   ],
   [
     "Twilight Sparkle",
-    "Then... Let the goofing begin!"
+    " Then... Let the goofing begin!"
   ],
   [
     null,
     "[bouncing, squeaking]"
   ],
   [
-    null,
-    "[Pinkie Pie]\nIt's your birthday party, a very special day\nI've got a song, it won't take long, I just wanted to say\nHappy, happy, happy, happy\nHappy, happy, happy, happy\nHappy, happy, happy, happy birthday to you!"
+    "[Pinkie Pie]",
+    "\nIt's your birthday party, a very special day\nI've got a song, it won't take long, I just wanted to say\nHappy, happy, happy, happy\nHappy, happy, happy, happy\nHappy, happy, happy, happy birthday to you!"
   ],
   [
     null,
@@ -904,8 +904,8 @@
     "Happy, happy, happy, happy birthday to you!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nIf you wanna be the life of the party\nBut you're feeling just a little uptight\nCall the doctor, beg and plead\n\"Doctor, tell me what I need\"\nTry to put a little cheese in your knees!"
+    "[Cheese Sandwich]",
+    "\nIf you wanna be the life of the party\nBut you're feeling just a little uptight\nCall the doctor, beg and plead\n\"Doctor, tell me what I need\"\nTry to put a little cheese in your knees!"
   ],
   [
     null,
@@ -928,8 +928,8 @@
     "Try to put a little cheese in your knees!"
   ],
   [
-    null,
-    "[Pinkie Pie]\nBubbles and balloons, bubbles and balloons\nWhat's a birthday party without bubbles and balloons?\nStar-shaped or trapezoid, look what I can do\nOnly Pinkie Pie can make a bubble shaped like you!"
+    "[Pinkie Pie]",
+    "\nBubbles and balloons, bubbles and balloons\nWhat's a birthday party without bubbles and balloons?\nStar-shaped or trapezoid, look what I can do\nOnly Pinkie Pie can make a bubble shaped like you!"
   ],
   [
     null,
@@ -948,8 +948,8 @@
     "Only Pinkie Pie can make a bubble shaped like you!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nJust let yourself go floppy, for now this is your chance\nPretend you have no bones and do the rubber chicken dance!"
+    "[Cheese Sandwich]",
+    "\nJust let yourself go floppy, for now this is your chance\nPretend you have no bones and do the rubber chicken dance!"
   ],
   [
     null,
@@ -964,8 +964,8 @@
     "Hit it, Boneless!"
   ],
   [
-    null,
-    "[Pinkie Pie]\nCooler than a rubber chicken and tastier than cake\nCome on, you, let's party down and do the Gummy shake!"
+    "[Pinkie Pie]",
+    "\nCooler than a rubber chicken and tastier than cake\nCome on, you, let's party down and do the Gummy shake!"
   ],
   [
     null,
@@ -980,8 +980,8 @@
     "Hit it, Gummy! Uh-huh! You know it! Shake it!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\n'Cause I like to make you smile, smile, smile\nYes I do\nIt fills my heart with sunshine all the while\nYes it does\n'Cause all I really need's a smile, smile, smile\nFrom these happy friends of mine"
+    "[Cheese Sandwich]",
+    "\n'Cause I like to make you smile, smile, smile\nYes I do\nIt fills my heart with sunshine all the while\nYes it does\n'Cause all I really need's a smile, smile, smile\nFrom these happy friends of mine"
   ],
   [
     null,
@@ -1009,19 +1009,19 @@
   ],
   [
     "Pinkie Pie",
-    "That's my song!"
+    " That's my song!"
   ],
   [
     "Cheese Sandwich",
-    "What do you mean? I have no idea what you're talking about."
+    " What do you mean? I have no idea what you're talking about."
   ],
   [
     "Pinkie Pie",
-    "THAT'S IT!"
+    " THAT'S IT!"
   ],
   [
-    null,
-    "[Pinkie Pie]\nRoll out the party cannon\nWhen you hear the party cannon song\nKa-BOOM!"
+    "[Pinkie Pie]",
+    "\nRoll out the party cannon\nWhen you hear the party cannon song\nKa-BOOM!"
   ],
   [
     null,
@@ -1036,8 +1036,8 @@
     "Ka-BOOM!"
   ],
   [
-    null,
-    "[Cheese Sandwich]\nWhy should you compromise? Try this one on for size\n'Cause nothing quite says cheer like the ringing in your ear\nOf the cheese supreme cannonball surprise!"
+    "[Cheese Sandwich]",
+    "\nWhy should you compromise? Try this one on for size\n'Cause nothing quite says cheer like the ringing in your ear\nOf the cheese supreme cannonball surprise!"
   ],
   [
     null,
@@ -1052,8 +1052,8 @@
     "Of the cheese supreme cannonball surprise!"
   ],
   [
-    null,
-    "[Pinkie Pie]\n\u00a1Dale, dale, dale\nNo pierdas el tino!\nPorque si lo pierdes\n\u00a1Pierdes el camino!"
+    "[Pinkie Pie]",
+    "\n\u00a1Dale, dale, dale\nNo pierdas el tino!\nPorque si lo pierdes\n\u00a1Pierdes el camino!"
   ],
   [
     null,
@@ -1073,7 +1073,7 @@
   ],
   [
     "Pinkie Pie",
-    "[gasps] Rainbow's not having the best party ever! I... I broke the Pinkie Party Promise! Stop! The goof off is off!"
+    " [gasps] Rainbow's not having the best party ever! I... I broke the Pinkie Party Promise! Stop! The goof off is off!"
   ],
   [
     null,
@@ -1081,67 +1081,67 @@
   ],
   [
     "Rainbow Dash",
-    "But I haven't named a winner."
+    " But I haven't named a winner."
   ],
   [
     "Pinkie Pie",
-    "You don't have to. I forfeit. Which means... Cheese Sandwich wins."
+    " You don't have to. I forfeit. Which means... Cheese Sandwich wins."
   ],
   [
     "Cheese Sandwich",
-    "[laughs] [sighs] ...I do?"
+    " [laughs] [sighs] ...I do?"
   ],
   [
     "Pinkie Pie",
-    "Yes. You get to headline Rainbow Dash's party."
+    " Yes. You get to headline Rainbow Dash's party."
   ],
   [
     "Twilight Sparkle",
-    "But, what about you, Pinkie?"
+    " But, what about you, Pinkie?"
   ],
   [
     "Pinkie Pie",
-    "I... [sniffles] I don't."
+    " I... [sniffles] I don't."
   ],
   [
     "Rainbow Dash",
-    "Pinkie, wait! I'm sorry I got all swept away by Cheese Sandwich."
+    " Pinkie, wait! I'm sorry I got all swept away by Cheese Sandwich."
   ],
   [
     "Twilight Sparkle",
-    "We all are."
+    " We all are."
   ],
   [
     "Rest of main cast",
-    "[general agreement]"
+    " [general agreement]"
   ],
   [
     "Spike",
-    "[sighs] Sorry, Pinkie."
+    " [sighs] Sorry, Pinkie."
   ],
   [
     "Pinkie Pie",
-    "No. I'm sorry I let my pride get in the way of you having the best birth-iversary ever. Cheese Sandwich really is a super duper party planner, and he'll be a terrific headliner. I should've been a big enough pony to admit that and let you have your day."
+    " No. I'm sorry I let my pride get in the way of you having the best birth-iversary ever. Cheese Sandwich really is a super duper party planner, and he'll be a terrific headliner. I should've been a big enough pony to admit that and let you have your day."
   ],
   [
     "Rainbow Dash",
-    "But don't you get it? You're both super duper party ponies. Sure, Cheese Sandwich is a great guest party pony, but you're Ponyville's permanent party pony. Nopony could ever take your place, and we could never have a party without you."
+    " But don't you get it? You're both super duper party ponies. Sure, Cheese Sandwich is a great guest party pony, but you're Ponyville's permanent party pony. Nopony could ever take your place, and we could never have a party without you."
   ],
   [
     "Cheese Sandwich",
-    "Rainbow Dash is right. I never meant to take your place in Ponyville. I just wanted to show you what a great party pony I am, Pinkie."
+    " Rainbow Dash is right. I never meant to take your place in Ponyville. I just wanted to show you what a great party pony I am, Pinkie."
   ],
   [
     "Pinkie Pie",
-    "Why me?"
+    " Why me?"
   ],
   [
     "Cheese Sandwich",
-    "Well..."
+    " Well..."
   ],
   [
-    null,
-    "[Cheese Sandwich]\nI fear I told a little fib about my pony past\nI hope that when you hear the truth, you will not be aghast\nI wasn't quite the super party pony like I claimed\nThe fact is that I was so shy, nopony knew my name"
+    "[Cheese Sandwich]",
+    "\nI fear I told a little fib about my pony past\nI hope that when you hear the truth, you will not be aghast\nI wasn't quite the super party pony like I claimed\nThe fact is that I was so shy, nopony knew my name"
   ],
   [
     null,
@@ -1213,27 +1213,27 @@
   ],
   [
     "Pinkie Pie",
-    "Me?"
+    " Me?"
   ],
   [
     "Cheese Sandwich",
-    "Yes!"
+    " Yes!"
   ],
   [
     "Pinkie Pie",
-    "Hah, really?!"
+    " Hah, really?!"
   ],
   [
     "Cheese Sandwich",
-    "Really!"
+    " Really!"
   ],
   [
     "Pinkie Pie",
-    "So I was the pony that threw the awesomely spectacular party that inspired you to become an awesome spectacular party thrower?"
+    " So I was the pony that threw the awesomely spectacular party that inspired you to become an awesome spectacular party thrower?"
   ],
   [
     "Cheese Sandwich",
-    "Swear on Camembert!"
+    " Swear on Camembert!"
   ],
   [
     null,
@@ -1241,19 +1241,19 @@
   ],
   [
     "Rainbow Dash",
-    "Enough with the warm fuzzy stuff, you two. It's my birth-iversary, and you gotta throw me a bash!"
+    " Enough with the warm fuzzy stuff, you two. It's my birth-iversary, and you gotta throw me a bash!"
   ],
   [
     "Pinkie Pie",
-    "Yeah!"
+    " Yeah!"
   ],
   [
     "Cheese Sandwich",
-    "Let's go!"
+    " Let's go!"
   ],
   [
-    null,
-    "[Pinkie Pie and Cheese Sandwich]\nSuper duper party ponies\u2014that is me and you\nA party thrown by one is good, but not as great as two\nCome on and let's join forces, have twice the expertise\nNow let's all go to the party planned by Pinkie Pie and Cheese!"
+    "[Pinkie Pie and Cheese Sandwich]",
+    "\nSuper duper party ponies\u2014that is me and you\nA party thrown by one is good, but not as great as two\nCome on and let's join forces, have twice the expertise\nNow let's all go to the party planned by Pinkie Pie and Cheese!"
   ],
   [
     null,
@@ -1277,23 +1277,23 @@
   ],
   [
     "Cheese Sandwich",
-    "All right, everypony! We are here to celebrate the birthday..."
+    " All right, everypony! We are here to celebrate the birthday..."
   ],
   [
     "Pinkie Pie",
-    "...and anniversary..."
+    " ...and anniversary..."
   ],
   [
     "Pinkie Pie and Cheese Sandwich",
-    "...of Rainbow Dash!"
+    " ...of Rainbow Dash!"
   ],
   [
     "Rainbow Dash",
-    "Hey, everypony! Who's ready to get their party on?! Hit it!"
+    " Hey, everypony! Who's ready to get their party on?! Hit it!"
   ],
   [
-    null,
-    "[Pinkie Pie]\nGet your hooves up, party's starting out right now\nEverypony, everypony get down\nTime to make a wish, better make it right now\nIt's been a year and today is your birthday party"
+    "[Pinkie Pie]",
+    "\nGet your hooves up, party's starting out right now\nEverypony, everypony get down\nTime to make a wish, better make it right now\nIt's been a year and today is your birthday party"
   ],
   [
     null,
@@ -1333,39 +1333,39 @@
   ],
   [
     "Rainbow Dash",
-    "Cheese Sandwich! Oh, I gotta tell ya, you and Pinkie have totally made this the best birthday/anniversary super combo ever! Hah, it's totally\u2014"
+    " Cheese Sandwich! Oh, I gotta tell ya, you and Pinkie have totally made this the best birthday/anniversary super combo ever! Hah, it's totally\u2014"
   ],
   [
     "Cheese Sandwich",
-    "Epic?"
+    " Epic?"
   ],
   [
     "Rainbow Dash",
-    "Yeah, it is!"
+    " Yeah, it is!"
   ],
   [
     "Cheese Sandwich",
-    "That's all I needed to hear, little filly. Just a little memento of my visit."
+    " That's all I needed to hear, little filly. Just a little memento of my visit."
   ],
   [
     "Pinkie Pie",
-    "You're giving me your special rubber chicken friend?"
+    " You're giving me your special rubber chicken friend?"
   ],
   [
     "Cheese Sandwich",
-    "Oh, he's not the only one. Well, Boneless Two, another job well done. But it's time we mosey along. Another town, another party."
+    " Oh, he's not the only one. Well, Boneless Two, another job well done. But it's time we mosey along. Another town, another party."
   ],
   [
     "Pinkie Pie",
-    "I never did get that pony's name."
+    " I never did get that pony's name."
   ],
   [
     "Rest of main cast",
-    "Cheese Sandwich!"
+    " Cheese Sandwich!"
   ],
   [
     "Pinkie Pie",
-    "[giggles] Oh, yeah!"
+    " [giggles] Oh, yeah!"
   ],
   [
     null,

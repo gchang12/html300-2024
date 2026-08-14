@@ -1,63 +1,63 @@
 [
   [
     "Apple Bloom",
-    "Where are you takin' us?"
+    " Where are you takin' us?"
   ],
   [
     "Applejack",
-    "We're almost there, young'uns."
+    " We're almost there, young'uns."
   ],
   [
     "Sweetie Belle",
-    "I've never been here before."
+    " I've never been here before."
   ],
   [
     "Scootaloo",
-    "Ouch!"
+    " Ouch!"
   ],
   [
     "Apple Bloom",
-    "Oh. Sorry."
+    " Oh. Sorry."
   ],
   [
     "Scootaloo",
-    "Are we there yet?"
+    " Are we there yet?"
   ],
   [
     "Sweetie Belle",
-    "There? Where? What? I don't even know what we're doing."
+    " There? Where? What? I don't even know what we're doing."
   ],
   [
     "Applejack",
-    "Here we are."
+    " Here we are."
   ],
   [
     "Apple Bloom",
-    "What are we lookin' at?"
+    " What are we lookin' at?"
   ],
   [
     "Scootaloo",
-    "I have no idea."
+    " I have no idea."
   ],
   [
     "Sweetie Belle",
-    "What is that thing?"
+    " What is that thing?"
   ],
   [
     "Applejack",
-    "Cutie Mark Crusaders, welcome to your new clubhouse! Well, don't thank me all at once. This was my clubhouse when I was your age. Sure it hasn't been used in a while, but it's empty and on a secluded, private part of the farm. And it's all yours. It just needs a little, uh... TLC."
+    " Cutie Mark Crusaders, welcome to your new clubhouse! Well, don't thank me all at once. This was my clubhouse when I was your age. Sure it hasn't been used in a while, but it's empty and on a secluded, private part of the farm. And it's all yours. It just needs a little, uh... TLC."
   ],
   [
     "Scootaloo",
-    "TLC as in Tender Loving Care or Totally Lost Cause?"
+    " TLC as in Tender Loving Care or Totally Lost Cause?"
   ],
   [
     "Apple Bloom",
-    "Applejack, we're supposed to turn this into our new clubhouse?!"
+    " Applejack, we're supposed to turn this into our new clubhouse?!"
   ],
   [
     "Applejack",
-    "Well, maybe y'all will get your cutie marks when you discover your talent for\u2014 [yelp] Uh... house cleanin'?"
+    " Well, maybe y'all will get your cutie marks when you discover your talent for\u2014 [yelp] Uh... house cleanin'?"
   ],
   [
     null,
@@ -77,23 +77,23 @@
   ],
   [
     "Granny Smith",
-    "Soup's on!"
+    " Soup's on!"
   ],
   [
     "Apple Bloom",
-    "Whoa! Hey, Scootaloo! Back already? You're amazin' on that scooter."
+    " Whoa! Hey, Scootaloo! Back already? You're amazin' on that scooter."
   ],
   [
     "Scootaloo",
-    "Thanks! Wow, Apple Bloom. You did all of this?"
+    " Thanks! Wow, Apple Bloom. You did all of this?"
   ],
   [
     "Apple Bloom",
-    "Yep! I've fixed the broken shutters, sanded off the splinters, rebuilt the roof, painted..."
+    " Yep! I've fixed the broken shutters, sanded off the splinters, rebuilt the roof, painted..."
   ],
   [
     "Scootaloo",
-    "That's so cool. What's Sweetie Belle up to?"
+    " That's so cool. What's Sweetie Belle up to?"
   ],
   [
     null,
@@ -109,31 +109,31 @@
   ],
   [
     "Apple Bloom",
-    "There you are, Sweetie Belle! See? I told you we could find her by following her totally awesome voice."
+    " There you are, Sweetie Belle! See? I told you we could find her by following her totally awesome voice."
   ],
   [
     "Scootaloo",
-    "What's that sweet tune you're singing?"
+    " What's that sweet tune you're singing?"
   ],
   [
     "Sweetie Belle",
-    "Oh. I was just working on our new Cutie Mark Crusaders theme song."
+    " Oh. I was just working on our new Cutie Mark Crusaders theme song."
   ],
   [
     "Apple Bloom and Scootaloo",
-    "Cool!"
+    " Cool!"
   ],
   [
     "Scootaloo",
-    "Teach us?"
+    " Teach us?"
   ],
   [
     "Sweetie Belle",
-    "Well, I've only come up with one part... but okay!"
+    " Well, I've only come up with one part... but okay!"
   ],
   [
-    null,
-    "[Sweetie Belle]\nThey all say that you will get your mark\nWhen the time is really right"
+    "[Sweetie Belle]",
+    "\nThey all say that you will get your mark\nWhen the time is really right"
   ],
   [
     null,
@@ -144,80 +144,80 @@
     "When the time is really right"
   ],
   [
-    null,
-    "[Apple Bloom]\nAnd you know just what you're supposed to do"
+    "[Apple Bloom]",
+    "\nAnd you know just what you're supposed to do"
   ],
   [
     null,
     "And you know just what you're supposed to do"
   ],
   [
-    null,
-    "[Scootaloo]\n[loud and off-key] And your talent comes to light!"
+    "[Scootaloo]",
+    "\n[loud and off-key] And your talent comes to light!"
   ],
   [
-    null,
-    "[loud and off-key] And your talent comes to light!"
-  ],
-  [
-    "Applejack",
-    "Well, uh... I'll be, Cutie Mark Crusaders. You've done one fine job with this place. So, what's next?"
-  ],
-  [
-    "Apple Bloom",
-    "Well, now that we have a real life clubhouse..."
-  ],
-  [
-    "Scootaloo",
-    "...and a map of Ponyville..."
-  ],
-  [
-    "Sweetie Belle",
-    "...and a Cutie Mark Crusaders theme song..."
+    "[loud and off-key]",
+    " And your talent comes to light!"
   ],
   [
     "Applejack",
-    "Theme song?"
+    " Well, uh... I'll be, Cutie Mark Crusaders. You've done one fine job with this place. So, what's next?"
   ],
   [
     "Apple Bloom",
-    "We're gonna go out in the world and discover our talents."
+    " Well, now that we have a real life clubhouse..."
   ],
   [
     "Scootaloo",
-    "A new adventure!"
+    " ...and a map of Ponyville..."
   ],
   [
     "Sweetie Belle",
-    "And earn our cutie marks."
-  ],
-  [
-    "Apple Bloom",
-    "We'll leave no stone unturned!"
-  ],
-  [
-    "Scootaloo",
-    "No mountain unclimbed!"
-  ],
-  [
-    "Sweetie Belle",
-    "No meal uncooked!"
-  ],
-  [
-    "Apple Bloom",
-    "No sock unworn!"
+    " ...and a Cutie Mark Crusaders theme song..."
   ],
   [
     "Applejack",
-    "Well okay then! Sounds like you have a plan. I gotta, uh... leave no apple unpicked! See y'all later!"
+    " Theme song?"
+  ],
+  [
+    "Apple Bloom",
+    " We're gonna go out in the world and discover our talents."
   ],
   [
     "Scootaloo",
-    "Are we ready to get our cutie marks, ponies?"
+    " A new adventure!"
+  ],
+  [
+    "Sweetie Belle",
+    " And earn our cutie marks."
+  ],
+  [
+    "Apple Bloom",
+    " We'll leave no stone unturned!"
+  ],
+  [
+    "Scootaloo",
+    " No mountain unclimbed!"
+  ],
+  [
+    "Sweetie Belle",
+    " No meal uncooked!"
+  ],
+  [
+    "Apple Bloom",
+    " No sock unworn!"
+  ],
+  [
+    "Applejack",
+    " Well okay then! Sounds like you have a plan. I gotta, uh... leave no apple unpicked! See y'all later!"
+  ],
+  [
+    "Scootaloo",
+    " Are we ready to get our cutie marks, ponies?"
   ],
   [
     "Cutie Mark Crusaders",
-    "Ready!"
+    " Ready!"
   ],
   [
     null,
@@ -229,7 +229,7 @@
   ],
   [
     "Sweetie Belle",
-    "[sniffs]"
+    " [sniffs]"
   ],
   [
     null,
@@ -241,7 +241,7 @@
   ],
   [
     "\"Frou Frou\"",
-    "[crying]"
+    " [crying]"
   ],
   [
     null,
@@ -265,211 +265,211 @@
   ],
   [
     "Spike",
-    "I had nothing to do with this."
+    " I had nothing to do with this."
   ],
   [
     "Twilight Sparkle",
-    "What is going on here?"
+    " What is going on here?"
   ],
   [
     "Apple Bloom",
-    "Hmm... Well, we sure aren't gettin' our cutie marks for bein' librarians."
+    " Hmm... Well, we sure aren't gettin' our cutie marks for bein' librarians."
   ],
   [
     "Spike",
-    "Huh. I should think not. What?"
+    " Huh. I should think not. What?"
   ],
   [
     "Twilight Sparkle",
-    "Girls, I think you're going about this the wrong way. Instead of trying to do things in areas you're not familiar with, why not try doing things in areas that you already like?"
+    " Girls, I think you're going about this the wrong way. Instead of trying to do things in areas you're not familiar with, why not try doing things in areas that you already like?"
   ],
   [
     "Cheerilee",
-    "And I have the perfect place to start."
+    " And I have the perfect place to start."
   ],
   [
     "Apple Bloom",
-    "\"Showcase your talents...\""
+    " \"Showcase your talents...\""
   ],
   [
     "Scootaloo",
-    "\"...for all to see.\""
+    " \"...for all to see.\""
   ],
   [
     "Sweetie Belle",
-    "\"Perform in the Ponyville school talent show!\""
+    " \"Perform in the Ponyville school talent show!\""
   ],
   [
     "Cheerilee",
-    "There'll be all sorts of awards. Best dramatic performance, best comedy act, best magic act... surely you can find your talent."
+    " There'll be all sorts of awards. Best dramatic performance, best comedy act, best magic act... surely you can find your talent."
   ],
   [
     "Apple Bloom",
-    "This would be the perfect place to discover our talents. Jugglin'!"
+    " This would be the perfect place to discover our talents. Jugglin'!"
   ],
   [
     "Scootaloo",
-    "Acting!"
+    " Acting!"
   ],
   [
     "Sweetie Belle",
-    "Magic tricks!"
+    " Magic tricks!"
   ],
   [
     "Apple Bloom",
-    "Square dancin'!"
+    " Square dancin'!"
   ],
   [
     "Scootaloo",
-    "Tightrope walking!"
+    " Tightrope walking!"
   ],
   [
     "Sweetie Belle",
-    "Tiger taming!"
+    " Tiger taming!"
   ],
   [
     "Twilight Sparkle",
-    "My little ponies! You're missing the point. Think about the things you already enjoy doing. Think about what you're already good at."
+    " My little ponies! You're missing the point. Think about the things you already enjoy doing. Think about what you're already good at."
   ],
   [
     "Scootaloo",
-    "Sure! We can do that."
+    " Sure! We can do that."
   ],
   [
     "Sweetie Belle",
-    "Yeah! Sure we can."
+    " Yeah! Sure we can."
   ],
   [
     "Apple Bloom",
-    "Well, whatever we do, we'll do it as..."
+    " Well, whatever we do, we'll do it as..."
   ],
   [
     "Cutie Mark Crusaders",
-    "...the Cutie Mark Crusaders!"
+    " ...the Cutie Mark Crusaders!"
   ],
   [
     "Rarity",
-    "Sweetie Belle! I told you not to touch my things. Come back with my supplies!"
+    " Sweetie Belle! I told you not to touch my things. Come back with my supplies!"
   ],
   [
     "Sweetie Belle",
-    "We're just borrowing them for the talent show. Don't worry, sis. I promise we'll bring them back."
+    " We're just borrowing them for the talent show. Don't worry, sis. I promise we'll bring them back."
   ],
   [
     "Scootaloo",
-    "Thanks, Mr. Breezy. We'll return the fan to you real soon."
+    " Thanks, Mr. Breezy. We'll return the fan to you real soon."
   ],
   [
     "Apple Bloom",
-    "What do we need this fan for?"
+    " What do we need this fan for?"
   ],
   [
     "Sweetie Belle",
-    "Trust me on this one."
+    " Trust me on this one."
   ],
   [
     "Scootaloo",
-    "Okay, so that's six wooden planks, four-by-eight plywood, a box of nails, four cans of paint, and four brushes. Anything else?"
+    " Okay, so that's six wooden planks, four-by-eight plywood, a box of nails, four cans of paint, and four brushes. Anything else?"
   ],
   [
     "Sweetie Belle",
-    "Yeah. Instructions on how to use six wooden planks, four-by-eight plywood, a box of nails, four cans of paint, and four brushes. Woah!"
+    " Yeah. Instructions on how to use six wooden planks, four-by-eight plywood, a box of nails, four cans of paint, and four brushes. Woah!"
   ],
   [
     "Twilight Sparkle",
-    "\"Ghosts, Goblins and Ghoulish Figures\"? Good heavens, girls. What do you need a book like this for?"
+    " \"Ghosts, Goblins and Ghoulish Figures\"? Good heavens, girls. What do you need a book like this for?"
   ],
   [
     "Scootaloo",
-    "You'll see. Thanks, Twilight. We'll give it back as soon as we're done with it."
+    " You'll see. Thanks, Twilight. We'll give it back as soon as we're done with it."
   ],
   [
     "Twilight Sparkle",
-    "What do you think they're up to?"
+    " What do you think they're up to?"
   ],
   [
     "Spike",
-    "I have no idea and I don't know if I should be excited or scared to find out."
+    " I have no idea and I don't know if I should be excited or scared to find out."
   ],
   [
     "Apple Bloom",
-    "I'm glad we're doin' this as a team."
+    " I'm glad we're doin' this as a team."
   ],
   [
     "Sweetie Belle",
-    "Me too. Um... so what are we doing again?"
+    " Me too. Um... so what are we doing again?"
   ],
   [
     "Scootaloo",
-    "A super awesome dramatic song for the talent show, of course."
+    " A super awesome dramatic song for the talent show, of course."
   ],
   [
     "Sweetie Belle",
-    "Right! With super-cool scenery. And amazing costumes!"
+    " Right! With super-cool scenery. And amazing costumes!"
   ],
   [
     "Apple Bloom",
-    "And mind-blowin' dance moves."
+    " And mind-blowin' dance moves."
   ],
   [
     "Scootaloo",
-    "This is gonna be soo amazing!"
+    " This is gonna be soo amazing!"
   ],
   [
     "Apple Bloom",
-    "Sweetie Belle, I think you should be a singer."
+    " Sweetie Belle, I think you should be a singer."
   ],
   [
     "Sweetie Belle",
-    "What? No way I'm singing in front of a crowd. Twilight said to do something we like to do, and... I'd like to be like my big sister, and she's a designer."
+    " What? No way I'm singing in front of a crowd. Twilight said to do something we like to do, and... I'd like to be like my big sister, and she's a designer."
   ],
   [
     "Scootaloo",
-    "Fine then. You can do the costumes and the scenery."
+    " Fine then. You can do the costumes and the scenery."
   ],
   [
     "Apple Bloom",
-    "And Scootaloo, you're great in maneuvers on your scooter. So you should do the choreography. Y'know, all those dance moves."
+    " And Scootaloo, you're great in maneuvers on your scooter. So you should do the choreography. Y'know, all those dance moves."
   ],
   [
     "Scootaloo",
-    "Nah. I'd rather sing a wicked rock ballad. Why don't you come up with the dance routine, Apple Bloom?"
+    " Nah. I'd rather sing a wicked rock ballad. Why don't you come up with the dance routine, Apple Bloom?"
   ],
   [
     "Apple Bloom",
-    "Hm... I'm not much of a dancer... but I do like Kung-fu. That's kinda like dancin'. Hi-ya! Hah! Hah! Yah!"
+    " Hm... I'm not much of a dancer... but I do like Kung-fu. That's kinda like dancin'. Hi-ya! Hah! Hah! Yah!"
   ],
   [
     "Sweetie Belle",
-    "Then it's settled! Let's get started."
+    " Then it's settled! Let's get started."
   ],
   [
     "Apple Bloom",
-    "One... two... three... oh! Oh!"
+    " One... two... three... oh! Oh!"
   ],
   [
     "Scootaloo",
-    "Ow, Apple Bloom! What are you doing?"
+    " Ow, Apple Bloom! What are you doing?"
   ],
   [
     "Apple Bloom",
-    "Oh, I feel like I have four left feet. I can't even spin right."
+    " Oh, I feel like I have four left feet. I can't even spin right."
   ],
   [
     "Scootaloo",
-    "Don't be silly. You just gotta keep your head forward until the very last minute, like this. See? Easy-peasy. You just gotta practice a bunch, that's all."
+    " Don't be silly. You just gotta keep your head forward until the very last minute, like this. See? Easy-peasy. You just gotta practice a bunch, that's all."
   ],
   [
     "Apple Bloom",
-    "Wow! That does look easy. Thanks. Okay. Let's try this again. Oh! Ouch! Ow. I'm okay!"
+    " Wow! That does look easy. Thanks. Okay. Let's try this again. Oh! Ouch! Ow. I'm okay!"
   ],
   [
     "Scootaloo",
-    "Keep practicing!"
+    " Keep practicing!"
   ],
   [
     "Apple Bloom",
-    "Will do."
+    " Will do."
   ],
   [
     null,
@@ -477,27 +477,27 @@
   ],
   [
     "Scootaloo",
-    "We fight the fight, walk the walk. Talk the talk, eat the... uh... food like a celery stalk? Ugh! I'll never come up with anything! Never, never, never!"
+    " We fight the fight, walk the walk. Talk the talk, eat the... uh... food like a celery stalk? Ugh! I'll never come up with anything! Never, never, never!"
   ],
   [
     "Sweetie Belle",
-    "Come back! Come back! Uh. Dumb fabric. Hey, Scoot! How's the song going?"
+    " Come back! Come back! Uh. Dumb fabric. Hey, Scoot! How's the song going?"
   ],
   [
     "Scootaloo",
-    "Pbbbt."
+    " Pbbbt."
   ],
   [
     "Sweetie Belle",
-    "Pbbbt? Oh my! Sounds serious."
+    " Pbbbt? Oh my! Sounds serious."
   ],
   [
     "Scootaloo",
-    "I'm just no good at lyrics. Coming up with words is, like... really hard."
+    " I'm just no good at lyrics. Coming up with words is, like... really hard."
   ],
   [
     "Sweetie Belle",
-    "Oh, it can't be that bad. \"With our cutie marks we'll rock Equestria. We use our stomachs to... digestia\"? Umm... well... these are... um... good, but... how about after \"we fight the fight\"...\nThere is nothing that we fear\nWe'll have to figure out what we'll do next\n'Til our cutie marks are here"
+    " Oh, it can't be that bad. \"With our cutie marks we'll rock Equestria. We use our stomachs to... digestia\"? Umm... well... these are... um... good, but... how about after \"we fight the fight\"...\nThere is nothing that we fear\nWe'll have to figure out what we'll do next\n'Til our cutie marks are here"
   ],
   [
     null,
@@ -513,19 +513,19 @@
   ],
   [
     "Scootaloo",
-    "Wow! That's so awesome! Did you just come up with that now?"
+    " Wow! That's so awesome! Did you just come up with that now?"
   ],
   [
     "Sweetie Belle",
-    "Yeah... kind of."
+    " Yeah... kind of."
   ],
   [
     "Scootaloo",
-    "Thanks, I'm totally using that."
+    " Thanks, I'm totally using that."
   ],
   [
     "Sweetie Belle",
-    "Oh no!"
+    " Oh no!"
   ],
   [
     null,
@@ -533,103 +533,103 @@
   ],
   [
     "Sweetie Belle",
-    "One, two, three, four, five? [moan] [sigh]"
+    " One, two, three, four, five? [moan] [sigh]"
   ],
   [
     "Apple Bloom",
-    "Ouch!"
+    " Ouch!"
   ],
   [
     "Sweetie Belle",
-    "How's the spin coming along?"
+    " How's the spin coming along?"
   ],
   [
     "Apple Bloom",
-    "I think I gotta just stick to punches and kicks. You know, ponies only have four legs."
+    " I think I gotta just stick to punches and kicks. You know, ponies only have four legs."
   ],
   [
     "Sweetie Belle",
-    "[moan] I'll never be a designer like my sister Rarity."
+    " [moan] I'll never be a designer like my sister Rarity."
   ],
   [
     "Apple Bloom",
-    "Hey, it's no big deal. Why don't you use the dress form? It'll help you with your patterns and help you put all the pieces in the right places."
+    " Hey, it's no big deal. Why don't you use the dress form? It'll help you with your patterns and help you put all the pieces in the right places."
   ],
   [
     "Sweetie Belle",
-    "Oh, is that what that's for?"
+    " Oh, is that what that's for?"
   ],
   [
     "Apple Bloom",
-    "Uh... maybe you should also clean your paintbrush between each color."
+    " Uh... maybe you should also clean your paintbrush between each color."
   ],
   [
     "Sweetie Belle",
-    "Oh, I was wondering why all the colors looked like mud."
+    " Oh, I was wondering why all the colors looked like mud."
   ],
   [
     "Apple Bloom",
-    "You're not using power tools, are you?"
+    " You're not using power tools, are you?"
   ],
   [
     "Applejack",
-    "The talent show is just around the corner. I wonder how the fillies are doin'."
+    " The talent show is just around the corner. I wonder how the fillies are doin'."
   ],
   [
     "Apple Bloom",
-    "Oh! Sorry, Scootaloo."
+    " Oh! Sorry, Scootaloo."
   ],
   [
     "Scootaloo",
-    "That's okay. Ugh!"
+    " That's okay. Ugh!"
   ],
   [
     "Sweetie Belle",
-    "Oops! Sorry, Scootaloo. Ouch!"
+    " Oops! Sorry, Scootaloo. Ouch!"
   ],
   [
     "Scootaloo",
-    "Oh, my bad, Sweetie Belle. Let's sing the chorus again!"
+    " Oh, my bad, Sweetie Belle. Let's sing the chorus again!"
   ],
   [
     "Applejack",
-    "Well, gosh. Sure wasn't expectin' that."
+    " Well, gosh. Sure wasn't expectin' that."
   ],
   [
     "Apple Bloom",
-    "I think that sounded pretty good."
+    " I think that sounded pretty good."
   ],
   [
     "Sweetie Belle",
-    "Me too. You think we're ready?"
+    " Me too. You think we're ready?"
   ],
   [
     "Scootaloo",
-    "Ready as we'll ever be. Hey! Did you see us practicing?"
+    " Ready as we'll ever be. Hey! Did you see us practicing?"
   ],
   [
     "Applejack",
-    "Uh... yeah."
+    " Uh... yeah."
   ],
   [
     "Apple Bloom",
-    "Well? How'd we do? How'd we do?"
+    " Well? How'd we do? How'd we do?"
   ],
   [
     "Applejack",
-    "Uh..."
+    " Uh..."
   ],
   [
     "Scootaloo",
-    "Speechless! See, girls? I told you that's what we're gonna do. We're gonna leave them speechless."
+    " Speechless! See, girls? I told you that's what we're gonna do. We're gonna leave them speechless."
   ],
   [
     "Cutie Mark Crusaders",
-    "Yay!"
+    " Yay!"
   ],
   [
     "Applejack",
-    "\"Speechless\" is right."
+    " \"Speechless\" is right."
   ],
   [
     null,
@@ -637,7 +637,7 @@
   ],
   [
     "Snips",
-    "...And, on the count of three, this rabbit will disappear, and something tasty will reappear in its place. One, a two, and a three! Hey! Where are they? Snails, where are the... carrots."
+    " ...And, on the count of three, this rabbit will disappear, and something tasty will reappear in its place. One, a two, and a three! Hey! Where are they? Snails, where are the... carrots."
   ],
   [
     null,
@@ -645,91 +645,91 @@
   ],
   [
     "Snips",
-    "SNAILS!"
+    " SNAILS!"
   ],
   [
     "Cheerilee",
-    "Uh, how about a round of applause for the S&S magic act? And now for our next act, we have Sunny Daze and Peachy Pie reciting their favorite poem... on roller skates!"
+    " Uh, how about a round of applause for the S&S magic act? And now for our next act, we have Sunny Daze and Peachy Pie reciting their favorite poem... on roller skates!"
   ],
   [
     "Sweetie Belle",
-    "Break a leg!"
+    " Break a leg!"
   ],
   [
     "Apple Bloom",
-    "Sweetie Belle! What a thing to say!"
+    " Sweetie Belle! What a thing to say!"
   ],
   [
     "Sweetie Belle",
-    "No, no, no. You see, in the theater it's considered bad luck to say \"good luck\". So you say \"break a leg\" instead."
+    " No, no, no. You see, in the theater it's considered bad luck to say \"good luck\". So you say \"break a leg\" instead."
   ],
   [
     "Twilight Sparkle",
-    "My little ponies! How are you doing?"
+    " My little ponies! How are you doing?"
   ],
   [
     "Cutie Mark Crusaders",
-    "Nervous..."
+    " Nervous..."
   ],
   [
     "Twilight Sparkle",
-    "Don't worry. You're gonna be amazing. Remember, just stick to what you know best. I can't wait to hear you sing, Sweetie Belle."
+    " Don't worry. You're gonna be amazing. Remember, just stick to what you know best. I can't wait to hear you sing, Sweetie Belle."
   ],
   [
     "Sweetie Belle",
-    "Why does everypony always think I'm gonna sing?"
+    " Why does everypony always think I'm gonna sing?"
   ],
   [
     "Scootaloo",
-    "Actually, Twilight Sparkle, I'm the main singer tonight."
+    " Actually, Twilight Sparkle, I'm the main singer tonight."
   ],
   [
     "Twilight Sparkle",
-    "Oh?"
+    " Oh?"
   ],
   [
     "Apple Bloom",
-    "And I'm the main dancer. Hi-ya!"
+    " And I'm the main dancer. Hi-ya!"
   ],
   [
     "Twilight Sparkle",
-    "Oh?"
+    " Oh?"
   ],
   [
     "Sweetie Belle",
-    "And I'm in charge of..."
+    " And I'm in charge of..."
   ],
   [
     "Twilight Sparkle",
-    "Costumes?"
+    " Costumes?"
   ],
   [
     "Sweetie Belle",
-    "And sets and props. How'd you know?"
+    " And sets and props. How'd you know?"
   ],
   [
     "Twilight Sparkle",
-    "Really, girls? Are you sure...?"
+    " Really, girls? Are you sure...?"
   ],
   [
     "Cheerilee",
-    "Cutie Mark Crusaders, you're on next. Break a leg."
+    " Cutie Mark Crusaders, you're on next. Break a leg."
   ],
   [
     "Twilight Sparkle",
-    "Break a le\u2014"
+    " Break a le\u2014"
   ],
   [
     "Apple Bloom",
-    "Ugh!"
+    " Ugh!"
   ],
   [
     "Twilight Sparkle",
-    "Uh... good luck!"
+    " Uh... good luck!"
   ],
   [
-    null,
-    "[Scootaloo]\nLook, here, are three little ponies,\nReady to sing for this crowd,\nListen up, 'cause here's our story\nI'm gonna sing it"
+    "[Scootaloo]",
+    "\nLook, here, are three little ponies,\nReady to sing for this crowd,\nListen up, 'cause here's our story\nI'm gonna sing it"
   ],
   [
     null,
@@ -748,16 +748,16 @@
     "I'm gonna sing it"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nVery loud!"
+    "[Cutie Mark Crusaders]",
+    "\nVery loud!"
   ],
   [
     null,
     "Very loud!"
   ],
   [
-    null,
-    "[Scootaloo]\nWhen you're a younger pony\nAnd your flank is very bare\nFeels like the sun will never come\nWhen your cutie mark's not there"
+    "[Scootaloo]",
+    "\nWhen you're a younger pony\nAnd your flank is very bare\nFeels like the sun will never come\nWhen your cutie mark's not there"
   ],
   [
     null,
@@ -792,8 +792,8 @@
     "We'll have to figure out what we'll do next"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\n'Til our cutie marks are here!"
+    "[Cutie Mark Crusaders]",
+    "\n'Til our cutie marks are here!"
   ],
   [
     null,
@@ -820,8 +820,8 @@
     "Not until we have our cutie marks"
   ],
   [
-    null,
-    "[Scootaloo]\nThey all say that you'll get your mark\nWhen the time is really right\nAnd you know just what you're supposed to do\nAnd your talent comes to light"
+    "[Scootaloo]",
+    "\nThey all say that you'll get your mark\nWhen the time is really right\nAnd you know just what you're supposed to do\nAnd your talent comes to light"
   ],
   [
     null,
@@ -856,8 +856,8 @@
     "So we test our talents everywhere"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nUntil our face is blue"
+    "[Cutie Mark Crusaders]",
+    "\nUntil our face is blue"
   ],
   [
     null,
@@ -913,35 +913,35 @@
   ],
   [
     "Scootaloo",
-    "Wow. That did not go as well as I expected."
+    " Wow. That did not go as well as I expected."
   ],
   [
     "Apple Bloom",
-    "I can't believe they're laughin' at us."
+    " I can't believe they're laughin' at us."
   ],
   [
     "Sweetie Belle",
-    "Was it that bad?"
+    " Was it that bad?"
   ],
   [
     "Cheerilee",
-    "Back on stage, girls. It's time for the awards."
+    " Back on stage, girls. It's time for the awards."
   ],
   [
     "Sweetie Belle",
-    "Back on stage? No."
+    " Back on stage? No."
   ],
   [
     "Apple Bloom",
-    "They'll just laugh some more."
+    " They'll just laugh some more."
   ],
   [
     "Scootaloo",
-    "Yeah, what's the point?"
+    " Yeah, what's the point?"
   ],
   [
     "Cheerilee",
-    "Now girls, let's be good sports. You made a great effort. You should be proud. Now come on! [to the crowd] Let's hear it for all our talented fillies and colts."
+    " Now girls, let's be good sports. You made a great effort. You should be proud. Now come on! [to the crowd] Let's hear it for all our talented fillies and colts."
   ],
   [
     null,
@@ -949,39 +949,39 @@
   ],
   [
     "Cheerilee",
-    "Our first award goes to... Snips and Snails for best magic act."
+    " Our first award goes to... Snips and Snails for best magic act."
   ],
   [
     "Snips",
-    "Hey! Mine's at least shinier."
+    " Hey! Mine's at least shinier."
   ],
   [
     "Snails",
-    "Well, mine's bigger."
+    " Well, mine's bigger."
   ],
   [
     "Snips",
-    "Oh yeah, well... well, mine is, um... heavier?"
+    " Oh yeah, well... well, mine is, um... heavier?"
   ],
   [
     "Cheerilee",
-    "The next award goes to... Sunny Daze and Peachy Pie for best dramatic performance."
+    " The next award goes to... Sunny Daze and Peachy Pie for best dramatic performance."
   ],
   [
     "Sunny Daze and Peachy Pie",
-    "[gasp]"
+    " [gasp]"
   ],
   [
     "Cheerilee",
-    "And finally, the last award of the night goes to... the Cutie Mark Crusaders!"
+    " And finally, the last award of the night goes to... the Cutie Mark Crusaders!"
   ],
   [
     "Cutie Mark Crusaders",
-    "What?"
+    " What?"
   ],
   [
     "Cheerilee",
-    "For best comedy act."
+    " For best comedy act."
   ],
   [
     null,
@@ -989,95 +989,95 @@
   ],
   [
     "Apple Bloom",
-    "Can you believe it? We won!"
+    " Can you believe it? We won!"
   ],
   [
     "Scootaloo",
-    "I knew our act was awesome."
+    " I knew our act was awesome."
   ],
   [
     "Sweetie Belle",
-    "You know what would be the best? If we won and we got our cutie marks."
+    " You know what would be the best? If we won and we got our cutie marks."
   ],
   [
     "Cutie Mark Crusaders",
-    "[moan]"
+    " [moan]"
   ],
   [
     "Twilight Sparkle",
-    "Congratulations, ponies! Job well done."
+    " Congratulations, ponies! Job well done."
   ],
   [
     "Cutie Mark Crusaders",
-    "[sadly] Thanks, Twilight."
+    " [sadly] Thanks, Twilight."
   ],
   [
     "Twilight Sparkle",
-    "Hey, you don't sound too excited."
+    " Hey, you don't sound too excited."
   ],
   [
     "Scootaloo",
-    "[sigh] We worked really hard and won a prize, but we still don't have our cutie marks."
+    " [sigh] We worked really hard and won a prize, but we still don't have our cutie marks."
   ],
   [
     "Sweetie Belle",
-    "Which is the prize we really wanted."
+    " Which is the prize we really wanted."
   ],
   [
     "Twilight Sparkle",
-    "Oh, girls..."
+    " Oh, girls..."
   ],
   [
     "Apple Bloom",
-    "But we think we know why."
+    " But we think we know why."
   ],
   [
     "Sweetie Belle",
-    "Yes. We know why."
+    " Yes. We know why."
   ],
   [
     "Twilight Sparkle",
-    "Oh? Tell me. I'd love to make a special report to the Princess."
+    " Oh? Tell me. I'd love to make a special report to the Princess."
   ],
   [
     "Sweetie Belle",
-    "Well, maybe we were trying too hard."
+    " Well, maybe we were trying too hard."
   ],
   [
     "Twilight Sparkle",
-    "Yes? And?"
+    " Yes? And?"
   ],
   [
     "Scootaloo",
-    "And instead of forcing ourselves to do something that's not meant for us..."
+    " And instead of forcing ourselves to do something that's not meant for us..."
   ],
   [
     "Twilight Sparkle",
-    "Yes? Yes?"
+    " Yes? Yes?"
   ],
   [
     "Apple Bloom",
-    "We each should be embracing our true talent!"
+    " We each should be embracing our true talent!"
   ],
   [
     "Twilight Sparkle",
-    "And that is...?"
+    " And that is...?"
   ],
   [
     "Cutie Mark Crusaders",
-    "Comedy!"
+    " Comedy!"
   ],
   [
     "Applejack",
-    "Apple Bloom! You did it!"
+    " Apple Bloom! You did it!"
   ],
   [
     "Cutie Mark Crusaders",
-    "Did you see our award? Weren't we funny?"
+    " Did you see our award? Weren't we funny?"
   ],
   [
     "Twilight Sparkle",
-    "One day... [giggle] one day..."
+    " One day... [giggle] one day..."
   ],
   [
     null,

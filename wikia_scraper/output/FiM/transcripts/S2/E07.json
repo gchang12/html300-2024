@@ -1,51 +1,51 @@
 [
   [
     "Rainbow Dash",
-    "Ha-ha! Whoo-hoo! Yeah! [laughs] Whoa!"
+    " Ha-ha! Whoo-hoo! Yeah! [laughs] Whoa!"
   ],
   [
     "Owlowiscious",
-    "[hoots]"
+    " [hoots]"
   ],
   [
     "Rainbow Dash",
-    "Who? Oh, it's you, Owlowiscious. C'mon, try and keep up! [laughs]"
+    " Who? Oh, it's you, Owlowiscious. C'mon, try and keep up! [laughs]"
   ],
   [
     "Winona",
-    "[barks]"
+    " [barks]"
   ],
   [
     "Rainbow Dash",
-    "Winona? I mean... Winona's head?! Um, is this weird, or is it just me? Angel? Gummy?! Okay, this is officially beyond weird now and right on down to freaky town."
+    " Winona? I mean... Winona's head?! Um, is this weird, or is it just me? Angel? Gummy?! Okay, this is officially beyond weird now and right on down to freaky town."
   ],
   [
     "Opalescence",
-    "[hisses]"
+    " [hisses]"
   ],
   [
     "Rainbow Dash",
-    "[gasp] Yaaaaah!"
+    " [gasp] Yaaaaah!"
   ],
   [
     "Rainbow Dash",
-    "Whaa!"
+    " Whaa!"
   ],
   [
     "Opalescence",
-    "[yowls]"
+    " [yowls]"
   ],
   [
     "Winona",
-    "[barks]"
+    " [barks]"
   ],
   [
     "Owlowiscious",
-    "[hoots]"
+    " [hoots]"
   ],
   [
     "Rainbow Dash",
-    "Phew."
+    " Phew."
   ],
   [
     null,
@@ -53,7 +53,7 @@
   ],
   [
     "Winona",
-    "[barks]"
+    " [barks]"
   ],
   [
     null,
@@ -61,71 +61,71 @@
   ],
   [
     "Applejack",
-    "Let's get this thing started!"
+    " Let's get this thing started!"
   ],
   [
     "Pinkie Pie",
-    "[giggles]"
+    " [giggles]"
   ],
   [
     "Rarity",
-    "Sincerest apologies, Rainbow, if our pets were bothering you."
+    " Sincerest apologies, Rainbow, if our pets were bothering you."
   ],
   [
     "Opalescence",
-    "[meow]"
+    " [meow]"
   ],
   [
     "Rarity",
-    "Say you're sorry, Opal."
+    " Say you're sorry, Opal."
   ],
   [
     "Opalescence",
-    "[hisses]"
+    " [hisses]"
   ],
   [
     "Rarity",
-    "She's... sorry."
+    " She's... sorry."
   ],
   [
     "Rainbow Dash",
-    "What are you all doing out here?"
+    " What are you all doing out here?"
   ],
   [
     "Applejack",
-    "Why, we always round up our critters for a regular ol' Pony Pet Playdate in this park."
+    " Why, we always round up our critters for a regular ol' Pony Pet Playdate in this park."
   ],
   [
     "Rainbow Dash",
-    "Uh, you do?"
+    " Uh, you do?"
   ],
   [
     "Applejack",
-    "Same time every week."
+    " Same time every week."
   ],
   [
     "Fluttershy",
-    "I thought you knew. You didn't know? She didn't know?"
+    " I thought you knew. You didn't know? She didn't know?"
   ],
   [
     "Twilight Sparkle",
-    "Well, we had initially planned on inviting Rainbow, of course, except\u2013"
+    " Well, we had initially planned on inviting Rainbow, of course, except\u2013"
   ],
   [
     "Pinkie Pie",
-    "We were totally gonna invite you, Rainbow, then Twilight remembered that you don't even have a pet, and Rarity remembered that you really like to take naps in the afternoon, so Applejack figured you wouldn't be missing out on anything anyway, and Fluttershy and I nodded our heads in agreement like this."
+    " We were totally gonna invite you, Rainbow, then Twilight remembered that you don't even have a pet, and Rarity remembered that you really like to take naps in the afternoon, so Applejack figured you wouldn't be missing out on anything anyway, and Fluttershy and I nodded our heads in agreement like this."
   ],
   [
     "Fluttershy",
-    "Oh, please don't be mad at us."
+    " Oh, please don't be mad at us."
   ],
   [
     "Rainbow Dash",
-    "Oh, I'm not mad. You all are right. Not much point of a Pony Pet Playdate for me if I'm a pony without a pet, right?"
+    " Oh, I'm not mad. You all are right. Not much point of a Pony Pet Playdate for me if I'm a pony without a pet, right?"
   ],
   [
     "Applejack",
-    "Eeexactly. So, if'n you'll excuse us..."
+    " Eeexactly. So, if'n you'll excuse us..."
   ],
   [
     null,
@@ -133,19 +133,19 @@
   ],
   [
     "Rainbow Dash",
-    "Hey, now wait a minute! Just because I don't have a pet now doesn't mean I never want a pet!"
+    " Hey, now wait a minute! Just because I don't have a pet now doesn't mean I never want a pet!"
   ],
   [
     "Fluttershy",
-    "Ohh! Y, y, Oh, really? You really want a pet? Really? 'Cause I've got so many wonderful choices at my house! Oh, and I know you'll just love them! And they'll love you! Oh, and you'll be best friends forever and ever! Oh!"
+    " Ohh! Y, y, Oh, really? You really want a pet? Really? 'Cause I've got so many wonderful choices at my house! Oh, and I know you'll just love them! And they'll love you! Oh, and you'll be best friends forever and ever! Oh!"
   ],
   [
     null,
     ""
   ],
   [
-    null,
-    "[Fluttershy]\nNow, Rainbow, my dear, I cannot express my delight\nIt's abundantly clear\nThat somewhere out here\nIs the pet that will suit you just right"
+    "[Fluttershy]",
+    "\nNow, Rainbow, my dear, I cannot express my delight\nIt's abundantly clear\nThat somewhere out here\nIs the pet that will suit you just right"
   ],
   [
     null,
@@ -164,8 +164,8 @@
     "Is the pet that will suit you just right"
   ],
   [
-    null,
-    "[Rainbow Dash]\nI can't wait to get started, but first let me set a few rules\nIt's of utmost importance\nThe pet that I get\nIs something that's awesome and cool"
+    "[Rainbow Dash]",
+    "\nI can't wait to get started, but first let me set a few rules\nIt's of utmost importance\nThe pet that I get\nIs something that's awesome and cool"
   ],
   [
     null,
@@ -185,23 +185,23 @@
   ],
   [
     "Fluttershy",
-    "Awesome, cool, got it!\nI have so many wonderful choices, just wait, you will see"
+    " Awesome, cool, got it!\nI have so many wonderful choices, just wait, you will see"
   ],
   [
     null,
     "I have so many wonderful choices, just wait, you will see"
   ],
   [
-    null,
-    "[Rainbow Dash]\nI need something real fast like a bullet to keep up with me"
+    "[Rainbow Dash]",
+    "\nI need something real fast like a bullet to keep up with me"
   ],
   [
     null,
     "I need something real fast like a bullet to keep up with me"
   ],
   [
-    null,
-    "[Fluttershy]\nSure! How 'bout a bunny?\nThey're cutesy and wootsie and quick as can be"
+    "[Fluttershy]",
+    "\nSure! How 'bout a bunny?\nThey're cutesy and wootsie and quick as can be"
   ],
   [
     null,
@@ -212,16 +212,16 @@
     "They're cutesy and wootsie and quick as can be"
   ],
   [
-    null,
-    "[Rainbow Dash]\nCutesy? Wootsie? Have you even met me?"
+    "[Rainbow Dash]",
+    "\nCutesy? Wootsie? Have you even met me?"
   ],
   [
     null,
     "Cutesy? Wootsie? Have you even met me?"
   ],
   [
-    null,
-    "[Fluttershy]\nRainbow, have faith\nYou see, I will bet you\nSomewhere in here is the pet that will get you"
+    "[Fluttershy]",
+    "\nRainbow, have faith\nYou see, I will bet you\nSomewhere in here is the pet that will get you"
   ],
   [
     null,
@@ -237,23 +237,23 @@
   ],
   [
     "Fluttershy",
-    "Come on, the sky's the limit!"
+    " Come on, the sky's the limit!"
   ],
   [
     "Rainbow Dash",
-    "Sky is good. I'd like it to fly."
+    " Sky is good. I'd like it to fly."
   ],
   [
     "Fluttershy",
-    "Really? Because I think this widdle puddy tat has your name written all over it. Yes, he does. Aww, look, he likes you!"
+    " Really? Because I think this widdle puddy tat has your name written all over it. Yes, he does. Aww, look, he likes you!"
   ],
   [
     "Rainbow Dash",
-    "Pass."
+    " Pass."
   ],
   [
-    null,
-    "[Fluttershy]\nI have so many wonderful choices for you to decide\nThere are otters and seals\nWith massive appeal"
+    "[Fluttershy]",
+    "\nI have so many wonderful choices for you to decide\nThere are otters and seals\nWith massive appeal"
   ],
   [
     null,
@@ -269,11 +269,11 @@
   ],
   [
     "Rainbow Dash",
-    "Otters and seals do not fly."
+    " Otters and seals do not fly."
   ],
   [
     "Fluttershy",
-    "Maybe not, but I've seen this particular seal catch ten feet of air when he breaches the water!"
+    " Maybe not, but I've seen this particular seal catch ten feet of air when he breaches the water!"
   ],
   [
     null,
@@ -281,11 +281,11 @@
   ],
   [
     "Rainbow Dash",
-    "That's it. I'm outta here."
+    " That's it. I'm outta here."
   ],
   [
-    null,
-    "[Fluttershy]\nWait! There must be a pet here\nThat will fit the ticket\nHow 'bout a ladybug, or a cute cricket?"
+    "[Fluttershy]",
+    "\nWait! There must be a pet here\nThat will fit the ticket\nHow 'bout a ladybug, or a cute cricket?"
   ],
   [
     null,
@@ -301,11 +301,11 @@
   ],
   [
     "Rainbow Dash",
-    "Bigger. And cooler."
+    " Bigger. And cooler."
   ],
   [
     "Fluttershy",
-    "Bigger, cooler. Right."
+    " Bigger, cooler. Right."
   ],
   [
     null,
@@ -321,15 +321,15 @@
   ],
   [
     "Rainbow Dash",
-    "It's just a squirrel."
+    " It's just a squirrel."
   ],
   [
     "Fluttershy",
-    "Not just any squirrel. A flying squirrel!"
+    " Not just any squirrel. A flying squirrel!"
   ],
   [
     "Rainbow Dash",
-    "...Yeah. So, like I was saying..."
+    " ...Yeah. So, like I was saying..."
   ],
   [
     null,
@@ -353,15 +353,15 @@
   ],
   [
     "Fluttershy",
-    "I'm sensing you want an animal that can fly."
+    " I'm sensing you want an animal that can fly."
   ],
   [
     "Rainbow Dash",
-    "Ya think?"
+    " Ya think?"
   ],
   [
-    null,
-    "[Fluttershy]\nI have plenty of wonderful creatures who soar in the sky\nLike a sweet hummingbird or a giant monarch butterfly"
+    "[Fluttershy]",
+    "\nI have plenty of wonderful creatures who soar in the sky\nLike a sweet hummingbird or a giant monarch butterfly"
   ],
   [
     null,
@@ -373,11 +373,11 @@
   ],
   [
     "Rainbow Dash",
-    "Better, but cooler."
+    " Better, but cooler."
   ],
   [
-    null,
-    "[Fluttershy]\nI see. How 'bout an owl, or a wasp, or a toucan?\nThere's so many wonderful creatures the likes of that\nThere are falcons and eagles\nThey are both quite regal\nOr perhaps what you need is a dark and mysterious bat?"
+    "[Fluttershy]",
+    "\nI see. How 'bout an owl, or a wasp, or a toucan?\nThere's so many wonderful creatures the likes of that\nThere are falcons and eagles\nThey are both quite regal\nOr perhaps what you need is a dark and mysterious bat?"
   ],
   [
     null,
@@ -401,7 +401,7 @@
   ],
   [
     "Rainbow Dash",
-    "Now you're talking! But instead of just one standout, now that's too many."
+    " Now you're talking! But instead of just one standout, now that's too many."
   ],
   [
     null,
@@ -413,11 +413,11 @@
   ],
   [
     "Fluttershy",
-    "Not a bad problem to have, if you ask me."
+    " Not a bad problem to have, if you ask me."
   ],
   [
-    null,
-    "[Rainbow Dash]\nThe bat would be awesome, but the wasp I'm digging too\nDo you have something in a yellow striped bat?"
+    "[Rainbow Dash]",
+    "\nThe bat would be awesome, but the wasp I'm digging too\nDo you have something in a yellow striped bat?"
   ],
   [
     null,
@@ -429,7 +429,7 @@
   ],
   [
     "Fluttershy",
-    "No."
+    " No."
   ],
   [
     null,
@@ -440,8 +440,8 @@
     "I've got a hot pink flamingo, just dying to meet you"
   ],
   [
-    null,
-    "[Rainbow Dash]\nWhat to do, what to do? [gasp]\nA prize! That's it! There's really just one way\nTo find out which animal's best\nHold a contest of speed, agility, and guts\nThat will put each pet to the test"
+    "[Rainbow Dash]",
+    "\nWhat to do, what to do? [gasp]\nA prize! That's it! There's really just one way\nTo find out which animal's best\nHold a contest of speed, agility, and guts\nThat will put each pet to the test"
   ],
   [
     null,
@@ -464,32 +464,32 @@
     "That will put each pet to the test"
   ],
   [
-    null,
-    "[Fluttershy]\nDon't forget style, that should be considered"
+    "[Fluttershy]",
+    "\nDon't forget style, that should be considered"
   ],
   [
     null,
     "Don't forget style, that should be considered"
   ],
   [
-    null,
-    "[Rainbow Dash]\nThen we'll know for sure who's best of the litter"
+    "[Rainbow Dash]",
+    "\nThen we'll know for sure who's best of the litter"
   ],
   [
     null,
     "Then we'll know for sure who's best of the litter"
   ],
   [
-    null,
-    "[Fluttershy]\nThe one who is awesomest cool"
+    "[Fluttershy]",
+    "\nThe one who is awesomest cool"
   ],
   [
     null,
     "The one who is awesomest cool"
   ],
   [
-    null,
-    "[Rainbow Dash]\nJust like me\nCan't settle for less, 'cause I'm the best"
+    "[Rainbow Dash]",
+    "\nJust like me\nCan't settle for less, 'cause I'm the best"
   ],
   [
     null,
@@ -500,40 +500,40 @@
     "Can't settle for less, 'cause I'm the best"
   ],
   [
-    null,
-    "[Fluttershy and Rainbow Dash]\nSo a contest we will see"
+    "[Fluttershy and Rainbow Dash]",
+    "\nSo a contest we will see"
   ],
   [
     null,
     "So a contest we will see"
   ],
   [
-    null,
-    "[Rainbow Dash]\nWho's the number one, greatest, perfectest pet"
+    "[Rainbow Dash]",
+    "\nWho's the number one, greatest, perfectest pet"
   ],
   [
     null,
     "Who's the number one, greatest, perfectest pet"
   ],
   [
-    null,
-    "[Fluttershy and Rainbow Dash]\nIn the world for me!"
+    "[Fluttershy and Rainbow Dash]",
+    "\nIn the world for me!"
   ],
   [
     null,
     "In the world for me!"
   ],
   [
-    null,
-    "[Fluttershy]\nMay the games"
+    "[Fluttershy]",
+    "\nMay the games"
   ],
   [
     null,
     "May the games"
   ],
   [
-    null,
-    "[Fluttershy and Rainbow Dash]\nBegin!"
+    "[Fluttershy and Rainbow Dash]",
+    "\nBegin!"
   ],
   [
     null,
@@ -541,11 +541,11 @@
   ],
   [
     "Rainbow Dash",
-    "And may the best pet win!"
+    " And may the best pet win!"
   ],
   [
     "Rainbow Dash",
-    "[blows whistle]"
+    " [blows whistle]"
   ],
   [
     null,
@@ -553,67 +553,67 @@
   ],
   [
     "Rainbow Dash",
-    "[blows whistle] Shh! [to assembled animals] So! You all think you've got what it takes to be my pet, do ya? Well, we'll just see about that! If any of you don't think you can handle it, bow out now before you humiliate yourself in front of your peers. This competition isn't for the weak. You'd better be prepared to step up your game! You call that flapping?! That's better. There's only room on Team Dash for one of you, and my future pet needs to be able to take it to the extreme! Any questions?"
+    " [blows whistle] Shh! [to assembled animals] So! You all think you've got what it takes to be my pet, do ya? Well, we'll just see about that! If any of you don't think you can handle it, bow out now before you humiliate yourself in front of your peers. This competition isn't for the weak. You'd better be prepared to step up your game! You call that flapping?! That's better. There's only room on Team Dash for one of you, and my future pet needs to be able to take it to the extreme! Any questions?"
   ],
   [
     "Applejack",
-    "I got one. Does she understand what a pet really needs?"
+    " I got one. Does she understand what a pet really needs?"
   ],
   [
     "Twilight Sparkle",
-    "Yeah, like care and attention, love and affection\u2013 Ugh! And breath mints!"
+    " Yeah, like care and attention, love and affection\u2013 Ugh! And breath mints!"
   ],
   [
     "Fluttershy",
-    "Now, you just pay attention, and try your best, and\u2013"
+    " Now, you just pay attention, and try your best, and\u2013"
   ],
   [
     "Rainbow Dash",
-    "Seriously, Fluttershy! The turtle? What did you bring that thing here for?"
+    " Seriously, Fluttershy! The turtle? What did you bring that thing here for?"
   ],
   [
     "Fluttershy",
-    "Technically he's a tortoise, and he's always dreamed of being somepony's pet. He just wants a chance to compete, he won't get in the way. You won't even know he's here."
+    " Technically he's a tortoise, and he's always dreamed of being somepony's pet. He just wants a chance to compete, he won't get in the way. You won't even know he's here."
   ],
   [
     "Rainbow Dash",
-    "No."
+    " No."
   ],
   [
     "Fluttershy",
-    "Oh, just let him try."
+    " Oh, just let him try."
   ],
   [
     "Rainbow Dash",
-    "Ugh, but there's no way he can possibly keep up. Look at him!"
+    " Ugh, but there's no way he can possibly keep up. Look at him!"
   ],
   [
     "Fluttershy",
-    "It won't hurt to let him try."
+    " It won't hurt to let him try."
   ],
   [
     "Rainbow Dash",
-    "But\u2013"
+    " But\u2013"
   ],
   [
     "Fluttershy",
-    "Just let him try?"
+    " Just let him try?"
   ],
   [
     "Rainbow Dash",
-    "Grrgh, ugh, fine! But don't say I didn't warn you! This isn't a game, you know! Alright, now these games will determine which one of you has the most important qualities I'm looking for in a pet. Speed. Agility. Guts. Style. Coolness. Awesomeness. And radicalness."
+    " Grrgh, ugh, fine! But don't say I didn't warn you! This isn't a game, you know! Alright, now these games will determine which one of you has the most important qualities I'm looking for in a pet. Speed. Agility. Guts. Style. Coolness. Awesomeness. And radicalness."
   ],
   [
     "Twilight Sparkle",
-    "Aren't those all the same thing?"
+    " Aren't those all the same thing?"
   ],
   [
     "Rainbow Dash",
-    "You would think that, Twilight. And that's why you would never qualify to be my pet."
+    " You would think that, Twilight. And that's why you would never qualify to be my pet."
   ],
   [
     "Rainbow Dash",
-    "Speed! On your marks..."
+    " Speed! On your marks..."
   ],
   [
     null,
@@ -621,7 +621,7 @@
   ],
   [
     "Rainbow Dash",
-    "Get set... [blows whistle] Sorta speedy... not speedy... pretty speedy... could be more speedy..."
+    " Get set... [blows whistle] Sorta speedy... not speedy... pretty speedy... could be more speedy..."
   ],
   [
     null,
@@ -629,7 +629,7 @@
   ],
   [
     "Rainbow Dash",
-    "Yeah! That's speed!"
+    " Yeah! That's speed!"
   ],
   [
     null,
@@ -637,11 +637,11 @@
   ],
   [
     "Rainbow Dash",
-    "[to the tortoise] Tsk-tsk. That's just sad."
+    " [to the tortoise] Tsk-tsk. That's just sad."
   ],
   [
     "Rainbow Dash",
-    "Agility! Sorta agile... not agile... pretty agile... could be more agile... [to the tortoise] wanna know the opposite of agility? That."
+    " Agility! Sorta agile... not agile... pretty agile... could be more agile... [to the tortoise] wanna know the opposite of agility? That."
   ],
   [
     null,
@@ -649,15 +649,15 @@
   ],
   [
     "Rainbow Dash",
-    "Yeah, baby, now that's what I call agility! [sing-song voice] Don't leave me hangin'! I'm gonna have to shave a point off your score for that."
+    " Yeah, baby, now that's what I call agility! [sing-song voice] Don't leave me hangin'! I'm gonna have to shave a point off your score for that."
   ],
   [
     "Rainbow Dash",
-    "Okay! Which of you has the guts to try and get Opal's favorite toy away from her?"
+    " Okay! Which of you has the guts to try and get Opal's favorite toy away from her?"
   ],
   [
     "Opalescence",
-    "[growls]"
+    " [growls]"
   ],
   [
     null,
@@ -665,19 +665,19 @@
   ],
   [
     "Rainbow Dash",
-    "Now that takes guts!"
+    " Now that takes guts!"
   ],
   [
     "Opalescence",
-    "[yowls]"
+    " [yowls]"
   ],
   [
     "Rainbow Dash",
-    "Style! Any pet of mine's gotta look good, 'cause you gotta make me look good!"
+    " Style! Any pet of mine's gotta look good, 'cause you gotta make me look good!"
   ],
   [
     "Rainbow Dash",
-    "Coolness!"
+    " Coolness!"
   ],
   [
     null,
@@ -685,7 +685,7 @@
   ],
   [
     "Rainbow Dash",
-    "Sorta cool."
+    " Sorta cool."
   ],
   [
     null,
@@ -693,7 +693,7 @@
   ],
   [
     "Rainbow Dash",
-    "Not cool."
+    " Not cool."
   ],
   [
     null,
@@ -701,7 +701,7 @@
   ],
   [
     "Rainbow Dash",
-    "Pretty cool."
+    " Pretty cool."
   ],
   [
     null,
@@ -709,7 +709,7 @@
   ],
   [
     "Rainbow Dash",
-    "Could be cooler."
+    " Could be cooler."
   ],
   [
     null,
@@ -717,7 +717,7 @@
   ],
   [
     "Rainbow Dash",
-    "Not what I had in mind. [to butterfly] I can't hear you!"
+    " Not what I had in mind. [to butterfly] I can't hear you!"
   ],
   [
     null,
@@ -725,7 +725,7 @@
   ],
   [
     "Rainbow Dash",
-    "Eugh."
+    " Eugh."
   ],
   [
     null,
@@ -733,11 +733,11 @@
   ],
   [
     "Rainbow Dash",
-    "Now that's a cool sound!"
+    " Now that's a cool sound!"
   ],
   [
     "Rainbow Dash",
-    "[to bat] Sorta awesome. [to toucan] Not awesome. [to flamingo] Could be more awesome. [to owl] Ho ho ho, yeah, that is awesome! [to tortoise] Uh, you did that already. That's pretty much all you can do, huh?"
+    " [to bat] Sorta awesome. [to toucan] Not awesome. [to flamingo] Could be more awesome. [to owl] Ho ho ho, yeah, that is awesome! [to tortoise] Uh, you did that already. That's pretty much all you can do, huh?"
   ],
   [
     null,
@@ -753,19 +753,19 @@
   ],
   [
     "Rainbow Dash",
-    "Whoa! That was truly awesome! But I'm afraid this is the radicalness competition, so I'm gonna have to take some points off."
+    " Whoa! That was truly awesome! But I'm afraid this is the radicalness competition, so I'm gonna have to take some points off."
   ],
   [
     "Rainbow Dash",
-    "[sigh] Listen, turtle..."
+    " [sigh] Listen, turtle..."
   ],
   [
     "Fluttershy",
-    "Tortoise."
+    " Tortoise."
   ],
   [
     "Rainbow Dash",
-    "Whatever! You've had your fun, but I think you and I both know who made the cut and who didn't."
+    " Whatever! You've had your fun, but I think you and I both know who made the cut and who didn't."
   ],
   [
     null,
@@ -773,7 +773,7 @@
   ],
   [
     "Rainbow Dash",
-    "You didn't."
+    " You didn't."
   ],
   [
     null,
@@ -781,7 +781,7 @@
   ],
   [
     "Rainbow Dash",
-    "I mean... 'A' for effort and everything, you gave it your best shot, maybe I've got a gold star sticker around here somewhere you can have, but, seriously, go home. You're starting to creep me out. So, anyway, you're all outstanding competitors, but there can only be one of you who's number one. So the final tie-breaking contest is going to be... pause for dramatic effect... a race against... me! Through Ghastly Gorge! Dun dun dun!"
+    " I mean... 'A' for effort and everything, you gave it your best shot, maybe I've got a gold star sticker around here somewhere you can have, but, seriously, go home. You're starting to creep me out. So, anyway, you're all outstanding competitors, but there can only be one of you who's number one. So the final tie-breaking contest is going to be... pause for dramatic effect... a race against... me! Through Ghastly Gorge! Dun dun dun!"
   ],
   [
     null,
@@ -789,7 +789,7 @@
   ],
   [
     "Rainbow Dash",
-    "Gesundheit. Actually, Ghastly Gorge isn't scary. It's fun. Heh. I've flown through it a million times myself, so obviously I'll be at the front of the pack. But whichever of you make it across the finish line with me will have proven you can keep up with me, and will have earned the honor and glory of getting to be my pet! Ready? Setgo! Woo-hoo! Haha! Try to keep up! Can't catch me, ha-ha!"
+    " Gesundheit. Actually, Ghastly Gorge isn't scary. It's fun. Heh. I've flown through it a million times myself, so obviously I'll be at the front of the pack. But whichever of you make it across the finish line with me will have proven you can keep up with me, and will have earned the honor and glory of getting to be my pet! Ready? Setgo! Woo-hoo! Haha! Try to keep up! Can't catch me, ha-ha!"
   ],
   [
     null,
@@ -797,7 +797,7 @@
   ],
   [
     "Rainbow Dash",
-    "[whistles] C'mon, slowpokes! You wanna win, don't ya? Oh! I forgot to tell you! Watch out for the Quarray eels! They don't like it when you get too close to their nests, like this. Whoa."
+    " [whistles] C'mon, slowpokes! You wanna win, don't ya? Oh! I forgot to tell you! Watch out for the Quarray eels! They don't like it when you get too close to their nests, like this. Whoa."
   ],
   [
     null,
@@ -805,7 +805,7 @@
   ],
   [
     "Rainbow Dash",
-    "Easy, peasy, one-two-threesy! Right, guys?"
+    " Easy, peasy, one-two-threesy! Right, guys?"
   ],
   [
     null,
@@ -817,11 +817,11 @@
   ],
   [
     "Rainbow Dash",
-    "AVALANCHE! Hey! Whoaaaa! [grunts] C'mon... no! Wait! Come back! Don't leave me! I'm the one who's supposed to win! I don't wanna end up stuck here... forever! Oh no, nonono, th-this can't be happening. Forever is way too long to be trapped in Ghastly Gorge. I mean, it's like, forever! Somepony! Anypony! Help me!"
+    " AVALANCHE! Hey! Whoaaaa! [grunts] C'mon... no! Wait! Come back! Don't leave me! I'm the one who's supposed to win! I don't wanna end up stuck here... forever! Oh no, nonono, th-this can't be happening. Forever is way too long to be trapped in Ghastly Gorge. I mean, it's like, forever! Somepony! Anypony! Help me!"
   ],
   [
     "Rainbow Dash",
-    "Wahoo! My prayers have been answered! Oh, thankyouthankyoutha\u2013 You?! Oh no! Now I'm not only going to be stuck here forever, I'm gonna be stuck here forever with the most annoying turtle in the world! Gyh, I'm doomed. DOOMED, I tell you!"
+    " Wahoo! My prayers have been answered! Oh, thankyouthankyoutha\u2013 You?! Oh no! Now I'm not only going to be stuck here forever, I'm gonna be stuck here forever with the most annoying turtle in the world! Gyh, I'm doomed. DOOMED, I tell you!"
   ],
   [
     null,
@@ -833,19 +833,19 @@
   ],
   [
     "Twilight Sparkle",
-    "Hm, something's not right here."
+    " Hm, something's not right here."
   ],
   [
     "Fluttershy",
-    "Where's Rainbow Dash?"
+    " Where's Rainbow Dash?"
   ],
   [
     "Applejack",
-    "Great galloping galoshes! There's been an avalanche in there!"
+    " Great galloping galoshes! There's been an avalanche in there!"
   ],
   [
     "Spike",
-    "Rainbow!"
+    " Rainbow!"
   ],
   [
     null,
@@ -853,27 +853,27 @@
   ],
   [
     "Pinkie Pie",
-    "Wait! Look!"
+    " Wait! Look!"
   ],
   [
     "Fluttershy",
-    "It's the turtle!"
+    " It's the turtle!"
   ],
   [
     "Applejack, Pinkie Pie, Rarity and Twilight Sparkle",
-    "Tortoise!"
+    " Tortoise!"
   ],
   [
     "Fluttershy",
-    "Oh, whatever..."
+    " Oh, whatever..."
   ],
   [
     "Twilight Sparkle",
-    "And he's carrying something on his back..."
+    " And he's carrying something on his back..."
   ],
   [
     "Pinkie Pie",
-    "Ahh! It's Rainbow Dash! It's her! It's Rainbow!"
+    " Ahh! It's Rainbow Dash! It's her! It's Rainbow!"
   ],
   [
     null,
@@ -885,7 +885,7 @@
   ],
   [
     "Fluttershy",
-    "Maybe we'd better go meet him halfway."
+    " Maybe we'd better go meet him halfway."
   ],
   [
     null,
@@ -893,31 +893,31 @@
   ],
   [
     "Spike",
-    "Huh. Way to go, little guy!"
+    " Huh. Way to go, little guy!"
   ],
   [
     "Twilight Sparkle",
-    "Oh, thank goodness you're not hurt, Rainbow!"
+    " Oh, thank goodness you're not hurt, Rainbow!"
   ],
   [
     "Rainbow Dash",
-    "Just my pride."
+    " Just my pride."
   ],
   [
     "Rarity",
-    "I certainly hope all of this dreadful dust was worth it! [sneezes]"
+    " I certainly hope all of this dreadful dust was worth it! [sneezes]"
   ],
   [
     "Applejack",
-    "It sure was, if'n it means Rainbow gets to have her own little critter just like the rest of us from now on."
+    " It sure was, if'n it means Rainbow gets to have her own little critter just like the rest of us from now on."
   ],
   [
     "Rainbow Dash",
-    "Uh... thanks. What you did... I owe you one."
+    " Uh... thanks. What you did... I owe you one."
   ],
   [
     "Fluttershy",
-    "Rainbow! Your new pet is over here waiting for you!"
+    " Rainbow! Your new pet is over here waiting for you!"
   ],
   [
     null,
@@ -925,23 +925,23 @@
   ],
   [
     "Rainbow Dash",
-    "Oh... right... yeah... that."
+    " Oh... right... yeah... that."
   ],
   [
     "Spike",
-    "What's the matter?"
+    " What's the matter?"
   ],
   [
     "Pinkie Pie",
-    "You got your perfect pet, right?"
+    " You got your perfect pet, right?"
   ],
   [
     "Fluttershy",
-    "The best of the best like you wanted, remember? It can fly and it's not a squirrel! Should we sing about it again?"
+    " The best of the best like you wanted, remember? It can fly and it's not a squirrel! Should we sing about it again?"
   ],
   [
     "Applejack",
-    "A falcon sure looks good on ya, Rainbow."
+    " A falcon sure looks good on ya, Rainbow."
   ],
   [
     null,
@@ -953,23 +953,23 @@
   ],
   [
     "Rainbow Dash",
-    "Easy, fella. Nothing to be afraid of. The falcon sure does look cool... he's absolutely everything I wanted in a pet. [sigh]"
+    " Easy, fella. Nothing to be afraid of. The falcon sure does look cool... he's absolutely everything I wanted in a pet. [sigh]"
   ],
   [
     "Fluttershy",
-    "Yay?"
+    " Yay?"
   ],
   [
     "Rainbow Dash",
-    "But I said whoever crosses the finish line with me gets to be my pet."
+    " But I said whoever crosses the finish line with me gets to be my pet."
   ],
   [
     "Pinkie Pie",
-    "You did! You did say that! She did say that, that was the rule!"
+    " You did! You did say that! She did say that, that was the rule!"
   ],
   [
     "Rainbow Dash",
-    "And the only racer who crossed the finish line with me was the one who stopped to save me when I needed help. The tortoise!"
+    " And the only racer who crossed the finish line with me was the one who stopped to save me when I needed help. The tortoise!"
   ],
   [
     null,
@@ -977,19 +977,19 @@
   ],
   [
     "Twilight Sparkle",
-    "But what about the\u2013"
+    " But what about the\u2013"
   ],
   [
     "Applejack",
-    "Wouldja look at that? He even smiles slow."
+    " Wouldja look at that? He even smiles slow."
   ],
   [
     "Main cast",
-    "[laughing]"
+    " [laughing]"
   ],
   [
     "Rainbow Dash",
-    "Spike, take a letter. Dear Princess Celestia,"
+    " Spike, take a letter. Dear Princess Celestia,"
   ],
   [
     null,
@@ -997,27 +997,27 @@
   ],
   [
     "Opalescence",
-    "[growls]"
+    " [growls]"
   ],
   [
     "Rainbow Dash",
-    "Today I learned what the most important quality really is. A certain kind of spirit. A stick-to-it-ive-ness. A never give up, can-do attitude that's the mark of a real winner. And this tortoise has it."
+    " Today I learned what the most important quality really is. A certain kind of spirit. A stick-to-it-ive-ness. A never give up, can-do attitude that's the mark of a real winner. And this tortoise has it."
   ],
   [
     "Twilight Sparkle",
-    "Tenacity."
+    " Tenacity."
   ],
   [
     "Rainbow Dash",
-    "Gesundheit. You just can't stop that little guy. He's like a... like a... Tank!"
+    " Gesundheit. You just can't stop that little guy. He's like a... like a... Tank!"
   ],
   [
     "Fluttershy",
-    "But Rainbow! You didn't want a pet that couldn't fly because it would keep you grounded and hold you back, remember?"
+    " But Rainbow! You didn't want a pet that couldn't fly because it would keep you grounded and hold you back, remember?"
   ],
   [
     "Rainbow Dash",
-    "Hmm..."
+    " Hmm..."
   ],
   [
     null,
@@ -1025,7 +1025,7 @@
   ],
   [
     "Rainbow Dash",
-    "Heh. C'mon, Tank! We're gonna be late for our very first Pony Pet Playdate!"
+    " Heh. C'mon, Tank! We're gonna be late for our very first Pony Pet Playdate!"
   ],
   [
     null,

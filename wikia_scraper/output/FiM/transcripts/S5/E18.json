@@ -1,27 +1,27 @@
 [
   [
     "Apple Bloom",
-    "Okay, Crusaders! Back to the business of earnin' our cutie marks! Any suggestions?"
+    " Okay, Crusaders! Back to the business of earnin' our cutie marks! Any suggestions?"
   ],
   [
     "Scootaloo",
-    "No, we've tried everything!"
+    " No, we've tried everything!"
   ],
   [
     "Sweetie Belle",
-    "We've run out of ideas."
+    " We've run out of ideas."
   ],
   [
     "Apple Bloom",
-    "Are you kiddin' me, Crusaders? We can do better than that!"
+    " Are you kiddin' me, Crusaders? We can do better than that!"
   ],
   [
     null,
     ""
   ],
   [
-    null,
-    "[Apple Bloom]\nWe've been searchin' for our cutie marks\nFor a while now\nTryin' to find out how we fit in"
+    "[Apple Bloom]",
+    "\nWe've been searchin' for our cutie marks\nFor a while now\nTryin' to find out how we fit in"
   ],
   [
     null,
@@ -48,8 +48,8 @@
     "But we keep on tryin' more"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\n'Cause the Cutie Mark Crusaders don't give in"
+    "[Cutie Mark Crusaders]",
+    "\n'Cause the Cutie Mark Crusaders don't give in"
   ],
   [
     null,
@@ -81,27 +81,27 @@
   ],
   [
     "Apple Bloom",
-    "Now, that's more like it!"
+    " Now, that's more like it!"
   ],
   [
     "Pipsqueak",
-    "Cutie Mark Crusaders! Help!"
+    " Cutie Mark Crusaders! Help!"
   ],
   [
     "Apple Bloom",
-    "What's wrong, Pipsqueak?"
+    " What's wrong, Pipsqueak?"
   ],
   [
     "Pipsqueak",
-    "I'm running for student pony president, I was hoping you three would be my campaign managers!"
+    " I'm running for student pony president, I was hoping you three would be my campaign managers!"
   ],
   [
     "Apple Bloom",
-    "We've never tried gettin' our cutie marks in campaign managin'! What do ya say, Crusaders?"
+    " We've never tried gettin' our cutie marks in campaign managin'! What do ya say, Crusaders?"
   ],
   [
     "Cutie Mark Crusaders",
-    "Yeah! Hoof!"
+    " Yeah! Hoof!"
   ],
   [
     null,
@@ -109,11 +109,11 @@
   ],
   [
     "Apple Bloom",
-    "[loudly] So, Pip, how would you help the school if you were elected student pony president?"
+    " [loudly] So, Pip, how would you help the school if you were elected student pony president?"
   ],
   [
     "Pipsqueak",
-    "Our playground equipment took quite a beating during Twilight's battle with Tirek!"
+    " Our playground equipment took quite a beating during Twilight's battle with Tirek!"
   ],
   [
     null,
@@ -121,7 +121,7 @@
   ],
   [
     "Pipsqueak",
-    "If I'm voted in as student pony president, I'll go to the school board and right this wrong!"
+    " If I'm voted in as student pony president, I'll go to the school board and right this wrong!"
   ],
   [
     null,
@@ -129,39 +129,39 @@
   ],
   [
     "Diamond Tiara",
-    "Well, I think that's a ridiculous waste of money! It's just like when Twist proposed to repair the window that Discord destroyed! She just wanted to repair it like a plain old schoolhouse window. But you all know voting for me was the best choice because I convinced the school board to give that window visual appeal!"
+    " Well, I think that's a ridiculous waste of money! It's just like when Twist proposed to repair the window that Discord destroyed! She just wanted to repair it like a plain old schoolhouse window. But you all know voting for me was the best choice because I convinced the school board to give that window visual appeal!"
   ],
   [
     "Apple Bloom",
-    "'Course, it doesn't hurt that her mother Spoiled Rich is president of the school board."
+    " 'Course, it doesn't hurt that her mother Spoiled Rich is president of the school board."
   ],
   [
     "Silver Spoon",
-    "Exactly! Which is why when Diamond Tiara is voted student pony president, the school will be putting a statue of her in the center of our schoolyard!"
+    " Exactly! Which is why when Diamond Tiara is voted student pony president, the school will be putting a statue of her in the center of our schoolyard!"
   ],
   [
     "Diamond Tiara",
-    "[through gritted teeth] Silver Spoon! That was my big announcement for when I won!"
+    " [through gritted teeth] Silver Spoon! That was my big announcement for when I won!"
   ],
   [
     "Silver Spoon",
-    "I was only trying to help."
+    " I was only trying to help."
   ],
   [
     "Diamond Tiara",
-    "[through gritted teeth] I don't need that kind of help!"
+    " [through gritted teeth] I don't need that kind of help!"
   ],
   [
     "Apple Bloom",
-    "Haven't we all had enough of Diamond Tiara?"
+    " Haven't we all had enough of Diamond Tiara?"
   ],
   [
     "Scootaloo",
-    "Do we really need a big statue of her?"
+    " Do we really need a big statue of her?"
   ],
   [
     "Sweetie Belle",
-    "Especially where our playground equipment should be?"
+    " Especially where our playground equipment should be?"
   ],
   [
     null,
@@ -169,19 +169,19 @@
   ],
   [
     "Pipsqueak",
-    "A vote for Pip is a vote for the playground!"
+    " A vote for Pip is a vote for the playground!"
   ],
   [
     "Diamond Tiara",
-    "A vote for Diamond Tiara is a vote for more Diamond Tiara!"
+    " A vote for Diamond Tiara is a vote for more Diamond Tiara!"
   ],
   [
     null,
     ""
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nIt's time to make a change\nThis is our chance\nDon't be afraid to do what's right\nHe's it! Vote for Pip!"
+    "[Cutie Mark Crusaders]",
+    "\nIt's time to make a change\nThis is our chance\nDon't be afraid to do what's right\nHe's it! Vote for Pip!"
   ],
   [
     null,
@@ -252,8 +252,8 @@
     "There's nothing that we can't achieve"
   ],
   [
-    null,
-    "[Diamond Tiara]\nI don't believe what I am hearing\nI'm the only one you should be cheering\nPipsqueak? Try \"Pip's weak!\" Don't you think?"
+    "[Diamond Tiara]",
+    "\nI don't believe what I am hearing\nI'm the only one you should be cheering\nPipsqueak? Try \"Pip's weak!\" Don't you think?"
   ],
   [
     null,
@@ -285,11 +285,11 @@
   ],
   [
     "Apple Bloom",
-    "We'll let the votin' decide!"
+    " We'll let the votin' decide!"
   ],
   [
-    null,
-    "[Diamond Tiara]\nEverypony has their little secrets"
+    "[Diamond Tiara]",
+    "\nEverypony has their little secrets"
   ],
   [
     null,
@@ -325,11 +325,11 @@
   ],
   [
     "Apple Bloom",
-    "Come on now, ponies! Don't listen to her!"
+    " Come on now, ponies! Don't listen to her!"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nYou've gotta vote for change\nIt's time for a new leader\nEnd all the tyranny\nVote now and we can beat her"
+    "[Cutie Mark Crusaders]",
+    "\nYou've gotta vote for change\nIt's time for a new leader\nEnd all the tyranny\nVote now and we can beat her"
   ],
   [
     null,
@@ -360,16 +360,16 @@
     "And we believe in what's right"
   ],
   [
-    null,
-    "[Foals]\nVote for Pip! Vote for Pip!"
+    "[Foals]",
+    "\nVote for Pip! Vote for Pip!"
   ],
   [
     null,
     "Vote for Pip! Vote for Pip!"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nOur victory is in sight"
+    "[Cutie Mark Crusaders]",
+    "\nOur victory is in sight"
   ],
   [
     null,
@@ -377,7 +377,7 @@
   ],
   [
     "Diamond Tiara",
-    "Stop! Everypony who hasn't voted, listen up!"
+    " Stop! Everypony who hasn't voted, listen up!"
   ],
   [
     null,
@@ -444,8 +444,8 @@
     "And voting for me is the price!"
   ],
   [
-    null,
-    "[Silver Spoon]\nI've a tiny suggestion\nThat you should be aware\nYou could probably win this election\nIf you show them all you real\u2014"
+    "[Silver Spoon]",
+    "\nI've a tiny suggestion\nThat you should be aware\nYou could probably win this election\nIf you show them all you real\u2014"
   ],
   [
     null,
@@ -465,79 +465,75 @@
   ],
   [
     "Diamond Tiara",
-    "I don't recall asking you to speak!"
+    " I don't recall asking you to speak!"
   ],
   [
     "All",
-    "[gasps]"
+    " [gasps]"
   ],
   [
     "Sweetie Belle",
-    "Well, if that's how you treat your best friend, then I choose Pipsqueak!"
+    " Well, if that's how you treat your best friend, then I choose Pipsqueak!"
   ],
   [
-    null,
-    "[Foals]\nVote!"
+    "[Foals]",
+    "\nVote!"
   ],
   [
     null,
     "Vote!"
   ],
   [
-    "[Cutie Mark Crusaders]\nStand strong and don't be afraid, ponies\nLet's free ourselves from the past",
-    "Stand strong and don't be afraid, ponies",
-    "Let's free ourselves from the past"
-  ],
-  [
-    "Stand strong and don't be afraid, ponies",
-    "Let's free ourselves from the past"
-  ],
-  [
-    "[Foals]\nFor Pip!\nVote!",
-    "For Pip!",
-    "Vote!"
-  ],
-  [
-    "For Pip!",
-    "Vote!"
+    "[Cutie Mark Crusaders]",
+    "\nStand strong and don't be afraid, ponies\nLet's free ourselves from the past"
   ],
   [
     null,
-    "[Foals]\nHe's it! Vote for Pip! Vote!"
+    "Stand strong and don't be afraid, ponies\nLet's free ourselves from the past"
+  ],
+  [
+    "[Foals]",
+    "\nFor Pip!\nVote!"
+  ],
+  [
+    null,
+    "For Pip!\nVote!"
+  ],
+  [
+    "[Foals]",
+    "\nHe's it! Vote for Pip! Vote!"
   ],
   [
     null,
     "He's it! Vote for Pip! Vote!"
   ],
   [
-    "[Cutie Mark Crusaders]\nWe'll let honor win out against the tyranny\nAnd make a change that will last",
-    "We'll let honor win out against the tyranny",
-    "And make a change that will last"
-  ],
-  [
-    "We'll let honor win out against the tyranny",
-    "And make a change that will last"
-  ],
-  [
-    "[Foals]\nFor Pip!\nVote!",
-    "For Pip!",
-    "Vote!"
-  ],
-  [
-    "For Pip!",
-    "Vote!"
+    "[Cutie Mark Crusaders]",
+    "\nWe'll let honor win out against the tyranny\nAnd make a change that will last"
   ],
   [
     null,
-    "[Foals]\nVote for Pip!"
+    "We'll let honor win out against the tyranny\nAnd make a change that will last"
+  ],
+  [
+    "[Foals]",
+    "\nFor Pip!\nVote!"
+  ],
+  [
+    null,
+    "For Pip!\nVote!"
+  ],
+  [
+    "[Foals]",
+    "\nVote for Pip!"
   ],
   [
     null,
     "Vote for Pip!"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nIt's time for a new leader\nIt's time to make a change\nWe're here to fight for what we believe"
+    "[Cutie Mark Crusaders]",
+    "\nIt's time for a new leader\nIt's time to make a change\nWe're here to fight for what we believe"
   ],
   [
     null,
@@ -552,16 +548,16 @@
     "We're here to fight for what we believe"
   ],
   [
-    null,
-    "[Foals]\nVote for Pip!"
+    "[Foals]",
+    "\nVote for Pip!"
   ],
   [
     null,
     "Vote for Pip!"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nIt's finally time we beat her\nAnd play a better game\n'Cause when we vote together\nThere's nothing that we can't achieve"
+    "[Cutie Mark Crusaders]",
+    "\nIt's finally time we beat her\nAnd play a better game\n'Cause when we vote together\nThere's nothing that we can't achieve"
   ],
   [
     null,
@@ -580,8 +576,8 @@
     "There's nothing that we can't achieve"
   ],
   [
-    null,
-    "[Foals]\nVote for Pip!"
+    "[Foals]",
+    "\nVote for Pip!"
   ],
   [
     null,
@@ -589,11 +585,11 @@
   ],
   [
     "Cheerilee",
-    "The votes have been counted! The student pony president is... Pipsqueak!"
+    " The votes have been counted! The student pony president is... Pipsqueak!"
   ],
   [
     "Diamond Tiara",
-    "Huh?!"
+    " Huh?!"
   ],
   [
     null,
@@ -601,27 +597,27 @@
   ],
   [
     "Apple Bloom",
-    "Oh, my gosh, Crusaders! Pip won!"
+    " Oh, my gosh, Crusaders! Pip won!"
   ],
   [
     "Pipsqueak",
-    "I couldn't have won without the hard work of my campaign managers, the Cutie Mark Crusaders!"
+    " I couldn't have won without the hard work of my campaign managers, the Cutie Mark Crusaders!"
   ],
   [
     "Sweetie Belle",
-    "Campaign manager cutie marks!"
+    " Campaign manager cutie marks!"
   ],
   [
     "Diamond Tiara",
-    "Guess you're not as good as you thought, blank flanks! In fact, I demand a recount!"
+    " Guess you're not as good as you thought, blank flanks! In fact, I demand a recount!"
   ],
   [
     "Cheerilee",
-    "Trust me, Diamond Tiara. Pip won."
+    " Trust me, Diamond Tiara. Pip won."
   ],
   [
     "Diamond Tiara",
-    "I'll be the judge of that, Miss Cheerilee!"
+    " I'll be the judge of that, Miss Cheerilee!"
   ],
   [
     null,
@@ -629,31 +625,31 @@
   ],
   [
     "Diamond Tiara",
-    "What?! One vote! Silver Spoon! You didn't vote for me?!"
+    " What?! One vote! Silver Spoon! You didn't vote for me?!"
   ],
   [
     "Silver Spoon",
-    "No, I didn't."
+    " No, I didn't."
   ],
   [
     "Diamond Tiara",
-    "But you're my best friend!"
+    " But you're my best friend!"
   ],
   [
     "Silver Spoon",
-    "Am I? 'Cause I tried to help by mentioning your 'surprise' statue, and suddenly I wasn't even allowed to speak! You could have actually won this election if you just listened to me. You wanna know how? [whispering] Sorry. I'm not allowed to speak."
+    " Am I? 'Cause I tried to help by mentioning your 'surprise' statue, and suddenly I wasn't even allowed to speak! You could have actually won this election if you just listened to me. You wanna know how? [whispering] Sorry. I'm not allowed to speak."
   ],
   [
     "Diamond Tiara",
-    "[screams in rage]"
+    " [screams in rage]"
   ],
   [
     "Silver Spoon",
-    "[to Cutie Mark Crusaders and Pipsqueak] What? I don't have to follow her drama any more."
+    " [to Cutie Mark Crusaders and Pipsqueak] What? I don't have to follow her drama any more."
   ],
   [
     "Apple Bloom",
-    "I know Diamond Tiara's been pretty awful, but... we should probably make sure she's okay. Just 'cause she's never cared about anypony else's feelings doesn't mean we shouldn't care about hers."
+    " I know Diamond Tiara's been pretty awful, but... we should probably make sure she's okay. Just 'cause she's never cared about anypony else's feelings doesn't mean we shouldn't care about hers."
   ],
   [
     null,
@@ -661,15 +657,15 @@
   ],
   [
     "Spoiled Rich",
-    "Diamond Tiara! Why are you making that face? That is not the face of a winner."
+    " Diamond Tiara! Why are you making that face? That is not the face of a winner."
   ],
   [
     "Diamond Tiara",
-    "Because... I didn't win."
+    " Because... I didn't win."
   ],
   [
     "Spoiled Rich",
-    "What?! You mean I hefted all these party supplies to celebrate nothing?!"
+    " What?! You mean I hefted all these party supplies to celebrate nothing?!"
   ],
   [
     null,
@@ -677,23 +673,23 @@
   ],
   [
     "Diamond Tiara",
-    "Sorry, mother."
+    " Sorry, mother."
   ],
   [
     "Spoiled Rich",
-    "It's bad enough you lost to that transplant from Trottingham, but imagine if you'd lost to one of those blank flanks. As a Rich pony, you must always think of your social standing."
+    " It's bad enough you lost to that transplant from Trottingham, but imagine if you'd lost to one of those blank flanks. As a Rich pony, you must always think of your social standing."
   ],
   [
     "Fancy Pants",
-    "Hm."
+    " Hm."
   ],
   [
     "Spoiled Rich",
-    "That starts here in Ponyville and reaches all over Equestria. Don't ever forget that, Diamond Tiara. Ever!"
+    " That starts here in Ponyville and reaches all over Equestria. Don't ever forget that, Diamond Tiara. Ever!"
   ],
   [
-    null,
-    "[Diamond Tiara]\nIf I'm a diamond\nThen why do I feel so rough?\nI'm as strong as a stone\nEven that's not enough"
+    "[Diamond Tiara]",
+    "\nIf I'm a diamond\nThen why do I feel so rough?\nI'm as strong as a stone\nEven that's not enough"
   ],
   [
     null,
@@ -821,19 +817,19 @@
   ],
   [
     "Sweetie Belle",
-    "Is it weird that I feel bad for her?"
+    " Is it weird that I feel bad for her?"
   ],
   [
     "Scootaloo",
-    "If it is, then... I'm weird, too."
+    " If it is, then... I'm weird, too."
   ],
   [
     "Apple Bloom",
-    "She wants to change, but she doesn't know how."
+    " She wants to change, but she doesn't know how."
   ],
   [
     "Sweetie Belle",
-    "Seems like she could use a friend or two to help her figure it out."
+    " Seems like she could use a friend or two to help her figure it out."
   ],
   [
     null,
@@ -845,87 +841,87 @@
   ],
   [
     "Apple Bloom",
-    "Hey, Diamond Tiara! Wait up!"
+    " Hey, Diamond Tiara! Wait up!"
   ],
   [
     "Diamond Tiara",
-    "What do you three want? To gloat? Rub in my defeat?"
+    " What do you three want? To gloat? Rub in my defeat?"
   ],
   [
     "Apple Bloom",
-    "Actually, we wanted to invite you to our clubhouse to hang out."
+    " Actually, we wanted to invite you to our clubhouse to hang out."
   ],
   [
     "Diamond Tiara",
-    "Really?"
+    " Really?"
   ],
   [
     "Scootaloo",
-    "Yeah, for real!"
+    " Yeah, for real!"
   ],
   [
     "Diamond Tiara",
-    "Well, thanks to you all, I don't have any important class president business to attend to or anything. So I might as well."
+    " Well, thanks to you all, I don't have any important class president business to attend to or anything. So I might as well."
   ],
   [
     "Sweetie Belle",
-    "That sounds like a yes..."
+    " That sounds like a yes..."
   ],
   [
     "Diamond Tiara",
-    "So, do you three just sit around here plotting out different ways to try and get your cutie marks?"
+    " So, do you three just sit around here plotting out different ways to try and get your cutie marks?"
   ],
   [
     "Apple Bloom",
-    "Actually, yeah."
+    " Actually, yeah."
   ],
   [
     "Diamond Tiara",
-    "You three are... really lucky."
+    " You three are... really lucky."
   ],
   [
     "Cutie Mark Crusaders",
-    "We are?!"
+    " We are?!"
   ],
   [
     "Diamond Tiara",
-    "Yeah! You get to explore all these options, learning who you really are before you're stuck with something you don't understand."
+    " Yeah! You get to explore all these options, learning who you really are before you're stuck with something you don't understand."
   ],
   [
     "Apple Bloom",
-    "But... you've done that, right?"
+    " But... you've done that, right?"
   ],
   [
     "Diamond Tiara",
-    "Yeah, 'cause I have my cutie mark! And I'm not struggling at all to figure out who I'm supposed to be and what I'm supposed to be doing with this mark that's already on my flank!"
+    " Yeah, 'cause I have my cutie mark! And I'm not struggling at all to figure out who I'm supposed to be and what I'm supposed to be doing with this mark that's already on my flank!"
   ],
   [
     "Apple Bloom",
-    "Uh... are you sure about that?"
+    " Uh... are you sure about that?"
   ],
   [
     "Diamond Tiara",
-    "[scoffs] That's a weird question."
+    " [scoffs] That's a weird question."
   ],
   [
     "Sweetie Belle",
-    "Not really, since we kind of overheard you yesterday."
+    " Not really, since we kind of overheard you yesterday."
   ],
   [
     "Diamond Tiara",
-    "Were you trying to get your cutie mark in spying? Is that on your little chart?"
+    " Were you trying to get your cutie mark in spying? Is that on your little chart?"
   ],
   [
     "Sweetie Belle",
-    "No! We were just worried about you when you lost the election, and then you lost your friend, and then your mom yelled at you..."
+    " No! We were just worried about you when you lost the election, and then you lost your friend, and then your mom yelled at you..."
   ],
   [
     "Apple Bloom",
-    "We know you wanna change, and we think we can\u2014"
+    " We know you wanna change, and we think we can\u2014"
   ],
   [
     "Pipsqueak",
-    "[muffled] Help!"
+    " [muffled] Help!"
   ],
   [
     null,
@@ -933,55 +929,55 @@
   ],
   [
     "Pipsqueak",
-    "Cutie Mark Crusaders! I was at the school board meeting and they didn't approve my request for the new playground equipment!"
+    " Cutie Mark Crusaders! I was at the school board meeting and they didn't approve my request for the new playground equipment!"
   ],
   [
     "Sweetie Belle",
-    "Why not?"
+    " Why not?"
   ],
   [
     "Pipsqueak",
-    "There's no money in the budget! So I checked my Peggy bank to see if I had enough bits, but my little Peggy wasn't nearly full enough!"
+    " There's no money in the budget! So I checked my Peggy bank to see if I had enough bits, but my little Peggy wasn't nearly full enough!"
   ],
   [
     "Sweetie Belle",
-    "Don't worry, Pip!"
+    " Don't worry, Pip!"
   ],
   [
     "Scootaloo",
-    "We'll meet you back at school."
+    " We'll meet you back at school."
   ],
   [
     "Apple Bloom",
-    "And help you find a solution!"
+    " And help you find a solution!"
   ],
   [
     "Pipsqueak",
-    "Thanks, Cutie Mark Crusaders!"
+    " Thanks, Cutie Mark Crusaders!"
   ],
   [
     "Diamond Tiara",
-    "Oh, I already have a solution! Our new student pony president is gonna be kicked out of office, and I'll be reinstated!"
+    " Oh, I already have a solution! Our new student pony president is gonna be kicked out of office, and I'll be reinstated!"
   ],
   [
     "Scootaloo",
-    "Where's she going?"
+    " Where's she going?"
   ],
   [
     "Apple Bloom",
-    "Where do you think?! C'mon! After her!"
+    " Where do you think?! C'mon! After her!"
   ],
   [
     "Sweetie Belle",
-    "Wait! I'm coming too!"
+    " Wait! I'm coming too!"
   ],
   [
     null,
     ""
   ],
   [
-    null,
-    "[Diamond Tiara]\nCutie Mark Crusaders, get out of my way\nThose ponies need to know the truth\nAnd they'll hear it from me"
+    "[Diamond Tiara]",
+    "\nCutie Mark Crusaders, get out of my way\nThose ponies need to know the truth\nAnd they'll hear it from me"
   ],
   [
     null,
@@ -996,8 +992,8 @@
     "And they'll hear it from me"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nStop! Diamond Tiara, this is not the way\nYou know you're better than this hostility"
+    "[Cutie Mark Crusaders]",
+    "\nStop! Diamond Tiara, this is not the way\nYou know you're better than this hostility"
   ],
   [
     null,
@@ -1008,8 +1004,8 @@
     "You know you're better than this hostility"
   ],
   [
-    null,
-    "[Diamond Tiara]\nYou don't even know me at all\nDon't understand the meaning of my fall\nWhat my family would think if I ever\nFail at anything"
+    "[Diamond Tiara]",
+    "\nYou don't even know me at all\nDon't understand the meaning of my fall\nWhat my family would think if I ever\nFail at anything"
   ],
   [
     null,
@@ -1044,8 +1040,8 @@
     "Whatever I have to do to win in the end"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nStop! This is not the answer\nWait! And it's plainly seen\nListen! You can redeem yourself\nBut by helping others, not by being mean"
+    "[Cutie Mark Crusaders]",
+    "\nStop! This is not the answer\nWait! And it's plainly seen\nListen! You can redeem yourself\nBut by helping others, not by being mean"
   ],
   [
     null,
@@ -1125,15 +1121,15 @@
   ],
   [
     "Diamond Tiara",
-    "Everypony, I have an announcement!"
+    " Everypony, I have an announcement!"
   ],
   [
     "Apple Bloom",
-    "Diamond Tiara! Think hard about the choice you're makin' right now!"
+    " Diamond Tiara! Think hard about the choice you're makin' right now!"
   ],
   [
     "Scootaloo",
-    "You can be a better pony!"
+    " You can be a better pony!"
   ],
   [
     null,
@@ -1141,43 +1137,43 @@
   ],
   [
     "Spoiled Rich",
-    "Diamond Tiara! I just happened to be here for the school board meeting, and this is what I see when we adjourn? My daughter associating with confused, insignificant lowlifes? Socializing with their kind is not how you move up in Equestria! Come, Diamond Tiara!"
+    " Diamond Tiara! I just happened to be here for the school board meeting, and this is what I see when we adjourn? My daughter associating with confused, insignificant lowlifes? Socializing with their kind is not how you move up in Equestria! Come, Diamond Tiara!"
   ],
   [
     "Diamond Tiara",
-    "No, mother!"
+    " No, mother!"
   ],
   [
     "Spoiled Rich",
-    "Excuse me?!"
+    " Excuse me?!"
   ],
   [
     "Diamond Tiara",
-    "You've spent your life acting like a high horse and raised me to follow in your hoofprints! At first I thought this was fine, but then I finally realized I wanted something you don't have \u2013 friends!"
+    " You've spent your life acting like a high horse and raised me to follow in your hoofprints! At first I thought this was fine, but then I finally realized I wanted something you don't have \u2013 friends!"
   ],
   [
     "Cutie Mark Crusaders",
-    "[gasps]"
+    " [gasps]"
   ],
   [
     "Foals and Cheerilee",
-    "[gasps]"
+    " [gasps]"
   ],
   [
     "Spoiled Rich",
-    "That's enough, Diamond Tiara! Step away from those blank flanks!"
+    " That's enough, Diamond Tiara! Step away from those blank flanks!"
   ],
   [
     "Diamond Tiara",
-    "These are the Cutie Mark Crusaders, and they are my friends! You need to stop calling them such mean and hurtful names! They are working harder to get their cutie marks than anypony I've ever seen! And they will get them exactly when they discover their true talent, which I guarantee will be amazing! Now, will you please deliver this to father?"
+    " These are the Cutie Mark Crusaders, and they are my friends! You need to stop calling them such mean and hurtful names! They are working harder to get their cutie marks than anypony I've ever seen! And they will get them exactly when they discover their true talent, which I guarantee will be amazing! Now, will you please deliver this to father?"
   ],
   [
     "Spoiled Rich",
-    "Yes, of course, dear..."
+    " Yes, of course, dear..."
   ],
   [
     "Diamond Tiara",
-    "I have to thank you, Crusaders. Obviously, I've known since I got my cutie mark that my talent is getting other ponies to do what I want. I just asked my father if he could donate the money for the new playground equipment!"
+    " I have to thank you, Crusaders. Obviously, I've known since I got my cutie mark that my talent is getting other ponies to do what I want. I just asked my father if he could donate the money for the new playground equipment!"
   ],
   [
     null,
@@ -1185,15 +1181,15 @@
   ],
   [
     "Diamond Tiara",
-    "[to Pipsqueak] I knew you were worried for a second there, weren't you? Ha! Well, I think it's all gonna work out just fine, Mister President!"
+    " [to Pipsqueak] I knew you were worried for a second there, weren't you? Ha! Well, I think it's all gonna work out just fine, Mister President!"
   ],
   [
     null,
     ""
   ],
   [
-    null,
-    "[Diamond Tiara]\nWe'll build a playground\nFor all of us to enjoy\nSo full of games\nThere's enough for each girl and boy"
+    "[Diamond Tiara]",
+    "\nWe'll build a playground\nFor all of us to enjoy\nSo full of games\nThere's enough for each girl and boy"
   ],
   [
     null,
@@ -1285,23 +1281,23 @@
   ],
   [
     "Apple Bloom",
-    "I've been thinkin', Crusaders. We spend an awful lot of time fussin' and frettin' tryin' to discover our true talent. But when we take a little time off, we end up helpin' other ponies figure out their true talent!"
+    " I've been thinkin', Crusaders. We spend an awful lot of time fussin' and frettin' tryin' to discover our true talent. But when we take a little time off, we end up helpin' other ponies figure out their true talent!"
   ],
   [
     "Sweetie Belle",
-    "Yeah, and I think that's way more important than worrying about our cutie marks, don't you?"
+    " Yeah, and I think that's way more important than worrying about our cutie marks, don't you?"
   ],
   [
     "Scootaloo",
-    "Absolutely! I don't care if I ever get my cutie mark as long as I get to hang out with my best friends."
+    " Absolutely! I don't care if I ever get my cutie mark as long as I get to hang out with my best friends."
   ],
   [
     "Apple Bloom",
-    "So what do you say, Crusaders? Want to just focus on helpin' others find their cutie marks?"
+    " So what do you say, Crusaders? Want to just focus on helpin' others find their cutie marks?"
   ],
   [
     "Scootaloo and Sweetie Belle",
-    "Yeah!"
+    " Yeah!"
   ],
   [
     null,
@@ -1313,27 +1309,27 @@
   ],
   [
     "Sweetie Belle",
-    "What happened?"
+    " What happened?"
   ],
   [
     "Apple Bloom",
-    "What's goin' on?"
+    " What's goin' on?"
   ],
   [
     "Diamond Tiara",
-    "It's your cutie marks! They're amazing!"
+    " It's your cutie marks! They're amazing!"
   ],
   [
     "Cutie Mark Crusaders",
-    "We all got the same cutie mark! Cutie Mark Crusaders forever!"
+    " We all got the same cutie mark! Cutie Mark Crusaders forever!"
   ],
   [
     null,
     ""
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nWe were searching for our cutie marks\nFor a while there\nTrying to find out how we fit in"
+    "[Cutie Mark Crusaders]",
+    "\nWe were searching for our cutie marks\nFor a while there\nTrying to find out how we fit in"
   ],
   [
     null,
@@ -1364,24 +1360,24 @@
     "'Cause the Cutie Mark Crusaders don't give in"
   ],
   [
-    null,
-    "[Scootaloo]\nNow we know what it took all along"
+    "[Scootaloo]",
+    "\nNow we know what it took all along"
   ],
   [
     null,
     "Now we know what it took all along"
   ],
   [
-    null,
-    "[Sweetie Belle]\nAnd our journey here is never really done"
+    "[Sweetie Belle]",
+    "\nAnd our journey here is never really done"
   ],
   [
     null,
     "And our journey here is never really done"
   ],
   [
-    null,
-    "[Apple Bloom]\nFor it is more than just a mark\nIt's a place for us to start"
+    "[Apple Bloom]",
+    "\nFor it is more than just a mark\nIt's a place for us to start"
   ],
   [
     null,
@@ -1392,8 +1388,8 @@
     "It's a place for us to start"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nAn adventure that has only just begun"
+    "[Cutie Mark Crusaders]",
+    "\nAn adventure that has only just begun"
   ],
   [
     null,
@@ -1425,7 +1421,7 @@
   ],
   [
     "Pinkie Pie",
-    "All right, everypony! Get ready for the biggest cute-cea\u00f1era celebration ever!"
+    " All right, everypony! Get ready for the biggest cute-cea\u00f1era celebration ever!"
   ],
   [
     null,
@@ -1433,19 +1429,19 @@
   ],
   [
     "Applejack",
-    "Oh, sugarcube, if Mom and Dad were here, they'd be so proud of ya."
+    " Oh, sugarcube, if Mom and Dad were here, they'd be so proud of ya."
   ],
   [
     "Apple Bloom",
-    "Oh... Thanks, Applejack."
+    " Oh... Thanks, Applejack."
   ],
   [
     "Applejack",
-    "Now go on and party with your pals."
+    " Now go on and party with your pals."
   ],
   [
-    null,
-    "[Rainbow Dash]\nI'm so proud of you, little buddy\nYou've taught me a thing or two"
+    "[Rainbow Dash]",
+    "\nI'm so proud of you, little buddy\nYou've taught me a thing or two"
   ],
   [
     null,
@@ -1456,8 +1452,8 @@
     "You've taught me a thing or two"
   ],
   [
-    null,
-    "[Rarity]\nYou've inspired everypony around you\nAnd you've inspired me too"
+    "[Rarity]",
+    "\nYou've inspired everypony around you\nAnd you've inspired me too"
   ],
   [
     null,
@@ -1468,8 +1464,8 @@
     "And you've inspired me too"
   ],
   [
-    null,
-    "[Rainbow Dash, Rarity, and Applejack]\nYou've made your mark\nDone Equestria so proud\nYou've made your mark\nAnd we're here to sing it loud\nFor the ultimate reward of your cutie mark"
+    "[Rainbow Dash, Rarity, and Applejack]",
+    "\nYou've made your mark\nDone Equestria so proud\nYou've made your mark\nAnd we're here to sing it loud\nFor the ultimate reward of your cutie mark"
   ],
   [
     null,
@@ -1493,15 +1489,15 @@
   ],
   [
     "Apple Bloom",
-    "Well, what do you think, Crusaders? Were these cutie marks totally worth waiting for or what?"
+    " Well, what do you think, Crusaders? Were these cutie marks totally worth waiting for or what?"
   ],
   [
     "Sweetie Belle",
-    "Yeah! I can't wait to see who we're gonna help next!"
+    " Yeah! I can't wait to see who we're gonna help next!"
   ],
   [
-    null,
-    "[Cutie Mark Crusaders]\nWe started out just three\nCrusaders driven to see\nWhat we find in our hearts\nDiscover our destiny"
+    "[Cutie Mark Crusaders]",
+    "\nWe started out just three\nCrusaders driven to see\nWhat we find in our hearts\nDiscover our destiny"
   ],
   [
     null,

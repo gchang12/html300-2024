@@ -22,27 +22,25 @@ import bs4
 def get_speaker_and_dialogue(line):
     """
     """
-    try:
-        speaker = line[:line.index(":")]
-        dialogue = line[line.index(":") + 1:]
-    except ValueError:
+    if ":" in line and "]" in line:
+        colon_loc = line.index(":")
+        bracket_loc = line.index("]")
+        if colon_loc < bracket_loc:
+            speaker = line[:colon_loc]
+        else:
+            speaker = line[:bracket_loc + 1]
+        dialogue = line[min([colon_loc, bracket_loc]) + 1:]
+    elif ":" in line:
+        colon_loc = line.index(":")
+        speaker = line[:colon_loc]
+        dialogue = line[colon_loc + 1:]
+    elif "]" in line and not line.endswith("]"):
+        bracket_loc = line.index("]")
+        speaker = line[:bracket_loc + 1]
+        dialogue = line[bracket_loc + 1:]
+    else:
         speaker = None
         dialogue = line
-    return (speaker, dialogue)
-
-def get_speaker_and_dialogue_in_song(line):
-    """
-    """
-    try:
-        speaker = line[:line.index(":")]
-        dialogue = line[line.index(":") + 1:]
-    except ValueError:
-        try:
-            speaker = line[:line.index("]") + 1]
-            dialogue = line[line.index("]") + 1:]
-        except ValueError:
-            speaker = None
-            dialogue = line
     return (speaker, dialogue)
 
 class MetadataScrapers:
