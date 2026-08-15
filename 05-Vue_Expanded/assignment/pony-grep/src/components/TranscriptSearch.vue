@@ -41,34 +41,28 @@
         </fieldset>
         <button type="button">Search</button>
       </form>
+      <!-- If no results, say so -->
       <span id="null-result-notification" v-if="searchResults.length === 0 && dialoguePattern !== ''">
         No results found for query: '{{dialoguePattern}}'.
       </span>
-      <!-- If no results, say so -->
       <!-- Otherwise, show table of results -->
-      <div id="accordion">
-        <!-- Implemented accordion content structure here. -->
-        <div class="card" v-for="definition in definitions" :key="definition.word">
-          <div class="card-header" :id="definition.cardHeader">
-            <!-- NOTE: Added tooltip here! -->
-            <h5 class="mb-0" data-toggle="tooltip" title="Click me for a definition!">
-              <!-- Press to activate accordion -->
-              <button v-on:click="changeActiveWord" class="btn btn-link" data-toggle="collapse" :data-target="definition.dataToggle" :data-word="definition.word" aria-expanded="true" :aria-controls="definition.ariaControls">
-                {{ definition.word }}
+      <div class="accordion" id="search-results">
+        <div class="card" v-for="stuff in things" :key="stuff.id">
+          <!-- HEADER -->
+          <div class="card-header" :id="stuff.header">
+            <h5 class="mb-0" data-toggle="tooltip" title="View search result here (maybe)"><!-- Added tooltip here -->
+              <!-- Activate accordion -->
+              <button v-on:click="change which search result is active" class="btn btn-link" data-toggle="collapse" :data-target="stuff.fdf" :data-word="stuff.fdf" aria-expanded="true" :aria-controls="stuff.sdfds">
+                {{ dfdsfs.word }}
               </button>
             </h5>
           </div>
-          <!-- Conditionally renders -->
-          <div v-if="activeWord === definition.word" :id="definition.cardHeader" class="collapse show" :aria-labelledby="definition.cardHeader" data-parent="#accordion">
+          <!-- BODY -->
+          <div v-if="??? === dfdsf.word" :id="dssfsd.fdsfader" class="collapse show" :aria-labelledby="stuffkjw.ster" data-parent="#search-results">
             <div class="card-body">
-              <dl v-for="([partOfSpeech, defText]) in definition.definitions" :key="defText">
-                <dt>{{partOfSpeech}}</dt>
-                <dd>{{defText}}</dd>
+              <dl v-for="([???, ???]) in ???.???" :key="???">
               </dl>
             </div>
-          </div>
-          <div v-else class="card-body">
-            (Press word-text to view definitions)
           </div>
         </div>
       </div>
