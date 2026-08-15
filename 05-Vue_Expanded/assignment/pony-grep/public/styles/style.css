@@ -69,3 +69,17 @@ table td, th {
   border: 1px solid black;
   color: purple;
 }
+
+#index .selected {
+  background-color: yellow;
+}
+
+#index .row .col-2 {
+  height: 5rem;
+  width: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 1px solid black;
+}

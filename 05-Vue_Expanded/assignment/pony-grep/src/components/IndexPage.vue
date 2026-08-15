@@ -1,4 +1,68 @@
 <script setup>
+  import { ref } from "vue";
+
+  const selectedSeason = ref(-1);
+  const selectedSeasonImage = ref("");
+  const seasonImages = [
+    {
+      seasonNo: 1,
+      imgName: "My_Little_Pony_Theme_Song.webp"
+    },
+    {
+      seasonNo: 2,
+      imgName: "My_Little_Pony_Theme_Song.webp"
+    },
+    {
+      seasonNo: 3,
+      imgName: "My_Little_Pony_Theme_Song.webp"
+    },
+    {
+      seasonNo: 4,
+      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
+    },
+    {
+      seasonNo: 5,
+      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
+    },
+    {
+      seasonNo: 6,
+      imgName: "Photo_Finish_taking_photo_S6_opening.webp"
+    },
+    {
+      seasonNo: 7,
+      imgName: "Photo_Finish_taking_photo_S7_opening.webp"
+    },
+    {
+      seasonNo: 8,
+      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
+    },
+    {
+      seasonNo: 9,
+      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
+    },
+  ];
+
+  function selectSeason(e) {
+    // add CSS class for highlighting
+    e.currentTarget.classList.add("selected");
+    const season = e.target.dataset.season;
+    // change season
+    selectedSeason.value = Number(season);
+    // change image source
+    selectedSeasonImage.value = seasonImages.find(seasonImage => seasonImage.seasonNo == season).imgName;
+    //console.log(selectedSeasonImage);
+  }
+
+  function deselectSeason(e) {
+    // add CSS class for highlighting
+    e.currentTarget.classList.remove("selected");
+    // change season
+    selectedSeason.value = -1;
+    // change image source
+    selectedSeasonImage.value = "My_Little_Pony_Theme_Song.webp";
+    //console.log(selectedSeasonImage);
+  }
+
 </script>
 
 <template>
@@ -18,6 +82,25 @@
         <!-- <p>Wanna find out which episodes your favorite characters have appeared in, stood silently in, and made cameos in? We've compiled a list, just for you! Find the aforementioned list in our <a href="#/dossier">Dossier</a>!</p> -->
         <!-- <p>Wanna find out which episodes your favorite characters have appeared in, stood silently in, and made cameos in? We've compiled a list, just for you! Find the aforementioned list in our <a href="#/dossier">Dossier</a>!</p> -->
         <!-- </article> -->
+      <article class="episode-jumper">
+        <h2>Jump to an Episode Now! (WIP)</h2>
+        <figure>
+          <img v-if="selectedSeason > 0" :src="'/images/' + selectedSeasonImage" />
+          <img v-else src="/images/My_Little_Pony_Theme_Song.webp" />
+          <figcaption v-if="selectedSeason > 0">Season {{ selectedSeason }}</figcaption>
+        </figure>
+        <div id="season-selector">
+          <div class="container">
+            <div class="row">
+              <div @mouseleave="deselectSeason" @mouseover="selectSeason" :data-season="seasonImage.seasonNo" class="col-2" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
+                <!-- NOTE: Not functional yet! -->
+                <!-- <a :href="'/#/episodeDirectory/S' + seasonImage.seasonNo">S{{ seasonImage.seasonNo }}</a> -->
+                <a>S{{ seasonImage.seasonNo }}</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
     </article>
   </div>
 </template>
