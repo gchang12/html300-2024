@@ -14,8 +14,7 @@ export default function parseTranscriptLines(searchResults) {
     // get context lines within radius two of targeted line
     const contextLines = transcriptLines.filter(transcriptLine => {
       return (
-        transcriptLine.speaker != null
-        && transcriptLine.episodeId === searchResult.episodeId
+        transcriptLine.episodeId === searchResult.episodeId
         && Math.abs(transcriptLine.lineNo - searchResult.lineNo) <= contextLength
       );
     });
@@ -30,11 +29,10 @@ export default function parseTranscriptLines(searchResults) {
       }
     );
   }
-  /*
+  /* TODO: Figure out how to sort results.
   parsedTranscriptLines.sort((a, b) => a.lineNo - b.lineNo);
   parsedTranscriptLines.sort((a, b) => a.seasonNo - b.seasonNo);
   parsedTranscriptLines.sort((a, b) => a.episodeNo - b.episodeNo);
   */
   return parsedTranscriptLines;
-  // append to Array containing main search result.
 }
