@@ -8,10 +8,22 @@
   let searchResults = ref([]);
   let dialoguePattern = ref("");
   function searchAndParseResults(e) {
+    /*
+    const submitButton = document.getElementById("search-button");
+    console.log(submitButton);
+    if (!submitButton.reportValidity()) {
+      console.log(submitButton);
+      return;
+    }
+    */
     //console.log(e);
     //console.log(typeof e);
     //console.log(e.target.form);
     const formData = new FormData(e.target.form);
+    if (formData.get("dialoguePattern") === "") {
+      alert("'Pattern' cannot be blank!")
+      return;
+    }
     //console.log(formData);
     const searchCriteria = Object.fromEntries(formData.entries());
     const fetchedSearchResults = searchTranscript(searchCriteria);
@@ -40,8 +52,8 @@
       <form>
         <fieldset>
           <label>
-            Pattern
-            <input value="treetop" type="text" name="dialoguePattern" required />
+            Pattern <span aria-required="true">*</span>
+            <input type="text" name="dialoguePattern" required />
           </label>
           <label>
             Search in songs only?
@@ -62,7 +74,7 @@
             <input min="1" max="26" type="number" name="episodeNo" />
           </label>
         </fieldset>
-        <button @click="searchAndParseResults" type="button">Search</button>
+        <button id="search-button" @click="searchAndParseResults" type="button">Search</button>
       </form>
       <!-- If no results, say so -->
       <span v-if="dialoguePattern !== ''" id="result-notification">
