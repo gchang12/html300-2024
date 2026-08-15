@@ -20,8 +20,8 @@
     //console.log(typeof e);
     //console.log(e.target.form);
     const formData = new FormData(e.target.form);
-    if (formData.get("dialoguePattern") === "") {
-      alert("'Pattern' cannot be blank!")
+    if (formData.get("dialoguePattern") === "" || formData.get("dialoguePattern").length < 3) {
+      alert("'Pattern' cannot be blank or fewer than three characters!")
       return;
     }
     //console.log(formData);
