@@ -1,7 +1,7 @@
 <script setup>
   import { ref } from "vue";
   import unicorns from "../constants/unicorns.js";
-  import episodeIdToObj from "../functions/episodeIdToObj.js";
+  //import episodeIdToObj from "../functions/episodeIdToObj.js";
 
   unicorns.forEach(unicorn => unicorn.isShown = false);
   const unicornList = ref(unicorns);
@@ -59,17 +59,7 @@
                   <h3>Summary</h3>
                   <p v-for="line in unicorn.summary" :key="line">{{ line }}</p>
                 </article>
-                <article>
-                  <h3>Appearances</h3>
-                  <section>
-                    <h4>Speaking</h4>
-                    <ol>
-                      <li v-for="episode in ponyEpisodes" :key="episode.id">
-                        (S{{ episode.seasonNo }} E{{ episode.episodeNo }}) {{ episode.title }}
-                      </li>
-                    </ol>
-                  </section>
-                </article>
+                <!-- <article> <h3>Appearances</h3> <section> <h4>Speaking</h4> <ol> <li v-for="episode in ponyEpisodes" :key="episode.id"> (S{{ episode.seasonNo }} E{{ episode.episodeNo }}) {{ episode.title }} </li> </ol> </section> </article> -->
                 <p>Wanna learn more? Check out {{ unicorn.name }}'s <a :href="'https://mlp.fandom.com/wiki/' + unicorn.urlName">page on the MLP Wikia</a>!</p>
               </div>
             </div>

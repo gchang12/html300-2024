@@ -5,7 +5,7 @@
   import IndexPage from './components/IndexPage.vue'
   import EpisodeDirectory from './components/EpisodeDirectory.vue'
   import TranscriptSearch from './components/TranscriptSearch.vue'
-  import DossierPage from './components/DossierPage.vue'
+  //import DossierPage from './components/DossierPage.vue'
 
   // Excerpted from code in video demonstration.
 
@@ -14,7 +14,7 @@
     "/": IndexPage,
     "/episodeDirectory": EpisodeDirectory,
     "/transcriptSearch": TranscriptSearch,
-    "/dossier": DossierPage,
+    //"/dossier": DossierPage,
   }
   const currentPath = ref(window.location.hash);
   window.addEventListener("hashchange", () => {
@@ -32,10 +32,7 @@
       href: "#/episodeDirectory",
       text: "Episode Directory",
     },
-    {
-      href: "#/dossier",
-      text: "Dossier",
-    },
+    //{ href: "#/dossier", text: "Dossier", },
   ]);
   /* End: Routing. */
 
@@ -44,6 +41,9 @@
 <template>
   <div id="app">
     <header>
+      <a href="/#/" class="img-link">
+        <img src="./assets/banner.png" />
+      </a>
       <nav>
         <!-- TODO: Re-add expandable navibar -->
         <menu>

@@ -13,10 +13,11 @@
         <h2>Episode Directory</h2>
         <p>Wanna just read the transcripts and re-experience the magic of friendship through the magic of reading? Head on over to our <a href="#/episodeDirectory">Episode Directory</a>!</p>
       </article>
-      <article>
-        <h2>Dossier</h2>
-        <p>Wanna find out which episodes your favorite characters have appeared in, stood silently in, and made cameos in? We've compiled a list, just for you! Find the aforementioned list in our <a href="#/dossier">Dossier</a>!</p>
-      </article>
+      <!-- <article> -->
+        <!-- <h2>Dossier</h2> -->
+        <!-- <p>Wanna find out which episodes your favorite characters have appeared in, stood silently in, and made cameos in? We've compiled a list, just for you! Find the aforementioned list in our <a href="#/dossier">Dossier</a>!</p> -->
+        <!-- <p>Wanna find out which episodes your favorite characters have appeared in, stood silently in, and made cameos in? We've compiled a list, just for you! Find the aforementioned list in our <a href="#/dossier">Dossier</a>!</p> -->
+        <!-- </article> -->
     </article>
   </div>
 </template>
