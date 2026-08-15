@@ -72,7 +72,9 @@
       <h1>Welcome to Pony <code>grep</code>!</h1>
       <article>
         <h2>About Us</h2>
-        <p>This is the perfect tool for finding out if a character from <i>My Little Pony: Friendship is Magic</i> said something. Just go on over to <a href="#/transcriptSearch">Transcript Search</a> and input your query.</p>
+        <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!</p>
+        <p>This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.</p>
+        <p>Just go on over to <a href="#/transcriptSearch">Transcript Search</a> and input your query.</p>
       </article>
       <article>
         <h2>Episode Directory</h2>
