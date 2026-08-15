@@ -1,0 +1,34 @@
+import transcriptLines from "../constants/transcriptLines.js";
+import episodeList from "../constants/episodeList.js";
+
+export function parseTranscriptLines(searchResults) {
+  // searchResults: Array<{episodeId, lineNo}>
+  const parsedTranscriptLines = [];
+  // get 'title', 'seasonNo', and 'episodeNo' fields.
+  // for each [episodeId, lineNo] in searchResults:
+  // - fetch episode.title, episode.seasonNo, episode.episodeNo
+  // - fetch transcript lines within threshold
+  const contextLength = 2;
+  for (const searchResult of searchResults) {
+    const { title, seasonNo, episodeNo } = episodeList.find(episode => episode.id === searchResult.episodeId);
+    // get context lines within radius two of targeted line
+    const contextLines = transcriptLines.filter(transcriptLine => {
+      return (
+        transcriptLine.episodeId === searchResult.episodeId \
+        && Math.abs(transcriptLine.lineNo - searchResult.lineNo) <= contextLength
+      );
+    });
+    parsedTranscriptLines.push(
+      // desired fields
+      {
+        title,
+        seasonNo,
+        episodeNo,
+        lineNo: searchResult.lineNo,
+        contextLines,
+      }
+    );
+  };
+  return parsedTranscriptLines;
+  // append to Array containing main search result.
+}

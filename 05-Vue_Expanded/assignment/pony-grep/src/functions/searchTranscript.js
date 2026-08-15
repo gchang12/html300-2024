@@ -8,7 +8,7 @@ export function searchTranscript(searchCriteria) {
     //fields: ["seasonNo", "episodeNo", "dialogue", "speaker"],
     idField: "id",
     fields: ["dialogue"],
-    storeFields: ["episodeId", "lineNo"],
+    storeFields: ["id", "episodeId", "lineNo"],
   });
   const filteredTranscriptLines = transcriptLines.filter(lineEntry => {
     const conditions = [];
