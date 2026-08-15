@@ -10,8 +10,18 @@
   opacity: 0.75;
 }
 
+#transcript-search {
+  display: flex;
+  justify-content: center;
+}
+
+#transcript-search > article {
+  width: 60rem;
+  padding: 3rem;
+}
+
 #search-results {
   height: 30rem;
-  width: 80rem;
+  width: 100%;
   overflow-y: scroll;
 }
