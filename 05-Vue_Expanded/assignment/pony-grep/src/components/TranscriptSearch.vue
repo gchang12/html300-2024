@@ -6,19 +6,21 @@
   import parseTranscriptLines from "../functions/parseTranscriptLines.js";
 
   let searchResults = ref([]);
-  const dialoguePattern = ref("");
+  let dialoguePattern = ref("");
   function searchAndParseResults(e) {
     //console.log(e);
     //console.log(typeof e);
     //console.log(e.target.form);
     const formData = new FormData(e.target.form);
-    //console.log(formData);
+    console.log(formData);
     const searchCriteria = Object.fromEntries(formData.entries());
     const fetchedSearchResults = searchTranscript(searchCriteria);
     //console.log(fetchedSearchResults);
     const parsedSearchResults = parseTranscriptLines(fetchedSearchResults);
     //console.log(parsedSearchResults);
     searchResults.value = parsedSearchResults;
+    //console.log(searchResults);
+    dialoguePattern.value = formData.get("dialoguePattern");
   }
 
 </script>
@@ -56,36 +58,34 @@
         <button @click="searchAndParseResults" type="button">Search</button>
       </form>
       <!-- If no results, say so -->
-      <span id="null-result-notification" v-if="searchResults.length === 0 && dialoguePattern !== ''">
-        No results found for query: '{{dialoguePattern}}'.
+      <span v-if="dialoguePattern !== ''" id="result-notification">
+        {{ searchResults.length }} results found for the query, '{{ dialoguePattern }}'.
       </span>
-      <div v-if="searchResults.length > 0">
-        {{ searchResults.length }}
-      </div>
       <!-- Otherwise, show table of results -->
-      <div id="accordion">
-        <!-- Implemented accordion content structure here. -->
-        <div class="card" v-for="definition in definitions" :key="definition.word">
-          <div class="card-header" :id="definition.cardHeader">
-            <!-- NOTE: Added tooltip here! -->
-            <h5 class="mb-0" data-toggle="tooltip" title="Click me for a definition!">
-              <!-- Press to activate accordion -->
-              <button v-on:click="changeActiveWord" class="btn btn-link" data-toggle="collapse" :data-target="definition.dataToggle" :data-word="definition.word" aria-expanded="true" :aria-controls="definition.ariaControls">
-                {{ definition.word }}
+      <div class="accordion" id="search-results">
+        <div class="card" v-for="result in searchResults" :key="result.id">
+          <!-- HEAD -->
+          <div class="card-header">
+            <h2 class="mb-0" data-toggle="tooltip" title="Collapse / Expand">
+              <button class="btn btn-link" data-toggle="collapse" aria-expanded="true">
+                S{{ result.seasonNo }} E{{ result.episodeNo }} - {{ result.title }} @{{result.lineNo}}
               </button>
-            </h5>
+            </h2>
           </div>
-          <!-- Conditionally renders -->
-          <div v-if="activeWord === definition.word" :id="definition.cardHeader" class="collapse show" :aria-labelledby="definition.cardHeader" data-parent="#accordion">
+          <!-- BODY -->
+          <div class="collapse show" data-parent="#search-results">
             <div class="card-body">
-              <dl v-for="([partOfSpeech, defText]) in definition.definitions" :key="defText">
-                <dt>{{partOfSpeech}}</dt>
-                <dd>{{defText}}</dd>
-              </dl>
+              <div class="dialogue-block" v-for="line in result.contextLines" :key="line.id">
+                <dl class="matched-line" v-if="line.lineNo === result.lineNo">
+                  <dt>{{ line.speaker }}</dt>
+                  <dd>{{ line.dialogue }}</dd>
+                </dl>
+                <dl v-else>
+                  <dt>{{ line.speaker }}</dt>
+                  <dd>{{ line.dialogue }}</dd>
+                </dl>
+              </div>
             </div>
-          </div>
-          <div v-else class="card-body">
-            (Press word-text to view definitions)
           </div>
         </div>
       </div>

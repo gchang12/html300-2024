@@ -14,7 +14,8 @@ export default function parseTranscriptLines(searchResults) {
     // get context lines within radius two of targeted line
     const contextLines = transcriptLines.filter(transcriptLine => {
       return (
-        transcriptLine.episodeId === searchResult.episodeId
+        transcriptLine.speaker != null
+        && transcriptLine.episodeId === searchResult.episodeId
         && Math.abs(transcriptLine.lineNo - searchResult.lineNo) <= contextLength
       );
     });
@@ -29,9 +30,11 @@ export default function parseTranscriptLines(searchResults) {
       }
     );
   }
+  /*
+  parsedTranscriptLines.sort((a, b) => a.lineNo - b.lineNo);
   parsedTranscriptLines.sort((a, b) => a.seasonNo - b.seasonNo);
   parsedTranscriptLines.sort((a, b) => a.episodeNo - b.episodeNo);
-  parsedTranscriptLines.sort((a, b) => a.lineNo - b.lineNo);
+  */
   return parsedTranscriptLines;
   // append to Array containing main search result.
 }

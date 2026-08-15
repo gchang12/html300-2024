@@ -12,6 +12,9 @@ export default function searchTranscript(searchCriteria) {
   });
   //console.log(typeof isSung, typeof seasonNo, typeof episodeNo, typeof speaker);
   const filteredTranscriptLines = transcriptLines.filter(lineEntry => {
+    if (lineEntry.speaker == null) {
+      return false;
+    }
     const conditions = [];
     //lineEntry;
     // Limiting results to entries that include the speaker
