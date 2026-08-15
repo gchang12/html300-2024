@@ -2,14 +2,24 @@
 
   import { ref } from "vue";
 
-  //import searchTranscript from "../functions/searchTranscript.js";
-  //import extractTranscriptLines from "../functions/extractTranscriptLines.js";
+  import searchTranscript from "../functions/searchTranscript.js";
+  import parseTranscriptLines from "../functions/parseTranscriptLines.js";
 
-  const searchResults = ref([]);
+  let searchResults = ref([]);
   const dialoguePattern = ref("");
   function searchAndParseResults(e) {
-    console.log(e);
-  };
+    //console.log(e);
+    //console.log(typeof e);
+    //console.log(e.target.form);
+    const formData = new FormData(e.target.form);
+    //console.log(formData);
+    const searchCriteria = Object.fromEntries(formData.entries());
+    const fetchedSearchResults = searchTranscript(searchCriteria);
+    //console.log(fetchedSearchResults);
+    const parsedSearchResults = parseTranscriptLines(fetchedSearchResults);
+    //console.log(parsedSearchResults);
+    searchResults.value = parsedSearchResults;
+  }
 
 </script>
 
@@ -49,27 +59,10 @@
       <span id="null-result-notification" v-if="searchResults.length === 0 && dialoguePattern !== ''">
         No results found for query: '{{dialoguePattern}}'.
       </span>
-      <!-- Otherwise, show table of results -->
-      <div class="accordion" id="search-results">
-        <div class="card" v-for="stuff in things" :key="stuff.id">
-          <!-- HEADER -->
-          <div class="card-header" :id="stuff.header">
-            <h5 class="mb-0" data-toggle="tooltip" title="View search result here (maybe)"><!-- Added tooltip here -->
-              <!-- Activate accordion -->
-              <button v-on:click="change which search result is active" class="btn btn-link" data-toggle="collapse" :data-target="stuff.fdf" :data-word="stuff.fdf" aria-expanded="true" :aria-controls="stuff.sdfds">
-                {{ dfdsfs.word }}
-              </button>
-            </h5>
-          </div>
-          <!-- BODY -->
-          <div v-if="??? === dfdsf.word" :id="dssfsd.fdsfader" class="collapse show" :aria-labelledby="stuffkjw.ster" data-parent="#search-results">
-            <div class="card-body">
-              <dl v-for="([???, ???]) in ???.???" :key="???">
-              </dl>
-            </div>
-          </div>
-        </div>
+      <div v-if="searchResults.length > 0">
+        {{ searchResults.length }}
       </div>
+      <!-- Otherwise, show table of results -->
     </article>
   </div>
 </template>

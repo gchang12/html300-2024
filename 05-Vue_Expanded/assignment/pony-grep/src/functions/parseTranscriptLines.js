@@ -1,7 +1,7 @@
 import transcriptLines from "../constants/transcriptLines.js";
 import episodeList from "../constants/episodeList.js";
 
-export function parseTranscriptLines(searchResults) {
+export default function parseTranscriptLines(searchResults) {
   // searchResults: Array<{episodeId, lineNo}>
   const parsedTranscriptLines = [];
   // get 'title', 'seasonNo', and 'episodeNo' fields.
@@ -14,7 +14,7 @@ export function parseTranscriptLines(searchResults) {
     // get context lines within radius two of targeted line
     const contextLines = transcriptLines.filter(transcriptLine => {
       return (
-        transcriptLine.episodeId === searchResult.episodeId \
+        transcriptLine.episodeId === searchResult.episodeId
         && Math.abs(transcriptLine.lineNo - searchResult.lineNo) <= contextLength
       );
     });
@@ -28,7 +28,10 @@ export function parseTranscriptLines(searchResults) {
         contextLines,
       }
     );
-  };
+  }
+  parsedTranscriptLines.sort((a, b) => a.seasonNo - b.seasonNo);
+  parsedTranscriptLines.sort((a, b) => a.episodeNo - b.episodeNo);
+  parsedTranscriptLines.sort((a, b) => a.lineNo - b.lineNo);
   return parsedTranscriptLines;
   // append to Array containing main search result.
 }
