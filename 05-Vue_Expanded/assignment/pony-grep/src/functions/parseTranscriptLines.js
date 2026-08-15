@@ -21,11 +21,13 @@ export default function parseTranscriptLines(searchResults) {
     parsedTranscriptLines.push(
       // desired fields
       {
+        id: searchResult.id,
         title,
         seasonNo,
         episodeNo,
         lineNo: searchResult.lineNo,
         contextLines,
+        isShown: false,
       }
     );
   }

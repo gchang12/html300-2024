@@ -1,14 +1,16 @@
-import MiniSearch from "minisearch";
+//import MiniSearch from "minisearch";
 
 import transcriptLines from "../constants/transcriptLines.js";
 
 export default function searchTranscript(searchCriteria) {
   const { isSung, seasonNo, episodeNo, dialoguePattern, speaker } = searchCriteria;
+  /*
   let miniSearch = new MiniSearch({
     idField: "id",
     fields: ["dialogue"],
     storeFields: ["id", "episodeId", "lineNo"],
   });
+  */
   const filteredTranscriptLines = transcriptLines.filter(lineEntry => {
     const conditions = [];
     // check if lineEntry.speaker includes speaker
@@ -28,7 +30,9 @@ export default function searchTranscript(searchCriteria) {
     }
     return conditions.every((condition) => condition === true);
   });
-  miniSearch.addAll(filteredTranscriptLines);
-  const searchResults = miniSearch.search(dialoguePattern);
+  //miniSearch.addAll(filteredTranscriptLines);
+  const regex = new RegExp(dialoguePattern);
+  //console.log(regex.test("treetops"));
+  const searchResults = filteredTranscriptLines.filter(lineEntry => regex.test(lineEntry.dialogue));
   return searchResults;
 }

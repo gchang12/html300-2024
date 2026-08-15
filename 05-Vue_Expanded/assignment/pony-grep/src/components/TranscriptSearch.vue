@@ -12,7 +12,7 @@
     //console.log(typeof e);
     //console.log(e.target.form);
     const formData = new FormData(e.target.form);
-    console.log(formData);
+    //console.log(formData);
     const searchCriteria = Object.fromEntries(formData.entries());
     const fetchedSearchResults = searchTranscript(searchCriteria);
     //console.log(fetchedSearchResults);
@@ -21,6 +21,13 @@
     searchResults.value = parsedSearchResults;
     //console.log(searchResults);
     dialoguePattern.value = formData.get("dialoguePattern");
+  }
+  function toggleVisibility(e) {
+    const id = e.target.dataset.id;
+    //console.log(id);
+    //searchResults.value.forEach(result => console.log(typeof result.id, typeof id));
+    const lineEntry = searchResults.value.find(result => id == result.id)
+    lineEntry.isShown = !lineEntry.isShown;
   }
 
 </script>
@@ -34,10 +41,10 @@
         <fieldset>
           <label>
             Pattern
-            <input type="text" name="dialoguePattern" required />
+            <input value="treetop" type="text" name="dialoguePattern" required />
           </label>
           <label>
-            Is sung line?
+            Search in songs only?
             <input type="checkbox" name="isSung" />
           </label>
         </fieldset>
@@ -59,7 +66,7 @@
       </form>
       <!-- If no results, say so -->
       <span v-if="dialoguePattern !== ''" id="result-notification">
-        {{ searchResults.length }} results found for the query, '{{ dialoguePattern }}'.
+        The query '{{ dialoguePattern }}' returned {{ searchResults.length }} results.
       </span>
       <!-- Otherwise, show table of results -->
       <div class="accordion" id="search-results">
@@ -67,13 +74,13 @@
           <!-- HEAD -->
           <div class="card-header">
             <h2 class="mb-0" data-toggle="tooltip" title="Collapse / Expand">
-              <button class="btn btn-link" data-toggle="collapse" aria-expanded="true">
+              <button :data-id="result.id" @click="toggleVisibility" class="btn btn-link" data-toggle="collapse" aria-expanded="false">
                 S{{ result.seasonNo }} E{{ result.episodeNo }} - {{ result.title }} @{{result.lineNo}}
               </button>
             </h2>
           </div>
           <!-- BODY -->
-          <div class="collapse show" data-parent="#search-results">
+          <div :data-id="result.id" v-if="result.isShown" class="collapse show" data-parent="#search-results">
             <div class="card-body">
               <div class="dialogue-block" v-for="line in result.contextLines" :key="line.id">
                 <dl class="matched-line" v-if="line.lineNo === result.lineNo">
