@@ -69,7 +69,11 @@ def generate_transcriptline_index(episode_index):
     """
     transcriptline_index = []
     for episode in episode_index:
-        transcriptline = {"episodeId": episode['id']}
+        transcriptline = {
+            "episodeId": episode['id'],
+            "seasonNo": episode["seasonNo"],
+            "episodeNo": episode["episodeNo"],
+        }
         with open(Path("output", "FiM", "transcripts", "S%d" % episode['seasonNo'], "E%02d.json" % episode['episodeNo'])) as rfile:
             lines = json.load(rfile)
         #print(lines)
