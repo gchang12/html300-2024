@@ -50,7 +50,7 @@
       <h1>Search Transcripts</h1>
       <p>Try to find out if somebody said something in <i>My Little Pony: Friendship is Magic</i> by inputting a string into the <code>Regex Pattern</code> box.</p>
       <p>Try to find out if somebody in particular said something by inputting their name into the <code>Character</code> box.</p>
-      <p>Wanna find out if they said it in a song? Check the <code>Search in songs only?</code>.</p>
+      <p>Wanna find out if they said it in a song? Check the <code>In songs only</code> box.</p>
       <p>To find out if they said it in a particular season, input the season number into the <code>Season</code>.</p>
       <p>Trying to find out if they said it in a particular episode in a season? Input a number into the <code>Episode</code> box; note that this only works if you have the <code>Season</code> box already populated.</p>
       <form>
@@ -60,7 +60,7 @@
             <input type="text" name="dialoguePattern" required />
           </label>
           <label>
-            Search in songs only?
+            In songs only
             <input type="checkbox" name="isSung" />
           </label>
         </fieldset>

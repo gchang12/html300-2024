@@ -45,7 +45,8 @@
   function selectSeason(e) {
     // add CSS class for highlighting
     e.currentTarget.classList.add("selected");
-    const season = e.target.dataset.season;
+    //console.log(e.currentTarget);
+    const season = e.currentTarget.dataset.season;
     // change season
     selectedSeason.value = Number(season);
     // change image source
@@ -91,8 +92,8 @@
         </figure>
         <div id="season-selector">
           <div class="container">
-            <div class="row">
-              <div @mouseleave="deselectSeason" @mouseover="selectSeason" :data-season="seasonImage.seasonNo" class="col-2" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
+            <div class="row" v-for="number in [0, 3, 6]" :key="number">
+              <div @mouseleave="deselectSeason" @mouseover="selectSeason" :data-season="seasonImage.seasonNo" class="col-2" v-for="seasonImage in seasonImages.slice(number, number + 3)" :key="seasonImage.seasonNo">
                 <!-- NOTE: Not functional yet! -->
                 <!-- <a :href="'/#/episodeDirectory/S' + seasonImage.seasonNo">S{{ seasonImage.seasonNo }}</a> -->
                 <a>S{{ seasonImage.seasonNo }}</a>
