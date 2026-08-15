@@ -3,9 +3,13 @@
   import { ref } from "vue";
 
   //import searchTranscript from "../functions/searchTranscript.js";
+  //import extractTranscriptLines from "../functions/extractTranscriptLines.js";
 
   const searchResults = ref([]);
   const dialoguePattern = ref("");
+  function searchAndParseResults(e) {
+    console.log(e);
+  };
 
 </script>
 
@@ -39,7 +43,7 @@
             <input min="1" max="26" type="number" name="episodeNo" />
           </label>
         </fieldset>
-        <button type="button">Search</button>
+        <button @click="searchAndParseResults" type="button">Search</button>
       </form>
       <!-- If no results, say so -->
       <span id="null-result-notification" v-if="searchResults.length === 0 && dialoguePattern !== ''">
