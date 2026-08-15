@@ -59,17 +59,20 @@
       <component :is="currentView" />
     </main>
     <footer>
-      <p>
+      <div class="credits">
+        <span class="footer-section-header">
+          Credits
+        </span>
         <a class="external" href="https://www.fandom.com/licensing">
-          Permissions
+          Fandom
         </a>
-      </p>
-      <a class="external" href="https://github.com/gchang12/html300-2024/tree/lesson8">
-        GitHub
-      </a>
-      <a class="external" href="https://github.com/lucaong/minisearch">
-        Search Engine
-      </a>
+        <a class="external" href="https://github.com/gchang12/html300-2024/tree/lesson8">
+          GitHub
+        </a>
+        <a class="external" href="https://github.com/lucaong/minisearch">
+          MiniSearch
+        </a>
+      </div>
     </footer>
   </div>
 </template>

@@ -45,7 +45,7 @@
 </script>
 
 <template>
-  <div id="transcript-search">
+  <div class="vue-container" id="transcript-search">
     <article>
       <h1>Search Transcripts</h1>
       <p>Try to find out if somebody said something in <i>My Little Pony: Friendship is Magic</i> by inputting a string into the <code>Regex Pattern</code> box.</p>

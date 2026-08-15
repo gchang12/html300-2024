@@ -10,12 +10,12 @@
   opacity: 0.75;
 }
 
-#transcript-search {
+.vue-container {
   display: flex;
   justify-content: center;
 }
 
-#transcript-search > article {
+.vue-container > article {
   width: 60rem;
   padding: 3rem;
 }
