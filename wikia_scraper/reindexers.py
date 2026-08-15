@@ -68,6 +68,7 @@ def generate_transcriptline_index(episode_index):
     }
     """
     transcriptline_index = []
+    index_no = 0
     for episode in episode_index:
         transcriptline = {
             "episodeId": episode['id'],
@@ -105,12 +106,14 @@ def generate_transcriptline_index(episode_index):
             speaker, dialogue = line
             transcriptline.update(
                 {
+                    "id": index_no,
                     "lineNo": line_no,
                     "speaker": (None if speaker is None else speaker.strip()),
                     "dialogue": dialogue.strip().replace("\n", "~ "),
                 }
             )
             transcriptline_index.append(transcriptline.copy())
+            index_no += 1
     return transcriptline_index
 
 def get_episode_id(seasonepisode_no, episode_index):

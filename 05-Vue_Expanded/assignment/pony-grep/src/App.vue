@@ -67,6 +67,9 @@
       <a class="external" href="https://github.com/gchang12/html300-2024/tree/lesson8">
         GitHub
       </a>
+      <a class="external" href="https://github.com/lucaong/minisearch">
+        Search Engine
+      </a>
     </footer>
   </div>
 </template>
