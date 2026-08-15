@@ -86,6 +86,8 @@ def generate_transcriptline_index(episode_index):
             # remove blank lines
             if not dialogue:
                 continue
+            if speaker is None:
+                continue
             # ignore lines that have both dialogue and no speaker speaking it
             #if (speaker is None) and 
             previous_speaker = (None if not lines2 else lines2[-1][0])
