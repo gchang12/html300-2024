@@ -8,6 +8,7 @@
   const currentEpisode = ref({});
   const activeSeason = ref(-1);
 
+  // TODO: Use for all episode transcript directories and leverage urlParams
   function selectEpisode(e) {
     const id = e.currentTarget.dataset.id;
     currentEpisode.value = episodeList.find(episode => episode.id == id);
