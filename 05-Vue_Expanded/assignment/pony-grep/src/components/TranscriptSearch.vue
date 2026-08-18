@@ -40,7 +40,7 @@
 <template>
   <div class="vue-container" id="transcript-search">
     <article>
-      <h1>Search Transcripts</h1>
+      <h1>Search</h1>
       <!-- <p>Try to find out if somebody said something in <i>My Little Pony: Friendship is Magic</i> by inputting a string into the <code>Regex Pattern</code> box.</p> -->
       <!-- <p>Try to find out if somebody in particular said something by inputting their name into the <code>Character</code> box.</p> -->
       <!-- <p>Wanna find out if they said it in a song? Check the <code>In songs only</code> box.</p> -->

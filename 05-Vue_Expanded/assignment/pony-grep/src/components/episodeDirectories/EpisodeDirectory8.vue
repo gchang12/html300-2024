@@ -2,11 +2,11 @@
 
   import { ref } from "vue";
 
-  import episodeList from "../constants/episodeList.js";
-  import transcriptLines from "../constants/transcriptLines.js";
+  import episodeList from "../../constants/episodeList.js";
+  import transcriptLines from "../../constants/transcriptLines.js";
 
   const currentEpisode = ref({});
-  const activeSeason = ref(-1);
+  const activeSeason = 8;
 
   function selectEpisode(e) {
     const id = e.currentTarget.dataset.id;
