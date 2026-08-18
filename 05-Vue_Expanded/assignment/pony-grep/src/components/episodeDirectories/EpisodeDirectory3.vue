@@ -61,17 +61,29 @@
       </main>
       <aside class="current-episode-info">
         <div v-if="Object.keys(currentEpisode).length !== 0">
-          <dl>
-            <dt>Season</dt>
-            <dd>{{currentEpisode.seasonNo}}</dd>
-            <dt>Episode</dt>
-            <dd>{{currentEpisode.episodeNo}}</dd>
-            <dt>Airdate</dt>
-            <dd>{{ currentEpisode.airdate }}</dd>
-            <dt>Summary</dt>
-            <dd v-for="line in currentEpisode.summary" :key="line">{{ line }}</dd>
-          </dl>
-          <p>Still need more info? Visit <a :href="'https://mlp.fandom.com/wiki/' + currentEpisode.urlName">this episode's page on the MLP Wikia</a>.</p>
+          <table>
+            <tbody>
+              <tr>
+                <th>Season</th>
+                <td>{{currentEpisode.seasonNo}}</td>
+              </tr>
+              <tr>
+                <th>Episode</th>
+                <td>{{currentEpisode.episodeNo}}</td>
+              </tr>
+              <tr>
+                <th>Airdate</th>
+                <td>{{ currentEpisode.airdate }}</td>
+              </tr>
+              <tr>
+                <th>Summary</th>
+                <td>
+                  <p v-for="line in currentEpisode.summary" :key="line">{{ line }}</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <a :href="'https://mlp.fandom.com/wiki/' + currentEpisode.urlName">MLP Wikia Page</a>
         </div>
       </aside>
     </div>

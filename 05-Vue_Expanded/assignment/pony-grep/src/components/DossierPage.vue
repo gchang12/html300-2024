@@ -29,7 +29,7 @@
   }
 
 </script>
-.
+
 <template>
   <div id="dossier">
     <article>
