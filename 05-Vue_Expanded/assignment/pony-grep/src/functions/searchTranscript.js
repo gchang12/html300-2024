@@ -3,7 +3,8 @@
 import transcriptLines from "../constants/transcriptLines.js";
 
 export default function searchTranscript(searchCriteria) {
-  const { isSung, seasonNo, episodeNo, dialoguePattern, speaker } = searchCriteria;
+  //const { isSung, seasonNo, episodeNo, dialoguePattern, speaker } = searchCriteria;
+  const { isSung, dialoguePattern, speaker } = searchCriteria;
   /*
   let miniSearch = new MiniSearch({
     idField: "id",
@@ -11,28 +12,40 @@ export default function searchTranscript(searchCriteria) {
     storeFields: ["id", "episodeId", "lineNo"],
   });
   */
-  const filteredTranscriptLines = transcriptLines.filter(lineEntry => {
-    const conditions = [];
+  const searchResults = transcriptLines.filter(lineEntry => {
+    //const conditions = [];
     // check if lineEntry.speaker includes speaker
     if (speaker !== "") {
-      conditions.push(lineEntry.speaker.includes(speaker));
+      if (!(lineEntry.speaker.includes(speaker))) {
+        return false;
+      }
     }
     // If isSung -> true, check if the speaker has brackets around; otherwise include everything.
     if (isSung != null) {
-      conditions.push(lineEntry.speaker.startsWith("[") && lineEntry.speaker.endsWith("]"));
-    }
-    // if seasonNo is specified and so is episodeNo, limit results to entries with the specified episodeNo; otherwise include everything.
-    if (seasonNo !== "") {
-      conditions.push(lineEntry.seasonNo == seasonNo);
-      if (episodeNo !== "") {
-        conditions.push(lineEntry.episodeNo == episodeNo);
+      if (!(lineEntry.speaker.startsWith("[") && lineEntry.speaker.endsWith("]"))) {
+        return false;
       }
     }
-    return conditions.every((condition) => condition === true);
+    // if seasonNo is specified and so is episodeNo, limit results to entries with the specified episodeNo; otherwise include everything.
+    /*
+    if (seasonNo !== "") {
+      if (!(lineEntry.seasonNo == seasonNo)) {
+        return false;
+      }
+      if (episodeNo !== "") {
+        if (!(lineEntry.episodeNo == episodeNo)) {
+          return false;
+        }
+      }
+    }
+    */
+    const regex = new RegExp(dialoguePattern);
+    if (!regex.test(lineEntry.dialogue)) {
+      return false;
+    }
+    return true;
   });
   //miniSearch.addAll(filteredTranscriptLines);
-  const regex = new RegExp(dialoguePattern);
   //console.log(regex.test("treetops"));
-  const searchResults = filteredTranscriptLines.filter(lineEntry => regex.test(lineEntry.dialogue));
   return searchResults;
 }

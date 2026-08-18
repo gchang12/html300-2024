@@ -50,8 +50,9 @@
       <!-- <p>Trying to find out if they said it in a particular episode in a season? Input a number into the <code>Episode</code> box; note that this only works if you have the <code>Season</code> box already populated.</p> -->
       <form>
         <fieldset>
+          <legend>Dialogue</legend>
           <label>
-            Regex Pattern <span aria-required="true">*</span>
+            Search for <span aria-required="true">*</span>
             <input type="text" name="dialoguePattern" required />
           </label>
           <label>
@@ -64,15 +65,19 @@
           <input type="text" name="speaker" />
         </label>
         <fieldset>
+          <legend>Series</legend>
           <label>
-            Season
-            <input min="1" max="9" type="number" name="seasonNo" />
+            <input disabled readonly checked type="checkbox" aria-label="readonly" />
+            MLP: FiM
           </label>
-          <label>
-            Episode
-            <input min="1" max="26" type="number" name="episodeNo" />
-          </label>
-        </fieldset>
+          <!-- Season -->
+          <!-- <input min="1" max="9" type="number" name="seasonNo" /> -->
+          <!-- </label> -->
+          <!-- <label> -->
+          <!-- Episode -->
+          <!-- <input min="1" max="26" type="number" name="episodeNo" /> -->
+          <!-- </label> -->
+          </fieldset>
         <button id="search-button" @click="searchAndParseResults" type="button">Search</button>
       </form>
       <!-- If no results, say so -->
