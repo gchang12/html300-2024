@@ -2,8 +2,37 @@
   light-orange #f1ba40
   light-orange-outline #f08322
   reddish #cb3208
-  light-reddish #e0581d
-  blue #e0581d
-  light-green #e0581d
+  reddish-outline #e0581d
+  blue #125271
+  blue-outline #06363f
+  light-green #67e4be
+  peach #f8f9c9
 */
 
+$light-orange: #f1ba40;
+$reddish: #cb3208;
+$reddish-outline: #e0581d;
+$light-orange-outline: #f08322;
+$blue: #06363f;
+
+header {
+  padding: 4rem;
+  background-color: $blue;
+  background-image: url("./assets/star.png");
+}
+
+header > a {
+  display: inline-block;
+  padding: 1rem;
+  border: 0.5rem solid $reddish;
+  background-color: $light-orange;
+  /* border-radius: 100px; */
+  /* background: radial-gradient($light-orange-outline, $blue); */
+  /* background: radial-gradient($blue, $light-orange-outline); */
+  /* background: radial-gradient(closest-side, $light-orange-outline, $blue); */
+  transition: box-shadow 0.25s;
+}
+
+header > a:hover {
+  box-shadow: 0 0 5rem $reddish-outline;
+}

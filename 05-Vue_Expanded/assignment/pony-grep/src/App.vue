@@ -62,17 +62,17 @@
       <a href="/#/" class="img-link">
         <img src="./assets/banner.png" />
       </a>
-      <nav>
-        <!-- TODO: Re-add expandable navibar -->
-        <menu>
-          <li v-for="page in pageList" :key="page.href">
-            <a :href="page.href">
-              {{ page.text }}
-            </a>
-          </li>
-        </menu>
-      </nav>
     </header>
+    <nav>
+      <!-- TODO: Re-add expandable navibar -->
+      <menu>
+        <li v-for="page in pageList" :key="page.href">
+          <a :href="page.href">
+            {{ page.text }}
+          </a>
+        </li>
+      </menu>
+    </nav>
     <main>
       <component :is="currentView" />
     </main>
@@ -92,13 +92,13 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 </style>
