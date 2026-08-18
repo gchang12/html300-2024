@@ -11,9 +11,9 @@
 
   /* Start: Routing. */
   const routes = {
-    "/": IndexPage,
-    "/episodeDirectory": EpisodeDirectory,
-    "/transcriptSearch": TranscriptSearch,
+    "/": TranscriptSearch,
+    "/transcripts": EpisodeDirectory,
+    "/about": IndexPage,
     //"/dossier": DossierPage,
   }
   const currentPath = ref(window.location.hash);
@@ -25,12 +25,12 @@
   });
   const pageList = ref([
     {
-      href: "#/transcriptSearch",
-      text: "Transcript Search",
+      href: "#/about",
+      text: "About",
     },
     {
-      href: "#/episodeDirectory",
-      text: "Episode Directory",
+      href: "#/transcripts",
+      text: "Transcripts",
     },
     //{ href: "#/dossier", text: "Dossier", },
   ]);
