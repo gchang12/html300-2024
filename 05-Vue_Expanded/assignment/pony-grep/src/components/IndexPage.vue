@@ -56,10 +56,12 @@
         <article id="mlp-fim">
           <h3>MLP:FiM</h3>
           <div class="seasons">
-            <figure v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
-              <img :src="'/images/' + seasonImage.imgName" />
-              <figcaption><a>S{{ seasonImage.seasonNo }}</a></figcaption>
-            </figure>
+            <a :href="'#/transcripts/FiM/S' + seasonImage.seasonNo" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
+              <figure>
+                <img :src="'/images/' + seasonImage.imgName" />
+                <figcaption>S{{ seasonImage.seasonNo }}</figcaption>
+              </figure>
+            </a>
           </div>
         </article>
       </article>

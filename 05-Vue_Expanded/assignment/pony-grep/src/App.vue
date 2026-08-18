@@ -14,6 +14,15 @@
     "/": TranscriptSearch,
     "/transcripts": EpisodeDirectory,
     "/about": IndexPage,
+    "/transcripts/FiM/S1": EpisodeDirectory,
+    "/transcripts/FiM/S2": EpisodeDirectory,
+    "/transcripts/FiM/S3": EpisodeDirectory,
+    "/transcripts/FiM/S4": EpisodeDirectory,
+    "/transcripts/FiM/S5": EpisodeDirectory,
+    "/transcripts/FiM/S6": EpisodeDirectory,
+    "/transcripts/FiM/S7": EpisodeDirectory,
+    "/transcripts/FiM/S8": EpisodeDirectory,
+    "/transcripts/FiM/S9": EpisodeDirectory,
     //"/dossier": DossierPage,
   }
   const currentPath = ref(window.location.hash);
