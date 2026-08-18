@@ -53,15 +53,6 @@
     //{ href: "#/dossier", text: "Dossier", },
   ]);
   /* End: Routing. */
-  
-  /*
-light-orange #f1ba40
-light-orange-outline #f08322
-reddish #cb3208
-light-reddish #e0581d
-blue #e0581d
-light-green #e0581d
-  */
 
 </script>
 
