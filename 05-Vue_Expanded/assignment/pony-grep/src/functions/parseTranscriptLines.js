@@ -8,14 +8,15 @@ export default function parseTranscriptLines(searchResults) {
   // for each [episodeId, lineNo] in searchResults:
   // - fetch episode.title, episode.seasonNo, episode.episodeNo
   // - fetch transcript lines within threshold
-  const contextLength = 2;
+  //const contextLength = 2;
   for (const searchResult of searchResults) {
     const { title, seasonNo, episodeNo } = episodeList.find(episode => episode.id === searchResult.episodeId);
     // get context lines within radius two of targeted line
-    const contextLines = transcriptLines.filter(transcriptLine => {
+    //const contextLines = transcriptLines.filter(transcriptLine => { return ( transcriptLine.episodeId === searchResult.episodeId && Math.abs(transcriptLine.lineNo - searchResult.lineNo) <= contextLength); });
+    const line = transcriptLines.find(transcriptLine => {
       return (
         transcriptLine.episodeId === searchResult.episodeId
-        && Math.abs(transcriptLine.lineNo - searchResult.lineNo) <= contextLength
+        && transcriptLine.lineNo === searchResult.lineNo
       );
     });
     parsedTranscriptLines.push(
@@ -25,9 +26,10 @@ export default function parseTranscriptLines(searchResults) {
         title,
         seasonNo,
         episodeNo,
-        lineNo: searchResult.lineNo,
-        contextLines,
-        isShown: false,
+        line, 
+        //lineNo: searchResult.lineNo,
+        //contextLines,
+        //isShown: false,
       }
     );
   }

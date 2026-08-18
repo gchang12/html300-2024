@@ -34,13 +34,6 @@
     //console.log(searchResults);
     dialoguePattern.value = formData.get("dialoguePattern");
   }
-  function toggleVisibility(e) {
-    const id = e.target.dataset.id;
-    //console.log(id);
-    //searchResults.value.forEach(result => console.log(typeof result.id, typeof id));
-    const lineEntry = searchResults.value.find(result => id == result.id)
-    lineEntry.isShown = !lineEntry.isShown;
-  }
 
 </script>
 
@@ -90,24 +83,15 @@
           <!-- HEAD -->
           <div class="card-header">
             <h2 class="mb-0" data-toggle="tooltip" title="Collapse / Expand">
-              <button :data-id="result.id" @click="toggleVisibility" class="btn btn-link" data-toggle="collapse" aria-expanded="false">
-                S{{ result.seasonNo }} E{{ result.episodeNo }} - {{ result.title }} @{{result.lineNo}}
+              <button :data-id="result.id" class="btn btn-link" data-toggle="collapse" aria-expanded="false">
+                S{{ result.seasonNo }} E{{ result.episodeNo }} - {{ result.title }}
               </button>
             </h2>
           </div>
           <!-- BODY -->
-          <div :data-id="result.id" v-if="result.isShown" class="collapse show" data-parent="#search-results">
+          <div :data-id="result.id" data-parent="#search-results">
             <div class="card-body">
-              <div class="dialogue-block" v-for="line in result.contextLines" :key="line.id">
-                <dl class="matched-line" v-if="line.lineNo === result.lineNo">
-                  <dt>{{ line.speaker }}</dt>
-                  <dd>{{ line.dialogue }}</dd>
-                </dl>
-                <dl v-else>
-                  <dt>{{ line.speaker }}</dt>
-                  <dd>{{ line.dialogue }}</dd>
-                </dl>
-              </div>
+              <p>{{ result.line.dialogue }}</p>
             </div>
           </div>
         </div>
