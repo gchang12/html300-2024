@@ -7,6 +7,8 @@
 
   let searchResults = ref([]);
   let dialoguePattern = ref("");
+  let activeSeries = ref(["mlp-fim"]);
+
   function searchAndParseResults(e) {
     /*
     const submitButton = document.getElementById("search-button");
@@ -53,7 +55,7 @@
             <input type="text" name="dialoguePattern" required />
           </label>
           <label>
-            Lyrics
+            Lyrics Only
             <input type="checkbox" name="isSung" />
           </label>
         </fieldset>
@@ -78,22 +80,30 @@
         The query '{{ dialoguePattern }}' returned {{ searchResults.length }} results.
       </span>
       <!-- Otherwise, show table of results -->
-      <div class="accordion" id="search-results">
-        <div class="card" v-for="result in searchResults" :key="result.id">
-          <!-- HEAD -->
-          <div class="card-header">
-            <h2 class="mb-0" data-toggle="tooltip" title="Collapse / Expand">
-              <button :data-id="result.id" class="btn btn-link" data-toggle="collapse" aria-expanded="false">
-                S{{ result.seasonNo }} E{{ result.episodeNo }} - {{ result.title }}
-              </button>
-            </h2>
-          </div>
-          <!-- BODY -->
-          <div :data-id="result.id" data-parent="#search-results">
-            <div class="card-body">
-              <p>{{ result.line.dialogue }}</p>
-            </div>
-          </div>
+      <div id="search-results">
+        <div id="mlp-fim" class="search-results" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
+          <table>
+            <thead>
+              <tr>
+                <th>Speaker</th>
+                <th>Line</th>
+                <th>Episode</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="result in searchResults" :key="result.id">
+                <th>
+                  {{ result.line.speaker }}
+                </th>
+                <td>
+                  {{ result.line.dialogue }}
+                </td>
+                <td>
+                  S{{ result.seasonNo }} E{{ result.episodeNo }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </article>
