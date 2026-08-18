@@ -1,6 +1,7 @@
 <script setup>
   //import { ref } from "vue";
 
+  /*
   const seasonImages = [
     {
       seasonNo: 1,
@@ -39,6 +40,7 @@
       imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
     },
   ];
+  */
 
 </script>
 
@@ -50,21 +52,21 @@
       <!-- <h2>About Us</h2> -->
       <!-- <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!  This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.  Just go on over to <a href="#/">Search</a> and input your query.</p> -->
       <!-- </article> -->
-      <article>
-        <h2>Episode Directory</h2>
+      <!-- <article> -->
+      <!-- <h2>Episode Directory</h2> -->
         <!-- <p>Wanna just read the transcripts and re-experience the magic of friendship through the magic of reading? Head on over to our <a href="#/transcripts">Transcripts</a> directory!</p> -->
-        <article id="mlp-fim">
-          <h3>MLP:FiM</h3>
-          <div class="seasons">
-            <a :href="'#/transcripts/FiM/S' + seasonImage.seasonNo" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
-              <figure>
-                <img :src="'/images/' + seasonImage.imgName" />
-                <figcaption>S{{ seasonImage.seasonNo }}</figcaption>
-              </figure>
-            </a>
-          </div>
-        </article>
-      </article>
+        <!-- <article id="mlp-fim"> -->
+        <!-- <h3>MLP:FiM</h3> -->
+        <!-- <div class="seasons"> -->
+        <!-- <a :href="'#/transcripts/FiM/S' + seasonImage.seasonNo" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo"> -->
+        <!-- <figure> -->
+        <!-- <img :src="'/images/' + seasonImage.imgName" /> -->
+        <!-- <figcaption>S{{ seasonImage.seasonNo }}</figcaption> -->
+        <!-- </figure> -->
+              <!-- </a> -->
+              <!-- </div> -->
+              <!-- </article> -->
+              <!-- </article> -->
     </article>
   </div>
 </template>
