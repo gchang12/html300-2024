@@ -82,7 +82,7 @@
       </form>
       <!-- If no results, say so -->
       <span v-if="dialoguePattern !== ''" id="result-notification">
-        The query '{{ dialoguePattern }}' returned {{ searchResults.length }} results.
+        {{ searchResults.length }} results for '{{ dialoguePattern }}'
       </span>
       <!-- Otherwise, show table of results -->
       <div id="search-results">
