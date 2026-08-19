@@ -80,25 +80,32 @@ def generate_transcriptline_index(episode_index):
         #print(lines)
         # consolidate lyrical lines
         lines2 = []
-        for line in lines:
+        for indexno, line in enumerate(lines, start=1):
             speaker, dialogue = line
             dialogue = dialogue.strip()
             # remove blank lines
-            if not dialogue:
+            if dialogue.strip() == "":
+                if speaker is not None:
+                    logging.warning("Speaker '%s' has no line at L%d in S%d E%d", speaker, indexno, episode['seasonNo'], episode['episodeNo'])
+                else:
+                    logging.warning("Blank line at L%d in S%d E%d", indexno, episode['seasonNo'], episode['episodeNo'])
                 continue
-            if speaker is None:
-                continue
+            #if speaker is None: continue
             # ignore lines that have both dialogue and no speaker speaking it
             #if (speaker is None) and 
             previous_speaker = (None if not lines2 else lines2[-1][0])
             if (speaker is None) and ("\n" in dialogue):
                 speaker = lines2[-1][0]
+                # NOTE: Are these two necessary?
+                #and (previous_speaker.endswith("]") \
+                    #and previous_speaker.startswith("[")) \
             elif (speaker is None) \
                 and (previous_speaker is not None) \
-                and (previous_speaker.endswith("]") \
-                    and previous_speaker.startswith("[")) \
                 and not (dialogue.endswith("]") and dialogue.startswith("[")):
+                speaker = lines2[-1][0]
                 # skip lyrics that lack newlines
+                #continue
+            elif (speaker is None):
                 continue
             lines2.append((speaker, dialogue))
         for (line_no, line) in enumerate(lines2, start=1):
@@ -201,7 +208,6 @@ if __name__ == "__main__":
         filename = "output/FiM/websiteIndexes/episodes.json"
         with open(filename, mode="w") as wfile:
             json.dump(index, wfile, indent=2)
-    #save_regenerated_episode_index()
     def save_transcriptline_index():
         """
         """
@@ -212,7 +218,6 @@ if __name__ == "__main__":
         transcriptindex_filename = "output/FiM/websiteIndexes/transcriptLines.json"
         with open(transcriptindex_filename, mode="w") as wfile:
             json.dump(transcriptline_index, wfile, indent=2)
-    save_transcriptline_index()
     def save_unicorn_index():
         """
         """
@@ -224,3 +229,6 @@ if __name__ == "__main__":
         with open(unicornindex_filename, mode="w") as wfile:
             json.dump(unicorn_index, wfile, indent=2)
     #save_unicorn_index()
+    #save_regenerated_episode_index()
+    save_transcriptline_index()
+
