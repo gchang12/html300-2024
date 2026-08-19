@@ -76,14 +76,9 @@
                 <th>Airdate</th>
                 <td>{{ currentEpisode.airdate }}</td>
               </tr>
-              <tr>
-                <th>Summary</th>
-                <td>
-                  <p v-for="line in currentEpisode.summary" :key="line">{{ line }}</p>
-                </td>
-              </tr>
             </tbody>
           </table>
+          <p v-for="line in currentEpisode.summary" :key="line">{{ line }}</p>
           <a :href="'https://mlp.fandom.com/wiki/' + currentEpisode.urlName">MLP Wikia Page</a>
         </div>
       </aside>
