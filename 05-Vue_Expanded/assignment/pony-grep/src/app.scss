@@ -65,7 +65,7 @@ form .Help {
 }
 
 main {
-  color: white;
+  color: $light-green;
 }
 
 .Content {
@@ -94,4 +94,8 @@ span._fieldValue {
 
 .EpisodeEntry {
   margin-left: 2rem;
+}
+
+.Help {
+  text-align: left;
 }

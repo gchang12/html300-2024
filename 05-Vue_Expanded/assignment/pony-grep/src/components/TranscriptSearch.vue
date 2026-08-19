@@ -94,9 +94,9 @@
             <article class="container w-50" v-else>
               <h3>How to Use</h3>
               <ol>
-                <li>&ldquo;I want to see if &lsquo;friendship is magic&rsquo; is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="Dialogue">Dialogue</span> box now.&rdquo;</li>
-                <li>&ldquo;I want to see if Discord or Twilight says it. I'll input <span class="_fieldValue">Discord|Twilight</span> into the <span class="Character">Character</span> field.&rdquo;</li> 
-                <li>&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="Search">Search</span> button.&rdquo;</li>
+                <li class="Help">&ldquo;I want to see if &lsquo;friendship is magic&rsquo; is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="Dialogue">Dialogue</span> box now.&rdquo;</li>
+                <li class="Help">&ldquo;I want to see if Discord or Twilight says it. I'll input <span class="_fieldValue">Discord|Twilight</span> into the <span class="Character">Character</span> field.&rdquo;</li> 
+                <li class="Help">&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="Search">Search</span> button.&rdquo;</li>
               </ol>
             </article>
             <div id="mlp-fim" class="SearchResults" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
