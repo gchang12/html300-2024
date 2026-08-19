@@ -45,7 +45,7 @@
 </script>
 
 <template>
-  <div class="vue-container" id="index">
+  <div id="index">
     <article>
       <h1>Search for a Line in the Dialogue of Every Episode in MLP:FiM Here, at Pony <code>grep</code>!</h1>
       <!-- <article> -->

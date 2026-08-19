@@ -69,7 +69,7 @@
     </main>
     <footer>
       <div class="Credits">
-        <span class="footer-section-header">
+        <span class="FooterSectionHeader">
           Credits
         </span>
         <a class="External" href="https://www.fandom.com/licensing">

@@ -51,10 +51,15 @@ header {
   & nav a {
     color: $light-green;
     transition: text-shadow 0.25s;
+    //font-size: 1.5rem;
   }
   & nav a:hover {
     text-shadow: 0 0 1rem white;
     color: white;
     text-decoration: none;
   }
+}
+
+main {
+  color: white;
 }
