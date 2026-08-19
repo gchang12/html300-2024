@@ -17,7 +17,7 @@
 </script>
 
 <template>
-  <div class="vue-container" id="episode-directory">
+  <div id="episode-directory">
     <h1>Transcripts</h1>
     <div class="content">
       <aside class="episode-index">

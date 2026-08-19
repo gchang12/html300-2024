@@ -10,16 +10,23 @@
   let activeSeries = ref(["mlp-fim"]);
 
   function searchAndParseResults(e) {
-    if (!e.currentTarget.reportValidity()) {
+    //console.log("something");
+    const formData = new FormData(e.currentTarget.form);
+    if (!e.currentTarget.reportValidity() || formData.get("dialoguePattern") === "") {
       return;
     }
-    const formData = new FormData(e.currentTarget.form);
     const searchCriteria = Object.fromEntries(formData.entries());
     const fetchedSearchResults = searchTranscript(searchCriteria);
     const parsedSearchResults = parseTranscriptLines(fetchedSearchResults);
     searchResults.value = parsedSearchResults;
     dialoguePattern.value = formData.get("dialoguePattern");
     e.preventDefault();
+  }
+
+  function resetResults() {
+    //console.log("something");
+    dialoguePattern.value = "";
+    searchResults.value = [];
   }
 
 </script>
@@ -71,6 +78,7 @@
                 <!-- </div> -->
                 <!-- </div> -->
             <button class="btn btn-primary" id="search-button" @click="searchAndParseResults">Search</button>
+            <button class="btn btn-secondary" id="reset-button" type="button" @click="resetResults">Reset</button>
           </form>
         </article>
 
@@ -78,13 +86,21 @@
         <article class="col">
           <h2>Results</h2>
           <!-- Display help message, alternatively. -->
-          <span v-if="dialoguePattern !== ''" id="result-notification">
-            {{ searchResults.length }} results for '{{ dialoguePattern }}'
-          </span>
           <!-- Otherwise, show table of results -->
           <div id="search-results">
+            <span v-if="dialoguePattern !== ''" id="result-notification">
+              {{ searchResults.length }} results for '{{ dialoguePattern }}'
+            </span>
+            <article class="container w-50" v-else>
+              <h3>How to Use</h3>
+              <ol>
+                <li>I want to see if "friendship is magic" is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="Dialogue">Dialogue</span> box now.</li>
+                <li>I want to see if Discord or Yona says it. I'll input <span class="_fieldValue">Discord|Yona</span> into the <span class="Character">Character</span> field.</li> 
+                <li>Let's see if either Discord or Yona say "friendship is magic" by hitting the <span class="Search">Search</span> button.</li>
+              </ol>
+            </article>
             <div id="mlp-fim" class="SearchResults" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
-              <table>
+              <table class="table table-striped">
                 <thead>
                   <tr>
                     <th>Speaker</th>
