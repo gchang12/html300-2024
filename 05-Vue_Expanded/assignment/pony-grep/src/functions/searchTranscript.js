@@ -4,7 +4,8 @@ import transcriptLines from "../constants/transcriptLines.js";
 
 export default function searchTranscript(searchCriteria) {
   //const { isSung, seasonNo, episodeNo, dialoguePattern, speaker } = searchCriteria;
-  const { isSung, dialoguePattern, speaker } = searchCriteria;
+  //const { isSung, dialoguePattern, speaker } = searchCriteria;
+  const { dialoguePattern, speaker } = searchCriteria;
   /*
   let miniSearch = new MiniSearch({
     idField: "id",
@@ -12,20 +13,29 @@ export default function searchTranscript(searchCriteria) {
     storeFields: ["id", "episodeId", "lineNo"],
   });
   */
+  const speakerRegex = new RegExp(speaker, "i");
+  const dialogueRegex = new RegExp(dialoguePattern, "i");
+  //console.log(dialoguePattern, regex);
   const searchResults = transcriptLines.filter(lineEntry => {
     //const conditions = [];
     // check if lineEntry.speaker includes speaker
     if (speaker !== "") {
-      if (!(lineEntry.speaker.includes(speaker))) {
+      if (!(speakerRegex.test(lineEntry.speaker))) {
         return false;
       }
     }
     // If isSung -> true, check if the speaker has brackets around; otherwise include everything.
+    /*
     if (isSung != null) {
       if (!(lineEntry.speaker.startsWith("[") && lineEntry.speaker.endsWith("]"))) {
         return false;
       }
+    } else {
+      if (!(lineEntry.speaker.startsWith("[") && lineEntry.speaker.endsWith("]"))) {
+        return false;
+      }
     }
+    */
     // if seasonNo is specified and so is episodeNo, limit results to entries with the specified episodeNo; otherwise include everything.
     /*
     if (seasonNo !== "") {
@@ -39,8 +49,7 @@ export default function searchTranscript(searchCriteria) {
       }
     }
     */
-    const regex = new RegExp(dialoguePattern);
-    if (!regex.test(lineEntry.dialogue)) {
+    if (!dialogueRegex.test(lineEntry.dialogue)) {
       return false;
     }
     return true;
