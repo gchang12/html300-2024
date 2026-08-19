@@ -39,7 +39,7 @@
       </aside>
       <main class="transcript">
         <div class="content" v-if="Object.keys(currentEpisode).length !== 0">
-          <h2>S{{ currentEpisode.seasonNo }} E{{ currentEpisode.episodeNo }} - {{currentEpisode.title }}</h2>
+          <h2>S{{ currentEpisode.seasonNo }} E{{ currentEpisode.episodeNo }} – {{currentEpisode.title }}</h2>
           <table>
             <thead>
               <tr>
