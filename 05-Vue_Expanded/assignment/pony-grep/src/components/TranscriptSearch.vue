@@ -10,83 +10,66 @@
   let activeSeries = ref(["mlp-fim"]);
 
   function searchAndParseResults(e) {
-    /*
-    const submitButton = document.getElementById("search-button");
-    console.log(submitButton);
-    if (!submitButton.reportValidity()) {
-      console.log(submitButton);
+    if (!e.currentTarget.reportValidity()) {
       return;
     }
-    */
-    //console.log(e);
-    //console.log(typeof e);
-    //console.log(e.target.form);
-    const formData = new FormData(e.target.form);
-    if (formData.get("dialoguePattern") === "" || formData.get("dialoguePattern").length < 3) {
-      alert("'Pattern' cannot be blank or fewer than three characters!")
-      return;
-    }
-    //console.log(formData);
+    const formData = new FormData(e.currentTarget.form);
     const searchCriteria = Object.fromEntries(formData.entries());
     const fetchedSearchResults = searchTranscript(searchCriteria);
-    //console.log(fetchedSearchResults);
     const parsedSearchResults = parseTranscriptLines(fetchedSearchResults);
-    //console.log(parsedSearchResults);
     searchResults.value = parsedSearchResults;
-    //console.log(searchResults);
     dialoguePattern.value = formData.get("dialoguePattern");
+    e.preventDefault();
   }
 
 </script>
 
 <template>
-  <div class="vue-container" id="transcript-search">
+  <div id="transcript-search">
+    <h1>Search</h1>
     <article>
-      <h1>Search</h1>
+      <h2>Query</h2>
       <!-- <p>Try to find out if somebody said something in <i>My Little Pony: Friendship is Magic</i> by inputting a string into the <code>Regex Pattern</code> box.</p> -->
       <!-- <p>Try to find out if somebody in particular said something by inputting their name into the <code>Character</code> box.</p> -->
       <!-- <p>Wanna find out if they said it in a song? Check the <code>In songs only</code> box.</p> -->
       <!-- <p>To find out if they said it in a particular season, input the season number into the <code>Season</code>.</p> -->
       <!-- <p>Trying to find out if they said it in a particular episode in a season? Input a number into the <code>Episode</code> box; note that this only works if you have the <code>Season</code> box already populated.</p> -->
       <form>
-        <fieldset>
-          <legend>Dialogue</legend>
-          <label>
-            Search for <span aria-required="true">*</span>
-            <input type="text" name="dialoguePattern" required />
-          </label>
-          <label>
-            Lyrics Only
-            <input type="checkbox" name="isSung" />
-          </label>
-        </fieldset>
-        <label>
-          Character
-          <input type="text" name="speaker" />
-        </label>
-        <fieldset>
-          <legend>Series</legend>
-          <label>
-            <input disabled readonly checked type="checkbox" aria-label="readonly" />
-            MLP: FiM
-          </label>
-          <!-- Season -->
-          <!-- <input min="1" max="9" type="number" name="seasonNo" /> -->
-          <!-- </label> -->
-          <!-- <label> -->
-          <!-- Episode -->
-          <!-- <input min="1" max="26" type="number" name="episodeNo" /> -->
-          <!-- </label> -->
+        <div class="Dialogue Field">
+          <label for="dialoguePattern" class="form-label">Dialogue</label>
+          <input minlength="3" id="dialoguePattern" class="form-control" type="text" name="dialoguePattern" required />
+        </div>
+        <div class="Lyrics Field">
+          <label for="isSung" class="form-label">Lyrics Only</label>
+          <input id="isSung" class="form-check" type="checkbox" name="isSung" />
+        </div>
+        <div class="Character Field">
+          <label for="speaker" class="form-label">Character</label>
+          <input id="speaker" class="form-control" type="text" name="speaker" />
+        </div>
+        <div class="Series Field">
+          <!-- NOTE: Placeholder -->
+          <fieldset>
+            <legend>Series</legend>
+            <div class="MLP-FiM Field Choice">
+              <label for="mlp-fim" class="form-label">MLP: FiM</label>
+              <input id="mlp-fim" class="form-check" disabled readonly checked type="checkbox" aria-label="readonly" />
+            </div>
           </fieldset>
-        <button id="search-button" @click="searchAndParseResults" type="button">Search</button>
+        </div>
+        <button class="btn btn-primary" id="search-button" @click="searchAndParseResults">Search</button>
       </form>
-      <!-- If no results, say so -->
+    </article>
+
+    <!-- If no results, say so -->
+    <article>
+      <h2>Results</h2>
       <span v-if="dialoguePattern !== ''" id="result-notification">
         {{ searchResults.length }} results for '{{ dialoguePattern }}'
       </span>
       <!-- Otherwise, show table of results -->
       <div id="search-results">
-        <div id="mlp-fim" class="search-results" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
+        <div id="mlp-fim" class="SearchResults" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
           <table>
             <thead>
               <tr>
