@@ -215,7 +215,9 @@ class MetadataScrapers:
         """
         scraper = SCRAPER
         logging.debug("Sending GET to '%s'.", url)
-        return filepath.write_text(scraper.get(url).text, encoding="utf-8")
+        response = scraper.get(url)
+        filepath.with_name(response.url.split("/")[-1] + ".html").write_text(response.text, encoding="utf-8")
+        return response
 
     @classmethod
     def scrape_clipshow_index(cls):
@@ -318,9 +320,6 @@ class MetadataScrapers:
     def scrape_episode_summary(soup):
         """
         """
-        #scraper = SCRAPER
-        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
-        #print(soup)
         summary_lines = []
         for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
             #print(_tag)
@@ -331,6 +330,371 @@ class MetadataScrapers:
             if "id" in _tag.attrs and _tag['id'] == "toc":
                 break
         logging.debug("Fetched %d summary-lines.", len(summary_lines))
+        return summary_lines
+
+    @classmethod
+    def scrape_eqg_films(cls):
+        """
+        - seasonNo
+        - episodeNo
+        - title
+        - urlName
+        - summary
+        - airdate
+        """
+        dirname = "output/EqG/"
+        # scrape transcripts, indexes, and html
+        url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
+        filepath = Path(dirname, "html", url.split("/")[-1] + ".html")
+        if not filepath.exists():
+            cls.download_page(filepath, url)
+        soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+        table = soup.css.select_one(".table-dotted-rows")
+        index = []
+        for indexno, tr in enumerate(table.find_all("tr")):
+            if not indexno:
+                continue
+            #entry = {"seasonNo": None, "episodeNo": None}
+            entry = {}
+            entry['episodeNo'] = 1
+            for col_no, td in enumerate(tr.find_all("td")):
+                if col_no not in (0, 2, 3):
+                    continue
+                if col_no == 0:
+                    entry['title'] = td.text
+                    entry['seasonNo'] = td.text
+                    href = td.find("a")['href']
+                    entry['urlName'] = href.split('/')[-1] + ".html"
+                    filepath2 = Path(dirname, "html", entry['urlName'])
+                    url = cls.ROOT + href
+                    if not filepath2.exists():
+                        cls.download_page(filepath2, url)
+                    soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                    entry['summary'] = cls.scrape_episode_summary(soup)
+                elif col_no == 2:
+                    entry['airdate'] = td.text
+                elif col_no == 3:
+                    href2 = td.find('a')['href']
+                    filepath3 = Path(dirname, "transcripts", entry['urlName'] + ".html")
+                    url = cls.ROOT + href2
+                    if not filepath3.exists():
+                        cls.download_page(filepath3, url)
+            index.append(entry)
+        for _sibling in table.find_next_siblings():
+            if _sibling.name == "h2":
+                break
+            if _sibling.name != "table":
+                continue
+            entry = {}
+            entry['episodeNo'] = 1
+            table = _sibling
+            for indexno, tr in enumerate(table.find_all("tr")):
+                if not indexno:
+                    continue
+                #entry = {"seasonNo": None, "episodeNo": None}
+                entry = {}
+                entry['episodeNo'] = 1
+                for col_no, td in enumerate(tr.find_all("td")):
+                    if col_no not in (0, 2, 3):
+                        continue
+                    if col_no == 0:
+                        entry['title'] = td.text
+                        entry['seasonNo'] = td.text
+                        href = td.find("a")['href']
+                        entry['urlName'] = href.split('/')[-1]
+                        filepath2 = Path(dirname, "html", entry['urlName'])
+                        url = cls.ROOT + href
+                        if not filepath2.exists():
+                            cls.download_page(filepath2, url)
+                        soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                        entry['summary'] = cls.scrape_episode_summary(soup)
+                    elif col_no == 2:
+                        entry['airdate'] = td.text
+                    elif col_no == 3:
+                        href2 = td.find('a')['href']
+                        filepath3 = Path(dirname, "transcripts", entry['urlName'] + ".html")
+                        url = cls.ROOT + href2
+                        if not filepath3.exists():
+                            cls.download_page(filepath3, url)
+                index.append(entry)
+        return index
+
+    @classmethod
+    def scrape_eqg_specials(cls, *, anchor_id = "#Specials"):
+        """
+        - seasonNo
+        - episodeNo
+        - title
+        - urlName
+        - summary
+        - airdate
+        """
+        dirname = "output/EqG/"
+        # scrape transcripts, indexes, and html
+        url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
+        filepath = Path(dirname, "html", url.split("/")[-1] + ".html")
+        if not filepath.exists():
+            cls.download_page(filepath, url)
+        soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+        span = soup.css.select_one(anchor_id)
+        #print("span", span)
+        h2 = span.parent
+        #print(span)
+        #print("h2", h2)
+        for _sibling in h2.find_next_siblings():
+            if _sibling.name == "table":
+                table = _sibling
+                break
+        #table = soup.css.select_one(".table-dotted-rows")
+        index = []
+        for tr in table.find_all("tr"):
+            #if not indexno: continue
+            #entry = {"seasonNo": None, "episodeNo": None}
+            entry = {}
+            entry['episodeNo'] = 1
+            for col_no, td in enumerate(tr.find_all("td")):
+                if col_no not in (1, 3, 4):
+                    continue
+                if col_no == 1:
+                    entry['title'] = td.text
+                    entry['seasonNo'] = td.text
+                    href = td.find("a")['href']
+                    entry['urlName'] = href.split('/')[-1]
+                    filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
+                    url = cls.ROOT + href
+                    if not filepath2.exists():
+                        cls.download_page(filepath2, url)
+                    soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                    entry['summary'] = cls.scrape_episode_summary(soup)
+                elif col_no == 3:
+                    entry['airdate'] = td.text
+                elif col_no == 4:
+                    href2 = td.find('a')['href']
+                    filepath3 = Path(dirname, "transcripts", entry['urlName'] + ".html")
+                    url = cls.ROOT + href2
+                    if not filepath3.exists():
+                        cls.download_page(filepath3, url)
+            index.append(entry)
+        for _sibling in table.find_next_siblings():
+            if _sibling.name == "h2":
+                break
+            if _sibling.name != "table":
+                continue
+            entry = {}
+            entry['episodeNo'] = 1
+            table = _sibling
+            for tr in table.find_all("tr"):
+                #if not indexno: continue
+                #entry = {"seasonNo": None, "episodeNo": None}
+                entry = {}
+                entry['episodeNo'] = 1
+                for col_no, td in enumerate(tr.find_all("td")):
+                    if col_no not in (1, 3, 4):
+                        continue
+                    if col_no == 1:
+                        entry['title'] = td.text
+                        entry['seasonNo'] = td.text
+                        href = td.find("a")['href']
+                        entry['urlName'] = href.split('/')[-1]
+                        filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
+                        url = cls.ROOT + href
+                        if not filepath2.exists():
+                            cls.download_page(filepath2, url)
+                        soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                        entry['summary'] = cls.scrape_episode_summary(soup)
+                    elif col_no == 3:
+                        entry['airdate'] = td.text
+                    elif col_no == 4:
+                        href2 = td.find('a')['href']
+                        filepath3 = Path(dirname, "transcripts", entry['urlName'] + ".html")
+                        url = cls.ROOT + href2
+                        if not filepath3.exists():
+                            cls.download_page(filepath3, url)
+                index.append(entry)
+        return index
+
+    @classmethod
+    def scrape_eqg_shorts(cls):
+        """
+        """
+        dirname = "output/EqG/"
+        # scrape transcripts, indexes, and html
+        url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
+        filepath = Path(dirname, "html", url.split("/")[-1] + ".html")
+        if not filepath.exists():
+            cls.download_page(filepath, url)
+        soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+        span = soup.css.select_one("#Animated_shorts")
+        #print("span", span)
+        h2 = span.parent
+        #print(span)
+        #print("h2", h2)
+        index = []
+        for _sibling in h2.find_next_siblings():
+            if _sibling.name == "h2":
+                break
+            if _sibling.name == "h3":
+                season_no = _sibling.text.strip().rstrip("[]")
+                try:
+                    season_no = season_no[:season_no.index(" animated shorts")]
+                except ValueError:
+                    pass
+            if _sibling.name == "table":
+                table = _sibling
+            #table = soup.css.select_one(".table-dotted-rows")
+                for indexno, tr in enumerate(table.find('tbody').find_all("tr"), start=1):
+                    #if not indexno: continue
+                    #entry = {"seasonNo": None, "episodeNo": None}
+                    entry = {}
+                    entry['seasonNo'] = season_no
+                    entry['episodeNo'] = indexno
+                    for col_no, td in enumerate(tr.find_all("td")):
+                        if col_no not in (1, 3, 4):
+                            continue
+                        if col_no == 1:
+                            entry['title'] = td.text.strip()
+                            href = td.find("a")['href']
+                            entry['urlName'] = href.split('/')[-1]
+                            filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
+                            url = cls.ROOT + href
+                            #response = cls.download_page(filepath2, url)
+                            #entry['urlName'] = response.url.split('/')[-1]
+                            if not filepath2.exists():
+                                response = cls.download_page(filepath2, url)
+                                entry['urlName'] = response.url.split('/')[-1]
+                            else:
+                                for filepath in Path("output", "EqG", "html").iterdir():
+                                    if not filepath.name.endswith(entry['urlName'] + ".html"):
+                                        continue
+                                    if filepath.name.endswith(entry['urlName'] + ".html") and filepath.name != entry['urlName'] + ".html":
+                                        entry['urlName'] = filepath.name
+                                        break
+                            filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
+                            soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                            if "#" not in entry['urlName']:
+                                entry['summary'] = cls.scrape_episode_summary(soup)
+                            else:
+                                entry['summary'] = cls.scrape_shorts_summary(soup, entry['urlName'], entry['title'])
+                                if not entry['summary']:
+                                    entry['summary'] = cls.scrape_shorts_summary(soup, entry['urlName'], entry['title'], h = 4)
+                        elif col_no == 3:
+                            entry['airdate'] = td.text
+                        elif col_no == 4:
+                            href2 = td.find('a')['href']
+                            filepath3 = Path(dirname, "transcripts", entry['urlName'] + ".html")
+                            url = cls.ROOT + href2
+                            if not filepath3.exists():
+                                cls.download_page(filepath3, url)
+                    index.append(entry)
+        return index
+
+    @classmethod
+    def scrape_eqg_digital_shorts(cls):
+        """
+        """
+        dirname = "output/EqG/"
+        # scrape transcripts, indexes, and html
+        url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
+        filepath = Path(dirname, "html", url.split("/")[-1] + ".html")
+        if not filepath.exists():
+            cls.download_page(filepath, url)
+        soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+        span = soup.css.select_one("#Digital_Series")
+        #print("span", span)
+        h2 = span.parent
+        #print(span)
+        #print("h2", h2)
+        index = []
+        for _sibling in h2.find_next_siblings():
+            if _sibling.name == "h2":
+                break
+            if _sibling.name == "h3":
+                season_no = _sibling.text.strip().rstrip("[]")
+            if _sibling.name == "table":
+                table = _sibling
+            #table = soup.css.select_one(".table-dotted-rows")
+                entry = {}
+                for indexno, tr in enumerate(table.find('tbody').find_all("tr"), start=1):
+                    #if not indexno: continue
+                    #entry = {"seasonNo": None, "episodeNo": None}
+                    entry = {}
+                    entry['episodeNo'] = indexno
+                    entry['seasonNo'] = season_no
+                    for col_no, td in enumerate(tr.find_all("td")):
+                        if col_no not in (1, 3, 4):
+                            continue
+                        if col_no == 1:
+                            entry['title'] = td.text.strip()
+                            href = td.find("a")['href']
+                            entry['urlName'] = href.split('/')[-1]
+                            if "." in entry['urlName']:
+                                logging.warning("Period found in url-name: '%s'", entry['urlName'])
+                            url = cls.ROOT + href
+                            filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
+                            if not filepath2.exists():
+                                response = cls.download_page(filepath2, url)
+                                entry['urlName'] = response.url.split('/')[-1]
+                            else:
+                                for filepath in Path("output", "EqG", "html").iterdir():
+                                    if not filepath.name.endswith(entry['urlName'] + ".html"):
+                                        continue
+                                    if filepath.name.endswith(entry['urlName'] + ".html") and filepath.name != entry['urlName'] + ".html":
+                                        entry['urlName'] = filepath.name
+                                        break
+                            #soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                            filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
+                            soup = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                            if "#" not in entry['urlName']:
+                                entry['summary'] = cls.scrape_episode_summary(soup)
+                            else:
+                                entry['summary'] = cls.scrape_shorts_summary(soup, entry['urlName'], entry['title'])
+                                if not entry['summary']:
+                                    entry['summary'] = cls.scrape_shorts_summary(soup, entry['urlName'], entry['title'], h = 4)
+                        elif col_no == 3:
+                            entry['airdate'] = td.text
+                        elif col_no == 4:
+                            href2 = td.find('a')['href']
+                            filepath3 = Path(dirname, "transcripts", entry['urlName'] + ".html")
+                            url = cls.ROOT + href2
+                            if not filepath3.exists():
+                                cls.download_page(filepath3, url)
+                    index.append(entry)
+        return index
+
+    @staticmethod
+    def scrape_shorts_summary(soup, anchor_id, title, *, h = 3):
+        """
+        """
+        try:
+            anchor_id = anchor_id[anchor_id.index("#") + 1:]
+            logging.debug("Scanning for anchor id '%s'", anchor_id)
+            span = soup.css.select_one("#" + anchor_id)
+            h2 = span.parent
+        except Exception as e:
+            logging.debug("Scanning for title '%s'", title)
+            logging.warning("Error: %s", e)
+            #span = soup.css.select_one("#" + anchor_id)
+            for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
+                tag_text = _tag.text.strip().rstrip("[]") 
+                if tag_text == title:
+                    h2 = _tag
+                    break
+        scan_for_text = False
+        summary_lines = []
+        for _sibling in h2.find_next_siblings():
+            if _sibling.name == "h%d" % h:
+                if _sibling.text.strip().rstrip("[]") == "Summary":
+                    scan_for_text = True
+            if scan_for_text is True:
+                if _sibling.name == "p":
+                    summary_lines.append(_sibling.text)
+                if _sibling.name == "h%d" % (h - 1):
+                    break
+                if _sibling.name == "ul":
+                    listitems = []
+                    for li in _sibling.find_all("li", recursive=False):
+                        listitems.append(li.text)
+                    summary_lines.append(listitems)
         return summary_lines
 
 class TranscriptScrapers:
@@ -533,4 +897,60 @@ if __name__ == "__main__":
                     with open(dirpath.joinpath(anchor_id).with_suffix(".json"), mode="w") as wfile:
                         json.dump(lines, wfile, indent=2)
                 break
-    save_specials_transcripts()
+    def save_eqg_films_index():
+        """
+        """
+        filename = "output/EqG/indexes/films.json"
+        #index = TranscriptScrapers.scrape_eqg_films()
+        index = MetadataScrapers.scrape_eqg_films()
+        with open(filename, mode="w") as wfile:
+            json.dump(index, wfile, indent=2)
+        dirname = "output/EqG/transcripts/"
+        for entry in filter(lambda entry: "urlName" in entry, index):
+            #for entry in index:
+            url_name = entry['urlName']
+            filepath = Path(dirname, url_name + ".html")
+            soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+            lines = TranscriptScrapers.parse_episode_transcript(soup)
+            with open(filepath.with_suffix(".json"), mode="w") as wfile:
+                json.dump(lines, wfile, indent=2)
+
+    #save_specials_transcripts()
+    #save_eqg_films_index()
+    def save_eqg_specials_index():
+        """
+        """
+        filename = "output/EqG/indexes/specials.json"
+        #index = TranscriptScrapers.scrape_eqg_films()
+        index = MetadataScrapers.scrape_eqg_specials()
+        with open(filename, mode="w") as wfile:
+            json.dump(index, wfile, indent=2)
+        dirname = "output/EqG/transcripts/"
+        for entry in filter(lambda entry: "urlName" in entry, index):
+            url_name = entry['urlName']
+            filepath = Path(dirname, url_name + ".html")
+            soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+            lines = TranscriptScrapers.parse_episode_transcript(soup)
+            with open(filepath.with_suffix(".json"), mode="w") as wfile:
+                json.dump(lines, wfile, indent=2)
+    #save_eqg_films_index()
+    #save_eqg_specials_index()
+
+    def save_eqg_shorts_index():
+        """
+        """
+        filename = "output/EqG/indexes/shorts.json"
+        index = MetadataScrapers.scrape_eqg_shorts()
+        index2 = MetadataScrapers.scrape_eqg_digital_shorts()
+        index.extend(index2)
+        with open(filename, mode="w") as wfile:
+            json.dump(index, wfile, indent=2)
+        #dirname = "output/EqG/transcripts/"
+        #for entry in filter(lambda entry: "urlName" in entry, index):
+            #url_name = entry['urlName']
+            #filepath = Path(dirname, url_name + ".html")
+            #soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+            #lines = TranscriptScrapers.parse_episode_transcript(soup)
+            #with open(filepath.with_suffix(".json"), mode="w") as wfile:
+                #json.dump(lines, wfile, indent=2)
+    save_eqg_shorts_index()
