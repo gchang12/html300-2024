@@ -101,7 +101,8 @@
                       {{ result.line.dialogue }}
                     </td>
                     <td>
-                      S{{ result.seasonNo }} E{{ result.episodeNo }} – {{result.title}}
+                      – S{{ result.seasonNo }} E{{ result.episodeNo }} –<br />
+                      <i>{{result.title}}</i>
                     </td>
                   </tr>
                 </tbody>
