@@ -45,184 +45,6 @@ def get_speaker_and_dialogue(line):
         dialogue = line
     return (speaker, dialogue)
 
-class MetadataScrapers:
-    """
-    """
-    ROOT = "https://mlp.fandom.com"
-
-    # FIM
-    ## episodes (X)
-    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Episodes
-    ## clip show
-    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Clip_shows
-    ## films
-    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Films
-    ## specials
-    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Specials
-    ## shorts
-    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Animated_shorts
-
-    # EQG
-    ## films
-    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Films
-    ## shorts
-    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Animated_shorts
-    ## specials
-    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Specials
-    ## digital series
-    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Digital_Series
-
-    @classmethod
-    def scrape_episode_index(cls):
-        """
-        Scrapes following episode data from online episode index.
-        - seasonNo
-        - episodeNo
-        - title
-        - urlName
-        - summary
-        - airdate
-        """
-        #url = "https://mlp.fandom.com/wiki/List_of_episodes"
-        url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
-        scraper = SCRAPER
-        logging.debug("Sending GET to '%s'.", url)
-        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
-        #table_fields = ( "episodeNo", "title", "writer", "airdate", # transcript # gallery)
-        index = []
-        for season_no, tbody in enumerate(soup.css.select(".table-dotted-rows > tbody"), start=1):
-            logging.debug("Fetching data for S%d", season_no)
-            for episode_no, tr in enumerate(tbody.find_all("tr"), start=1):
-                # seasonNo
-                logging.debug("Fetching data for E%d", episode_no)
-                episode = {"seasonNo": season_no}
-                for col_no, td in enumerate(tr.find_all("td")):
-                    if col_no not in (0, 1, 3):
-                        continue
-                    td_text = td.text
-                    if col_no == 0:
-                        # episodeNo
-                        try:
-                            episode["episodeNo"] = td_text[:td_text.index(" ")]
-                        except ValueError:
-                            # expect to fail upon reaching S10
-                            logging.debug("All data fetched.")
-                            return index
-                    elif col_no == 1:
-                        # title, urlName, summary
-                        episode["title"] = td_text
-                        href = td.find('a')['href']
-                        episode["urlName"] = href.split('/')[-1]
-                        episode["summary"] = cls.scrape_episode_summary(cls.ROOT + href)
-                    elif col_no == 3:
-                        # airdate
-                        episode["airdate"] = td_text
-                index.append(episode)
-
-    @staticmethod
-    def scrape_episode_summary(url):
-        """
-        """
-        scraper = SCRAPER
-        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
-        #print(soup)
-        summary_lines = []
-        for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
-            #print(_tag)
-            if _tag.name == "p":
-                summary_lines.append(_tag.text)
-                continue
-                #print(_tag.name)
-            if "id" in _tag.attrs and _tag['id'] == "toc":
-                break
-        logging.debug("Fetched %d summary-lines.", len(summary_lines))
-        return summary_lines
-
-    # TODO: Scrape summaries of shorts
-    # TODO: Scrape shorts with multiple endings
-    # TODO: Scrape shorts with their own pages
-
-class TranscriptScrapers:
-    """
-    """
-    ROOT = "https://mlp.fandom.com"
-    NUM_SEASONS = 9
-
-    @staticmethod
-    def download_episode_transcript(path, url):
-        """
-        """
-        scraper = SCRAPER
-        logging.warning("Sending GET to '%s'.", url)
-        return path.write_text(scraper.get(url).text, encoding="utf-8")
-
-    @staticmethod
-    def parse_episode_transcript(soup):
-        """
-        """
-        #scraper = cloudscraper.create_scraper()
-        #logging.debug("Sending GET to '%s'.", url)
-        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
-        transcript_lines = []
-        for dd in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_all("dd", recursive=False):
-            line = dd.text
-            speaker, dialogue = get_speaker_and_dialogue(line)
-            transcript_lines.append((speaker, dialogue))
-        # assumes every table has dl as the first element.
-        for _sibling in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_next_siblings():
-            if _sibling.name == "dl":
-                for dd in _sibling.find_all("dd", recursive=False):
-                    line = dd.text
-                    speaker, dialogue = get_speaker_and_dialogue(line)
-                    transcript_lines.append((speaker, dialogue))
-            elif _sibling.name == "table":
-                for dl in _sibling.find_all("dl", recursive=False):
-                    line = dl.text
-                    speaker, dialogue = get_speaker_and_dialogue(line)
-                    transcript_lines.append((speaker, dialogue))
-        for tagno, _tag in enumerate(soup.css.select(".mw-content-ltr.mw-parser-output > *")):
-            if not tagno and _tag.name == "table":
-                logging.error("Transcript table has a table tag as the first element.")
-            break
-        logging.info("Number of lines retrieved: %d", len(transcript_lines))
-        return transcript_lines
-
-    @classmethod
-    def scrape_episode_transcripts(cls):
-        """
-        """
-        url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
-        scraper = SCRAPER
-        logging.debug("Sending GET to '%s'.", url)
-        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
-        # save to (season_no, episode_no) key
-        transcripts = {}
-        for season_no, tbody in enumerate(soup.css.select(".table-dotted-rows > tbody"), start=1):
-            if season_no > cls.NUM_SEASONS:
-                break
-            logging.debug("Fetching transcript for S%d", season_no)
-            for episode_no, tr in enumerate(tbody.find_all("tr"), start=1):
-                logging.debug("Fetching transcript for E%d", episode_no)
-                for col_no, td in enumerate(tr.find_all("td")):
-                    td_text = td.text
-                    if col_no == 0:
-                        true_episode_no = td_text[:td_text.index(" ")]
-                        continue
-                    elif col_no < 4:
-                        continue
-                    elif col_no > 4:
-                        break
-                    else:
-                        href = td.find("a")['href']
-                        dirpath = Path("output", "FiM", "html", "S%d" % season_no)
-                        dirpath.mkdir(exist_ok=True)
-                        filepath = dirpath.joinpath("E%02d.html" % episode_no)
-                        if not filepath.exists():
-                            cls.download_episode_transcript(filepath, cls.ROOT + href)
-                        soup = bs4.BeautifulSoup(filepath.read_text(), 'html.parser')
-                        transcripts[(season_no, int(true_episode_no.lstrip("0")))] = cls.parse_episode_transcript(soup)
-        return transcripts
-
 class CharacterMetadataScraper:
     """
     Character data
@@ -356,10 +178,246 @@ class CharacterMetadataScraper:
         logging.debug("Compiled %d entries into the index", len(index))
         return index
 
+# TODO: Scrape summaries of shorts
+# TODO: Scrape shorts with multiple endings
+# TODO: Scrape shorts with their own pages
+
+class MetadataScrapers:
+    """
+    """
+    ROOT = "https://mlp.fandom.com"
+
+    # FIM
+    ## episodes (X)
+    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Episodes
+    ## clip show
+    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Clip_shows
+    ## films
+    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Films
+    ## specials
+    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Specials
+    ## shorts
+    # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Animated_shorts
+
+    # EQG
+    ## films
+    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Films
+    ## shorts
+    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Animated_shorts
+    ## specials
+    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Specials
+    ## digital series
+    # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Digital_Series
+
+    @staticmethod
+    def download_page(filepath, url):
+        """
+        """
+        scraper = SCRAPER
+        logging.debug("Sending GET to '%s'.", url)
+        return filepath.write_text(scraper.get(url).text, encoding="utf-8")
+
+    @classmethod
+    def scrape_clipshow_index(cls):
+        """
+        Scrapes following episode data from online episode index.
+        - seasonNo
+        - episodeNo
+        - title
+        - urlName
+        - summary: get page
+        - airdate
+        """
+        #url = "https://mlp.fandom.com/wiki/List_of_episodes"
+        url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
+        filepath = Path("output", "FiM", "html", url.split('/')[-1] + ".html")
+        if not filepath.exists():
+            cls.download_page(filepath, url)
+        keyword = "Clip shows"
+        index = []
+        season_no = "FiF"
+        soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+        h3 = soup.css.select_one("#Clip_shows").parent
+        logging.debug("About to iterate through h3 siblings.")
+        for _sibling in h3.find_next_siblings():
+            if _sibling.name == "table":
+                logging.debug("Found table. Scraping data.")
+                for tr in _sibling.find("tbody").find_all("tr"):
+                    # no, title, writer, airdate, transcript, gallery
+                    entry = {"seasonNo": season_no}
+                    for col_no, td in enumerate(tr.find_all("td")):
+                        if col_no not in (0, 1, 3):
+                            continue
+                        if col_no == 0:
+                            entry["episodeNo"] = int(td.text.lstrip("0"))
+                        elif col_no == 1:
+                            href = td.find("a")['href']
+                            entry["urlName"] = href.split('/')[-1]
+                            entry['title'] = td.text
+                            filepath2 = Path('output', 'FiM', 'html', entry['urlName'] + ".html")
+                            if not filepath2.exists():
+                                cls.download_page(filepath2, cls.ROOT + href)
+                            soup2 = bs4.BeautifulSoup(filepath2.read_text(), "html.parser")
+                            entry['summary'] = cls.scrape_episode_summary(soup2)
+                        elif col_no == 3:
+                            title = td.find("span")['title']
+                            entry['airdate'] = title[:title.index(' ')]
+                    index.append(entry)
+            if index:
+                logging.debug("Index is full. Returning.")
+                return index
+
+    @classmethod
+    def scrape_episode_index(cls):
+        """
+        Scrapes following episode data from online episode index.
+        - seasonNo
+        - episodeNo
+        - title
+        - urlName
+        - summary
+        - airdate
+        """
+        #url = "https://mlp.fandom.com/wiki/List_of_episodes"
+        url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
+        scraper = SCRAPER
+        logging.debug("Sending GET to '%s'.", url)
+        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+        #table_fields = ( "episodeNo", "title", "writer", "airdate", # transcript # gallery)
+        index = []
+        for season_no, tbody in enumerate(soup.css.select(".table-dotted-rows > tbody"), start=1):
+            logging.debug("Fetching data for S%d", season_no)
+            for episode_no, tr in enumerate(tbody.find_all("tr"), start=1):
+                # seasonNo
+                logging.debug("Fetching data for E%d", episode_no)
+                episode = {"seasonNo": season_no}
+                for col_no, td in enumerate(tr.find_all("td")):
+                    if col_no not in (0, 1, 3):
+                        continue
+                    td_text = td.text
+                    if col_no == 0:
+                        # episodeNo
+                        try:
+                            episode["episodeNo"] = td_text[:td_text.index(" ")]
+                        except ValueError:
+                            # expect to fail upon reaching S10
+                            logging.debug("All data fetched.")
+                            return index
+                    elif col_no == 1:
+                        # title, urlName, summary
+                        episode["title"] = td_text
+                        href = td.find('a')['href']
+                        episode["urlName"] = href.split('/')[-1]
+                        episode["summary"] = cls.scrape_episode_summary(cls.ROOT + href)
+                    elif col_no == 3:
+                        # airdate
+                        episode["airdate"] = td_text
+                index.append(episode)
+
+    @staticmethod
+    def scrape_episode_summary(soup):
+        """
+        """
+        #scraper = SCRAPER
+        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+        #print(soup)
+        summary_lines = []
+        for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
+            #print(_tag)
+            if _tag.name == "p":
+                summary_lines.append(_tag.text)
+                continue
+                #print(_tag.name)
+            if "id" in _tag.attrs and _tag['id'] == "toc":
+                break
+        logging.debug("Fetched %d summary-lines.", len(summary_lines))
+        return summary_lines
+
+class TranscriptScrapers:
+    """
+    """
+    ROOT = "https://mlp.fandom.com"
+    NUM_SEASONS = 9
+
+    @staticmethod
+    def download_episode_transcript(path, url):
+        """
+        """
+        scraper = SCRAPER
+        logging.warning("Sending GET to '%s'.", url)
+        return path.write_text(scraper.get(url).text, encoding="utf-8")
+
+    @staticmethod
+    def parse_episode_transcript(soup):
+        """
+        """
+        #scraper = cloudscraper.create_scraper()
+        #logging.debug("Sending GET to '%s'.", url)
+        #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+        transcript_lines = []
+        for dd in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_all("dd", recursive=False):
+            line = dd.text
+            speaker, dialogue = get_speaker_and_dialogue(line)
+            transcript_lines.append((speaker, dialogue))
+        # assumes every table has dl as the first element.
+        for _sibling in soup.css.select_one(".mw-content-ltr.mw-parser-output").find("dl").find_next_siblings():
+            if _sibling.name == "dl":
+                for dd in _sibling.find_all("dd", recursive=False):
+                    line = dd.text
+                    speaker, dialogue = get_speaker_and_dialogue(line)
+                    transcript_lines.append((speaker, dialogue))
+            elif _sibling.name == "table":
+                for dl in _sibling.find_all("dl", recursive=False):
+                    line = dl.text
+                    speaker, dialogue = get_speaker_and_dialogue(line)
+                    transcript_lines.append((speaker, dialogue))
+        for tagno, _tag in enumerate(soup.css.select(".mw-content-ltr.mw-parser-output > *")):
+            if not tagno and _tag.name == "table":
+                logging.error("Transcript table has a table tag as the first element.")
+            break
+        logging.info("Number of lines retrieved: %d", len(transcript_lines))
+        return transcript_lines
+
+    @classmethod
+    def scrape_episode_transcripts(cls):
+        """
+        """
+        url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
+        scraper = SCRAPER
+        logging.debug("Sending GET to '%s'.", url)
+        soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
+        # save to (season_no, episode_no) key
+        transcripts = {}
+        for season_no, tbody in enumerate(soup.css.select(".table-dotted-rows > tbody"), start=1):
+            if season_no > cls.NUM_SEASONS:
+                break
+            logging.debug("Fetching transcript for S%d", season_no)
+            for episode_no, tr in enumerate(tbody.find_all("tr"), start=1):
+                logging.debug("Fetching transcript for E%d", episode_no)
+                for col_no, td in enumerate(tr.find_all("td")):
+                    td_text = td.text
+                    if col_no == 0:
+                        true_episode_no = td_text[:td_text.index(" ")]
+                        continue
+                    elif col_no < 4:
+                        continue
+                    elif col_no > 4:
+                        break
+                    else:
+                        href = td.find("a")['href']
+                        dirpath = Path("output", "FiM", "html", "S%d" % season_no)
+                        dirpath.mkdir(exist_ok=True)
+                        filepath = dirpath.joinpath("E%02d.html" % episode_no)
+                        if not filepath.exists():
+                            cls.download_episode_transcript(filepath, cls.ROOT + href)
+                        soup = bs4.BeautifulSoup(filepath.read_text(), 'html.parser')
+                        transcripts[(season_no, int(true_episode_no.lstrip("0")))] = cls.parse_episode_transcript(soup)
+        return transcripts
+
 if __name__ == "__main__":
     logging.basicConfig(
         filename=".scrapers.log",
-        level=logging.INFO,
+        level=logging.DEBUG,
         format="%(levelname)s:%(module)s.%(funcName)s: %(message)s",
     )
     def save_episode_index():
@@ -407,12 +465,11 @@ if __name__ == "__main__":
         with open(filepath, mode="w") as wfile:
             json.dump(index, wfile, indent=2)
         logging.debug("Dumped unicorn index into '%s'.", filepath)
-    #save_episode_index()
-    save_episode_transcripts()
-    #save_unicorn_profiles()
-    #FiMScrapers.scrape_episode_summary("https://mlp.fandom.com/wiki/Owl%27s_Well_That_Ends_Well")
-    #url = "https://mlp.fandom.com/wiki/Equestria_Girls_animated_media"
-    #CharacterMetadataScraper.scrape_unicorn_profiles()
-    #appearances = CharacterMetadataScraper.scrape_unicorn_appearances("https://mlp.fandom.com/wiki/Mistmane")
-    #print(appearances)
-
+    def save_clipshow_index():
+        """
+        """
+        filename = "output/FiM/indexes/clipshow.json"
+        index = MetadataScrapers.scrape_clipshow_index()
+        with open(filename, mode="w") as wfile:
+            json.dump(index, wfile, indent=2)
+    save_clipshow_index()
