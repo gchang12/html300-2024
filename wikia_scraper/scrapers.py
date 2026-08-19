@@ -378,6 +378,43 @@ class TranscriptScrapers:
         logging.info("Number of lines retrieved: %d", len(transcript_lines))
         return transcript_lines
 
+    @staticmethod
+    def parse_shorts_transcript(soup, anchor_id):
+        """
+        """
+        #soup = bs4.BeautifulSoup(Path("output", "FiM", "transcripts", "shorts", "Ail-icorn.html").read_text(), "html.parser")
+        #for h2 in soup.find_all("h2"):
+            #print(h2.text)
+        transcript_dict = {}
+        #anchor_id = "#Triple_Pony_Dare_Ya"
+        anchor = soup.css.select_one(anchor_id).parent
+        transcript_dict[anchor_id.lstrip("#")] = []
+        transcript_lines = transcript_dict[anchor_id.lstrip("#")]
+        for _sibling in anchor.find_next_siblings():
+            if _sibling.name == "dl":
+                for dd in _sibling.find_all("dd", recursive=False):
+                    line = dd.text
+                    speaker, dialogue = get_speaker_and_dialogue(line)
+                    transcript_lines.append((speaker, dialogue))
+            elif _sibling.name == "table":
+                for dl in _sibling.find_all("dl", recursive=False):
+                    line = dl.text
+                    speaker, dialogue = get_speaker_and_dialogue(line)
+                    transcript_lines.append((speaker, dialogue))
+            elif _sibling.name == "h2":
+                logging.debug("Number of lines compiled for '%s': %d", anchor_id, len(transcript_lines))
+                anchor_id = _sibling.find("span")['id']
+                if "." in anchor_id:
+                    logging.warning("Period found in anchor_id: '%s'", anchor_id)
+                    anchor_id = anchor_id.replace(".", "%")
+                transcript_dict[anchor_id.lstrip("#")] = []
+                transcript_lines = transcript_dict[anchor_id.lstrip("#")]
+            elif "navbox" in _sibling['class']:
+                break
+        # stop when .navbox
+        logging.debug("Number of lines retrieved: %r", len(transcript_dict))
+        return transcript_dict
+
     @classmethod
     def scrape_episode_transcripts(cls):
         """
@@ -472,4 +509,28 @@ if __name__ == "__main__":
         index = MetadataScrapers.scrape_clipshow_index()
         with open(filename, mode="w") as wfile:
             json.dump(index, wfile, indent=2)
-    save_clipshow_index()
+    def save_specials_transcripts():
+        """
+        """
+        for dirpath, _, filelist in Path("output", "FiM", "transcripts").walk():
+            for htmlfile in filter(lambda file: file.endswith(".html"), filelist):
+                if dirpath.parts[-1] == "shorts":
+                    continue
+                filepath = dirpath.joinpath(htmlfile)
+                soup = bs4.BeautifulSoup(filepath.read_text(encoding="utf-8"), "html.parser")
+                transcript_lines = TranscriptScrapers.parse_episode_transcript(soup)
+                with open(filepath.with_suffix(".json"), mode="w") as wfile:
+                    json.dump(transcript_lines, wfile, indent=2)
+        for dirpath, _, filelist in Path("output", "FiM", "transcripts").walk():
+            if dirpath.parts[-1] != "shorts":
+                continue
+            for htmlfile in filter(lambda file: file.endswith(".html"), filelist):
+                dirpath = Path("output", "FiM", "transcripts", "shorts")
+                soup = bs4.BeautifulSoup(dirpath.joinpath("Ail-icorn.html").read_text(), "html.parser")
+                anchor_id = "#Triple_Pony_Dare_Ya"
+                transcript_dict = TranscriptScrapers.parse_shorts_transcript(soup, anchor_id)
+                for anchor_id, lines in transcript_dict.items():
+                    with open(dirpath.joinpath(anchor_id).with_suffix(".json"), mode="w") as wfile:
+                        json.dump(lines, wfile, indent=2)
+                break
+    save_specials_transcripts()
