@@ -26,8 +26,8 @@ header {
   background-color: $blue-outline;
   background-image: url("./assets/star.png");
   border: 1rem solid $light-green;
-  display: flex;
-  justify-content: space-between;
+  //display: flex;
+  //justify-content: space-between;
   & a.Logo {
     display: inline-block;
     margin: 1rem;

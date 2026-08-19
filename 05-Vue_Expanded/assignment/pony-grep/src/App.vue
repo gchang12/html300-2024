@@ -48,21 +48,27 @@
 <template>
   <div id="app">
     <header>
-      <a href="/#/" class="img-link Logo">
-        <img src="./assets/banner.png" />
-      </a>
-      <div class="NaviBar">
-        <nav>
-          <ul class="nav">
-            <li class="nav-item">
-              <a class="nav-link" href="/#/about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/#/transcripts">Transcripts</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+      <div class="container"> 
+        <div class="row justify-content-between align-items-center">
+          <div class="col-auto">
+            <a href="/#/" class="img-link Logo">
+              <img src="./assets/banner.png" />
+            </a>
+          </div>
+          <div class="col-auto">
+            <nav>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/#/about">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/#/transcripts">Transcripts</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div> 
     </header>
     <main>
       <component :is="currentView" />
