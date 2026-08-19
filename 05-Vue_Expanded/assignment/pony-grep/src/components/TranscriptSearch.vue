@@ -55,18 +55,18 @@
             <div class="form-text">Limit results to lines where only specified character(s) spoke the line.</div>
           </div>
         </div>
-        <div class="row">
-          <div class="col Series Field">
-            <!-- NOTE: Placeholder -->
-            <fieldset>
-              <legend>Series</legend>
-              <div class="MLP-FiM Field Choice">
-                <label for="mlp-fim" class="form-label">MLP: FiM</label>
-                <input id="mlp-fim" class="form-check" disabled readonly checked type="checkbox" aria-label="readonly" />
-              </div>
-            </fieldset>
-          </div>
-        </div>
+        <!-- <div class="row"> -->
+        <!-- <div class="col Series Field"> -->
+        <!-- NOTE: Placeholder -->
+            <!-- <fieldset> -->
+            <!-- <legend>Series</legend> -->
+            <!-- <div class="MLP-FiM Field Choice"> -->
+            <!-- <label for="mlp-fim" class="form-label">MLP: FiM</label> -->
+            <!-- <input id="mlp-fim" class="form-check" disabled readonly checked type="checkbox" aria-label="readonly" /> -->
+            <!-- </div> -->
+            <!-- </fieldset> -->
+            <!-- </div> -->
+            <!-- </div> -->
         <button class="btn btn-primary" id="search-button" @click="searchAndParseResults">Search</button>
       </form>
     </article>
