@@ -19,6 +19,8 @@ import requests
 import cloudscraper
 import bs4
 
+SCRAPER = cloudscraper.create_scraper()
+
 def get_speaker_and_dialogue(line):
     """
     """
@@ -83,7 +85,7 @@ class MetadataScrapers:
         """
         #url = "https://mlp.fandom.com/wiki/List_of_episodes"
         url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
-        scraper = cloudscraper.create_scraper()
+        scraper = SCRAPER
         logging.debug("Sending GET to '%s'.", url)
         soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         #table_fields = ( "episodeNo", "title", "writer", "airdate", # transcript # gallery)
@@ -121,7 +123,7 @@ class MetadataScrapers:
     def scrape_episode_summary(url):
         """
         """
-        scraper = cloudscraper.create_scraper()
+        scraper = SCRAPER
         soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         #print(soup)
         summary_lines = []
@@ -136,6 +138,10 @@ class MetadataScrapers:
         logging.debug("Fetched %d summary-lines.", len(summary_lines))
         return summary_lines
 
+    # TODO: Scrape summaries of shorts
+    # TODO: Scrape shorts with multiple endings
+    # TODO: Scrape shorts with their own pages
+
 class TranscriptScrapers:
     """
     """
@@ -146,7 +152,7 @@ class TranscriptScrapers:
     def download_episode_transcript(path, url):
         """
         """
-        scraper = cloudscraper.create_scraper()
+        scraper = SCRAPER
         logging.warning("Sending GET to '%s'.", url)
         return path.write_text(scraper.get(url).text, encoding="utf-8")
 
@@ -186,7 +192,7 @@ class TranscriptScrapers:
         """
         """
         url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
-        scraper = cloudscraper.create_scraper()
+        scraper = SCRAPER
         logging.debug("Sending GET to '%s'.", url)
         soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         # save to (season_no, episode_no) key
@@ -239,7 +245,7 @@ class CharacterMetadataScraper:
     def download_unicorn_page(path, url):
         """
         """
-        scraper = cloudscraper.create_scraper()
+        scraper = SCRAPER
         #logging.debug("Sending GET to '%s'.", url)
         return path.write_text(scraper.get(url).text, encoding="utf-8")
         #soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
@@ -303,7 +309,7 @@ class CharacterMetadataScraper:
         """
         #url = "https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media"
         url = "https://mlp.fandom.com/wiki/List_of_ponies/Unicorn_ponies"
-        scraper = cloudscraper.create_scraper()
+        scraper = SCRAPER
         logging.debug("Sending GET to '%s'.", url)
         soup = bs4.BeautifulSoup(scraper.get(url).text, "html.parser")
         index = []
