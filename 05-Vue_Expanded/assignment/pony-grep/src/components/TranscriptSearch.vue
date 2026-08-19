@@ -40,7 +40,7 @@
           <div class="col Dialogue Field">
             <label for="dialoguePattern" class="form-label">Dialogue</label>
             <input placeholder="friendship is magic" minlength="3" id="dialoguePattern" class="form-control" type="text" name="dialoguePattern" required />
-            <div class="form-text">Pattern to search for in all G4 dialogue.</div>
+            <div class="Help form-text">Pattern to search for in all G4 dialogue.</div>
           </div>
           <!-- <div class="col-2 Lyrics Field"> -->
           <!-- <label for="isSung" class="form-label">Lyrics</label> -->
@@ -52,7 +52,7 @@
           <div class="col Character Field">
             <label for="speaker" class="form-label">Character</label>
             <input placeholder="discord|mane six" id="speaker" class="form-control" type="text" name="speaker" />
-            <div class="form-text">Limit results to lines where only specified character(s) spoke the line.</div>
+            <div class="Help form-text">Limit results to lines where only specified character(s) spoke the line.</div>
           </div>
         </div>
         <!-- <div class="row"> -->
