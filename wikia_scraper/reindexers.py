@@ -84,11 +84,9 @@ def generate_transcriptline_index(episode_index):
             speaker, dialogue = line
             dialogue = dialogue.strip()
             # remove blank lines
-            if dialogue.strip() == "":
+            if dialogue == "":
                 if speaker is not None:
                     logging.warning("Speaker '%s' has no line at L%d in S%d E%d", speaker, indexno, episode['seasonNo'], episode['episodeNo'])
-                else:
-                    logging.warning("Blank line at L%d in S%d E%d", indexno, episode['seasonNo'], episode['episodeNo'])
                 continue
             #if speaker is None: continue
             # ignore lines that have both dialogue and no speaker speaking it
@@ -105,7 +103,7 @@ def generate_transcriptline_index(episode_index):
                 speaker = lines2[-1][0]
                 # skip lyrics that lack newlines
                 #continue
-            elif (speaker is None):
+            if (speaker is None):
                 continue
             lines2.append((speaker, dialogue))
         for (line_no, line) in enumerate(lines2, start=1):
