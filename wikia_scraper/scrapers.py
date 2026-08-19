@@ -743,18 +743,32 @@ class TranscriptScrapers:
         return transcript_lines
 
     @staticmethod
-    def parse_shorts_transcript(soup, anchor_id):
+    def parse_shorts_transcript(soup, anchor_id, title):
         """
         """
         #soup = bs4.BeautifulSoup(Path("output", "FiM", "transcripts", "shorts", "Ail-icorn.html").read_text(), "html.parser")
         #for h2 in soup.find_all("h2"):
             #print(h2.text)
-        transcript_dict = {}
         #anchor_id = "#Triple_Pony_Dare_Ya"
-        anchor = soup.css.select_one(anchor_id).parent
-        transcript_dict[anchor_id.lstrip("#")] = []
-        transcript_lines = transcript_dict[anchor_id.lstrip("#")]
-        for _sibling in anchor.find_next_siblings():
+        #logging.debug("Searching for id='%s'", anchor_id)
+        #anchor = soup.css.select_one(anchor_id).parent
+        try:
+            logging.debug("Scanning for anchor id='%s'", anchor_id)
+            anchor = soup.css.select_one(anchor_id).parent
+        except Exception as e:
+            logging.debug("Scanning for title '%s'", title)
+            logging.warning("Error: %s", e)
+            #span = soup.css.select_one("#" + anchor_id)
+            for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
+                tag_text = _tag.text.strip().rstrip("[]") 
+                if tag_text == title:
+                    anchor = _tag
+                    break
+        #transcript_dict = {}
+        #transcript_dict[anchor_id.lstrip("#")] = []
+        transcript_lines = []
+        for indexno, _sibling in enumerate(anchor.find_next_siblings(), start=1):
+            logging.debug("Line number: %d", indexno)
             if _sibling.name == "dl":
                 for dd in _sibling.find_all("dd", recursive=False):
                     line = dd.text
@@ -767,16 +781,74 @@ class TranscriptScrapers:
                     transcript_lines.append((speaker, dialogue))
             elif _sibling.name == "h2":
                 logging.debug("Number of lines compiled for '%s': %d", anchor_id, len(transcript_lines))
-                anchor_id = _sibling.find("span")['id']
+                break
+                '''
+                try:
+                    anchor_id = _sibling.find("span")['id']
+                except Exception as e:
+                    logging.debug("_sibling: %s", _sibling)
+                    logging.debug("anchor: %s", anchor)
+                    raise e
                 if "." in anchor_id:
                     logging.warning("Period found in anchor_id: '%s'", anchor_id)
                     anchor_id = anchor_id.replace(".", "%")
                 transcript_dict[anchor_id.lstrip("#")] = []
                 transcript_lines = transcript_dict[anchor_id.lstrip("#")]
-            elif "navbox" in _sibling['class']:
+                '''
+            elif "class" in _sibling.attrs and "navbox" in _sibling['class']:
                 break
         # stop when .navbox
-        logging.debug("Number of lines retrieved: %r", len(transcript_dict))
+        logging.debug("Number of lines retrieved: %r", len(transcript_lines))
+        return transcript_lines
+
+    @staticmethod
+    def parse_multipart_shorts_transcript(soup, anchor_id, title):
+        """
+        """
+        #anchor_id = "#Triple_Pony_Dare_Ya"
+        try:
+            logging.debug("Scanning for anchor id='%s'", anchor_id)
+            anchor = soup.css.select_one(anchor_id).parent
+        except Exception as e:
+            logging.debug("Scanning for title '%s'", title)
+            logging.warning("Error: %s", e)
+            #span = soup.css.select_one("#" + anchor_id)
+            for _tag in soup.css.select(".mw-content-ltr.mw-parser-output > *"):
+                tag_text = _tag.text.strip().rstrip("[]") 
+                if tag_text == title:
+                    anchor = _tag
+                    break
+        #transcript_dict[anchor_id.lstrip("#")] = []
+        transcript_dict = {None: []}
+        transcript_lines = transcript_dict[None]
+        logging.debug("anchor: %r", anchor)
+        for indexno, _sibling in enumerate(anchor.find_next_siblings(), start=1):
+            logging.debug("Line number: %d", indexno)
+            if _sibling.name == "dl":
+                for dd in _sibling.find_all("dd", recursive=False):
+                    line = dd.text
+                    speaker, dialogue = get_speaker_and_dialogue(line)
+                    transcript_lines.append((speaker, dialogue))
+            elif _sibling.name == "table":
+                for dl in _sibling.find_all("dl", recursive=False):
+                    line = dl.text
+                    speaker, dialogue = get_speaker_and_dialogue(line)
+                    transcript_lines.append((speaker, dialogue))
+            elif _sibling.name == "h3":
+                logging.debug("Number of lines compiled for '%s': %d", anchor_id, len(transcript_lines))
+                try:
+                    anchor_id = _sibling.find("span")['id']
+                except Exception as e:
+                    logging.debug("%s", anchor)
+                    raise e
+                if "." in anchor_id:
+                    logging.warning("Period found in anchor_id: '%s'", anchor_id)
+                    anchor_id = anchor_id.replace(".", "%")
+                transcript_dict[anchor_id.lstrip("#")] = []
+                transcript_lines = transcript_dict[anchor_id.lstrip("#")]
+            elif _sibling.name == "h2":
+                break
+        logging.debug("Number of parts retrieved: %r", len(transcript_dict))
         return transcript_dict
 
     @classmethod
@@ -819,6 +891,7 @@ if __name__ == "__main__":
     logging.basicConfig(
         filename=".scrapers.log",
         level=logging.DEBUG,
+        filemode="w",
         format="%(levelname)s:%(module)s.%(funcName)s: %(message)s",
     )
     def save_episode_index():
@@ -953,4 +1026,51 @@ if __name__ == "__main__":
             #lines = TranscriptScrapers.parse_episode_transcript(soup)
             #with open(filepath.with_suffix(".json"), mode="w") as wfile:
                 #json.dump(lines, wfile, indent=2)
-    save_eqg_shorts_index()
+    #save_eqg_shorts_index()
+
+    def save_eqg_shorts_transcripts():
+        """
+        """
+        filename = "output/EqG/indexes/shorts.json"
+        with open(filename) as rfile:
+            index = json.load(rfile)
+        dirname = "output/EqG/transcripts/"
+        for entry in filter(lambda entry: "urlName" in entry, index):
+            url_name = entry['urlName']
+            filepath = Path(dirname, url_name + ".html")
+            soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+            season_no = entry['seasonNo']
+            title = entry['title']
+            logging.debug("season_no: %s, url_name: %s", season_no, url_name)
+            if "Choose Your Own Ending" in season_no:
+                logging.debug("TranscriptScrapers.parse_multipart_shorts_transcript(soup, '%s', '%s')", anchor_id, title)
+                anchor_id = url_name[url_name.index("#") + 1:]
+                lines_dict = TranscriptScrapers.parse_multipart_shorts_transcript(soup, "#" + anchor_id, title)
+                logging.debug("lines_dict: %r", lines_dict)
+                for anchor_id, lines in lines_dict.items():
+                    suffix = ("#" + anchor_id if anchor_id is not None else "")
+                    dirpath = Path(dirname, season_no)
+                    dirpath.mkdir(exist_ok=True)
+                    filepath = Path(dirname, season_no, url_name[url_name.index("#") + 1:] + suffix + ".json")
+                    logging.debug("Saving to: %r", filepath)
+                    if len(lines) == 0:
+                        logging.error("season_no: %r, url_name: %r, title: %r, len(lines): %r", season_no, url_name, title, len(lines))
+                    with open(filepath, mode="w") as wfile:
+                        json.dump(lines, wfile, indent=2)
+            elif "#" in url_name:
+                anchor_id = url_name[url_name.index("#") + 1:]
+                logging.debug("TranscriptScrapers.parse_shorts_transcript(soup, '%s', '%s')", anchor_id, title)
+                lines = TranscriptScrapers.parse_shorts_transcript(soup, "#" + anchor_id, title)
+                if len(lines) == 0:
+                    logging.error("season_no: %r, url_name: %r, title: %r, len(lines): %r", season_no, url_name, title, len(lines))
+                suffix = "#" + url_name + "#" + anchor_id
+                with open(Path(dirname, suffix + ".json"), mode="w") as wfile:
+                    json.dump(lines, wfile, indent=2)
+                #for line in lines:
+            else:
+                lines = TranscriptScrapers.parse_episode_transcript(soup)
+                if len(lines) == 0:
+                    logging.error("season_no: %r, url_name: %r, title: %r, len(lines): %r", season_no, url_name, title, len(lines))
+                with open(Path(dirname, url_name + ".json"), mode="w") as wfile:
+                    json.dump(lines, wfile, indent=2)
+    save_eqg_shorts_transcripts()
