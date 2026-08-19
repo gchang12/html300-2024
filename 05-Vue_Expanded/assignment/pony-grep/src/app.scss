@@ -99,3 +99,20 @@ span._fieldValue {
 .Help {
   text-align: left;
 }
+
+.EpisodeList {
+  display: grid;
+  list-style-type: none;
+  margin-left: 0;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.EpisodeInfo {
+  position: sticky;
+  top: 0;
+}
+
+.EpisodeInfo p {
+  text-align: left;
+}
+

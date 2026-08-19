@@ -5,7 +5,8 @@
   import episodeList from "../constants/episodeList.js";
   import transcriptLines from "../constants/transcriptLines.js";
 
-  const currentEpisode = ref({});
+  //const currentEpisode = ref({});
+  const currentEpisode = ref(episodeList.find(() => true));
   const activeSeason = ref(-1);
 
   function setSeason(e) {
@@ -19,13 +20,11 @@
     console.log(activeSeason);
   }
 
-  /*
   // TODO: Use for all episode transcript directories and leverage urlParams
   function selectEpisode(e) {
     const id = e.currentTarget.dataset.id;
     currentEpisode.value = episodeList.find(episode => episode.id == id);
   }
-  */
 
 </script>
 
@@ -35,7 +34,6 @@
 
     <div class="container">
       <div class="row">
-
         <div class="col">
           <h2>Index</h2>
           <aside id="mlp-fim" class="EpisodeIndex">
@@ -52,8 +50,8 @@
                 </a>
                 <!-- <div v-if="seasonNo == activeSeason"> Active Season: {{ activeSeason }} </div> -->
                 <!-- <ol class="dropdown-menu" v-if="seasonNo == activeSeason"> -->
-                <ol class="navbar-nav" v-if="seasonNo == activeSeason">
-                  <li class="nav-item align-items-start justify-content-start" v-for="episode in episodeList.filter(episode => episode.seasonNo == seasonNo)" :key="episode.id">
+                <ol class="EpisodeList" v-if="seasonNo == activeSeason">
+                  <li :data-id="episode.id" @click="selectEpisode" v-for="episode in episodeList.filter(episode => episode.seasonNo == seasonNo)" :key="episode.id">
                     <!-- <a role="button" class="dropdown-item"> -->
                     <a class="EpisodeEntry" role="button">
                       <!-- <button class="btn btn-secondary">E{{ episode.episodeNo }}</button>{{ episode.title }} -->
@@ -66,13 +64,14 @@
             </ol>
           </aside>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col">
-          <main class="transcript">
+          <main class="Transcript">
             <h2>Transcript</h2>
             <div class="content" v-if="Object.keys(currentEpisode).length !== 0">
-              <h3>S{{ currentEpisode.seasonNo }} E{{ currentEpisode.episodeNo }} – {{currentEpisode.title }}</h3>
-              <table>
+              <table class="table table-light table-striped">
                 <thead>
                   <tr>
                     <th>Character</th>
@@ -94,11 +93,12 @@
           </main>
         </div>
 
-        <div class="col">
-          <aside class="current-episode-info">
+        <div class="col-3">
+          <aside class="EpisodeInfo">
             <h2>Episode Info</h2>
             <div v-if="Object.keys(currentEpisode).length !== 0">
-              <table>
+              <h3>{{currentEpisode.title }}</h3>
+              <table class="table table-light">
                 <tbody>
                   <tr>
                     <th>Season</th>
@@ -119,8 +119,8 @@
             </div>
           </aside>
         </div>
-
       </div>
+
     </div>
   </div>
 </template>
