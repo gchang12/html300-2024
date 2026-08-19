@@ -62,7 +62,7 @@
               <div class="col Character Field">
                 <label for="speaker" class="form-label">Character</label>
                 <input placeholder="discord|mane six" id="speaker" class="form-control" type="text" name="speaker" />
-                <div class="Help form-text">Limit results to lines where only specified character(s) spoke the line.</div>
+                <div class="Help form-text">Limit results to lines spoken only by specified character(s).</div>
               </div>
             </div>
             <!-- <div class="row"> -->
@@ -99,6 +99,7 @@
                 <li class="Help">&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="Search">Search</span> button.&rdquo;</li>
               </ol>
             </article>
+            <!-- TODO: Insert accordion here, with header 'MLP:FiM' and count of results. -->
             <div id="mlp-fim" class="SearchResults" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
               <table class="table table-primary table-light table-striped">
                 <thead>

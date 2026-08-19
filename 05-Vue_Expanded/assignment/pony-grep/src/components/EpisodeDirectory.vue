@@ -9,6 +9,45 @@
   //const currentEpisode = ref(episodeList.find(() => true));
   const activeSeason = ref(-1);
 
+  const seasonImages = [
+    {
+      seasonNo: 1,
+      imgName: "My_Little_Pony_Theme_Song.webp"
+    },
+    {
+      seasonNo: 2,
+      imgName: "My_Little_Pony_Theme_Song.webp"
+    },
+    {
+      seasonNo: 3,
+      imgName: "My_Little_Pony_Theme_Song.webp"
+    },
+    {
+      seasonNo: 4,
+      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
+    },
+    {
+      seasonNo: 5,
+      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
+    },
+    {
+      seasonNo: 6,
+      imgName: "Photo_Finish_taking_photo_S6_opening.webp"
+    },
+    {
+      seasonNo: 7,
+      imgName: "Photo_Finish_taking_photo_S7_opening.webp"
+    },
+    {
+      seasonNo: 8,
+      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
+    },
+    {
+      seasonNo: 9,
+      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
+    },
+  ];
+
   function setSeason(e) {
     //console.log(e);
     const seasonNo = e.currentTarget.dataset.season;
@@ -28,6 +67,8 @@
     } else {
       currentEpisode.value = episodeList.find(episode => episode.id == id);
     }
+    alert("Scroll down for the transcript of S" + currentEpisode.value.seasonNo + " E" + currentEpisode.value.episodeNo + ", '" + currentEpisode.value.title + "'.");
+    //e.currentTarget.classList.add("");
   }
 
 </script>
@@ -47,32 +88,45 @@
 
     <div class="container">
       <div class="row">
+        <div class="col-3">
+          <!-- <div v-if="seasonNo == activeSeason"> Active Season: {{ activeSeason }} </div> -->
+          <!-- <ol class="dropdown-menu" v-if="seasonNo == activeSeason"> -->
+          <article>
+            <h2>Episode List</h2>
+            <article v-if="activeSeason != -1">
+              <h3>Season {{ activeSeason }}</h3>
+              <ol class="EpisodeList">
+                <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
+                  <!-- <a role="button" class="dropdown-item"> -->
+                  <a class="EpisodeEntry" role="button">
+                    <!-- <button class="btn btn-secondary">E{{ episode.episodeNo }}</button>{{ episode.title }} -->
+                    <button class="btn btn-secondary">E{{ episode.episodeNo }}</button> {{ episode.title }}
+                    <!-- E{{ episode.episodeNo }} {{ episode.title }} -->
+                  </a>
+                </li>
+              </ol>
+            </article>
+          </article>
+        </div>
         <div class="col">
           <h2>Index</h2>
           <aside id="mlp-fim" class="EpisodeIndex">
             <h3>MLP:FiM</h3>
             <ol class="navbar-nav">
               <!-- <li class="nav-item dropdown" v-for="seasonNo in [1, 2, 3, 4, 5, 6, 7, 8, 9]" :key="seasonNo"> -->
-              <li class="nav-item" v-for="seasonNo in [1, 2, 3, 4, 5, 6, 7, 8, 9]" :key="seasonNo">
+              <li class="nav-item" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
                 <!-- <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
-                <a class="nav-link" role="button">
-                  <!-- TODO: Dropdown not working. Temporary fix. -->
-                  <button class="btn btn-primary" :data-season="seasonNo" @click="setSeason">
-                    S{{seasonNo}}
-                  </button>
-                </a>
-                <!-- <div v-if="seasonNo == activeSeason"> Active Season: {{ activeSeason }} </div> -->
-                <!-- <ol class="dropdown-menu" v-if="seasonNo == activeSeason"> -->
-                <ol class="EpisodeList" v-if="seasonNo == activeSeason">
-                  <li :data-id="episode.id" @click="selectEpisode" v-for="episode in episodeList.filter(episode => episode.seasonNo == seasonNo)" :key="episode.id">
-                    <!-- <a role="button" class="dropdown-item"> -->
-                    <a class="EpisodeEntry" role="button">
-                      <!-- <button class="btn btn-secondary">E{{ episode.episodeNo }}</button>{{ episode.title }} -->
-                      <button class="btn btn-secondary">E{{ episode.episodeNo }}</button> {{ episode.title }}
-                      <!-- E{{ episode.episodeNo }} {{ episode.title }} -->
+                <figure>
+                  <img :src="'/images/' + seasonImage.imgName" class="img-thumbnail" />
+                  <figcaption>
+                    <a class="nav-link" role="button">
+                      <!-- TODO: Dropdown not working. Temporary fix. -->
+                      <button class="btn btn-block btn-primary" :data-season="seasonImage.seasonNo" @click="setSeason">
+                        S{{seasonImage.seasonNo}}
+                      </button>
                     </a>
-                  </li>
-                </ol>
+                  </figcaption>
+                </figure>
               </li>
             </ol>
           </aside>

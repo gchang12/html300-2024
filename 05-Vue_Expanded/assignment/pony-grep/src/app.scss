@@ -92,11 +92,6 @@ span._fieldValue {
   //text-align: left;
 }
 
-.EpisodeEntry {
-  margin-left: 2rem;
-  text-align: left;
-}
-
 .Help {
   text-align: left;
 }
@@ -104,10 +99,14 @@ span._fieldValue {
 .EpisodeList {
   list-style-type: none;
   margin-left: 0;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  text-align: left;
   /* display: flex; */
   /* flex-wrap: wrap; */
+  height: 600px;
+  width: 16rem;
+  overflow-y: scroll;
+  border: 5px dashed $blue-outline;
+  padding: 0;
 }
 
 .EpisodeInfo {
@@ -119,3 +118,7 @@ span._fieldValue {
   text-align: left;
 }
 
+.EpisodeIndex > ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
