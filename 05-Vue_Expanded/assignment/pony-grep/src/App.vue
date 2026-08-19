@@ -41,17 +41,6 @@
   const currentView = computed(() => {
     return routes[currentPath.value.slice(1) || "/"] || IndexPage;
   });
-  const pageList = ref([
-    {
-      href: "#/about",
-      text: "About",
-    },
-    {
-      href: "#/transcripts",
-      text: "Transcripts",
-    },
-    //{ href: "#/dossier", text: "Dossier", },
-  ]);
   /* End: Routing. */
 
 </script>
@@ -59,32 +48,34 @@
 <template>
   <div id="app">
     <header>
-      <a href="/#/" class="img-link">
+      <a href="/#/" class="img-link Logo">
         <img src="./assets/banner.png" />
       </a>
+      <div class="NaviBar">
+        <nav>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/#/about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/#/transcripts">Transcripts</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <nav>
-      <!-- TODO: Re-add expandable navibar -->
-      <menu>
-        <li v-for="page in pageList" :key="page.href">
-          <a :href="page.href">
-            {{ page.text }}
-          </a>
-        </li>
-      </menu>
-    </nav>
     <main>
       <component :is="currentView" />
     </main>
     <footer>
-      <div class="credits">
+      <div class="Credits">
         <span class="footer-section-header">
           Credits
         </span>
-        <a class="external" href="https://www.fandom.com/licensing">
+        <a class="External" href="https://www.fandom.com/licensing">
           Fandom
         </a>
-        <a class="external" href="https://github.com/gchang12/html300-2024/tree/lesson8">
+        <a class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">
           GitHub
         </a>
       </div>

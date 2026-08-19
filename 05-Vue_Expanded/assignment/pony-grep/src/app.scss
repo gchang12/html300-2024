@@ -9,30 +9,52 @@
   peach #f8f9c9
 */
 
+$light-green: #67e4be;
 $light-orange: #f1ba40;
 $reddish: #cb3208;
 $reddish-outline: #e0581d;
 $light-orange-outline: #f08322;
-$blue: #06363f;
+$blue: #125271;
+$blue-outline: #06363f;
+
+body {
+  background-color: $blue;
+}
 
 header {
-  padding: 4rem;
-  background-color: $blue;
+  /* padding: 4rem; */
+  background-color: $blue-outline;
   background-image: url("./assets/star.png");
-}
-
-header > a {
-  display: inline-block;
-  padding: 1rem;
-  border: 0.5rem solid $reddish;
-  background-color: $light-orange;
-  /* border-radius: 100px; */
-  /* background: radial-gradient($light-orange-outline, $blue); */
-  /* background: radial-gradient($blue, $light-orange-outline); */
-  /* background: radial-gradient(closest-side, $light-orange-outline, $blue); */
-  transition: box-shadow 0.25s;
-}
-
-header > a:hover {
-  box-shadow: 0 0 5rem $reddish-outline;
+  border: 1rem solid $light-green;
+  display: flex;
+  justify-content: space-between;
+  & a.Logo {
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 0.5rem solid $reddish;
+    background-color: $light-orange;
+    /* border-radius: 100px; */
+    /* background: radial-gradient($light-orange-outline, $blue); */
+    /* background: radial-gradient($blue, $light-orange-outline); */
+    /* background: radial-gradient(closest-side, $light-orange-outline, $blue); */
+    transition: box-shadow 0.25s;
+  }
+  & a.Logo:hover {
+    box-shadow: 0 0 2rem $reddish-outline;
+  }
+  & nav {
+    background-color: $blue;
+    border: 0.5rem solid $light-green;
+    margin: 1rem;
+  }
+  & nav a {
+    color: $light-green;
+    transition: text-shadow 0.25s;
+  }
+  & nav a:hover {
+    text-shadow: 0 0 1rem white;
+    color: white;
+    text-decoration: none;
+  }
 }
