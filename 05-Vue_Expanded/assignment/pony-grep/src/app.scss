@@ -82,7 +82,16 @@ span.Search {
 span.Character {
   color: orange;
 }
-
 span._fieldValue {
   text-decoration: underline;
+}
+
+.EpisodeIndex a[role='button'] {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
+}
+
+.EpisodeEntry {
+  margin-left: 2rem;
 }
