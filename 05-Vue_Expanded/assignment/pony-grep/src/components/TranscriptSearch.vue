@@ -89,18 +89,18 @@
           <!-- Otherwise, show table of results -->
           <div id="search-results">
             <span v-if="dialoguePattern !== ''" id="result-notification">
-              {{ searchResults.length }} results for '{{ dialoguePattern }}'
+              {{ searchResults.length }} results for '{{ dialoguePattern }}'.
             </span>
             <article class="container w-50" v-else>
               <h3>How to Use</h3>
               <ol>
-                <li>I want to see if "friendship is magic" is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="Dialogue">Dialogue</span> box now.</li>
-                <li>I want to see if Discord or Yona says it. I'll input <span class="_fieldValue">Discord|Yona</span> into the <span class="Character">Character</span> field.</li> 
-                <li>Let's see if either Discord or Yona say "friendship is magic" by hitting the <span class="Search">Search</span> button.</li>
+                <li>&ldquo;I want to see if &lsquo;friendship is magic&rsquo; is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="Dialogue">Dialogue</span> box now.&rdquo;</li>
+                <li>&ldquo;I want to see if Discord or Twilight says it. I'll input <span class="_fieldValue">Discord|Twilight</span> into the <span class="Character">Character</span> field.&rdquo;</li> 
+                <li>&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="Search">Search</span> button.&rdquo;</li>
               </ol>
             </article>
             <div id="mlp-fim" class="SearchResults" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
-              <table class="table table-striped">
+              <table class="table table-primary table-light table-striped">
                 <thead>
                   <tr>
                     <th>Speaker</th>
