@@ -5,8 +5,8 @@
   import episodeList from "../constants/episodeList.js";
   import transcriptLines from "../constants/transcriptLines.js";
 
-  //const currentEpisode = ref({});
-  const currentEpisode = ref(episodeList.find(() => true));
+  const currentEpisode = ref({});
+  //const currentEpisode = ref(episodeList.find(() => true));
   const activeSeason = ref(-1);
 
   function setSeason(e) {
@@ -23,7 +23,11 @@
   // TODO: Use for all episode transcript directories and leverage urlParams
   function selectEpisode(e) {
     const id = e.currentTarget.dataset.id;
-    currentEpisode.value = episodeList.find(episode => episode.id == id);
+    if (id == currentEpisode.value.id) {
+      currentEpisode.value = {};
+    } else {
+      currentEpisode.value = episodeList.find(episode => episode.id == id);
+    }
   }
 
 </script>
@@ -31,6 +35,15 @@
 <template>
   <div id="episode-directory">
     <h1>Transcript Viewer</h1>
+    <article class="d-flex align-items-center flex-column">
+      <h2>Instructions</h2>
+      <ol class="w-25">
+        <li>Select season from index.</li>
+        <li>Select episode from episode index.</li>
+        <li>Scroll down and view transcript.</li>
+        <li>Select episode again to close the transcript.</li>
+      </ol>
+    </article>
 
     <div class="container">
       <div class="row">

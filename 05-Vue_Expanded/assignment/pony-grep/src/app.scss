@@ -89,11 +89,12 @@ span._fieldValue {
 .EpisodeIndex a[role='button'] {
   display: inline-block;
   width: 100%;
-  text-align: left;
+  //text-align: left;
 }
 
 .EpisodeEntry {
   margin-left: 2rem;
+  text-align: left;
 }
 
 .Help {
@@ -101,10 +102,12 @@ span._fieldValue {
 }
 
 .EpisodeList {
-  display: grid;
   list-style-type: none;
   margin-left: 0;
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
 }
 
 .EpisodeInfo {
