@@ -64,6 +64,18 @@
             </ol>
           </section>
         </article>
+        <article class="w-50 container">
+          <h2>How to Browse Transcripts</h2>
+          <section class="d-flex align-items-center flex-column">
+            <h3>Instructions</h3>
+            <ol>
+              <li>Select season from index.</li>
+              <li>Select episode from episode index.</li>
+              <li>Scroll down and view transcript.</li>
+              <li>Select episode again to close the transcript.</li>
+            </ol>
+          </section>
+        </article>
       </section>
       <!-- <article> -->
       <!-- <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!  This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.  Just go on over to <a href="#/">Search</a> and input your query.</p> -->
