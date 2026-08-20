@@ -1081,10 +1081,86 @@ if __name__ == "__main__":
     def save_eqg_shorts_transcripts():
         """
         """
-        filename = "output/EqG/indexes/shorts.json"
-        with open(filename) as rfile:
-            index = json.load(rfile)
+        #filename = "output/EqG/indexes/shorts.json"
+        #with open(filename) as rfile:
+            #index = json.load(rfile)
         dirname = "output/EqG/transcripts/"
-        for entry in filter(lambda entry: "urlName" in entry, index):
-            pass
-    #save_eqg_shorts_transcripts()
+        for dirpath, _, filelist in Path(dirname).walk():
+            for file in filter(lambda file: file.endswith(".html"), filelist):
+                filepath = dirpath.joinpath(file)
+                soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
+                if "Choose_Your_Own_Ending" in filepath.name:
+                    for h2 in soup.css.select("h2.open-section"):
+                        transcript_dict = {None: []}
+                        transcript_lines = transcript_dict[None]
+                        section = h2.find_next_sibling()
+                        assert section.name == "section"
+                        for dl in section.find_all("dl", recursive=False):
+                            for dd in dl.find_all("dd", recursive=False):
+                                line = dd.text
+                                speaker, dialogue = get_speaker_and_dialogue(line)
+                                transcript_lines.append((speaker, dialogue))
+                        for _sibling in section.find_next_siblings():
+                            if _sibling.name == "h3":
+                                transcript_lines = []
+                                transcript_dict[_sibling.text.strip().rstrip("[]")] = transcript_lines
+                            if _sibling.name == "h2":
+                                break
+                            if _sibling.name == "table":
+                                if "class" in _sibling.attrs and "navbox" in _sibling['class']:
+                                    pass
+                                else:
+                                    logging.warning("table in %s", filepath, _sibling)
+                            if _sibling.name == "dl":
+                                for dd in _sibling.find_all("dd", recursive=False):
+                                    line = dd.text
+                                    speaker, dialogue = get_speaker_and_dialogue(line)
+                                    transcript_lines.append((speaker, dialogue))
+                        #print(transcript_dict)
+                        for scenario, lines in transcript_dict.items():
+                            suffix = ("" if scenario is None else "#" + scenario)
+                            filepath2 = filepath.with_suffix("").joinpath(h2['id'].strip() + suffix + ".json")
+                            #logging.error("No lines for %r!%r", filepath, scenario)
+                            if not lines:
+                                logging.error("No lines for %r!%r", filepath, scenario)
+                            with open(filepath2, mode="w") as wfile:
+                                json.dump(lines, wfile, indent=2)
+                            #print(dirpath2)
+                else:
+                    for h2 in soup.css.select("h2.open-section"):
+                        lines = []
+                        section = h2.find_next_sibling()
+                        assert section.name == "section"
+                        filepath2 = filepath.with_suffix("").joinpath(h2['id'].strip() + ".json")
+                        for _tag in section.find_all():
+                            #print(filepath2)
+                            if _tag.name == "table":
+                                if "class" in _tag.attrs and "navbox" in _tag['class']:
+                                    pass
+                                if _tag.find("dl") is None:
+                                    continue
+                                else:
+                                    for td in _tag.find_all("td"):
+                                        line = td.text
+                                        speaker, dialogue = get_speaker_and_dialogue(line)
+                                        lines.append((speaker, dialogue))
+                                        #logging.warning("table in %s: %s", filepath, _tag)
+                                    pass
+                            if _tag.name == "h2":
+                                break
+                            if _tag.name == "dl":
+                                for dd in _tag.find_all("dd", recursive=False):
+                                    line = dd.text
+                                    speaker, dialogue = get_speaker_and_dialogue(line)
+                                    lines.append((speaker, dialogue))
+                        if not lines:
+                            logging.error("No lines for %s!%r", filepath2, scenario)
+                        with open(filepath2, mode="w") as wfile:
+                            json.dump(lines, wfile, indent=2)
+                        #print(filepath2)
+                    #print(dirpath2)
+                    #print(filepath, section)
+                #print(filepath)
+        #for entry in filter(lambda entry: "urlName" in entry, index):
+            #pass
+    save_eqg_shorts_transcripts()
