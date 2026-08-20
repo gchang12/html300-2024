@@ -1,4 +1,7 @@
 <script setup>
+  /* Image Page */
+  /* Grid System Page */
+  /* Tooltip Page */
 
   import { ref } from "vue";
 

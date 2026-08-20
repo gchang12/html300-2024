@@ -1,4 +1,5 @@
 <script setup>
+  /* Accordion Page */
 
   import { ref } from "vue";
 
