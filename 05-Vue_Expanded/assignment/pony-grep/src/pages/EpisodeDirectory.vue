@@ -1,4 +1,5 @@
 <script setup>
+    // Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
 
   import { ref } from "vue";
 
@@ -91,17 +92,24 @@
               <!-- <li class="nav-item dropdown" v-for="seasonNo in [1, 2, 3, 4, 5, 6, 7, 8, 9]" :key="seasonNo"> -->
               <li class="nav-item" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
                 <!-- <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
-                <figure>
-                  <img :src="'/images/' + seasonImage.imgName" class="img-thumbnail" />
-                  <figcaption>
-                    <a class="nav-link" role="button">
-                      <!-- TODO: Dropdown not working. Temporary fix. -->
-                      <button class="btn btn-block btn-primary" :data-season="seasonImage.seasonNo" @click="setSeason">
-                        S{{seasonImage.seasonNo}}
-                      </button>
-                    </a>
-                  </figcaption>
-                </figure>
+                <!-- TODO:
+                  For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
+                  The image component should have props for at least the image src, alt, & title attributes, use prop validation.
+                  Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
+                -->
+                <button class="btn" :data-season="seasonImage.seasonNo" @click="setSeason">
+                  <figure>
+                    <img :src="'/images/' + seasonImage.imgName" class="img-thumbnail" />
+                    <figcaption>
+                      <a class="nav-link" role="button">
+                        <!-- TODO: Dropdown not working. Temporary fix. -->
+                        <button class="btn btn-block btn-primary">
+                          S{{seasonImage.seasonNo}}
+                        </button>
+                      </a>
+                    </figcaption>
+                  </figure>
+                </button>
               </li>
             </ol>
           </aside>
@@ -131,32 +139,7 @@
         </div>
       </div>
 
-      <div class="row">
-
-        <div class="col">
-          <main class="Transcript">
-            <div class="content" v-if="Object.keys(currentEpisode).length !== 0">
-              <table class="table table-light table-striped">
-                <thead>
-                  <tr>
-                    <th>Character</th>
-                    <th>Line</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="transcriptLine in transcriptLines.filter(transcriptLine => transcriptLine.episodeId === currentEpisode.id)" :key="transcriptLine.id">
-                    <th>
-                      {{ transcriptLine.speaker }}
-                    </th>
-                    <td>
-                      {{ transcriptLine.dialogue }}
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </main>
-        </div>
+      <div class="row EpisodeData">
 
         <div class="col-3">
           <aside class="EpisodeInfo">
@@ -182,6 +165,31 @@
               <a target="_blank" :href="'https://mlp.fandom.com/wiki/' + currentEpisode.urlName">MLP Wikia Page</a>
             </div>
           </aside>
+        </div>
+
+        <div class="col">
+          <main class="Transcript">
+            <div class="content" v-if="Object.keys(currentEpisode).length !== 0">
+              <table class="table table-light table-striped">
+                <thead>
+                  <tr>
+                    <th>Character</th>
+                    <th>Line</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="transcriptLine in transcriptLines.filter(transcriptLine => transcriptLine.episodeId === currentEpisode.id)" :key="transcriptLine.id">
+                    <th>
+                      {{ transcriptLine.speaker }}
+                    </th>
+                    <td>
+                      {{ transcriptLine.dialogue }}
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </main>
         </div>
 
       </div>

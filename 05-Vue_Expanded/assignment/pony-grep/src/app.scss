@@ -200,3 +200,34 @@ hr {
 .WelcomeMessage {
   text-align: left;
 }
+
+@media (max-width: 989px) {
+  .EpisodeData {
+    display: flex;
+    flex-direction: column;
+    & .col {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .EpisodeIndex > ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .EpisodeList {
+    width: 5rem;
+  }
+}
+
+@media (max-width: 574px) {
+  .EpisodeIndex > ol {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .EpisodeList {
+    width: 5rem;
+  }
+}
