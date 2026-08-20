@@ -164,15 +164,29 @@ footer ul {
 }
 
 #app {
-  height: 100vh;
+  //height: 100vh;
   min-height: 100vh;
 }
 
 main {
   height: 100%;
+  min-height: 100%;;
 }
 
 form > * {
   margin: 1rem;
   text-align: left;
+}
+
+#transcript-search {
+  height: 70vh;
+}
+
+hr {
+  //color: white;
+  background-color: white;
+}
+
+.BrowsingStep:nth-child(1) > h3::before {
+  content: "1. ";
 }
