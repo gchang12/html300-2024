@@ -139,6 +139,7 @@
         </div>
       </div>
 
+      <!-- NOTE: Technically, this is its own page, but I couldn't make it so due to technical limitations. -->
       <div class="row EpisodeData">
 
         <div class="col-3">
