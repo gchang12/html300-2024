@@ -6,16 +6,6 @@
   import EpisodeDirectory from './pages/EpisodeDirectory.vue'
   import TranscriptSearch from './pages/TranscriptSearch.vue'
   //import LicensePage from './pages/LicensePage.vue'
-
-  import EpisodeDirectory1 from './pages/episodeDirectories/EpisodeDirectory1.vue'
-  import EpisodeDirectory2 from './pages/episodeDirectories/EpisodeDirectory2.vue'
-  import EpisodeDirectory3 from './pages/episodeDirectories/EpisodeDirectory3.vue'
-  import EpisodeDirectory4 from './pages/episodeDirectories/EpisodeDirectory4.vue'
-  import EpisodeDirectory5 from './pages/episodeDirectories/EpisodeDirectory5.vue'
-  import EpisodeDirectory6 from './pages/episodeDirectories/EpisodeDirectory6.vue'
-  import EpisodeDirectory7 from './pages/episodeDirectories/EpisodeDirectory7.vue'
-  import EpisodeDirectory8 from './pages/episodeDirectories/EpisodeDirectory8.vue'
-  import EpisodeDirectory9 from './pages/episodeDirectories/EpisodeDirectory9.vue'
   //import DossierPage from './pages/DossierPage.vue'
 
   // Excerpted from code in video demonstration.
@@ -26,16 +16,6 @@
     "/about": IndexPage,
     "/transcripts": EpisodeDirectory,
     //"/licenses": LicensePage,
-    // TODO: Remove all these
-    "/transcripts/FiM/S1": EpisodeDirectory1,
-    "/transcripts/FiM/S2": EpisodeDirectory2,
-    "/transcripts/FiM/S3": EpisodeDirectory3,
-    "/transcripts/FiM/S4": EpisodeDirectory4,
-    "/transcripts/FiM/S5": EpisodeDirectory5,
-    "/transcripts/FiM/S6": EpisodeDirectory6,
-    "/transcripts/FiM/S7": EpisodeDirectory7,
-    "/transcripts/FiM/S8": EpisodeDirectory8,
-    "/transcripts/FiM/S9": EpisodeDirectory9,
   }
   const currentPath = ref(window.location.hash);
   window.addEventListener("hashchange", () => {
