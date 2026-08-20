@@ -135,3 +135,13 @@ span._fieldName {
 .ResultCount::after {
   content: ")";
 }
+
+[data-series='FiM'] {
+  background-color: purple;
+  color: white;
+}
+
+[data-series='FiM']::hover {
+  //background-color: purple;
+  //color: white;
+}

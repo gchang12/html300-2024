@@ -9,6 +9,20 @@
   let dialoguePattern = ref("");
   let activeSeries = ref("FiM");
 
+  function enableAccordions() {
+    const resultsButtons = document.querySelectorAll(".ShowResults");
+    for (const button of resultsButtons) {
+      button.removeAttribute("disabled");
+    }
+  }
+
+  function disableAccordions() {
+    const resultsButtons = document.querySelectorAll(".ShowResults");
+    for (const button of resultsButtons) {
+      button.setAttribute("disabled", "disabled");
+    }
+  }
+
   function searchAndParseResults(e) {
     //console.log("something");
     const formData = new FormData(e.currentTarget.form);
@@ -21,16 +35,19 @@
     searchResults.value = parsedSearchResults;
     dialoguePattern.value = formData.get("dialoguePattern");
     e.preventDefault();
+    enableAccordions();
   }
 
   function resetResults() {
     //console.log("something");
     dialoguePattern.value = "";
     searchResults.value = [];
+    disableAccordions();
   }
 
   function setActiveSeries(e) {
-    const series = e.currentTarget.dataset.series;
+    const button = e.currentTarget;
+    const series = button.dataset.series;
     if (activeSeries.value === series) {
       activeSeries.value = "";
     } else {
@@ -100,7 +117,7 @@
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h3 class="accordion-header" id="headingOne">
-                <button data-series="FiM" @click="setActiveSeries" class="d-flex justify-content-between btn btn-primary btn-block accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <button disabled data-series="FiM" @click="setActiveSeries" class="ShowResults d-flex justify-content-between btn btn-lg btn-block accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   <span class="SeriesTitle">My Little Pony: Friendship is Magic</span><span v-if="searchResults.length > 0" class="ResultCount">{{ searchResults.length }}</span>
                 </button>
               </h3>
