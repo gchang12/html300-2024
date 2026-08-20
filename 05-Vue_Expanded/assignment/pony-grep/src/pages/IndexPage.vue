@@ -51,9 +51,9 @@
     <article class="container w-75">
       <h1>Welcome to <code>ponygrep</code>!</h1>
       <div class="WelcomeMessage">
-        <p>Trying to remember if a MLP:FiM character said something?</p>
+        <p>Trying to remember something a MLP:FiM character might have said?</p>
         <p>You've come to the right place!
-        <p><code>ponygrep</code> allows you to search all of MLP G4 for the bit of dialgoue you're thinking of.</p>
+        <p><code>ponygrep</code> allows you to search all of MLP G4 for the bit of dialogue you're thinking of.</p>
       </div>
       <hr />
       <article class="container">
