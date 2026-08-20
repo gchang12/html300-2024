@@ -100,7 +100,7 @@
                   Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
                 -->
                 <!-- Bootstrap: 'btn' to remove default button styling and especially for zero-opacity -->
-                <button class="btn" :data-season="seasonImage.seasonNo" @click="setSeason">
+                <b-button v-b-tooltip.hover :title="'View episodes for Season ' + seasonImage.seasonNo" class="btn" :data-season="seasonImage.seasonNo" @click="setSeason">
                   <figure>
                     <img :src="'/images/' + seasonImage.imgName" class="img-thumbnail" />
                     <figcaption>
@@ -113,7 +113,7 @@
                       </a>
                     </figcaption>
                   </figure>
-                </button>
+                </b-button>
               </li>
             </ol>
           </aside>
@@ -131,7 +131,7 @@
                   <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
                     <a class="EpisodeEntry" role="button">
                       <!-- Bootstrap: 'btn-secondary' to indicate that episodes are secondary wrt seasons; also for the background color -->
-                      <button :title="episode.title" class="btn btn-secondary">E{{ episode.episodeNo }}</button>
+                      <b-button v-b-tooltip.hover.top :title="episode.title" class="btn btn-secondary">E{{ episode.episodeNo }}</b-button>
                     </a>
                   </li>
                 </ol>
@@ -142,7 +142,9 @@
 
       </div>
 
-      <!-- NOTE: Technically, this is its own page, but I couldn't make it so due to technical limitations. -->
+      <!-- NOTE: Technically, this is its own page, but I couldn't make it so due to technical limitations.
+        i.e. in 'src/App.vue' I'd have to extend 'routes' to include about 200 entries.
+      -->
       <div class="row EpisodeData">
 
         <div class="col-3">
@@ -195,6 +197,9 @@
                 </tbody>
               </table>
             </div>
+            <span v-else>
+              Transcript appears here after selecting a season and an episode.
+            </span>
           </main>
         </div>
 
