@@ -1,4 +1,4 @@
-[
+export default [
   {
     "seasonNo": 1,
     "episodeNo": 1,

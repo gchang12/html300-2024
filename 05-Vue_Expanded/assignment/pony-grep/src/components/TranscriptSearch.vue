@@ -7,7 +7,7 @@
 
   let searchResults = ref([]);
   let dialoguePattern = ref("");
-  let activeSeries = ref(["mlp-fim"]);
+  let activeSeries = ref("FiM");
 
   function searchAndParseResults(e) {
     //console.log("something");
@@ -92,6 +92,7 @@
               {{ searchResults.length }} results for '{{ dialoguePattern }}'.
             </span>
             <article class="container w-50" v-else>
+              <!-- TODO: Move to 'about' page. -->
               <h3>How to Use</h3>
               <ol>
                 <li class="Help">&ldquo;I want to see if &lsquo;friendship is magic&rsquo; is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="Dialogue">Dialogue</span> box now.&rdquo;</li>
@@ -99,8 +100,8 @@
                 <li class="Help">&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="Search">Search</span> button.&rdquo;</li>
               </ol>
             </article>
-            <!-- TODO: Insert accordion here, with header 'MLP:FiM' and count of results. -->
-            <div id="mlp-fim" class="SearchResults" v-if="activeSeries.includes('mlp-fim') && searchResults.length > 0">
+            <!-- TODO: Insert accordion here, with header 'FiM' and count of results. -->
+            <div id="FiM" class="SearchResults" v-if="activeSeries === 'FiM' && searchResults.length > 0">
               <table class="table table-primary table-light table-striped">
                 <thead>
                   <tr>

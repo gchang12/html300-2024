@@ -2,7 +2,7 @@
 
   import { ref } from "vue";
 
-  import episodeList from "../constants/episodeList.js";
+  import episodeList from "../constants/animationIndex.js";
   import transcriptLines from "../constants/transcriptLines.js";
 
   const currentEpisode = ref({});

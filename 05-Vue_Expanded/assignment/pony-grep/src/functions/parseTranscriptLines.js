@@ -1,5 +1,5 @@
 import transcriptLines from "../constants/transcriptLines.js";
-import episodeList from "../constants/episodeList.js";
+import episodeList from "../constants/animationIndex.js";
 
 export default function parseTranscriptLines(searchResults) {
   // searchResults: Array<{episodeId, lineNo}>
