@@ -83,28 +83,8 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-3">
-          <!-- <div v-if="seasonNo == activeSeason"> Active Season: {{ activeSeason }} </div> -->
-          <!-- <ol class="dropdown-menu" v-if="seasonNo == activeSeason"> -->
-          <article>
-            <h2>Episode List</h2>
-            <article v-if="activeSeason != -1">
-              <h3>Season {{ activeSeason }}</h3>
-              <ol class="EpisodeList">
-                <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
-                  <!-- <a role="button" class="dropdown-item"> -->
-                  <a class="EpisodeEntry" role="button">
-                    <!-- <button class="btn btn-secondary">E{{ episode.episodeNo }}</button>{{ episode.title }} -->
-                    <button class="btn btn-secondary">E{{ episode.episodeNo }}</button> {{ episode.title }}
-                    <!-- E{{ episode.episodeNo }} {{ episode.title }} -->
-                  </a>
-                </li>
-              </ol>
-            </article>
-          </article>
-        </div>
         <div class="col">
-          <h2>Index</h2>
+          <h2>Seasons</h2>
           <aside id="mlp-fim" class="EpisodeIndex">
             <h3>MLP:FiM</h3>
             <ol class="navbar-nav">
@@ -126,12 +106,35 @@
             </ol>
           </aside>
         </div>
+        <div class="col-2">
+          <!-- <div v-if="seasonNo == activeSeason"> Active Season: {{ activeSeason }} </div> -->
+          <!-- <ol class="dropdown-menu" v-if="seasonNo == activeSeason"> -->
+          <article>
+            <h2>Episodes</h2>
+            <div class="EpisodeList">
+              <article class="container" v-if="activeSeason != -1">
+                <h3>S{{ activeSeason }}</h3>
+                <ol>
+                  <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
+                    <!-- <a role="button" class="dropdown-item"> -->
+                    <a class="EpisodeEntry" role="button">
+                      <!-- <button class="btn btn-secondary">E{{ episode.episodeNo }}</button>{{ episode.title }} -->
+                      <button :title="episode.title" class="btn btn-secondary">E{{ episode.episodeNo }}</button>
+                      <!-- {{ episode.title }} -->
+                      <!-- E{{ episode.episodeNo }} {{ episode.title }} -->
+                    </a>
+                  </li>
+                </ol>
+              </article>
+            </div>
+          </article>
+        </div>
       </div>
 
       <div class="row">
+
         <div class="col">
           <main class="Transcript">
-            <h2>Transcript</h2>
             <div class="content" v-if="Object.keys(currentEpisode).length !== 0">
               <table class="table table-light table-striped">
                 <thead>
@@ -157,7 +160,6 @@
 
         <div class="col-3">
           <aside class="EpisodeInfo">
-            <h2>Episode Info</h2>
             <div v-if="Object.keys(currentEpisode).length !== 0">
               <h3>{{currentEpisode.title }}</h3>
               <table class="table table-light">
@@ -181,6 +183,7 @@
             </div>
           </aside>
         </div>
+
       </div>
 
     </div>

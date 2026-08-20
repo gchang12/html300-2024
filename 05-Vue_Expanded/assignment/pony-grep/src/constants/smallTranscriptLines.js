@@ -1,4 +1,4 @@
-[
+export default [
   {
     "episodeId": 0,
     "seasonNo": 1,
