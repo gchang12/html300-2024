@@ -23,6 +23,10 @@ def _remove_citation_numbers(line):
     """
     return re.sub(r"\[.+?\]", "", line)
 
+# FIM
+## episodes (X)
+# - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Episodes
+
 def regenerate_episode_index():
     """
     """
@@ -54,6 +58,58 @@ def regenerate_episode_index():
             logging.error("%s has a bad 'airdate' value of '%s'", episode, episode['airdate'])
             raise e
     return sorted(index2, key=lambda episode: "S%d-E%02d" % (episode["seasonNo"], episode["episodeNo"]))
+
+## clip show
+# - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Clip_shows
+
+def regenerate_clipshow_index():
+    """
+    """
+
+## films
+# - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Films
+
+def regenerate_film_index():
+    """
+    """
+
+## specials
+# - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Specials
+
+def regenerate_specials_index():
+    """
+    """
+
+## shorts
+# - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Animated_shorts
+
+def regenerate_shorts_index():
+    """
+    """
+
+# EQG
+## films
+# - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Films
+
+def regenerate_eqg_films_index():
+    """
+    """
+
+## specials
+# - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Specials
+
+def regenerate_eqg_specials_index():
+    """
+    """
+
+## shorts
+# - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Animated_shorts
+## digital series
+# - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Digital_Series
+
+def regenerate_eqg_shorts_index():
+    """
+    """
 
 # generate transcript line index
 
@@ -122,6 +178,23 @@ def generate_transcriptline_index(episode_index):
             transcriptline_index.append(transcriptline.copy())
             index_no += 1
     return transcriptline_index
+
+
+def generate_transcriptline_index2(episode_index):
+    """
+    Creates index of the form:
+    {
+        episodeId: number,
+        lineNo: number,
+        speaker: string,
+        lineText: string,
+    }
+    """
+    transcriptline_index = []
+    # read index
+    # iterate over all entries and extract all transcript lines
+    return transcriptline_index
+
 
 def get_episode_id(seasonepisode_no, episode_index):
     """
@@ -226,7 +299,14 @@ if __name__ == "__main__":
         unicornindex_filename = "output/FiM/websiteIndexes/unicorns.json"
         with open(unicornindex_filename, mode="w") as wfile:
             json.dump(unicorn_index, wfile, indent=2)
+
+    def save_regenerated_animation_index():
+        """
+        """
+    def save_transcriptline_index2():
+        """
+        """
     #save_unicorn_index()
     #save_regenerated_episode_index()
-    save_transcriptline_index()
+    #save_transcriptline_index()
 
