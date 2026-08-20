@@ -1,4 +1,5 @@
 <script setup>
+  // Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
 
   import { ref } from "vue";
 
