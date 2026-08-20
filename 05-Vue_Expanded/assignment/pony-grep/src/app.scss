@@ -118,6 +118,8 @@ span._fieldName {
 .EpisodeInfo {
   position: sticky;
   top: 0;
+  padding: 1rem;
+  //margin: 1rem;
 }
 
 .EpisodeInfo p {
@@ -193,4 +195,8 @@ hr {
 
 .Disclaimer {
   font-size: 0.5rem;
+}
+
+.WelcomeMessage {
+  text-align: left;
 }
