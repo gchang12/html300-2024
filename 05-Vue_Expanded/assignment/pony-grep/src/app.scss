@@ -165,8 +165,14 @@ footer ul {
 
 #app {
   height: 100vh;
+  min-height: 100vh;
 }
 
 main {
   height: 100%;
+}
+
+form > * {
+  margin: 1rem;
+  text-align: left;
 }
