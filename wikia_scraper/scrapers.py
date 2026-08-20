@@ -364,7 +364,7 @@ class MetadataScrapers:
                     entry['title'] = td.text
                     entry['seasonNo'] = td.text
                     href = td.find("a")['href']
-                    entry['urlName'] = href.split('/')[-1] + ".html"
+                    entry['urlName'] = href.split('/')[-1]
                     filepath2 = Path(dirname, "html", entry['urlName'])
                     url = cls.ROOT + href
                     if not filepath2.exists():
@@ -402,7 +402,7 @@ class MetadataScrapers:
                         entry['seasonNo'] = td.text
                         href = td.find("a")['href']
                         entry['urlName'] = href.split('/')[-1]
-                        filepath2 = Path(dirname, "html", entry['urlName'])
+                        filepath2 = Path(dirname, "html", entry['urlName'] + ".html")
                         url = cls.ROOT + href
                         if not filepath2.exists():
                             cls.download_page(filepath2, url)
@@ -973,14 +973,19 @@ if __name__ == "__main__":
                     with open(dirpath.joinpath(anchor_id).with_suffix(".json"), mode="w") as wfile:
                         json.dump(lines, wfile, indent=2)
                 break
+
     def save_eqg_films_index():
         """
         """
         filename = "output/EqG/indexes/films.json"
+        if not Path(filename).exists():
         #index = TranscriptScrapers.scrape_eqg_films()
-        index = MetadataScrapers.scrape_eqg_films()
-        with open(filename, mode="w") as wfile:
-            json.dump(index, wfile, indent=2)
+            index = MetadataScrapers.scrape_eqg_films()
+            with open(filename, mode="w") as wfile:
+                json.dump(index, wfile, indent=2)
+        else:
+            with open(filename) as rfile:
+                index = json.load(rfile)
         dirname = "output/EqG/transcripts/"
         for entry in filter(lambda entry: "urlName" in entry, index):
             #for entry in index:
@@ -992,7 +997,6 @@ if __name__ == "__main__":
                 json.dump(lines, wfile, indent=2)
 
     #save_specials_transcripts()
-    #save_eqg_films_index()
     def save_eqg_specials_index():
         """
         """
@@ -1009,8 +1013,9 @@ if __name__ == "__main__":
             lines = TranscriptScrapers.parse_episode_transcript(soup)
             with open(filepath.with_suffix(".json"), mode="w") as wfile:
                 json.dump(lines, wfile, indent=2)
-    #save_eqg_films_index()
+
     #save_eqg_specials_index()
+    #save_eqg_films_index()
 
     def save_eqg_shorts_index():
         """
@@ -1078,6 +1083,7 @@ if __name__ == "__main__":
                 with open(Path(dirname, url_name + ".json"), mode="w") as wfile:
                     json.dump(lines, wfile, indent=2)
     '''
+
     def save_eqg_shorts_transcripts():
         """
         """
@@ -1162,5 +1168,5 @@ if __name__ == "__main__":
                     #print(filepath, section)
                 #print(filepath)
         #for entry in filter(lambda entry: "urlName" in entry, index):
-            #pass
-    save_eqg_shorts_transcripts()
+            #pas s
+    #save_eqg_shorts_transcripts()
