@@ -1,5 +1,10 @@
-import transcriptLines from "../constants/transcriptLines.js";
-import episodeList from "../constants/animationIndex.js";
+// All of G4
+//import transcriptLines from "../constants/transcriptLines.js";
+//import episodeList from "../constants/animationIndex.js";
+
+// Just MLP:FiM S1-S9
+import transcriptLines from "../constants/smallTranscriptLines.js";
+import episodeList from "../constants/episodeList.js";
 
 export default function parseTranscriptLines(searchResults) {
   // searchResults: Array<{episodeId, lineNo}>

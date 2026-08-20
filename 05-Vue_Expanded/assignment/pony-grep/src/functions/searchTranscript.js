@@ -1,6 +1,9 @@
 //import MiniSearch from "minisearch";
 
-import transcriptLines from "../constants/transcriptLines.js";
+// All of G4
+//import transcriptLines from "../constants/transcriptLines.js";
+// MLP:FiM S1-S9
+import transcriptLines from "../constants/smallTranscriptLines.js";
 
 export default function searchTranscript(searchCriteria) {
   //const { isSung, seasonNo, episodeNo, dialoguePattern, speaker } = searchCriteria;

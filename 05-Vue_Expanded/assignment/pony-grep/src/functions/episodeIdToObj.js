@@ -1,4 +1,5 @@
-import episodeList from "../constants/animationIndex.js";
+//import episodeList from "../constants/animationIndex.js";
+import episodeList from "../constants/episodeList.js";
 
 export default function episodeIdToObj(episodeId) {
   //console.log(episodeId, typeof episodeId);

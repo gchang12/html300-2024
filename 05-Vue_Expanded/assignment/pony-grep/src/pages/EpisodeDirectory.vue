@@ -2,8 +2,12 @@
 
   import { ref } from "vue";
 
-  import episodeList from "../constants/animationIndex.js";
-  import transcriptLines from "../constants/transcriptLines.js";
+  // All of G4
+  //import episodeList from "../constants/animationIndex.js";
+  //import transcriptLines from "../constants/transcriptLines.js";
+
+  import episodeList from "../constants/episodeList.js";
+  import transcriptLines from "../constants/smallTranscriptLines.js";
 
   const currentEpisode = ref({});
   //const currentEpisode = ref(episodeList.find(() => true));
