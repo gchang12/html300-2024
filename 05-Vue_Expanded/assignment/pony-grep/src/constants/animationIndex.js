@@ -3022,12 +3022,11 @@ export default [
     "id": 220
   },
   {
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Best Trends Forever - Twilight",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Best_Trends_Forever",
     "summary": [
-      "During a student-hosted CHS news report, Rarity reports on the latest fashion trends. However, when she discovers her purse lacking in any trendsetting fashions, she looks to her friends for inspiration: Twilight Sparkle, Pinkie Pie, or Rainbow Dash (prompting a choice from the viewer).",
       "If the viewer chooses Twilight, Rarity declares the newest trend to be \"smart chic\", and everyone at the school starts adopting Twilight's glasses-wearing fashion and love for knowledge. Unfortunately, this prevents Twilight from being able to get the books she wants. Rarity apologizes to Twilight for the inconvenience, and she quickly gets everyone to adopt capes as the newest fashion trend."
     ],
     "airdate": "2017-12-17",
@@ -3036,12 +3035,11 @@ export default [
     "id": 221
   },
   {
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Best Trends Forever - Rainbow",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Best_Trends_Forever",
     "summary": [
-      "During a student-hosted CHS news report, Rarity reports on the latest fashion trends. However, when she discovers her purse lacking in any trendsetting fashions, she looks to her friends for inspiration: Twilight Sparkle, Pinkie Pie, or Rainbow Dash (prompting a choice from the viewer).",
       "If the viewer chooses Rainbow, Rarity declares the newest trend to be rainbows. Everyone at the school starts wearing rainbow wigs or using rainbow hair dye, causing Rarity to mistake everyone she runs into for Rainbow Dash. Rarity is deeply disturbed and starts to believe she's in an alternate dimension called the \"Rainbow Zone\", but Rainbow Dash herself is thrilled."
     ],
     "airdate": "2017-12-17",
@@ -3050,12 +3048,11 @@ export default [
     "id": 222
   },
   {
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Best Trends Forever - Pinkie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Best_Trends_Forever",
     "summary": [
-      "During a student-hosted CHS news report, Rarity reports on the latest fashion trends. However, when she discovers her purse lacking in any trendsetting fashions, she looks to her friends for inspiration: Twilight Sparkle, Pinkie Pie, or Rainbow Dash (prompting a choice from the viewer).",
       "If the viewer chooses Pinkie, Rarity declares the newest trend to be confetti, and an utterly delighted Pinkie Pie starts filling the school halls and lockers with confetti. Despite Twilight, Applejack, and Rarity's efforts to clean up, Principal Celestia finds her office flooded with confetti, and Rarity fears a punishment of detention."
     ],
     "airdate": "2017-12-17",
@@ -3129,12 +3126,11 @@ export default [
     "id": 228
   },
   {
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Fluttershy's Butterflies - Rainbow Dash",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Fluttershy's_Butterflies",
     "summary": [
-      "The Mane Seven all decide to audition for the Canterlot High School Fall Play \"Dazzled\" together. Unfortunately, Fluttershy is terrified about auditioning on her own. Applejack and Rainbow Dash offer to give her advice on how to overcome her stage fright, and Fluttershy wonders who to choose.",
       "If the viewer chooses Rainbow Dash, Rainbow helps Fluttershy practice for her audition by making her a sports commentator during the school soccer game. Fluttershy's commentary starts out soft, but with Rainbow's encouragement, she slowly gets into it. When she later applies her practice at sports commentary to her play audition, it is met with applause."
     ],
     "airdate": "2017-12-23",
@@ -3143,12 +3139,11 @@ export default [
     "id": 229
   },
   {
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Fluttershy's Butterflies - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Fluttershy's_Butterflies",
     "summary": [
-      "The Mane Seven all decide to audition for the Canterlot High School Fall Play \"Dazzled\" together. Unfortunately, Fluttershy is terrified about auditioning on her own. Applejack and Rainbow Dash offer to give her advice on how to overcome her stage fright, and Fluttershy wonders who to choose.",
       "If the viewer chooses Applejack, Applejack helps Fluttershy practice for her audition by telling her to picture her audience as chickens. When Fluttershy succeeds at the audition, she reveals that she pictured everyone in the audience as Applejack."
     ],
     "airdate": "2017-12-23",
@@ -3157,12 +3152,11 @@ export default [
     "id": 230
   },
   {
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Fluttershy's Butterflies - DJ Pon-3",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Fluttershy's_Butterflies",
     "summary": [
-      "The Mane Seven all decide to audition for the Canterlot High School Fall Play \"Dazzled\" together. Unfortunately, Fluttershy is terrified about auditioning on her own. Applejack and Rainbow Dash offer to give her advice on how to overcome her stage fright, and Fluttershy wonders who to choose.",
       "If the viewer chooses DJ Pon-3, DJ helps Fluttershy by providing music and light effects during her audition. The audience is so enamored with DJ's music and lights that it distracts from Fluttershy's soft speaking voice, leaving Rainbow and Applejack stunned."
     ],
     "airdate": "2017-12-23",
@@ -3171,12 +3165,11 @@ export default [
     "id": 231
   },
   {
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Text Support - Rarity",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Text_Support",
     "summary": [
-      "One day after school, Twilight gets a strange text message from Timber Spruce comprised entirely of emoticons. Unable to decipher the text, she turns to one of her friends to help translate it.",
       "If the viewer chooses Rarity, Rarity uses her fluency in \"phone lingo\" to communicate with Timber on Twilight's behalf. When Twilight is still unclear about the messages being sent between them, Rarity explains that Timber was inviting her out on a Sunday date to have ice cream."
     ],
     "airdate": "2017-12-23",
@@ -3185,12 +3178,11 @@ export default [
     "id": 232
   },
   {
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Text Support - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Text_Support",
     "summary": [
-      "One day after school, Twilight gets a strange text message from Timber Spruce comprised entirely of emoticons. Unable to decipher the text, she turns to one of her friends to help translate it.",
       "If the viewer chooses Fluttershy, Fluttershy tells Twilight to reply to Timber with a bunch of animal emoticons. Twilight doesn't know what the string of emoticons is supposed to mean, but Timber replies with approval of Twilight's apparent suggestion for a date at the zoo."
     ],
     "airdate": "2017-12-23",
@@ -3199,12 +3191,11 @@ export default [
     "id": 233
   },
   {
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Text Support - Sunset Shimmer",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Text_Support",
     "summary": [
-      "One day after school, Twilight gets a strange text message from Timber Spruce comprised entirely of emoticons. Unable to decipher the text, she turns to one of her friends to help translate it.",
       "If the viewer chooses Sunset Shimmer, Sunset suggests that Twilight forget about texting and simply call Timber to ask him what he meant. Using Twilight's phone, Sunset calls Timber to find out what his text message meant, and she explains to Twilight that Timber was inviting her on a date to play mini-golf."
     ],
     "airdate": "2017-12-23",
@@ -3213,12 +3204,11 @@ export default [
     "id": 234
   },
   {
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Stressed in Show - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Stressed_in_Show",
     "summary": [
-      "During rehearsal for the CHS Fall Play, Twilight suddenly becomes overwhelmed with stress from all the obligations she's promised to fulfill for her friends, like running lines with Flash Sentry and helping Applejack build the stage. Sunset Shimmer encourages Twilight to take a break from the play, and one of her other friends offers to help her get her mind off of it.",
       "If the viewer chooses Fluttershy, Fluttershy takes Twilight to a forest meadow where she can frolic in peace with the animals. Twilight is resistant to Fluttershy's methods at first, still overcome with stress about the play, but as Fluttershy brings in more and more animals, Twilight starts to relax, and she takes a nap on the grass."
     ],
     "airdate": "2017-12-23",
@@ -3227,12 +3217,11 @@ export default [
     "id": 235
   },
   {
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Stressed in Show - Rainbow Dash",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Stressed_in_Show",
     "summary": [
-      "During rehearsal for the CHS Fall Play, Twilight suddenly becomes overwhelmed with stress from all the obligations she's promised to fulfill for her friends, like running lines with Flash Sentry and helping Applejack build the stage. Sunset Shimmer encourages Twilight to take a break from the play, and one of her other friends offers to help her get her mind off of it.",
       "If the viewer chooses Rainbow Dash, Rainbow helps Twilight clear her head by running laps around the soccer field (accompanied by Sunset Shimmer and Spike). As Twilight and Rainbow engage in several sports, Twilight slowly gets into the activities and beats Rainbow at all of them, successfully getting her mind off the play."
     ],
     "airdate": "2017-12-23",
@@ -3241,12 +3230,11 @@ export default [
     "id": 236
   },
   {
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Stressed in Show - Pinkie Pie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Stressed_in_Show",
     "summary": [
-      "During rehearsal for the CHS Fall Play, Twilight suddenly becomes overwhelmed with stress from all the obligations she's promised to fulfill for her friends, like running lines with Flash Sentry and helping Applejack build the stage. Sunset Shimmer encourages Twilight to take a break from the play, and one of her other friends offers to help her get her mind off of it.",
       "If the viewer chooses Pinkie Pie, Pinkie Pie hounds Twilight all day with ideas on how to get her mind off the play. Twilight progressively gets so frustrated with Pinkie popping up out of nowhere that she becomes less concerned with the play and more concerned with where Pinkie Pie will pop up next."
     ],
     "airdate": "2017-12-23",
@@ -3255,12 +3243,11 @@ export default [
     "id": 237
   },
   {
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Driving Miss Shimmer - Rarity",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Driving_Miss_Shimmer",
     "summary": [
-      "Sunset Shimmer fails an attempt to get her driver's license. She has a retest on the following Monday, but her driving instructor Cranky Doodle has advised her to practice with someone more experienced. One of Sunset's friends offers to give her driving lessons.",
       "If the viewer chooses Rarity, Rarity takes Sunset on a drive in a rented limo. When most of Rarity's lessons relate to impromptu dance parties and how to cater to one's passengers, Sunset insists that she just wants to practice driving, and she gets some practice in with the limo chauffeur Randolph. Some time later, Sunset passes her retest with flying colors."
     ],
     "airdate": "2017-12-23",
@@ -3269,12 +3256,11 @@ export default [
     "id": 238
   },
   {
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Driving Miss Shimmer - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Driving_Miss_Shimmer",
     "summary": [
-      "Sunset Shimmer fails an attempt to get her driver's license. She has a retest on the following Monday, but her driving instructor Cranky Doodle has advised her to practice with someone more experienced. One of Sunset's friends offers to give her driving lessons.",
       "If the viewer chooses Applejack, Applejack and Granny Smith help Sunset practice driving in their old pickup truck. When the truck quickly breaks down with a flat tire, Applejack teaches Sunset how to change it. Later, when Cranky Doodle's car similarly gets a flat tire during Sunset's retest, Sunset demonstrates her resourcefulness by taking out the carjack, and Cranky gives her a passing grade."
     ],
     "airdate": "2017-12-23",
@@ -3283,12 +3269,11 @@ export default [
     "id": 239
   },
   {
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Driving Miss Shimmer - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Driving_Miss_Shimmer",
     "summary": [
-      "Sunset Shimmer fails an attempt to get her driver's license. She has a retest on the following Monday, but her driving instructor Cranky Doodle has advised her to practice with someone more experienced. One of Sunset's friends offers to give her driving lessons.",
       "If the viewer chooses Fluttershy, Fluttershy helps Sunset practice driving in her own car. Before Sunset can get on the road, however, Fluttershy recites a long rhyme about driving preparations. Later, during her retest with Cranky Doodle, Sunset recalls Fluttershy's rhyme and makes the proper preparations before starting the car."
     ],
     "airdate": "2017-12-23",
@@ -3297,12 +3282,11 @@ export default [
     "id": 240
   },
   {
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Rarity Investigates: The Case of the Bedazzled Boot - Pinkie Pie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Rarity_Investigates:_The_Case_of_the_Bedazzled_Boot",
     "summary": [
-      "During rehearsal for the CHS Fall Play, Sunset Shimmer notices that one of the boot props is missing. Rarity adopts her \"Detective Rarity\" persona in order to investigate, and she picks one of several suspects to interrogate:",
       "If the viewer chooses Pinkie Pie, Rarity interrogates her in a small room, and she quickly cracks under the pressure and confesses, even though she has an alibi for when the boot went missing. When Pinkie confesses to an unrelated incident, Rarity asks her if she's seen the missing boot, and Pinkie points out that it's right under a pile of bell-bottoms nearby."
     ],
     "airdate": "2017-12-23",
@@ -3311,12 +3295,11 @@ export default [
     "id": 241
   },
   {
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Rarity Investigates: The Case of the Bedazzled Boot - Trixie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Rarity_Investigates:_The_Case_of_the_Bedazzled_Boot",
     "summary": [
-      "During rehearsal for the CHS Fall Play, Sunset Shimmer notices that one of the boot props is missing. Rarity adopts her \"Detective Rarity\" persona in order to investigate, and she picks one of several suspects to interrogate:",
       "If the viewer chooses Trixie, Rarity and Trixie engage in a back-and-forth of inner monologues. After a long period of complete silence, Rarity takes out a bag and starts doing her own makeup. Realizing Rarity could outlast her, Trixie starts to leave, but she nearly trips over a trail of boot studs. The trail leads to Spike, who had taken the boot so he could experience what it's like to be a dancer. Feeling sorry for Spike, Rarity offers to give him a part in the play, but she scolds him for stealing."
     ],
     "airdate": "2017-12-23",
@@ -3325,12 +3308,11 @@ export default [
     "id": 242
   },
   {
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Rarity Investigates: The Case of the Bedazzled Boot - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Rarity_Investigates:_The_Case_of_the_Bedazzled_Boot",
     "summary": [
-      "During rehearsal for the CHS Fall Play, Sunset Shimmer notices that one of the boot props is missing. Rarity adopts her \"Detective Rarity\" persona in order to investigate, and she picks one of several suspects to interrogate:",
       "If the viewer chooses Applejack, Rarity interrogates her, and she says she last saw the missing boot near the costume rack. When Rarity checks the costume rack, she discovers Maud Pie with the boot. Maud had apparently been enamored with the boot's amethyst rhinestones. As she and Rarity fantasize about gemstones, Sunset walks up and takes the boot back to rehearsal."
     ],
     "airdate": "2017-12-23",
@@ -3391,12 +3373,11 @@ export default [
     "id": 247
   },
   {
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "All the World's Off Stage - Twilight Sparkle",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#All_the_World's_Off_Stage",
     "summary": [
-      "Sunset Shimmer continues to oversee rehearsals for the Canterlot High School Fall Play. During rehearsal, Snips and Snails have trouble moving the heavy \"Shiny City\" backdrop across the stage, and Sunset turns to one of her friends for assistance:",
       "If the viewer chooses Twilight Sparkle, Sunset expects Twilight to use her telekinesis to move the set across the stage, but Twilight instead uses a small droid she built for her robotics club project."
     ],
     "airdate": "2017-12-30",
@@ -3405,12 +3386,11 @@ export default [
     "id": 248
   },
   {
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "All the World's Off Stage - Pinkie Pie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#All_the_World's_Off_Stage",
     "summary": [
-      "Sunset Shimmer continues to oversee rehearsals for the Canterlot High School Fall Play. During rehearsal, Snips and Snails have trouble moving the heavy \"Shiny City\" backdrop across the stage, and Sunset turns to one of her friends for assistance:",
       "If the viewer chooses Pinkie Pie, Pinkie replaces the set with a new set made entirely out of balloons, making it easy to float across the stage."
     ],
     "airdate": "2017-12-30",
@@ -3419,12 +3399,11 @@ export default [
     "id": 249
   },
   {
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "All the World's Off Stage - Micro Chips",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#All_the_World's_Off_Stage",
     "summary": [
-      "Sunset Shimmer continues to oversee rehearsals for the Canterlot High School Fall Play. During rehearsal, Snips and Snails have trouble moving the heavy \"Shiny City\" backdrop across the stage, and Sunset turns to one of her friends for assistance:",
       "If the viewer chooses Micro Chips, Micro Chips uses his brains to convince Bulk Biceps to move the set with his brawn."
     ],
     "airdate": "2017-12-30",
@@ -3433,12 +3412,11 @@ export default [
     "id": 250
   },
   {
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Constructive Criticism - Rainbow Dash",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Constructive_Criticism",
     "summary": [
-      "While building the stage sets for the CHS Fall Play, Applejack accidentally injures her hand with a hammer. With Applejack unable to finish the sets in time for the play on Friday, Sunset Shimmer suggests asking one of their friends to be an assistant set designer:",
       "If the viewer chooses Rainbow Dash, Rainbow uses her powers of super speed to quickly build the set without looking at Applejack's blueprints. When the set is finished, Applejack thinks it looks even better than her blueprints, and Rainbow reveals that she actually followed Applejack's vision board containing designs that she knew she would never have time to build."
     ],
     "airdate": "2017-12-30",
@@ -3447,12 +3425,11 @@ export default [
     "id": 251
   },
   {
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Constructive Criticism - Pinkie Pie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Constructive_Criticism",
     "summary": [
-      "While building the stage sets for the CHS Fall Play, Applejack accidentally injures her hand with a hammer. With Applejack unable to finish the sets in time for the play on Friday, Sunset Shimmer suggests asking one of their friends to be an assistant set designer:",
       "If the viewer chooses Pinkie Pie, Pinkie helps build the set while practicing her drum solo at the same time. With Applejack's guidance, the set is finished and met with her approval."
     ],
     "airdate": "2017-12-30",
@@ -3461,12 +3438,11 @@ export default [
     "id": 252
   },
   {
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Constructive Criticism - Photo Finish",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Constructive_Criticism",
     "summary": [
-      "While building the stage sets for the CHS Fall Play, Applejack accidentally injures her hand with a hammer. With Applejack unable to finish the sets in time for the play on Friday, Sunset Shimmer suggests asking one of their friends to be an assistant set designer:",
       "If the viewer chooses Photo Finish, Photo Finish and her friends Violet Blurr and Pixel Pizzaz disregard Applejack's blueprints and design the set out of cameras and lasers."
     ],
     "airdate": "2017-12-30",
@@ -3475,12 +3451,11 @@ export default [
     "id": 253
   },
   {
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Opening Night - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Opening_Night",
     "summary": [
-      "On opening night of the Canterlot High Fall Play, everything goes smoothly at first, and Applejack gives Fluttershy some encouragement before she goes on stage to say her line. Unfortunately, Snips and Snails cause a bell prop to fall and crash in the middle of Fluttershy's line, and she freezes up in the spotlight. This prompts one of her friends to try and help:",
       "If the viewer chooses Applejack, Applejack goes on stage in a tree costume and picks up the bell for Fluttershy to get through her line."
     ],
     "airdate": "2017-12-30",
@@ -3489,12 +3464,11 @@ export default [
     "id": 254
   },
   {
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Opening Night - Twilight Sparkle",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Opening_Night",
     "summary": [
-      "On opening night of the Canterlot High Fall Play, everything goes smoothly at first, and Applejack gives Fluttershy some encouragement before she goes on stage to say her line. Unfortunately, Snips and Snails cause a bell prop to fall and crash in the middle of Fluttershy's line, and she freezes up in the spotlight. This prompts one of her friends to try and help:",
       "If the viewer chooses Twilight Sparkle, Sunset Shimmer signals Twilight to use her telekinesis to pick up the bell, and Fluttershy rings it before saying her line."
     ],
     "airdate": "2017-12-30",
@@ -3503,12 +3477,11 @@ export default [
     "id": 255
   },
   {
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Opening Night - Sunset Shimmer",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Opening_Night",
     "summary": [
-      "On opening night of the Canterlot High Fall Play, everything goes smoothly at first, and Applejack gives Fluttershy some encouragement before she goes on stage to say her line. Unfortunately, Snips and Snails cause a bell prop to fall and crash in the middle of Fluttershy's line, and she freezes up in the spotlight. This prompts one of her friends to try and help:",
       "If the viewer chooses Sunset Shimmer, Sunset goes on stage herself and improvises a speech about the play's message and how it allegorically applies to real life. Despite Sunset's awkwardness, Fluttershy successfully rings the bell and says her line."
     ],
     "airdate": "2017-12-30",
@@ -3517,12 +3490,11 @@ export default [
     "id": 256
   },
   {
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Happily Ever After Party - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Happily_Ever_After_Party",
     "summary": [
-      "The Canterlot High School Fall Play is a great success, but the Cutie Mark Crusaders are disappointed. They made a slideshow of everyone's time putting the play together and planned to show it at the afterparty, but Cranky Doodle refused to let them borrow his movie projector. Sympathizing with the Crusaders' plight, Applejack, Rarity, or Rainbow Dash offer to help:",
       "If the viewer chooses Applejack, Applejack has a \"stubborn-off\" with Mr. Doodle in which they both refuse to budge on their respective stances. As Applejack keeps Mr. Doodle distracted, the Crusaders steal the projector for the after-party."
     ],
     "airdate": "2017-12-30",
@@ -3531,12 +3503,11 @@ export default [
     "id": 257
   },
   {
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Happily Ever After Party - Rarity",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Happily_Ever_After_Party",
     "summary": [
-      "The Canterlot High School Fall Play is a great success, but the Cutie Mark Crusaders are disappointed. They made a slideshow of everyone's time putting the play together and planned to show it at the afterparty, but Cranky Doodle refused to let them borrow his movie projector. Sympathizing with the Crusaders' plight, Applejack, Rarity, or Rainbow Dash offer to help:",
       "If the viewer chooses Rarity, Rarity challenges Mr. Doodle's ownership over the projector like a prosecuting lawyer. After applying enough pressure, Rarity convinces him to let the Crusaders borrow the projector\u2014on the condition that he stay close to it to make sure no one damages it."
     ],
     "airdate": "2017-12-30",
@@ -3545,12 +3516,11 @@ export default [
     "id": 258
   },
   {
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "seasonNo": "Choose Your Own Ending (season 1)",
     "title": "Happily Ever After Party - Rainbow Dash",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_1)#Happily_Ever_After_Party",
     "summary": [
-      "The Canterlot High School Fall Play is a great success, but the Cutie Mark Crusaders are disappointed. They made a slideshow of everyone's time putting the play together and planned to show it at the afterparty, but Cranky Doodle refused to let them borrow his movie projector. Sympathizing with the Crusaders' plight, Applejack, Rarity, or Rainbow Dash offer to help:",
       "If the viewer chooses Rainbow Dash, the Crusaders distract Mr. Doodle with a \"math emergency\" in the school gymnasium while Rainbow Dash steals the projector. While the after-party is a success, the Crusaders are stuck solving math problems with Mr. Doodle."
     ],
     "airdate": "2017-12-30",
@@ -4710,9 +4680,8 @@ export default [
     "episodeNo": 19,
     "seasonNo": "Better Together (season 2)",
     "title": "How to Backstage",
-    "urlName": "How_to_Backstage",
+    "urlName": "My_Little_Pony_Equestria_Girls:_Better_Together_(season_2)#How_to_Backstage",
     "summary": [
-      "How to Backstage is the eighteenth Better Together short of season 2 and the forty-fifth short overall. It was uploaded to the Discovery Family GO! mobile app on May 19, 2019, and to the My Little Pony Official YouTube channel on June 21, 2019. The animation focuses primarily on Sunset Shimmer.",
       "Sunset gains a V.I.P. pass to the music festival's backstage area and uses Twilight's selfie drone to film a tour of the various rooms. She indulges in V.I.P.-exclusive gifts and gets to see the green room where the bands, including PostCrush, hang out before the show. However, Sunset is more interested in meeting and taking pictures with the show technicians than the bands themselves."
     ],
     "airdate": "2019-06-21",
@@ -4913,12 +4882,11 @@ export default [
     "id": 357
   },
   {
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Wake-Up! - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Wake-Up!",
     "summary": [
-      "On the morning of the Starswirled Music Festival, most of the Equestria Girls are awake, but some of them are quite groggy because of Pinkie Pie's all-night drumming, and Sunset Shimmer is still fast asleep. Applejack, Rainbow Dash, and Pinkie Pie each have an idea on how to wake her up.",
       "If the viewer chooses Applejack, Applejack drags Sunset out of bed and puts her to work building a fire pit for breakfast, believing hard work to be the best motivator for waking up."
     ],
     "airdate": "2019-09-03",
@@ -4927,12 +4895,11 @@ export default [
     "id": 358
   },
   {
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Wake-Up! - Rainbow Dash",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Wake-Up!",
     "summary": [
-      "On the morning of the Starswirled Music Festival, most of the Equestria Girls are awake, but some of them are quite groggy because of Pinkie Pie's all-night drumming, and Sunset Shimmer is still fast asleep. Applejack, Rainbow Dash, and Pinkie Pie each have an idea on how to wake her up.",
       "If the viewer chooses Rainbow Dash, Rainbow and Sunset do morning yoga stretches that get increasingly complicated. Sunset does not see the point in doing such exercises so early until she and Rainbow behold a beautiful sunrise."
     ],
     "airdate": "2019-09-03",
@@ -4941,12 +4908,11 @@ export default [
     "id": 359
   },
   {
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Wake-Up! - Pinkie Pie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Wake-Up!",
     "summary": [
-      "On the morning of the Starswirled Music Festival, most of the Equestria Girls are awake, but some of them are quite groggy because of Pinkie Pie's all-night drumming, and Sunset Shimmer is still fast asleep. Applejack, Rainbow Dash, and Pinkie Pie each have an idea on how to wake her up.",
       "If the viewer chooses Pinkie Pie, Pinkie serves Sunset a breakfast of various foods that are very high in sugar. Though this results in a high-energy sugar rush, it ends with a sugar crash and severe stomachache."
     ],
     "airdate": "2019-09-03",
@@ -4968,12 +4934,11 @@ export default [
     "id": 361
   },
   {
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "The Last Drop - Sunset Shimmer",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#The_Last_Drop",
     "summary": [
-      "DJ Pon-3 is playing for the Starswirled Music Festival. Just before the last beat drops, she invites someone in the crowd to come on stage and finish the beat as part of an \"interactive\" experience.",
       "If the viewer chooses Sunset Shimmer, DJ challenges her to an 8-bit platformer mobile game that gives the beat an 8-bit video game feel."
     ],
     "airdate": "2019-09-06",
@@ -4982,12 +4947,11 @@ export default [
     "id": 362
   },
   {
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "The Last Drop - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#The_Last_Drop",
     "summary": [
-      "DJ Pon-3 is playing for the Starswirled Music Festival. Just before the last beat drops, she invites someone in the crowd to come on stage and finish the beat as part of an \"interactive\" experience.",
       "If the viewer chooses Fluttershy, DJ invites her to the stage and encourages her to start dancing. With the help of her animal friends, Fluttershy gives in to the beat and howls like a wolf."
     ],
     "airdate": "2019-09-06",
@@ -4996,12 +4960,11 @@ export default [
     "id": 363
   },
   {
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "The Last Drop - Big McIntosh",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#The_Last_Drop",
     "summary": [
-      "DJ Pon-3 is playing for the Starswirled Music Festival. Just before the last beat drops, she invites someone in the crowd to come on stage and finish the beat as part of an \"interactive\" experience.",
       "If the viewer chooses Big McIntosh, DJ gives him a banjo, and the two create a country/techno beat together that impresses the crowd."
     ],
     "airdate": "2019-09-06",
@@ -5037,12 +5000,11 @@ export default [
     "id": 366
   },
   {
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Inclement Leather - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Inclement_Leather",
     "summary": [
-      "During the Starswirled Music Festival, Rarity is excited to debut her new outfit of suede and fringe. When it suddenly starts to rain, which threatens to ruin her outfit, she desperately turns to one of her friends for help.",
       "If the viewer chooses Applejack, Applejack helps Rarity look for the silver lining in her situation. For Applejack, that silver lining is using the mud created by the rain to find fishing bait. For Rarity, it is using the mud to make a relaxing mud mask."
     ],
     "airdate": "2019-09-08",
@@ -5051,12 +5013,11 @@ export default [
     "id": 367
   },
   {
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Inclement Leather - Twilight Sparkle",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Inclement_Leather",
     "summary": [
-      "During the Starswirled Music Festival, Rarity is excited to debut her new outfit of suede and fringe. When it suddenly starts to rain, which threatens to ruin her outfit, she desperately turns to one of her friends for help.",
       "If the viewer chooses Twilight Sparkle, Twilight says she has been brainstorming equipment to protect oneself against inclement weather, but she has not yet developed any of it, having only garbage bags on hand. Rarity comes up with the idea of using the garbage bags to make rain ponchos."
     ],
     "airdate": "2019-09-08",
@@ -5065,12 +5026,11 @@ export default [
     "id": 368
   },
   {
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Inclement Leather - Vignette Valencia",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Inclement_Leather",
     "summary": [
-      "During the Starswirled Music Festival, Rarity is excited to debut her new outfit of suede and fringe. When it suddenly starts to rain, which threatens to ruin her outfit, she desperately turns to one of her friends for help.",
       "If the viewer chooses Vignette Valencia, Rarity calls Vignette and alerts her to her fashion emergency. However, Vignette approves of how Rarity's hair looks when it is wet, and Rarity starts a trend of wet hair at the music festival."
     ],
     "airdate": "2019-09-08",
@@ -5092,12 +5052,11 @@ export default [
     "id": 370
   },
   {
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Lost and Pound - Rarity",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Lost_and_Pound",
     "summary": [
-      "While checking out the various food trucks at the Starswirled Music Festival, Twilight, Fluttershy, Rarity, and Spike run into a lost and mud-covered puppy\u2060\u2014later identified as Princess Thunder Guts. Fluttershy offers to help the dog, and she chooses one of Twilight's friends to follow.",
       "If the viewer chooses Rarity, Princess Thunder Guts becomes attached to her. Repulsed by the dog's muddy state, Rarity runs away, and the dog follows her around the festival. Princess Thunder Guts eventually chases Rarity into the festival's lounge area, where it is revealed she belongs to Supernova Zap of PostCrush. Su-Z is overjoyed to be reunited with her pet, and she thanks Rarity with a fashionable feather boa."
     ],
     "airdate": "2019-09-10",
@@ -5106,12 +5065,11 @@ export default [
     "id": 371
   },
   {
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Lost and Pound - Spike",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Lost_and_Pound",
     "summary": [
-      "While checking out the various food trucks at the Starswirled Music Festival, Twilight, Fluttershy, Rarity, and Spike run into a lost and mud-covered puppy\u2060\u2014later identified as Princess Thunder Guts. Fluttershy offers to help the dog, and she chooses one of Twilight's friends to follow.",
       "If the viewer chooses Spike, Princess Thunder Guts becomes attached to him, and Spike develops a crush on her. The two spend some time together playing games and eating festival food. When Su-Z appears to collect her lost pet, Spike is heartbroken over Princess Thunder Guts leaving, but she says goodbye with a lick on his cheek."
     ],
     "airdate": "2019-09-10",
@@ -5120,12 +5078,11 @@ export default [
     "id": 372
   },
   {
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Lost and Pound - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Lost_and_Pound",
     "summary": [
-      "While checking out the various food trucks at the Starswirled Music Festival, Twilight, Fluttershy, Rarity, and Spike run into a lost and mud-covered puppy\u2060\u2014later identified as Princess Thunder Guts. Fluttershy offers to help the dog, and she chooses one of Twilight's friends to follow.",
       "If the viewer chooses Fluttershy, Fluttershy uses her geode powers to communicate with Princess Thunder Guts. Upon learning the identity of the dog's owner, Fluttershy returns her to Su-Z immediately."
     ],
     "airdate": "2019-09-10",
@@ -5147,12 +5104,11 @@ export default [
     "id": 374
   },
   {
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Accountibilibuddies - Rainbow Dash",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Accountibilibuddies",
     "summary": [
-      "During the Dirk Thistleweed concert at the Starswirled Music Festival, Applejack gets her foot stomped while dancing at the front of the crowd, and Rainbow Dash and Pinkie Pie help her get away from the crowd. She tells her friends to go back and enjoy the concert without her, but they refuse to let her miss the concert by herself, and one of them offers to be her \"accountibilibuddy\".",
       "If the viewer chooses Rainbow Dash, Rainbow makes a special healing ointment to soothe Applejack's sore foot. Suddenly, Dirk Thistleweed himself appears with a sore throat and uses Rainbow's ointment to restore his voice, and Applejack is awestruck to meet one of her favorite musicians face-to-face."
     ],
     "airdate": "2019-09-13",
@@ -5161,12 +5117,11 @@ export default [
     "id": 375
   },
   {
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Accountibilibuddies - Pinkie Pie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Accountibilibuddies",
     "summary": [
-      "During the Dirk Thistleweed concert at the Starswirled Music Festival, Applejack gets her foot stomped while dancing at the front of the crowd, and Rainbow Dash and Pinkie Pie help her get away from the crowd. She tells her friends to go back and enjoy the concert without her, but they refuse to let her miss the concert by herself, and one of them offers to be her \"accountibilibuddy\".",
       "If the viewer chooses Pinkie Pie, Pinkie vows to make sure that Applejack does not miss the concert. She puts Applejack in a wheelbarrow and carries her to the top of a hill that oversees the concert stage, and she pushes Dirk Thistleweed to the front of the stage so that Applejack can see and hear him clearly."
     ],
     "airdate": "2019-09-13",
@@ -5175,12 +5130,11 @@ export default [
     "id": 376
   },
   {
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Accountibilibuddies - Snips",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Accountibilibuddies",
     "summary": [
-      "During the Dirk Thistleweed concert at the Starswirled Music Festival, Applejack gets her foot stomped while dancing at the front of the crowd, and Rainbow Dash and Pinkie Pie help her get away from the crowd. She tells her friends to go back and enjoy the concert without her, but they refuse to let her miss the concert by herself, and one of them offers to be her \"accountibilibuddy\".",
       "If the viewer chooses Snips, Applejack picks Snips to be her accountibilibuddy after seeing him looking lonely without Snails. When Snips explains that Snails inexplicably abandoned him at the festival, Applejack feels sorry for him and offers to be his new best friend. Just then, Snails appears, having not abandoned Snips after all, followed by Dirk Thistleweed, who is amused by Snails' funny personality. Snips and Snails reconcile, and Dirk offers them and Applejack stage-side seats at the concert."
     ],
     "airdate": "2019-09-13",
@@ -5216,12 +5170,11 @@ export default [
     "id": 379
   },
   {
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "The Road Less Scheduled - Principal Celestia",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#The_Road_Less_Scheduled",
     "summary": [
-      "Twilight has her schedule for the Starswirled Music Festival planned out in her schedule planner, but it accidentally gets destroyed by Bulk Biceps' sweat. Without her own festival agenda to follow, she turns to one of her friends to follow theirs.",
       "If the viewer chooses Principal Celestia, Twilight discovers that she, Vice Principal Luna, and Cranky Doodle are original music festival attendees, and she accompanies them on their \"old school\" tour of the festival grounds. At the end of the day, Twilight thanks Celestia for teaching her, and Celestia jokes that Twilight should send her letters after every music festival explaining what she learned."
     ],
     "airdate": "2019-09-15",
@@ -5230,12 +5183,11 @@ export default [
     "id": 380
   },
   {
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "The Road Less Scheduled - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#The_Road_Less_Scheduled",
     "summary": [
-      "Twilight has her schedule for the Starswirled Music Festival planned out in her schedule planner, but it accidentally gets destroyed by Bulk Biceps' sweat. Without her own festival agenda to follow, she turns to one of her friends to follow theirs.",
       "If the viewer chooses Fluttershy, Twilight discovers that she is secretly a fan of the heavy metal band Skull Cruncher. Fluttershy is afraid Twilight thinks she is weird for being into such a band, but Twilight supports her interest and decides to join in."
     ],
     "airdate": "2019-09-15",
@@ -5244,12 +5196,11 @@ export default [
     "id": 381
   },
   {
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "The Road Less Scheduled - Micro Chips",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#The_Road_Less_Scheduled",
     "summary": [
-      "Twilight has her schedule for the Starswirled Music Festival planned out in her schedule planner, but it accidentally gets destroyed by Bulk Biceps' sweat. Without her own festival agenda to follow, she turns to one of her friends to follow theirs.",
       "If the viewer chooses Micro Chips, Twilight discovers that he is secretly a musical performer under the stage name \"MC Dex Effex\"."
     ],
     "airdate": "2019-09-15",
@@ -5467,12 +5418,11 @@ export default [
     "id": 397
   },
   {
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Sock It to Me - Rarity",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Sock_It_to_Me",
     "summary": [
-      "Minutes before a championship soccer game between Canterlot High School and Crystal Prep Academy, Rainbow Dash misplaces her lucky sock, and she fears she will cause her team to lose without it. Luckily, one of her friends steps up to help with a solution.",
       "If the viewer chooses Rarity, Rarity sews a brand new lucky sock for Rainbow Dash studded with gems. When Rainbow finally joins her team on the field, sunlight reflects off the gems and blinds the opposing players, allowing Rainbow to make the winning goal."
     ],
     "airdate": "2020-05-23",
@@ -5481,12 +5431,11 @@ export default [
     "id": 398
   },
   {
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Sock It to Me - Trixie",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Sock_It_to_Me",
     "summary": [
-      "Minutes before a championship soccer game between Canterlot High School and Crystal Prep Academy, Rainbow Dash misplaces her lucky sock, and she fears she will cause her team to lose without it. Luckily, one of her friends steps up to help with a solution.",
       "If the viewer chooses Trixie, Trixie lends her own lucky sock to Rainbow Dash from her magic hat. When Rainbow joins her team on the field, Trixie's lucky sock turns out to be actually magical, guiding Rainbow's leg to make the winning goal."
     ],
     "airdate": "2020-05-23",
@@ -5495,12 +5444,11 @@ export default [
     "id": 399
   },
   {
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Sock It to Me - Bulk Biceps",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Sock_It_to_Me",
     "summary": [
-      "Minutes before a championship soccer game between Canterlot High School and Crystal Prep Academy, Rainbow Dash misplaces her lucky sock, and she fears she will cause her team to lose without it. Luckily, one of her friends steps up to help with a solution.",
       "If the viewer chooses Bulk Biceps, Bulk lends Rainbow his smelly, unwashed lucky sock. When Rainbow joins her team on the field, all the other players\u2014including those on Rainbow's team\u2014are so repulsed by the sock's stench that she easily makes the winning goal."
     ],
     "airdate": "2020-05-23",
@@ -5522,12 +5470,11 @@ export default [
     "id": 401
   },
   {
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Tip Toppings - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Tip_Toppings",
     "summary": [
-      "At a Canterlot City frozen yogurt shop, Pinkie Pie is the one thousandth customer, and she wins a free topping with her frozen yogurt. When Pinkie is unable to choose from the wide variety of toppings, she turns to one of her friends to help her with her choice\u2014though Fluttershy insists that she not be picked because she is looking after some animals and they are not permitted inside the store.",
       "If the viewer chooses Applejack, Applejack recommends fresh fruit for Pinkie's yogurt topping, but Pinkie prefers candy. Pinkie pretends to agree with Applejack's suggestion and picks candied cherries, but Applejack catches on and secretly swaps out the candied cherries for real cherries. As Pinkie enjoys her frozen yogurt, she and Applejack each believe they have fooled the other."
     ],
     "airdate": "2020-07-21",
@@ -5536,12 +5483,11 @@ export default [
     "id": 402
   },
   {
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Tip Toppings - Twilight Sparkle",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Tip_Toppings",
     "summary": [
-      "At a Canterlot City frozen yogurt shop, Pinkie Pie is the one thousandth customer, and she wins a free topping with her frozen yogurt. When Pinkie is unable to choose from the wide variety of toppings, she turns to one of her friends to help her with her choice\u2014though Fluttershy insists that she not be picked because she is looking after some animals and they are not permitted inside the store.",
       "If the viewer chooses Twilight Sparkle, Twilight uses a complex scientific method to choose the perfect yogurt topping based on which flavors go well together. She eventually suggests chocolate-covered walnuts, but by the time she finishes her anaylsis, Pinkie's yogurt has melted. Twilight requests another yogurt cup from the cashier, but Pinkie enjoys the melted yogurt anyway."
     ],
     "airdate": "2020-07-21",
@@ -5550,12 +5496,11 @@ export default [
     "id": 403
   },
   {
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Tip Toppings - Fluttershy",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Tip_Toppings",
     "summary": [
-      "At a Canterlot City frozen yogurt shop, Pinkie Pie is the one thousandth customer, and she wins a free topping with her frozen yogurt. When Pinkie is unable to choose from the wide variety of toppings, she turns to one of her friends to help her with her choice\u2014though Fluttershy insists that she not be picked because she is looking after some animals and they are not permitted inside the store.",
       "If the viewer chooses Fluttershy, Pinkie opens the store's front door, allowing the animals in Fluttershy's care to storm inside and wreak chaos. This causes the yogurt shop to close due to health code violations, and Pinkie is saddened that she will have to eat her frozen yogurt without a topping. Luckily, one of Fluttershy's squirrel friends tops Pinkie's yogurt with acorn bits."
     ],
     "airdate": "2020-07-21",
@@ -5577,12 +5522,11 @@ export default [
     "id": 405
   },
   {
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Costume Conundrum - Sunset Shimmer",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Costume_Conundrum",
     "summary": [
-      "While hanging out at Sunset Shimmer's house, Sunset, Rarity, Applejack, and Fluttershy all receive an invitation to Bulk Biceps' costume party. When Fluttershy does not know what to wear, her friends all offer to help her pick out a costume.",
       "If the viewer chooses Sunset Shimmer, Sunset picks out a costume that makes Fluttershy look like an alien creature with tentacles, which Bulk Biceps mistakes for a real monster when they arrive to his party."
     ],
     "airdate": "2020-08-26",
@@ -5591,12 +5535,11 @@ export default [
     "id": 406
   },
   {
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Costume Conundrum - Rarity",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Costume_Conundrum",
     "summary": [
-      "While hanging out at Sunset Shimmer's house, Sunset, Rarity, Applejack, and Fluttershy all receive an invitation to Bulk Biceps' costume party. When Fluttershy does not know what to wear, her friends all offer to help her pick out a costume.",
       "If the viewer chooses Rarity, Rarity designs a beautiful dress that makes Fluttershy look like a princess. However, Rarity reveals that the dress is actually for her, and she lends Fluttershy one of her older but also beautiful dresses."
     ],
     "airdate": "2020-08-26",
@@ -5605,12 +5548,11 @@ export default [
     "id": 407
   },
   {
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "seasonNo": "Choose Your Own Ending (season 2)",
     "title": "Costume Conundrum - Applejack",
     "urlName": "My_Little_Pony_Equestria_Girls:_Choose_Your_Own_Ending_(season_2)#Costume_Conundrum",
     "summary": [
-      "While hanging out at Sunset Shimmer's house, Sunset, Rarity, Applejack, and Fluttershy all receive an invitation to Bulk Biceps' costume party. When Fluttershy does not know what to wear, her friends all offer to help her pick out a costume.",
       "If the viewer chooses Applejack, Applejack picks out a large two-person pony costume for herself and Fluttershy to wear to the party."
     ],
     "airdate": "2020-08-26",

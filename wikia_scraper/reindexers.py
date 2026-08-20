@@ -265,7 +265,7 @@ def regenerate_eqg_shorts_index():
             if isinstance(line, list):
                 startstr = "If the viewer chooses "
                 is_branched = True
-                for line2 in line:
+                for line2, letter in zip(line, string.ascii_lowercase):
                     if startstr not in line2:
                         is_branched = False
                         break
@@ -274,8 +274,10 @@ def regenerate_eqg_shorts_index():
                     name = line2[start + len(startstr):stop]
                     new_episode = episode.copy()
                     new_episode['title'] += " - " + name
-                    new_episode['summary'] = op_lines + [line2]
+                    new_episode['summary'] = [line2]
+                    new_episode['episodeNo'] = "%d%s" % (new_episode['episodeNo'], letter)
                     new_index.append(new_episode)
+                    #print(new_episode)
                 if is_branched:
                     episode['summary'] = op_lines
                 else:
@@ -413,7 +415,9 @@ def generate_transcriptline_index2(episode_index):
             filepath = Path("output", "FiM", "transcripts", "shorts").joinpath(episode['urlName'] + ".json")
             #filepath = root_path.joinpath("shorts")
 
+        #if not filepath.exists(): print(filepath)
         #print(filepath)
+
         with open(filepath) as rfile:
             lines = json.load(rfile)
 
@@ -459,6 +463,7 @@ def generate_transcriptline_index2(episode_index):
             )
             transcriptline_index.append(transcriptline.copy())
             index_no += 1
+
 
     return transcriptline_index
 
@@ -687,4 +692,4 @@ if __name__ == "__main__":
             json.dump(transcriptline_index, wfile, indent=2)
 
     #save_regenerated_animation_index()
-    save_transcriptline_index2()
+    #save_transcriptline_index2()

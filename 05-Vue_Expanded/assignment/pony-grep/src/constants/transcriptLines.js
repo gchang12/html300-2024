@@ -363368,7 +363368,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40374,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -363377,7 +363377,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40375,
     "lineNo": 2,
     "speaker": "Twilight Sparkle",
@@ -363386,7 +363386,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40376,
     "lineNo": 3,
     "speaker": "Trixie Lulamoon",
@@ -363395,7 +363395,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40377,
     "lineNo": 4,
     "speaker": "Twilight Sparkle",
@@ -363404,7 +363404,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40378,
     "lineNo": 5,
     "speaker": "Trixie Lulamoon",
@@ -363413,7 +363413,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40379,
     "lineNo": 6,
     "speaker": "Twilight Sparkle",
@@ -363422,7 +363422,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40380,
     "lineNo": 7,
     "speaker": "Trixie Lulamoon",
@@ -363431,7 +363431,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40381,
     "lineNo": 8,
     "speaker": "Silver Spoon",
@@ -363440,7 +363440,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40382,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -363449,7 +363449,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40383,
     "lineNo": 10,
     "speaker": "Diamond Tiara",
@@ -363458,7 +363458,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40384,
     "lineNo": 11,
     "speaker": "Twilight Sparkle",
@@ -363467,7 +363467,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40385,
     "lineNo": 12,
     "speaker": "Diamond Tiara",
@@ -363476,7 +363476,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40386,
     "lineNo": 13,
     "speaker": "Silver Spoon",
@@ -363485,7 +363485,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40387,
     "lineNo": 14,
     "speaker": "Twilight Sparkle",
@@ -363494,7 +363494,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40388,
     "lineNo": 15,
     "speaker": "Students",
@@ -363503,7 +363503,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40389,
     "lineNo": 16,
     "speaker": "Twilight Sparkle",
@@ -363512,7 +363512,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40390,
     "lineNo": 17,
     "speaker": "Rainbow Dash",
@@ -363521,7 +363521,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40391,
     "lineNo": 18,
     "speaker": "Twilight Sparkle",
@@ -363530,7 +363530,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40392,
     "lineNo": 19,
     "speaker": "Rarity",
@@ -363539,7 +363539,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40393,
     "lineNo": 20,
     "speaker": "Twilight Sparkle",
@@ -363548,7 +363548,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40394,
     "lineNo": 21,
     "speaker": "Twilight Sparkle and Rarity",
@@ -363557,7 +363557,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40395,
     "lineNo": 22,
     "speaker": "Rarity",
@@ -363566,7 +363566,7 @@ export default [
   {
     "episodeId": 221,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 40396,
     "lineNo": 23,
     "speaker": "Students",
@@ -363575,7 +363575,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40397,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -363584,7 +363584,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40398,
     "lineNo": 2,
     "speaker": "Rainbow Dash",
@@ -363593,7 +363593,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40399,
     "lineNo": 3,
     "speaker": "Rarity",
@@ -363602,7 +363602,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40400,
     "lineNo": 4,
     "speaker": "Trixie Lulamoon",
@@ -363611,7 +363611,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40401,
     "lineNo": 5,
     "speaker": "Rarity",
@@ -363620,7 +363620,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40402,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -363629,7 +363629,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40403,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -363638,7 +363638,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40404,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -363647,7 +363647,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40405,
     "lineNo": 9,
     "speaker": "Rarity",
@@ -363656,7 +363656,7 @@ export default [
   {
     "episodeId": 222,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 40406,
     "lineNo": 10,
     "speaker": "Rainbow Dash",
@@ -363665,7 +363665,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40407,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -363674,7 +363674,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40408,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -363683,7 +363683,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40409,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -363692,7 +363692,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40410,
     "lineNo": 4,
     "speaker": "Twilight Sparkle",
@@ -363701,7 +363701,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40411,
     "lineNo": 5,
     "speaker": "Rarity",
@@ -363710,7 +363710,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40412,
     "lineNo": 6,
     "speaker": "Applejack",
@@ -363719,7 +363719,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40413,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -363728,7 +363728,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40414,
     "lineNo": 8,
     "speaker": "Applejack",
@@ -363737,7 +363737,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40415,
     "lineNo": 9,
     "speaker": "Pinkie Pie",
@@ -363746,7 +363746,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40416,
     "lineNo": 10,
     "speaker": "Twilight Sparkle, Applejack, and Rarity",
@@ -363755,7 +363755,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40417,
     "lineNo": 11,
     "speaker": "Principal Celestia",
@@ -363764,7 +363764,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40418,
     "lineNo": 12,
     "speaker": "Pinkie Pie",
@@ -363773,7 +363773,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40419,
     "lineNo": 13,
     "speaker": "Rarity",
@@ -363782,7 +363782,7 @@ export default [
   {
     "episodeId": 223,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 40420,
     "lineNo": 14,
     "speaker": "Pinkie Pie",
@@ -364232,7 +364232,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40470,
     "lineNo": 1,
     "speaker": "Rainbow Dash",
@@ -364241,7 +364241,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40471,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -364250,7 +364250,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40472,
     "lineNo": 3,
     "speaker": "Rainbow Dash",
@@ -364259,7 +364259,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40473,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -364268,7 +364268,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40474,
     "lineNo": 5,
     "speaker": "Fluttershy",
@@ -364277,7 +364277,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40475,
     "lineNo": 6,
     "speaker": "\"Cherry Crash\" and \"Mystery Mint\"",
@@ -364286,7 +364286,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40476,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -364295,7 +364295,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40477,
     "lineNo": 8,
     "speaker": "Rainbow Dash",
@@ -364304,7 +364304,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40478,
     "lineNo": 9,
     "speaker": "Fluttershy",
@@ -364313,7 +364313,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40479,
     "lineNo": 10,
     "speaker": "Fluttershy",
@@ -364322,7 +364322,7 @@ export default [
   {
     "episodeId": 229,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 40480,
     "lineNo": 11,
     "speaker": "Rainbow Dash",
@@ -364331,7 +364331,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40481,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -364340,7 +364340,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40482,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -364349,7 +364349,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40483,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -364358,7 +364358,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40484,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -364367,7 +364367,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40485,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -364376,7 +364376,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40486,
     "lineNo": 6,
     "speaker": "Fluttershy",
@@ -364385,7 +364385,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40487,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -364394,7 +364394,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40488,
     "lineNo": 8,
     "speaker": "Applejack",
@@ -364403,7 +364403,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40489,
     "lineNo": 9,
     "speaker": "Applejack",
@@ -364412,7 +364412,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40490,
     "lineNo": 10,
     "speaker": "Pinkie Pie",
@@ -364421,7 +364421,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40491,
     "lineNo": 11,
     "speaker": "Applejack",
@@ -364430,7 +364430,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40492,
     "lineNo": 12,
     "speaker": "Fluttershy",
@@ -364439,7 +364439,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40493,
     "lineNo": 13,
     "speaker": "Applejack",
@@ -364448,7 +364448,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40494,
     "lineNo": 14,
     "speaker": "Fluttershy",
@@ -364457,7 +364457,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40495,
     "lineNo": 15,
     "speaker": "Applejacks",
@@ -364466,7 +364466,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40496,
     "lineNo": 16,
     "speaker": "Applejack",
@@ -364475,7 +364475,7 @@ export default [
   {
     "episodeId": 230,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 40497,
     "lineNo": 17,
     "speaker": "Applejack",
@@ -364484,7 +364484,7 @@ export default [
   {
     "episodeId": 231,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 40498,
     "lineNo": 1,
     "speaker": "Fluttershy",
@@ -364493,7 +364493,7 @@ export default [
   {
     "episodeId": 231,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 40499,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -364502,7 +364502,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40500,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -364511,7 +364511,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40501,
     "lineNo": 2,
     "speaker": "Twilight Sparkle",
@@ -364520,7 +364520,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40502,
     "lineNo": 3,
     "speaker": "Rarity",
@@ -364529,7 +364529,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40503,
     "lineNo": 4,
     "speaker": "Twilight Sparkle",
@@ -364538,7 +364538,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40504,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -364547,7 +364547,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40505,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -364556,7 +364556,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40506,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -364565,7 +364565,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40507,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -364574,7 +364574,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40508,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -364583,7 +364583,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40509,
     "lineNo": 10,
     "speaker": "Rarity",
@@ -364592,7 +364592,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40510,
     "lineNo": 11,
     "speaker": "Rarity",
@@ -364601,7 +364601,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40511,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -364610,7 +364610,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40512,
     "lineNo": 13,
     "speaker": "Rarity",
@@ -364619,7 +364619,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40513,
     "lineNo": 14,
     "speaker": "Twilight Sparkle",
@@ -364628,7 +364628,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40514,
     "lineNo": 15,
     "speaker": "Rarity",
@@ -364637,7 +364637,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40515,
     "lineNo": 16,
     "speaker": "Twilight Sparkle",
@@ -364646,7 +364646,7 @@ export default [
   {
     "episodeId": 232,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 40516,
     "lineNo": 17,
     "speaker": "Rarity",
@@ -364655,7 +364655,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40517,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -364664,7 +364664,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40518,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -364673,7 +364673,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40519,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -364682,7 +364682,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40520,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -364691,7 +364691,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40521,
     "lineNo": 5,
     "speaker": "Fluttershy",
@@ -364700,7 +364700,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40522,
     "lineNo": 6,
     "speaker": "Twilight Sparkle",
@@ -364709,7 +364709,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40523,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -364718,7 +364718,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40524,
     "lineNo": 8,
     "speaker": "Twilight Sparkle",
@@ -364727,7 +364727,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40525,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -364736,7 +364736,7 @@ export default [
   {
     "episodeId": 233,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 40526,
     "lineNo": 10,
     "speaker": "Fluttershy",
@@ -364745,7 +364745,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40527,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -364754,7 +364754,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40528,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -364763,7 +364763,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40529,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -364772,7 +364772,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40530,
     "lineNo": 4,
     "speaker": "Sunset Shimmer",
@@ -364781,7 +364781,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40531,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -364790,7 +364790,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40532,
     "lineNo": 6,
     "speaker": "Sunset Shimmer",
@@ -364799,7 +364799,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40533,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -364808,7 +364808,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40534,
     "lineNo": 8,
     "speaker": "Twilight Sparkle",
@@ -364817,7 +364817,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40535,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -364826,7 +364826,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40536,
     "lineNo": 10,
     "speaker": "Twilight Sparkle",
@@ -364835,7 +364835,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40537,
     "lineNo": 11,
     "speaker": "Twilight Sparkle",
@@ -364844,7 +364844,7 @@ export default [
   {
     "episodeId": 234,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 40538,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -364853,7 +364853,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40539,
     "lineNo": 1,
     "speaker": "Fluttershy",
@@ -364862,7 +364862,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40540,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -364871,7 +364871,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40541,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -364880,7 +364880,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40542,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -364889,7 +364889,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40543,
     "lineNo": 5,
     "speaker": "Angel",
@@ -364898,7 +364898,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40544,
     "lineNo": 6,
     "speaker": "Twilight Sparkle",
@@ -364907,7 +364907,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40545,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -364916,7 +364916,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40546,
     "lineNo": 8,
     "speaker": "Twilight Sparkle",
@@ -364925,7 +364925,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40547,
     "lineNo": 9,
     "speaker": "Fluttershy",
@@ -364934,7 +364934,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40548,
     "lineNo": 10,
     "speaker": "Fluttershy",
@@ -364943,7 +364943,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40549,
     "lineNo": 11,
     "speaker": "Twilight Sparkle",
@@ -364952,7 +364952,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40550,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -364961,7 +364961,7 @@ export default [
   {
     "episodeId": 235,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 40551,
     "lineNo": 13,
     "speaker": "Fluttershy",
@@ -364970,7 +364970,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40552,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -364979,7 +364979,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40553,
     "lineNo": 2,
     "speaker": "Rainbow Dash",
@@ -364988,7 +364988,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40554,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -364997,7 +364997,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40555,
     "lineNo": 4,
     "speaker": "Rainbow Dash",
@@ -365006,7 +365006,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40556,
     "lineNo": 5,
     "speaker": "Sunset Shimmer",
@@ -365015,7 +365015,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40557,
     "lineNo": 6,
     "speaker": "Twilight Sparkle",
@@ -365024,7 +365024,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40558,
     "lineNo": 7,
     "speaker": "Rainbow Dash",
@@ -365033,7 +365033,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40559,
     "lineNo": 8,
     "speaker": "Twilight Sparkle",
@@ -365042,7 +365042,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40560,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -365051,7 +365051,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40561,
     "lineNo": 10,
     "speaker": "Twilight Sparkle",
@@ -365060,7 +365060,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40562,
     "lineNo": 11,
     "speaker": "Rainbow Dash",
@@ -365069,7 +365069,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40563,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -365078,7 +365078,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40564,
     "lineNo": 13,
     "speaker": "Sunset Shimmer",
@@ -365087,7 +365087,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40565,
     "lineNo": 14,
     "speaker": "Twilight Sparkle",
@@ -365096,7 +365096,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40566,
     "lineNo": 15,
     "speaker": "Twilight Sparkle and Rainbow Dash",
@@ -365105,7 +365105,7 @@ export default [
   {
     "episodeId": 236,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 40567,
     "lineNo": 16,
     "speaker": "Rainbow Dash",
@@ -365114,7 +365114,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40568,
     "lineNo": 1,
     "speaker": "Pinkie Pie",
@@ -365123,7 +365123,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40569,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -365132,7 +365132,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40570,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -365141,7 +365141,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40571,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -365150,7 +365150,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40572,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -365159,7 +365159,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40573,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -365168,7 +365168,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40574,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -365177,7 +365177,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40575,
     "lineNo": 8,
     "speaker": "Twilight Sparkle",
@@ -365186,7 +365186,7 @@ export default [
   {
     "episodeId": 237,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 40576,
     "lineNo": 9,
     "speaker": "Pinkie Pie",
@@ -365195,7 +365195,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40577,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -365204,7 +365204,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40578,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -365213,7 +365213,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40579,
     "lineNo": 3,
     "speaker": "Rarity",
@@ -365222,7 +365222,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40580,
     "lineNo": 4,
     "speaker": "Sunset Shimmer",
@@ -365231,7 +365231,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40581,
     "lineNo": 5,
     "speaker": "Sunset Shimmer",
@@ -365240,7 +365240,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40582,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -365249,7 +365249,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40583,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -365258,7 +365258,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40584,
     "lineNo": 8,
     "speaker": "Cranky Doodle",
@@ -365267,7 +365267,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40585,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -365276,7 +365276,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40586,
     "lineNo": 10,
     "speaker": "Cranky Doodle",
@@ -365285,7 +365285,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40587,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -365294,7 +365294,7 @@ export default [
   {
     "episodeId": 238,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 40588,
     "lineNo": 12,
     "speaker": "Cranky Doodle",
@@ -365303,7 +365303,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40589,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -365312,7 +365312,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40590,
     "lineNo": 2,
     "speaker": "Applejack",
@@ -365321,7 +365321,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40591,
     "lineNo": 3,
     "speaker": "Granny Smith",
@@ -365330,7 +365330,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40592,
     "lineNo": 4,
     "speaker": "Sunset Shimmer",
@@ -365339,7 +365339,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40593,
     "lineNo": 5,
     "speaker": "Granny Smith",
@@ -365348,7 +365348,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40594,
     "lineNo": 6,
     "speaker": "Applejack",
@@ -365357,7 +365357,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40595,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -365366,7 +365366,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40596,
     "lineNo": 8,
     "speaker": "Granny Smith",
@@ -365375,7 +365375,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40597,
     "lineNo": 9,
     "speaker": "Granny Smith",
@@ -365384,7 +365384,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40598,
     "lineNo": 10,
     "speaker": "Granny Smith",
@@ -365393,7 +365393,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40599,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -365402,7 +365402,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40600,
     "lineNo": 12,
     "speaker": "Granny Smith",
@@ -365411,7 +365411,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40601,
     "lineNo": 13,
     "speaker": "Applejack",
@@ -365420,7 +365420,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40602,
     "lineNo": 14,
     "speaker": "Sunset Shimmer",
@@ -365429,7 +365429,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40603,
     "lineNo": 15,
     "speaker": "Applejack",
@@ -365438,7 +365438,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40604,
     "lineNo": 16,
     "speaker": "Cranky Doodle",
@@ -365447,7 +365447,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40605,
     "lineNo": 17,
     "speaker": "Sunset Shimmer",
@@ -365456,7 +365456,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40606,
     "lineNo": 18,
     "speaker": "Cranky Doodle",
@@ -365465,7 +365465,7 @@ export default [
   {
     "episodeId": 239,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 40607,
     "lineNo": 19,
     "speaker": "Sunset Shimmer",
@@ -365474,7 +365474,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40608,
     "lineNo": 1,
     "speaker": "Fluttershy",
@@ -365483,7 +365483,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40609,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -365492,7 +365492,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40610,
     "lineNo": 3,
     "speaker": "Fluttershy",
@@ -365501,7 +365501,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40611,
     "lineNo": 4,
     "speaker": "Sunset Shimmer",
@@ -365510,7 +365510,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40612,
     "lineNo": 5,
     "speaker": "Fluttershy",
@@ -365519,7 +365519,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40613,
     "lineNo": 6,
     "speaker": "Sunset Shimmer",
@@ -365528,7 +365528,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40614,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -365537,7 +365537,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40615,
     "lineNo": 8,
     "speaker": "Sunset Shimmer",
@@ -365546,7 +365546,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40616,
     "lineNo": 9,
     "speaker": "Fluttershy",
@@ -365555,7 +365555,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40617,
     "lineNo": 10,
     "speaker": "Cranky Doodle",
@@ -365564,7 +365564,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40618,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -365573,7 +365573,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40619,
     "lineNo": 12,
     "speaker": "Cranky Doodle",
@@ -365582,7 +365582,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40620,
     "lineNo": 13,
     "speaker": "Sunset Shimmer",
@@ -365591,7 +365591,7 @@ export default [
   {
     "episodeId": 240,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 40621,
     "lineNo": 14,
     "speaker": "Cranky Doodle",
@@ -365600,7 +365600,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40622,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -365609,7 +365609,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40623,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -365618,7 +365618,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40624,
     "lineNo": 3,
     "speaker": "Rarity",
@@ -365627,7 +365627,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40625,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -365636,7 +365636,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40626,
     "lineNo": 5,
     "speaker": "Rarity",
@@ -365645,7 +365645,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40627,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -365654,7 +365654,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40628,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -365663,7 +365663,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40629,
     "lineNo": 8,
     "speaker": "Pinkie Pie",
@@ -365672,7 +365672,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40630,
     "lineNo": 9,
     "speaker": "Rarity",
@@ -365681,7 +365681,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40631,
     "lineNo": 10,
     "speaker": "Pinkie Pie",
@@ -365690,7 +365690,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40632,
     "lineNo": 11,
     "speaker": "Rarity",
@@ -365699,7 +365699,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40633,
     "lineNo": 12,
     "speaker": "Pinkie Pie",
@@ -365708,7 +365708,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40634,
     "lineNo": 13,
     "speaker": "Rarity",
@@ -365717,7 +365717,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40635,
     "lineNo": 14,
     "speaker": "Pinkie Pie",
@@ -365726,7 +365726,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40636,
     "lineNo": 15,
     "speaker": "Rarity",
@@ -365735,7 +365735,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40637,
     "lineNo": 16,
     "speaker": "Pinkie Pie",
@@ -365744,7 +365744,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40638,
     "lineNo": 17,
     "speaker": "Rarity",
@@ -365753,7 +365753,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40639,
     "lineNo": 18,
     "speaker": "Pinkie Pie",
@@ -365762,7 +365762,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40640,
     "lineNo": 19,
     "speaker": "Rarity",
@@ -365771,7 +365771,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40641,
     "lineNo": 20,
     "speaker": "Pinkie Pie",
@@ -365780,7 +365780,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40642,
     "lineNo": 21,
     "speaker": "Rarity",
@@ -365789,7 +365789,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40643,
     "lineNo": 22,
     "speaker": "Pinkie Pie",
@@ -365798,7 +365798,7 @@ export default [
   {
     "episodeId": 241,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 40644,
     "lineNo": 23,
     "speaker": "Rarity",
@@ -365807,7 +365807,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40645,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -365816,7 +365816,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40646,
     "lineNo": 2,
     "speaker": "Trixie Lulamoon",
@@ -365825,7 +365825,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40647,
     "lineNo": 3,
     "speaker": "Rarity",
@@ -365834,7 +365834,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40648,
     "lineNo": 4,
     "speaker": "Trixie Lulamoon",
@@ -365843,7 +365843,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40649,
     "lineNo": 5,
     "speaker": "Rarity",
@@ -365852,7 +365852,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40650,
     "lineNo": 6,
     "speaker": "Trixie Lulamoon",
@@ -365861,7 +365861,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40651,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -365870,7 +365870,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40652,
     "lineNo": 8,
     "speaker": "Trixie Lulamoon",
@@ -365879,7 +365879,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40653,
     "lineNo": 9,
     "speaker": "Rarity",
@@ -365888,7 +365888,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40654,
     "lineNo": 10,
     "speaker": "Trixie Lulamoon",
@@ -365897,7 +365897,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40655,
     "lineNo": 11,
     "speaker": "Trixie Lulamoon",
@@ -365906,7 +365906,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40656,
     "lineNo": 12,
     "speaker": "Rarity",
@@ -365915,7 +365915,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40657,
     "lineNo": 13,
     "speaker": "Spike",
@@ -365924,7 +365924,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40658,
     "lineNo": 14,
     "speaker": "Rarity",
@@ -365933,7 +365933,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40659,
     "lineNo": 15,
     "speaker": "Trixie Lulamoon",
@@ -365942,7 +365942,7 @@ export default [
   {
     "episodeId": 242,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 40660,
     "lineNo": 16,
     "speaker": "Spike",
@@ -365951,7 +365951,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40661,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -365960,7 +365960,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40662,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -365969,7 +365969,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40663,
     "lineNo": 3,
     "speaker": "Rarity and Applejack",
@@ -365978,7 +365978,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40664,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -365987,7 +365987,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40665,
     "lineNo": 5,
     "speaker": "Maud Pie",
@@ -365996,7 +365996,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40666,
     "lineNo": 6,
     "speaker": "Applejack",
@@ -366005,7 +366005,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40667,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -366014,7 +366014,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40668,
     "lineNo": 8,
     "speaker": "Maud Pie",
@@ -366023,7 +366023,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40669,
     "lineNo": 9,
     "speaker": "Rarity",
@@ -366032,7 +366032,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40670,
     "lineNo": 10,
     "speaker": "Maud Pie",
@@ -366041,7 +366041,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40671,
     "lineNo": 11,
     "speaker": "Rarity",
@@ -366050,7 +366050,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40672,
     "lineNo": 12,
     "speaker": "Maud Pie",
@@ -366059,7 +366059,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40673,
     "lineNo": 13,
     "speaker": "Rarity",
@@ -366068,7 +366068,7 @@ export default [
   {
     "episodeId": 243,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 40674,
     "lineNo": 14,
     "speaker": "Sunset Shimmer",
@@ -366617,7 +366617,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40735,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -366626,7 +366626,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40736,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -366635,7 +366635,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40737,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -366644,7 +366644,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40738,
     "lineNo": 4,
     "speaker": "Sunset Shimmer",
@@ -366653,7 +366653,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40739,
     "lineNo": 5,
     "speaker": "Snips",
@@ -366662,7 +366662,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40740,
     "lineNo": 6,
     "speaker": "Snails",
@@ -366671,7 +366671,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40741,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -366680,7 +366680,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40742,
     "lineNo": 8,
     "speaker": "Sunset Shimmer",
@@ -366689,7 +366689,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40743,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -366698,7 +366698,7 @@ export default [
   {
     "episodeId": 248,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 40744,
     "lineNo": 10,
     "speaker": "Twilight Sparkle",
@@ -366707,7 +366707,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40745,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -366716,7 +366716,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40746,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -366725,7 +366725,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40747,
     "lineNo": 3,
     "speaker": "Sunset Shimmer",
@@ -366734,7 +366734,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40748,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -366743,7 +366743,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40749,
     "lineNo": 5,
     "speaker": "Snails",
@@ -366752,7 +366752,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40750,
     "lineNo": 6,
     "speaker": "Snips",
@@ -366761,7 +366761,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40751,
     "lineNo": 7,
     "speaker": "Snips",
@@ -366770,7 +366770,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40752,
     "lineNo": 8,
     "speaker": "Snails",
@@ -366779,7 +366779,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40753,
     "lineNo": 9,
     "speaker": "Pinkie Pie",
@@ -366788,7 +366788,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40754,
     "lineNo": 10,
     "speaker": "Sunset Shimmer",
@@ -366797,7 +366797,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40755,
     "lineNo": 11,
     "speaker": "Pinkie Pie",
@@ -366806,7 +366806,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40756,
     "lineNo": 12,
     "speaker": "Sunset Shimmer",
@@ -366815,7 +366815,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40757,
     "lineNo": 13,
     "speaker": "Pinkie Pie",
@@ -366824,7 +366824,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40758,
     "lineNo": 14,
     "speaker": "Sunset Shimmer",
@@ -366833,7 +366833,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40759,
     "lineNo": 15,
     "speaker": "Pinkie Pie",
@@ -366842,7 +366842,7 @@ export default [
   {
     "episodeId": 249,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 40760,
     "lineNo": 16,
     "speaker": "Sunset Shimmer",
@@ -366851,7 +366851,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40761,
     "lineNo": 1,
     "speaker": "Micro Chips",
@@ -366860,7 +366860,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40762,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -366869,7 +366869,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40763,
     "lineNo": 3,
     "speaker": "Snips",
@@ -366878,7 +366878,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40764,
     "lineNo": 4,
     "speaker": "Micro Chips",
@@ -366887,7 +366887,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40765,
     "lineNo": 5,
     "speaker": "Snails",
@@ -366896,7 +366896,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40766,
     "lineNo": 6,
     "speaker": "Snips",
@@ -366905,7 +366905,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40767,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -366914,7 +366914,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40768,
     "lineNo": 8,
     "speaker": "Micro Chips",
@@ -366923,7 +366923,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40769,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -366932,7 +366932,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40770,
     "lineNo": 10,
     "speaker": "Bulk Biceps",
@@ -366941,7 +366941,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40771,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -366950,7 +366950,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40772,
     "lineNo": 12,
     "speaker": "Bulk Biceps",
@@ -366959,7 +366959,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40773,
     "lineNo": 13,
     "speaker": "Micro Chips",
@@ -366968,7 +366968,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40774,
     "lineNo": 14,
     "speaker": "Sunset Shimmer",
@@ -366977,7 +366977,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40775,
     "lineNo": 15,
     "speaker": "Micro Chips",
@@ -366986,7 +366986,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40776,
     "lineNo": 16,
     "speaker": "Bulk Biceps",
@@ -366995,7 +366995,7 @@ export default [
   {
     "episodeId": 250,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 40777,
     "lineNo": 17,
     "speaker": "Sunset Shimmer",
@@ -367004,7 +367004,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40778,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -367013,7 +367013,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40779,
     "lineNo": 2,
     "speaker": "Rainbow Dash",
@@ -367022,7 +367022,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40780,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -367031,7 +367031,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40781,
     "lineNo": 4,
     "speaker": "Rainbow Dash",
@@ -367040,7 +367040,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40782,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -367049,7 +367049,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40783,
     "lineNo": 6,
     "speaker": "Rainbow Dash",
@@ -367058,7 +367058,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40784,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -367067,7 +367067,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40785,
     "lineNo": 8,
     "speaker": "Applejack",
@@ -367076,7 +367076,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40786,
     "lineNo": 9,
     "speaker": "Rainbow Dash",
@@ -367085,7 +367085,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40787,
     "lineNo": 10,
     "speaker": "Applejack",
@@ -367094,7 +367094,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40788,
     "lineNo": 11,
     "speaker": "Rainbow Dash",
@@ -367103,7 +367103,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40789,
     "lineNo": 12,
     "speaker": "Applejack",
@@ -367112,7 +367112,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40790,
     "lineNo": 13,
     "speaker": "Rainbow Dash",
@@ -367121,7 +367121,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40791,
     "lineNo": 14,
     "speaker": "Applejack",
@@ -367130,7 +367130,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40792,
     "lineNo": 15,
     "speaker": "Rainbow Dash",
@@ -367139,7 +367139,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40793,
     "lineNo": 16,
     "speaker": "Applejack",
@@ -367148,7 +367148,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40794,
     "lineNo": 17,
     "speaker": "Rainbow Dash",
@@ -367157,7 +367157,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40795,
     "lineNo": 18,
     "speaker": "Applejack and Rainbow Dash",
@@ -367166,7 +367166,7 @@ export default [
   {
     "episodeId": 251,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 40796,
     "lineNo": 19,
     "speaker": "Rainbow Dash",
@@ -367175,7 +367175,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40797,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -367184,7 +367184,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40798,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -367193,7 +367193,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40799,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -367202,7 +367202,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40800,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -367211,7 +367211,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40801,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -367220,7 +367220,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40802,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -367229,7 +367229,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40803,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -367238,7 +367238,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40804,
     "lineNo": 8,
     "speaker": "Pinkie Pie",
@@ -367247,7 +367247,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40805,
     "lineNo": 9,
     "speaker": "Pinkie Pie",
@@ -367256,7 +367256,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40806,
     "lineNo": 10,
     "speaker": "Applejack",
@@ -367265,7 +367265,7 @@ export default [
   {
     "episodeId": 252,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 40807,
     "lineNo": 11,
     "speaker": "Applejack and Pinkie Pie",
@@ -367274,7 +367274,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40808,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -367283,7 +367283,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40809,
     "lineNo": 2,
     "speaker": "Photo Finish",
@@ -367292,7 +367292,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40810,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -367301,7 +367301,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40811,
     "lineNo": 4,
     "speaker": "Photo Finish",
@@ -367310,7 +367310,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40812,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -367319,7 +367319,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40813,
     "lineNo": 6,
     "speaker": "Photo Finish",
@@ -367328,7 +367328,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40814,
     "lineNo": 7,
     "speaker": "Photo Finish",
@@ -367337,7 +367337,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40815,
     "lineNo": 8,
     "speaker": "Applejack",
@@ -367346,7 +367346,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40816,
     "lineNo": 9,
     "speaker": "Photo Finish",
@@ -367355,7 +367355,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40817,
     "lineNo": 10,
     "speaker": "Photo Finish",
@@ -367364,7 +367364,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40818,
     "lineNo": 11,
     "speaker": "Applejack",
@@ -367373,7 +367373,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40819,
     "lineNo": 12,
     "speaker": "Photo Finish",
@@ -367382,7 +367382,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40820,
     "lineNo": 13,
     "speaker": "Applejack",
@@ -367391,7 +367391,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40821,
     "lineNo": 14,
     "speaker": "Photo Finish",
@@ -367400,7 +367400,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40822,
     "lineNo": 15,
     "speaker": "Applejack",
@@ -367409,7 +367409,7 @@ export default [
   {
     "episodeId": 253,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 40823,
     "lineNo": 16,
     "speaker": "Photo Finish",
@@ -367418,7 +367418,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40824,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -367427,7 +367427,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40825,
     "lineNo": 2,
     "speaker": "Snails",
@@ -367436,7 +367436,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40826,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -367445,7 +367445,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40827,
     "lineNo": 4,
     "speaker": "Applejack",
@@ -367454,7 +367454,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40828,
     "lineNo": 5,
     "speaker": "Rainbow Dash",
@@ -367463,7 +367463,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40829,
     "lineNo": 6,
     "speaker": "Applejack",
@@ -367472,7 +367472,7 @@ export default [
   {
     "episodeId": 254,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 40830,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -367481,7 +367481,7 @@ export default [
   {
     "episodeId": 255,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 40831,
     "lineNo": 1,
     "speaker": "Rainbow Dash",
@@ -367490,7 +367490,7 @@ export default [
   {
     "episodeId": 255,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 40832,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -367499,7 +367499,7 @@ export default [
   {
     "episodeId": 255,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 40833,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -367508,7 +367508,7 @@ export default [
   {
     "episodeId": 255,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 40834,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -367517,7 +367517,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40835,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -367526,7 +367526,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40836,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -367535,7 +367535,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40837,
     "lineNo": 3,
     "speaker": "Sunset Shimmer",
@@ -367544,7 +367544,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40838,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -367553,7 +367553,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40839,
     "lineNo": 5,
     "speaker": "Sunset Shimmer",
@@ -367562,7 +367562,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40840,
     "lineNo": 6,
     "speaker": "Sunset Shimmer",
@@ -367571,7 +367571,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40841,
     "lineNo": 7,
     "speaker": "Everyone",
@@ -367580,7 +367580,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40842,
     "lineNo": 8,
     "speaker": "Snips and Snails",
@@ -367589,7 +367589,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40843,
     "lineNo": 9,
     "speaker": "Everyone",
@@ -367598,7 +367598,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40844,
     "lineNo": 10,
     "speaker": "Sunset Shimmer",
@@ -367607,7 +367607,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40845,
     "lineNo": 11,
     "speaker": "Fluttershy",
@@ -367616,7 +367616,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40846,
     "lineNo": 12,
     "speaker": "Snips",
@@ -367625,7 +367625,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40847,
     "lineNo": 13,
     "speaker": "Snails",
@@ -367634,7 +367634,7 @@ export default [
   {
     "episodeId": 256,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 40848,
     "lineNo": 14,
     "speaker": "Snips and Snails",
@@ -367643,7 +367643,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40849,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -367652,7 +367652,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40850,
     "lineNo": 2,
     "speaker": "Applejack",
@@ -367661,7 +367661,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40851,
     "lineNo": 3,
     "speaker": "Mr. Cranky Doodle",
@@ -367670,7 +367670,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40852,
     "lineNo": 4,
     "speaker": "Apple Bloom",
@@ -367679,7 +367679,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40853,
     "lineNo": 5,
     "speaker": "Scootaloo",
@@ -367688,7 +367688,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40854,
     "lineNo": 6,
     "speaker": "Applejack",
@@ -367697,7 +367697,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40855,
     "lineNo": 7,
     "speaker": "Mr. Cranky Doodle",
@@ -367706,7 +367706,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40856,
     "lineNo": 8,
     "speaker": "Applejack",
@@ -367715,7 +367715,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40857,
     "lineNo": 9,
     "speaker": "Mr. Cranky Doodle",
@@ -367724,7 +367724,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40858,
     "lineNo": 10,
     "speaker": "Applejack",
@@ -367733,7 +367733,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40859,
     "lineNo": 11,
     "speaker": "Mr. Cranky Doodle",
@@ -367742,7 +367742,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40860,
     "lineNo": 12,
     "speaker": "Applejack",
@@ -367751,7 +367751,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40861,
     "lineNo": 13,
     "speaker": "Mr. Cranky Doodle",
@@ -367760,7 +367760,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40862,
     "lineNo": 14,
     "speaker": "Applejack",
@@ -367769,7 +367769,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40863,
     "lineNo": 15,
     "speaker": "Mr. Cranky Doodle",
@@ -367778,7 +367778,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40864,
     "lineNo": 16,
     "speaker": "Applejack",
@@ -367787,7 +367787,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40865,
     "lineNo": 17,
     "speaker": "Mr. Cranky Doodle",
@@ -367796,7 +367796,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40866,
     "lineNo": 18,
     "speaker": "Applejack",
@@ -367805,7 +367805,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40867,
     "lineNo": 19,
     "speaker": "Mr. Cranky Doodle",
@@ -367814,7 +367814,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40868,
     "lineNo": 20,
     "speaker": "Applejack",
@@ -367823,7 +367823,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40869,
     "lineNo": 21,
     "speaker": "Mr. Cranky Doodle",
@@ -367832,7 +367832,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40870,
     "lineNo": 22,
     "speaker": "Applejack",
@@ -367841,7 +367841,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40871,
     "lineNo": 23,
     "speaker": "Mr. Cranky Doodle",
@@ -367850,7 +367850,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40872,
     "lineNo": 24,
     "speaker": "Rainbow Dash",
@@ -367859,7 +367859,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40873,
     "lineNo": 25,
     "speaker": "Mr. Cranky Doodle",
@@ -367868,7 +367868,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40874,
     "lineNo": 26,
     "speaker": "Mr. Cranky Doodle",
@@ -367877,7 +367877,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40875,
     "lineNo": 27,
     "speaker": "Mr. Cranky Doodle",
@@ -367886,7 +367886,7 @@ export default [
   {
     "episodeId": 257,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11a",
     "id": 40876,
     "lineNo": 28,
     "speaker": "Cutie Mark Crusaders, Applejack, and Rainbow Dash",
@@ -367895,7 +367895,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40877,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -367904,7 +367904,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40878,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -367913,7 +367913,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40879,
     "lineNo": 3,
     "speaker": "Mr. Cranky Doodle",
@@ -367922,7 +367922,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40880,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -367931,7 +367931,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40881,
     "lineNo": 5,
     "speaker": "Mr. Cranky Doodle",
@@ -367940,7 +367940,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40882,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -367949,7 +367949,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40883,
     "lineNo": 7,
     "speaker": "Mr. Cranky Doodle",
@@ -367958,7 +367958,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40884,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -367967,7 +367967,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40885,
     "lineNo": 9,
     "speaker": "Mr. Cranky Doodle",
@@ -367976,7 +367976,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40886,
     "lineNo": 10,
     "speaker": "Rarity",
@@ -367985,7 +367985,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40887,
     "lineNo": 11,
     "speaker": "Cutie Mark Crusaders",
@@ -367994,7 +367994,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40888,
     "lineNo": 12,
     "speaker": "Rarity",
@@ -368003,7 +368003,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40889,
     "lineNo": 13,
     "speaker": "Mr. Cranky Doodle",
@@ -368012,7 +368012,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40890,
     "lineNo": 14,
     "speaker": "Rarity",
@@ -368021,7 +368021,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40891,
     "lineNo": 15,
     "speaker": "Mr. Cranky Doodle",
@@ -368030,7 +368030,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40892,
     "lineNo": 16,
     "speaker": "Rarity",
@@ -368039,7 +368039,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40893,
     "lineNo": 17,
     "speaker": "Mr. Cranky Doodle",
@@ -368048,7 +368048,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40894,
     "lineNo": 18,
     "speaker": "Rarity",
@@ -368057,7 +368057,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40895,
     "lineNo": 19,
     "speaker": "Sweetie Belle",
@@ -368066,7 +368066,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40896,
     "lineNo": 20,
     "speaker": "Rarity",
@@ -368075,7 +368075,7 @@ export default [
   {
     "episodeId": 258,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11b",
     "id": 40897,
     "lineNo": 21,
     "speaker": "Cutie Mark Crusaders",
@@ -368084,7 +368084,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40898,
     "lineNo": 1,
     "speaker": "Mr. Cranky Doodle",
@@ -368093,7 +368093,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40899,
     "lineNo": 2,
     "speaker": "Scootaloo",
@@ -368102,7 +368102,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40900,
     "lineNo": 3,
     "speaker": "Mr. Cranky Doodle",
@@ -368111,7 +368111,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40901,
     "lineNo": 4,
     "speaker": "Apple Bloom",
@@ -368120,7 +368120,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40902,
     "lineNo": 5,
     "speaker": "Mr. Cranky Doodle",
@@ -368129,7 +368129,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40903,
     "lineNo": 6,
     "speaker": "Rainbow Dash",
@@ -368138,7 +368138,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40904,
     "lineNo": 7,
     "speaker": "Rainbow Dash",
@@ -368147,7 +368147,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40905,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -368156,7 +368156,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40906,
     "lineNo": 9,
     "speaker": "Rainbow Dash",
@@ -368165,7 +368165,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40907,
     "lineNo": 10,
     "speaker": "Rarity and Rainbow Dash",
@@ -368174,7 +368174,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40908,
     "lineNo": 11,
     "speaker": "Rainbow Dash",
@@ -368183,7 +368183,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40909,
     "lineNo": 12,
     "speaker": "Rarity",
@@ -368192,7 +368192,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40910,
     "lineNo": 13,
     "speaker": "Scootaloo",
@@ -368201,7 +368201,7 @@ export default [
   {
     "episodeId": 259,
     "seasonNo": "Choose Your Own Ending (season 1)",
-    "episodeNo": 11,
+    "episodeNo": "11c",
     "id": 40911,
     "lineNo": 14,
     "speaker": "Mr. Cranky Doodle",
@@ -492428,7 +492428,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54714,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -492437,7 +492437,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54715,
     "lineNo": 2,
     "speaker": "Applejack",
@@ -492446,7 +492446,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54716,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -492455,7 +492455,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54717,
     "lineNo": 4,
     "speaker": "Sunset Shimmer",
@@ -492464,7 +492464,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54718,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -492473,7 +492473,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54719,
     "lineNo": 6,
     "speaker": "Sunset Shimmer",
@@ -492482,7 +492482,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54720,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -492491,7 +492491,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54721,
     "lineNo": 8,
     "speaker": "Sunset Shimmer",
@@ -492500,7 +492500,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54722,
     "lineNo": 9,
     "speaker": "Applejack",
@@ -492509,7 +492509,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54723,
     "lineNo": 10,
     "speaker": "Sunset Shimmer",
@@ -492518,7 +492518,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54724,
     "lineNo": 11,
     "speaker": "Applejack",
@@ -492527,7 +492527,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54725,
     "lineNo": 12,
     "speaker": "Rest of Equestria Girls",
@@ -492536,7 +492536,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54726,
     "lineNo": 13,
     "speaker": "Big McIntosh",
@@ -492545,7 +492545,7 @@ export default [
   {
     "episodeId": 358,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2a",
     "id": 54727,
     "lineNo": 14,
     "speaker": "Applejack",
@@ -492554,7 +492554,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54728,
     "lineNo": 1,
     "speaker": "Rainbow Dash",
@@ -492563,7 +492563,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54729,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -492572,7 +492572,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54730,
     "lineNo": 3,
     "speaker": "Rainbow Dash",
@@ -492581,7 +492581,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54731,
     "lineNo": 4,
     "speaker": "Sunset Shimmer and Rainbow Dash",
@@ -492590,7 +492590,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54732,
     "lineNo": 5,
     "speaker": "Rainbow Dash",
@@ -492599,7 +492599,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54733,
     "lineNo": 6,
     "speaker": "Rainbow Dash",
@@ -492608,7 +492608,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54734,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -492617,7 +492617,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54735,
     "lineNo": 8,
     "speaker": "Rainbow Dash",
@@ -492626,7 +492626,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54736,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -492635,7 +492635,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54737,
     "lineNo": 10,
     "speaker": "Rainbow Dash",
@@ -492644,7 +492644,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54738,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -492653,7 +492653,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54739,
     "lineNo": 12,
     "speaker": "Rainbow Dash",
@@ -492662,7 +492662,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54740,
     "lineNo": 13,
     "speaker": "Sunset Shimmer and Rainbow Dash",
@@ -492671,7 +492671,7 @@ export default [
   {
     "episodeId": 359,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2b",
     "id": 54741,
     "lineNo": 14,
     "speaker": "Sunset Shimmer",
@@ -492680,7 +492680,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54742,
     "lineNo": 1,
     "speaker": "Pinkie Pie",
@@ -492689,7 +492689,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54743,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -492698,7 +492698,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54744,
     "lineNo": 3,
     "speaker": "Spike",
@@ -492707,7 +492707,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54745,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -492716,7 +492716,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54746,
     "lineNo": 5,
     "speaker": "Sunset Shimmer",
@@ -492725,7 +492725,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54747,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -492734,7 +492734,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54748,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -492743,7 +492743,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54749,
     "lineNo": 8,
     "speaker": "Pinkie Pie",
@@ -492752,7 +492752,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54750,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -492761,7 +492761,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54751,
     "lineNo": 10,
     "speaker": "Pinkie Pie",
@@ -492770,7 +492770,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54752,
     "lineNo": 11,
     "speaker": "Sunset Shimmer and Pinkie Pie",
@@ -492779,7 +492779,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54753,
     "lineNo": 12,
     "speaker": "Spike",
@@ -492788,7 +492788,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54754,
     "lineNo": 13,
     "speaker": "Sunset Shimmer",
@@ -492797,7 +492797,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54755,
     "lineNo": 14,
     "speaker": "Sunset Shimmer",
@@ -492806,7 +492806,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54756,
     "lineNo": 15,
     "speaker": "Rainbow Dash",
@@ -492815,7 +492815,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54757,
     "lineNo": 16,
     "speaker": "Sunset Shimmer",
@@ -492824,7 +492824,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54758,
     "lineNo": 17,
     "speaker": "Rainbow Dash",
@@ -492833,7 +492833,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54759,
     "lineNo": 18,
     "speaker": "Applejack",
@@ -492842,7 +492842,7 @@ export default [
   {
     "episodeId": 360,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 2,
+    "episodeNo": "2c",
     "id": 54760,
     "lineNo": 19,
     "speaker": "Pinkie Pie",
@@ -492923,7 +492923,7 @@ export default [
   {
     "episodeId": 362,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 54769,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -492932,7 +492932,7 @@ export default [
   {
     "episodeId": 362,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3a",
     "id": 54770,
     "lineNo": 2,
     "speaker": "Sunset Shimmer",
@@ -492941,7 +492941,7 @@ export default [
   {
     "episodeId": 363,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 54771,
     "lineNo": 1,
     "speaker": "Fluttershy",
@@ -492950,7 +492950,7 @@ export default [
   {
     "episodeId": 363,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 54772,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -492959,7 +492959,7 @@ export default [
   {
     "episodeId": 363,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3b",
     "id": 54773,
     "lineNo": 3,
     "speaker": "Fluttershy",
@@ -492968,7 +492968,7 @@ export default [
   {
     "episodeId": 364,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 54774,
     "lineNo": 1,
     "speaker": "Miss Cheerilee",
@@ -492977,7 +492977,7 @@ export default [
   {
     "episodeId": 364,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 54775,
     "lineNo": 2,
     "speaker": "Big McIntosh",
@@ -492986,7 +492986,7 @@ export default [
   {
     "episodeId": 364,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 54776,
     "lineNo": 3,
     "speaker": "Big McIntosh",
@@ -492995,7 +492995,7 @@ export default [
   {
     "episodeId": 364,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 54777,
     "lineNo": 4,
     "speaker": "Big McIntosh",
@@ -493004,7 +493004,7 @@ export default [
   {
     "episodeId": 364,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 3,
+    "episodeNo": "3c",
     "id": 54778,
     "lineNo": 5,
     "speaker": "Big McIntosh",
@@ -494930,7 +494930,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54992,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -494939,7 +494939,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54993,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -494948,7 +494948,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54994,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -494957,7 +494957,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54995,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -494966,7 +494966,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54996,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -494975,7 +494975,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54997,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -494984,7 +494984,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54998,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -494993,7 +494993,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 54999,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -495002,7 +495002,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 55000,
     "lineNo": 9,
     "speaker": "Rarity",
@@ -495011,7 +495011,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 55001,
     "lineNo": 10,
     "speaker": "Applejack",
@@ -495020,7 +495020,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 55002,
     "lineNo": 11,
     "speaker": "Rarity",
@@ -495029,7 +495029,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 55003,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -495038,7 +495038,7 @@ export default [
   {
     "episodeId": 367,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4a",
     "id": 55004,
     "lineNo": 13,
     "speaker": "Applejack",
@@ -495047,7 +495047,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55005,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -495056,7 +495056,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55006,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -495065,7 +495065,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55007,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -495074,7 +495074,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55008,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -495083,7 +495083,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55009,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -495092,7 +495092,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55010,
     "lineNo": 6,
     "speaker": "Twilight Sparkle and Rarity",
@@ -495101,7 +495101,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55011,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -495110,7 +495110,7 @@ export default [
   {
     "episodeId": 368,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4b",
     "id": 55012,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -495119,7 +495119,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55013,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -495128,7 +495128,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55014,
     "lineNo": 2,
     "speaker": "Vignette Valencia",
@@ -495137,7 +495137,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55015,
     "lineNo": 3,
     "speaker": "Rarity",
@@ -495146,7 +495146,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55016,
     "lineNo": 4,
     "speaker": "Vignette Valencia",
@@ -495155,7 +495155,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55017,
     "lineNo": 5,
     "speaker": "Rarity",
@@ -495164,7 +495164,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55018,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -495173,7 +495173,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55019,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -495182,7 +495182,7 @@ export default [
   {
     "episodeId": 369,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 4,
+    "episodeNo": "4c",
     "id": 55020,
     "lineNo": 8,
     "speaker": "Applejack and Twilight Sparkle",
@@ -495299,7 +495299,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55033,
     "lineNo": 1,
     "speaker": "Princess Thunder Guts",
@@ -495308,7 +495308,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55034,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -495317,7 +495317,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55035,
     "lineNo": 3,
     "speaker": "Fluttershy",
@@ -495326,7 +495326,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55036,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -495335,7 +495335,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55037,
     "lineNo": 5,
     "speaker": "Princess Thunder Guts",
@@ -495344,7 +495344,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55038,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -495353,7 +495353,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55039,
     "lineNo": 7,
     "speaker": "Rarity",
@@ -495362,7 +495362,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55040,
     "lineNo": 8,
     "speaker": "Princess Thunder Guts",
@@ -495371,7 +495371,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55041,
     "lineNo": 9,
     "speaker": "Rarity",
@@ -495380,7 +495380,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55042,
     "lineNo": 10,
     "speaker": "Supernova Zap",
@@ -495389,7 +495389,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55043,
     "lineNo": 11,
     "speaker": "Rarity",
@@ -495398,7 +495398,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55044,
     "lineNo": 12,
     "speaker": "Supernova Zap",
@@ -495407,7 +495407,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55045,
     "lineNo": 13,
     "speaker": "Supernova Zap",
@@ -495416,7 +495416,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55046,
     "lineNo": 14,
     "speaker": "Rarity",
@@ -495425,7 +495425,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55047,
     "lineNo": 15,
     "speaker": "Supernova Zap",
@@ -495434,7 +495434,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55048,
     "lineNo": 16,
     "speaker": "Princess Thunder Guts",
@@ -495443,7 +495443,7 @@ export default [
   {
     "episodeId": 371,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5a",
     "id": 55049,
     "lineNo": 17,
     "speaker": "Rarity",
@@ -495452,7 +495452,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55050,
     "lineNo": 1,
     "speaker": "Spike",
@@ -495461,7 +495461,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55051,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -495470,7 +495470,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55052,
     "lineNo": 3,
     "speaker": "Spike",
@@ -495479,7 +495479,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55053,
     "lineNo": 4,
     "speaker": "Princess Thunder Guts",
@@ -495488,7 +495488,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55054,
     "lineNo": 5,
     "speaker": "Spike and Princess Thunder Guts",
@@ -495497,7 +495497,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55055,
     "lineNo": 6,
     "speaker": "Princess Thunder Guts",
@@ -495506,7 +495506,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55056,
     "lineNo": 7,
     "speaker": "Supernova Zap",
@@ -495515,7 +495515,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55057,
     "lineNo": 8,
     "speaker": "Spike",
@@ -495524,7 +495524,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55058,
     "lineNo": 9,
     "speaker": "Supernova Zap",
@@ -495533,7 +495533,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55059,
     "lineNo": 10,
     "speaker": "Spike",
@@ -495542,7 +495542,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55060,
     "lineNo": 11,
     "speaker": "Rarity",
@@ -495551,7 +495551,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55061,
     "lineNo": 12,
     "speaker": "Fluttershy",
@@ -495560,7 +495560,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55062,
     "lineNo": 13,
     "speaker": "Supernova Zap",
@@ -495569,7 +495569,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55063,
     "lineNo": 14,
     "speaker": "Twilight Sparkle",
@@ -495578,7 +495578,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55064,
     "lineNo": 15,
     "speaker": "Spike",
@@ -495587,7 +495587,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55065,
     "lineNo": 16,
     "speaker": "Supernova Zap",
@@ -495596,7 +495596,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55066,
     "lineNo": 17,
     "speaker": "Spike",
@@ -495605,7 +495605,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55067,
     "lineNo": 18,
     "speaker": "Princess Thunder Guts",
@@ -495614,7 +495614,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55068,
     "lineNo": 19,
     "speaker": "Spike",
@@ -495623,7 +495623,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55069,
     "lineNo": 20,
     "speaker": "Rarity",
@@ -495632,7 +495632,7 @@ export default [
   {
     "episodeId": 372,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5b",
     "id": 55070,
     "lineNo": 21,
     "speaker": "Twilight Sparkle, Rarity, and Fluttershy",
@@ -495641,7 +495641,7 @@ export default [
   {
     "episodeId": 373,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 55071,
     "lineNo": 1,
     "speaker": "Fluttershy",
@@ -495650,7 +495650,7 @@ export default [
   {
     "episodeId": 373,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 55072,
     "lineNo": 2,
     "speaker": "Princess Thunder Guts",
@@ -495659,7 +495659,7 @@ export default [
   {
     "episodeId": 373,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 55073,
     "lineNo": 3,
     "speaker": "Supernova Zap",
@@ -495668,7 +495668,7 @@ export default [
   {
     "episodeId": 373,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 55074,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -495677,7 +495677,7 @@ export default [
   {
     "episodeId": 373,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 55075,
     "lineNo": 5,
     "speaker": "Spike",
@@ -495686,7 +495686,7 @@ export default [
   {
     "episodeId": 373,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 5,
+    "episodeNo": "5c",
     "id": 55076,
     "lineNo": 6,
     "speaker": "Fluttershy",
@@ -495758,7 +495758,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55084,
     "lineNo": 1,
     "speaker": "Rainbow Dash",
@@ -495767,7 +495767,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55085,
     "lineNo": 2,
     "speaker": "Applejack",
@@ -495776,7 +495776,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55086,
     "lineNo": 3,
     "speaker": "Rainbow Dash",
@@ -495785,7 +495785,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55087,
     "lineNo": 4,
     "speaker": "Applejack",
@@ -495794,7 +495794,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55088,
     "lineNo": 5,
     "speaker": "Dirk Thistleweed",
@@ -495803,7 +495803,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55089,
     "lineNo": 6,
     "speaker": "Rainbow Dash",
@@ -495812,7 +495812,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55090,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -495821,7 +495821,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55091,
     "lineNo": 8,
     "speaker": "Dirk Thistleweed",
@@ -495830,7 +495830,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55092,
     "lineNo": 9,
     "speaker": "Applejack",
@@ -495839,7 +495839,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55093,
     "lineNo": 10,
     "speaker": "Dirk Thistleweed",
@@ -495848,7 +495848,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55094,
     "lineNo": 11,
     "speaker": "Applejack",
@@ -495857,7 +495857,7 @@ export default [
   {
     "episodeId": 375,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6a",
     "id": 55095,
     "lineNo": 12,
     "speaker": "Dirk Thistleweed",
@@ -495866,7 +495866,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55096,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -495875,7 +495875,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55097,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -495884,7 +495884,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55098,
     "lineNo": 3,
     "speaker": "Pinkie Pie",
@@ -495893,7 +495893,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55099,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -495902,7 +495902,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55100,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -495911,7 +495911,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55101,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -495920,7 +495920,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55102,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -495929,7 +495929,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55103,
     "lineNo": 8,
     "speaker": "Pinkie Pie",
@@ -495938,7 +495938,7 @@ export default [
   {
     "episodeId": 376,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6b",
     "id": 55104,
     "lineNo": 9,
     "speaker": "Pinkie Pie",
@@ -495947,7 +495947,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55105,
     "lineNo": 1,
     "speaker": "Snips",
@@ -495956,7 +495956,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55106,
     "lineNo": 2,
     "speaker": "Applejack",
@@ -495965,7 +495965,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55107,
     "lineNo": 3,
     "speaker": "Snips",
@@ -495974,7 +495974,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55108,
     "lineNo": 4,
     "speaker": "Applejack",
@@ -495983,7 +495983,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55109,
     "lineNo": 5,
     "speaker": "Snips",
@@ -495992,7 +495992,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55110,
     "lineNo": 6,
     "speaker": "Applejack",
@@ -496001,7 +496001,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55111,
     "lineNo": 7,
     "speaker": "Snips",
@@ -496010,7 +496010,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55112,
     "lineNo": 8,
     "speaker": "Applejack",
@@ -496019,7 +496019,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55113,
     "lineNo": 9,
     "speaker": "Snips",
@@ -496028,7 +496028,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55114,
     "lineNo": 10,
     "speaker": "Applejack",
@@ -496037,7 +496037,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55115,
     "lineNo": 11,
     "speaker": "Snips",
@@ -496046,7 +496046,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55116,
     "lineNo": 12,
     "speaker": "Applejack",
@@ -496055,7 +496055,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55117,
     "lineNo": 13,
     "speaker": "Snips",
@@ -496064,7 +496064,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55118,
     "lineNo": 14,
     "speaker": "Applejack",
@@ -496073,7 +496073,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55119,
     "lineNo": 15,
     "speaker": "Snips",
@@ -496082,7 +496082,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55120,
     "lineNo": 16,
     "speaker": "Snails",
@@ -496091,7 +496091,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55121,
     "lineNo": 17,
     "speaker": "Applejack",
@@ -496100,7 +496100,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55122,
     "lineNo": 18,
     "speaker": "Dirk Thistleweed",
@@ -496109,7 +496109,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55123,
     "lineNo": 19,
     "speaker": "Snips, Snails, and Dirk Thistleweed",
@@ -496118,7 +496118,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55124,
     "lineNo": 20,
     "speaker": "Dirk Thistleweed",
@@ -496127,7 +496127,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55125,
     "lineNo": 21,
     "speaker": "Snips",
@@ -496136,7 +496136,7 @@ export default [
   {
     "episodeId": 377,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 6,
+    "episodeNo": "6c",
     "id": 55126,
     "lineNo": 22,
     "speaker": "Applejack",
@@ -497837,7 +497837,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55315,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -497846,7 +497846,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55316,
     "lineNo": 2,
     "speaker": "Principal Celestia",
@@ -497855,7 +497855,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55317,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -497864,7 +497864,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55318,
     "lineNo": 4,
     "speaker": "Principal Celestia",
@@ -497873,7 +497873,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55319,
     "lineNo": 5,
     "speaker": "Principal Celestia",
@@ -497882,7 +497882,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55320,
     "lineNo": 6,
     "speaker": "Principal Celestia",
@@ -497891,7 +497891,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55321,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -497900,7 +497900,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55322,
     "lineNo": 8,
     "speaker": "Principal Celestia",
@@ -497909,7 +497909,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55323,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -497918,7 +497918,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55324,
     "lineNo": 10,
     "speaker": "Principal Celestia",
@@ -497927,7 +497927,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55325,
     "lineNo": 11,
     "speaker": "Cranky Doodle",
@@ -497936,7 +497936,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55326,
     "lineNo": 12,
     "speaker": "Spike",
@@ -497945,7 +497945,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55327,
     "lineNo": 13,
     "speaker": "Twilight Sparkle and Principal Celestia",
@@ -497954,7 +497954,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55328,
     "lineNo": 14,
     "speaker": "Twilight Sparkle",
@@ -497963,7 +497963,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55329,
     "lineNo": 15,
     "speaker": "Principal Celestia",
@@ -497972,7 +497972,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55330,
     "lineNo": 16,
     "speaker": "Twilight Sparkle",
@@ -497981,7 +497981,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55331,
     "lineNo": 17,
     "speaker": "Principal Celestia",
@@ -497990,7 +497990,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55332,
     "lineNo": 18,
     "speaker": "Twilight Sparkle",
@@ -497999,7 +497999,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55333,
     "lineNo": 19,
     "speaker": "Principal Celestia",
@@ -498008,7 +498008,7 @@ export default [
   {
     "episodeId": 380,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7a",
     "id": 55334,
     "lineNo": 20,
     "speaker": "Twilight Sparkle and Principal Celestia",
@@ -498017,7 +498017,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55335,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -498026,7 +498026,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55336,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -498035,7 +498035,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55337,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -498044,7 +498044,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55338,
     "lineNo": 4,
     "speaker": "Spike",
@@ -498053,7 +498053,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55339,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -498062,7 +498062,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55340,
     "lineNo": 6,
     "speaker": "Fluttershy",
@@ -498071,7 +498071,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55341,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -498080,7 +498080,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55342,
     "lineNo": 8,
     "speaker": "Spike",
@@ -498089,7 +498089,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55343,
     "lineNo": 9,
     "speaker": "Fanboy",
@@ -498098,7 +498098,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55344,
     "lineNo": 10,
     "speaker": "Fluttershy",
@@ -498107,7 +498107,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55345,
     "lineNo": 11,
     "speaker": "Fluttershy",
@@ -498116,7 +498116,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55346,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -498125,7 +498125,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55347,
     "lineNo": 13,
     "speaker": "Fluttershy",
@@ -498134,7 +498134,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55348,
     "lineNo": 14,
     "speaker": "Spike",
@@ -498143,7 +498143,7 @@ export default [
   {
     "episodeId": 381,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7b",
     "id": 55349,
     "lineNo": 15,
     "speaker": "Twilight Sparkle",
@@ -498152,7 +498152,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55350,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -498161,7 +498161,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55351,
     "lineNo": 2,
     "speaker": "Micro Chips",
@@ -498170,7 +498170,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55352,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -498179,7 +498179,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55353,
     "lineNo": 4,
     "speaker": "Micro Chips",
@@ -498188,7 +498188,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55354,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -498197,7 +498197,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55355,
     "lineNo": 6,
     "speaker": "Micro Chips",
@@ -498206,7 +498206,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55356,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -498215,7 +498215,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55357,
     "lineNo": 8,
     "speaker": "Micro Chips",
@@ -498224,7 +498224,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55358,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -498233,7 +498233,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55359,
     "lineNo": 10,
     "speaker": "Micro Chips",
@@ -498242,7 +498242,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55360,
     "lineNo": 11,
     "speaker": "Twilight Sparkle",
@@ -498251,7 +498251,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55361,
     "lineNo": 12,
     "speaker": "Twilight Sparkle",
@@ -498260,7 +498260,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55362,
     "lineNo": 13,
     "speaker": "Twilight Sparkle",
@@ -498269,7 +498269,7 @@ export default [
   {
     "episodeId": 382,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 7,
+    "episodeNo": "7c",
     "id": 55363,
     "lineNo": 14,
     "speaker": "Spike",
@@ -525152,7 +525152,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58350,
     "lineNo": 1,
     "speaker": "Rainbow Dash",
@@ -525161,7 +525161,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58351,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -525170,7 +525170,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58352,
     "lineNo": 3,
     "speaker": "Rainbow Dash",
@@ -525179,7 +525179,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58353,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -525188,7 +525188,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58354,
     "lineNo": 5,
     "speaker": "Rainbow Dash",
@@ -525197,7 +525197,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58355,
     "lineNo": 6,
     "speaker": "Sunset Shimmer",
@@ -525206,7 +525206,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58356,
     "lineNo": 7,
     "speaker": "Pinkie Pie",
@@ -525215,7 +525215,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58357,
     "lineNo": 8,
     "speaker": "Rainbow Dash",
@@ -525224,7 +525224,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58358,
     "lineNo": 9,
     "speaker": "Sunset Shimmer",
@@ -525233,7 +525233,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58359,
     "lineNo": 10,
     "speaker": "Pinkie Pie",
@@ -525242,7 +525242,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58360,
     "lineNo": 11,
     "speaker": "\"Melon Mint\"",
@@ -525251,7 +525251,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58361,
     "lineNo": 12,
     "speaker": "Sunset Shimmer and Pinkie Pie",
@@ -525260,7 +525260,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58362,
     "lineNo": 13,
     "speaker": "Rainbow Dash",
@@ -525269,7 +525269,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58363,
     "lineNo": 14,
     "speaker": "Rainbow Dash",
@@ -525278,7 +525278,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58364,
     "lineNo": 15,
     "speaker": "CHS Soccer Players",
@@ -525287,7 +525287,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58365,
     "lineNo": 16,
     "speaker": "Rainbow Dash",
@@ -525296,7 +525296,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58366,
     "lineNo": 17,
     "speaker": "Rarity",
@@ -525305,7 +525305,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58367,
     "lineNo": 18,
     "speaker": "Rainbow Dash",
@@ -525314,7 +525314,7 @@ export default [
   {
     "episodeId": 398,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8a",
     "id": 58368,
     "lineNo": 19,
     "speaker": "Rarity",
@@ -525323,7 +525323,7 @@ export default [
   {
     "episodeId": 399,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 58369,
     "lineNo": 1,
     "speaker": "Rainbow Dash",
@@ -525332,7 +525332,7 @@ export default [
   {
     "episodeId": 399,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 58370,
     "lineNo": 2,
     "speaker": "Trixie Lulamoon",
@@ -525341,7 +525341,7 @@ export default [
   {
     "episodeId": 399,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 58371,
     "lineNo": 3,
     "speaker": "Rainbow Dash",
@@ -525350,7 +525350,7 @@ export default [
   {
     "episodeId": 399,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8b",
     "id": 58372,
     "lineNo": 4,
     "speaker": "Rainbow Dash",
@@ -525359,7 +525359,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58373,
     "lineNo": 1,
     "speaker": "Bulk Biceps",
@@ -525368,7 +525368,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58374,
     "lineNo": 2,
     "speaker": "Rainbow Dash",
@@ -525377,7 +525377,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58375,
     "lineNo": 3,
     "speaker": "Bulk Biceps",
@@ -525386,7 +525386,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58376,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -525395,7 +525395,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58377,
     "lineNo": 5,
     "speaker": "CPA Soccer Coach",
@@ -525404,7 +525404,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58378,
     "lineNo": 6,
     "speaker": "Rainbow Dash",
@@ -525413,7 +525413,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58379,
     "lineNo": 7,
     "speaker": "\"Teddy\"",
@@ -525422,7 +525422,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58380,
     "lineNo": 8,
     "speaker": "Rainbow Dash",
@@ -525431,7 +525431,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58381,
     "lineNo": 9,
     "speaker": "CHS Soccer Players",
@@ -525440,7 +525440,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58382,
     "lineNo": 10,
     "speaker": "Rainbow Dash",
@@ -525449,7 +525449,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58383,
     "lineNo": 11,
     "speaker": "Bulk Biceps",
@@ -525458,7 +525458,7 @@ export default [
   {
     "episodeId": 400,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 8,
+    "episodeNo": "8c",
     "id": 58384,
     "lineNo": 12,
     "speaker": "Rainbow Dash",
@@ -525548,7 +525548,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58394,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -525557,7 +525557,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58395,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -525566,7 +525566,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58396,
     "lineNo": 3,
     "speaker": "Applejack",
@@ -525575,7 +525575,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58397,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -525584,7 +525584,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58398,
     "lineNo": 5,
     "speaker": "Applejack",
@@ -525593,7 +525593,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58399,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -525602,7 +525602,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58400,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -525611,7 +525611,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58401,
     "lineNo": 8,
     "speaker": "Pinkie Pie",
@@ -525620,7 +525620,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58402,
     "lineNo": 9,
     "speaker": "Applejack",
@@ -525629,7 +525629,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58403,
     "lineNo": 10,
     "speaker": "Pinkie Pie",
@@ -525638,7 +525638,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58404,
     "lineNo": 11,
     "speaker": "Applejack",
@@ -525647,7 +525647,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58405,
     "lineNo": 12,
     "speaker": "Applejack and Pinkie Pie",
@@ -525656,7 +525656,7 @@ export default [
   {
     "episodeId": 402,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9a",
     "id": 58406,
     "lineNo": 13,
     "speaker": "Pinkie Pie",
@@ -525665,7 +525665,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58407,
     "lineNo": 1,
     "speaker": "Twilight Sparkle",
@@ -525674,7 +525674,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58408,
     "lineNo": 2,
     "speaker": "Pinkie Pie",
@@ -525683,7 +525683,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58409,
     "lineNo": 3,
     "speaker": "Twilight Sparkle",
@@ -525692,7 +525692,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58410,
     "lineNo": 4,
     "speaker": "Pinkie Pie",
@@ -525701,7 +525701,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58411,
     "lineNo": 5,
     "speaker": "Twilight Sparkle",
@@ -525710,7 +525710,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58412,
     "lineNo": 6,
     "speaker": "Pinkie Pie",
@@ -525719,7 +525719,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58413,
     "lineNo": 7,
     "speaker": "Twilight Sparkle",
@@ -525728,7 +525728,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58414,
     "lineNo": 8,
     "speaker": "Pinkie Pie",
@@ -525737,7 +525737,7 @@ export default [
   {
     "episodeId": 403,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9b",
     "id": 58415,
     "lineNo": 9,
     "speaker": "Twilight Sparkle",
@@ -525746,7 +525746,7 @@ export default [
   {
     "episodeId": 404,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 58416,
     "lineNo": 1,
     "speaker": "Employee",
@@ -525755,7 +525755,7 @@ export default [
   {
     "episodeId": 404,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 58417,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -525764,7 +525764,7 @@ export default [
   {
     "episodeId": 404,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 58418,
     "lineNo": 3,
     "speaker": "Pinkie Pie",
@@ -525773,7 +525773,7 @@ export default [
   {
     "episodeId": 404,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 9,
+    "episodeNo": "9c",
     "id": 58419,
     "lineNo": 4,
     "speaker": "Pinkie Pie and Fluttershy",
@@ -525890,7 +525890,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58432,
     "lineNo": 1,
     "speaker": "Sunset Shimmer",
@@ -525899,7 +525899,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58433,
     "lineNo": 2,
     "speaker": "Fluttershy",
@@ -525908,7 +525908,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58434,
     "lineNo": 3,
     "speaker": "Sunset Shimmer",
@@ -525917,7 +525917,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58435,
     "lineNo": 4,
     "speaker": "Fluttershy",
@@ -525926,7 +525926,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58436,
     "lineNo": 5,
     "speaker": "Sunset Shimmer",
@@ -525935,7 +525935,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58437,
     "lineNo": 6,
     "speaker": "Fluttershy",
@@ -525944,7 +525944,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58438,
     "lineNo": 7,
     "speaker": "Sunset Shimmer",
@@ -525953,7 +525953,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58439,
     "lineNo": 8,
     "speaker": "Sunset Shimmer",
@@ -525962,7 +525962,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58440,
     "lineNo": 9,
     "speaker": "Fluttershy",
@@ -525971,7 +525971,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58441,
     "lineNo": 10,
     "speaker": "Bulk Biceps",
@@ -525980,7 +525980,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58442,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -525989,7 +525989,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58443,
     "lineNo": 12,
     "speaker": "Bulk Biceps",
@@ -525998,7 +525998,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58444,
     "lineNo": 13,
     "speaker": "Fluttershy",
@@ -526007,7 +526007,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58445,
     "lineNo": 14,
     "speaker": "Bulk Biceps",
@@ -526016,7 +526016,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58446,
     "lineNo": 15,
     "speaker": "Sunset Shimmer",
@@ -526025,7 +526025,7 @@ export default [
   {
     "episodeId": 406,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10a",
     "id": 58447,
     "lineNo": 16,
     "speaker": "Sunset Shimmer and Fluttershy",
@@ -526034,7 +526034,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58448,
     "lineNo": 1,
     "speaker": "Rarity",
@@ -526043,7 +526043,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58449,
     "lineNo": 2,
     "speaker": "Rarity",
@@ -526052,7 +526052,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58450,
     "lineNo": 3,
     "speaker": "Fluttershy",
@@ -526061,7 +526061,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58451,
     "lineNo": 4,
     "speaker": "Rarity",
@@ -526070,7 +526070,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58452,
     "lineNo": 5,
     "speaker": "Fluttershy",
@@ -526079,7 +526079,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58453,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -526088,7 +526088,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58454,
     "lineNo": 7,
     "speaker": "Fluttershy",
@@ -526097,7 +526097,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58455,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -526106,7 +526106,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58456,
     "lineNo": 9,
     "speaker": "Fluttershy",
@@ -526115,7 +526115,7 @@ export default [
   {
     "episodeId": 407,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10b",
     "id": 58457,
     "lineNo": 10,
     "speaker": "Rarity",
@@ -526124,7 +526124,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58458,
     "lineNo": 1,
     "speaker": "Applejack",
@@ -526133,7 +526133,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58459,
     "lineNo": 2,
     "speaker": "Applejack",
@@ -526142,7 +526142,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58460,
     "lineNo": 3,
     "speaker": "Fluttershy",
@@ -526151,7 +526151,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58461,
     "lineNo": 4,
     "speaker": "Applejack",
@@ -526160,7 +526160,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58462,
     "lineNo": 5,
     "speaker": "Sunset Shimmer",
@@ -526169,7 +526169,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58463,
     "lineNo": 6,
     "speaker": "Rarity",
@@ -526178,7 +526178,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58464,
     "lineNo": 7,
     "speaker": "Applejack",
@@ -526187,7 +526187,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58465,
     "lineNo": 8,
     "speaker": "Rarity",
@@ -526196,7 +526196,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58466,
     "lineNo": 9,
     "speaker": "Fluttershy",
@@ -526205,7 +526205,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58467,
     "lineNo": 10,
     "speaker": "Applejack",
@@ -526214,7 +526214,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58468,
     "lineNo": 11,
     "speaker": "Sunset Shimmer",
@@ -526223,7 +526223,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58469,
     "lineNo": 12,
     "speaker": "Applejack",
@@ -526232,7 +526232,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58470,
     "lineNo": 13,
     "speaker": "Sunset Shimmer",
@@ -526241,7 +526241,7 @@ export default [
   {
     "episodeId": 408,
     "seasonNo": "Choose Your Own Ending (season 2)",
-    "episodeNo": 10,
+    "episodeNo": "10c",
     "id": 58471,
     "lineNo": 14,
     "speaker": "Fluttershy, Applejack, and Rarity",
