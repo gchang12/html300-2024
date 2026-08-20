@@ -128,3 +128,10 @@ span._fieldName {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+
+.ResultCount::before {
+  content: "(";
+}
+.ResultCount::after {
+  content: ")";
+}

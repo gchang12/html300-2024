@@ -29,6 +29,15 @@
     searchResults.value = [];
   }
 
+  function setActiveSeries(e) {
+    const series = e.currentTarget.dataset.series;
+    if (activeSeries.value === series) {
+      activeSeries.value = "";
+    } else {
+      activeSeries.value = series;
+    }
+  }
+
 </script>
 
 <template>
@@ -87,37 +96,44 @@
           <h2>Results</h2>
           <!-- Display help message, alternatively. -->
           <!-- Otherwise, show table of results -->
-          <div id="search-results">
-            <span v-if="dialoguePattern !== ''" id="result-notification">
-              {{ searchResults.length }} results for '{{ dialoguePattern }}'.
-            </span>
-            <!-- TODO: Insert accordion here, with header 'FiM' and count of results. -->
-            <div id="FiM" class="SearchResults" v-if="activeSeries === 'FiM' && searchResults.length > 0">
-              <table class="table table-primary table-light table-striped">
-                <thead>
-                  <tr>
-                    <th>Speaker</th>
-                    <th>Line</th>
-                    <th>Episode</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr v-for="result in searchResults" :key="result.id">
-                    <th>
-                      {{ result.line.speaker }}
-                    </th>
-                    <td>
-                      {{ result.line.dialogue }}
-                    </td>
-                    <td>
-                      – S{{ result.seasonNo }} E{{ result.episodeNo }} –<br />
-                      <i>{{result.title}}</i>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h3 class="accordion-header" id="headingOne">
+                <button data-series="FiM" @click="setActiveSeries" class="d-flex justify-content-between btn btn-primary btn-block accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  <span class="SeriesTitle">My Little Pony: Friendship is Magic</span><span v-if="searchResults.length > 0" class="ResultCount">{{ searchResults.length }}</span>
+                </button>
+              </h3>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" v-if="activeSeries === 'FiM' && searchResults.length > 0">
+                <div class="SearchResults accordion-body">
+                  <table class="table table-primary table-light table-striped">
+                    <thead>
+                      <tr>
+                        <th>Speaker</th>
+                        <th>Line</th>
+                        <th>Episode</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr v-for="result in searchResults" :key="result.id">
+                        <th>
+                          {{ result.line.speaker }}
+                        </th>
+                        <td>
+                          {{ result.line.dialogue }}
+                        </td>
+                        <td>
+                          – S{{ result.seasonNo }} E{{ result.episodeNo }} –<br />
+                          <i>{{result.title}}</i>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
             </div>
           </div>
+
         </article>
 
       </div>
