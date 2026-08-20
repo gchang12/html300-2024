@@ -822,6 +822,7 @@ class TranscriptScrapers:
         transcript_dict = {None: []}
         transcript_lines = transcript_dict[None]
         logging.debug("anchor: %r", anchor)
+        short_name = anchor_id
         for indexno, _sibling in enumerate(anchor.find_next_siblings(), start=1):
             logging.debug("Line number: %d", indexno)
             if _sibling.name == "dl":
@@ -836,6 +837,8 @@ class TranscriptScrapers:
                     transcript_lines.append((speaker, dialogue))
             elif _sibling.name == "h3":
                 logging.debug("Number of lines compiled for '%s': %d", anchor_id, len(transcript_lines))
+                if len(transcript_lines) == 0:
+                    logging.error("Zero lines found for: {short_name: %r, anchor_id: %r, title: %r}", short_name, anchor_id, title)
                 try:
                     anchor_id = _sibling.find("span")['id']
                 except Exception as e:
@@ -1028,6 +1031,7 @@ if __name__ == "__main__":
                 #json.dump(lines, wfile, indent=2)
     #save_eqg_shorts_index()
 
+    '''
     def save_eqg_shorts_transcripts():
         """
         """
@@ -1040,7 +1044,7 @@ if __name__ == "__main__":
             filepath = Path(dirname, url_name + ".html")
             soup = bs4.BeautifulSoup(filepath.read_text(), "html.parser")
             season_no = entry['seasonNo']
-            title = entry['title']
+            title = entry['title'].strip()
             logging.debug("season_no: %s, url_name: %s", season_no, url_name)
             if "Choose Your Own Ending" in season_no:
                 logging.debug("TranscriptScrapers.parse_multipart_shorts_transcript(soup, '%s', '%s')", anchor_id, title)
@@ -1073,4 +1077,14 @@ if __name__ == "__main__":
                     logging.error("season_no: %r, url_name: %r, title: %r, len(lines): %r", season_no, url_name, title, len(lines))
                 with open(Path(dirname, url_name + ".json"), mode="w") as wfile:
                     json.dump(lines, wfile, indent=2)
-    save_eqg_shorts_transcripts()
+    '''
+    def save_eqg_shorts_transcripts():
+        """
+        """
+        filename = "output/EqG/indexes/shorts.json"
+        with open(filename) as rfile:
+            index = json.load(rfile)
+        dirname = "output/EqG/transcripts/"
+        for entry in filter(lambda entry: "urlName" in entry, index):
+            pass
+    #save_eqg_shorts_transcripts()
