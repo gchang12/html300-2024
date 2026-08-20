@@ -67,24 +67,29 @@
         </section>
       </article>
       <hr />
-      <article class="BrowsingTranscripts container">
+      <article class="BrowsingTranscripts w-75 container">
         <h2>Browsing Transcripts</h2>
+        <hr />
         <section class="BrowsingStep">
           <h3>Select Season</h3>
           <img width="500px" class="img-thumbnail" src="/images/season-index.png" />
         </section>
+        <hr />
         <section class="BrowsingStep">
           <h3>Select Episode</h3>
           <img width="500px" class="img-thumbnail" src="/images/episode-index.png" />
         </section>
+        <hr />
         <section class="BrowsingStep">
           <h3>Scroll Down and View</h3>
           <img width="500px" class="img-thumbnail" src="/images/transcript.png" />
         </section>
+        <hr />
         <section class="BrowsingStep">
           <h3>Close Transcript</h3>
           <img width="500px" class="img-thumbnail" src="/images/close-transcript.png" />
         </section>
+        <hr />
       </article>
       <!-- <article> -->
       <!-- <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!  This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.  Just go on over to <a href="#/">Search</a> and input your query.</p> -->
