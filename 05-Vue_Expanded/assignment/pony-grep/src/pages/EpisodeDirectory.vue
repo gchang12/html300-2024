@@ -12,45 +12,56 @@
   import episodeList from "../constants/episodeList.js";
   import transcriptLines from "../constants/smallTranscriptLines.js";
 
+  import ImageButton from "../components/ImageButton.vue";
+
   const currentEpisode = ref({});
   const activeSeason = ref(-1);
 
   const seasonImages = [
     {
       seasonNo: 1,
-      imgName: "My_Little_Pony_Theme_Song.webp"
+      imgName: "My_Little_Pony_Theme_Song.webp",
+      alt: "MLP Opening Cinematic (1st)"
     },
     {
       seasonNo: 2,
-      imgName: "My_Little_Pony_Theme_Song.webp"
+      imgName: "My_Little_Pony_Theme_Song.webp",
+      alt: "MLP Opening Cinematic (1st)"
     },
     {
       seasonNo: 3,
-      imgName: "My_Little_Pony_Theme_Song.webp"
+      imgName: "My_Little_Pony_Theme_Song.webp",
+      alt: "MLP Opening Cinematic (1st)"
     },
     {
       seasonNo: 4,
-      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
+      imgName: "Photo_Finish_taking_photo_S4_Opening.webp",
+      alt: "MLP Opening Cinematic (2nd, with Twilight as alicorn)"
     },
     {
       seasonNo: 5,
-      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
+      imgName: "Photo_Finish_taking_photo_S4_Opening.webp",
+      alt: "MLP Opening Cinematic (2nd, with Twilight as alicorn)"
     },
     {
       seasonNo: 6,
-      imgName: "Photo_Finish_taking_photo_S6_opening.webp"
+      imgName: "Photo_Finish_taking_photo_S6_opening.webp",
+      alt: "MLP Opening Cinematic (3rd, with nervous Starlight)"
     },
     {
       seasonNo: 7,
-      imgName: "Photo_Finish_taking_photo_S7_opening.webp"
+      imgName: "Photo_Finish_taking_photo_S7_opening.webp",
+      alt: "MLP Opening Cinematic (3rd, with happy Starlight)"
     },
     {
       seasonNo: 8,
-      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
+      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp",
+      alt: "MLP Opening Cinematic (4th, class photo at School of Friendship)"
     },
     {
       seasonNo: 9,
-      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
+      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp",
+      alt: "MLP Opening Cinematic (4th, class photo at School of Friendship)"
     },
   ];
 
@@ -94,26 +105,14 @@
             <!-- Bootstrap: 'navbar-nav' for soon-to-be-added dropdown support -->
             <ol class="navbar-nav">
               <li class="nav-item" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
-                <!-- TODO:
-                  For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
-                  The image component should have props for at least the image src, alt, & title attributes, use prop validation.
-                  Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
-                -->
-                <!-- Bootstrap: 'btn' to remove default button styling and especially for zero-opacity -->
-                <b-button v-b-tooltip.hover :title="'View episodes for Season ' + seasonImage.seasonNo" class="btn" :data-season="seasonImage.seasonNo" @click="setSeason">
-                  <figure>
-                    <img :src="'/images/' + seasonImage.imgName" class="img-thumbnail" />
-                    <figcaption>
-                      <a class="nav-link" role="button">
-                        <!-- NOTE: Dropdown not working. Temporary fix. -->
-                        <!-- Bootstrap: 'btn-block' to make button width span container width -->
-                        <button class="btn btn-block btn-primary">
-                          S{{seasonImage.seasonNo}}
-                        </button>
-                      </a>
-                    </figcaption>
-                  </figure>
-                </b-button>
+                <ImageButton
+                    :src="'/images/' + seasonImage.imgName"
+                    :alt="seasonImage.alt"
+                    :title="'View episodes for Season ' + seasonImage.seasonNo"
+                    :data-season="seasonImage.seasonNo" 
+                    :onClick="setSeason"
+                    :captionText="'S' + seasonImage.seasonNo"
+                    />
               </li>
             </ol>
           </aside>
