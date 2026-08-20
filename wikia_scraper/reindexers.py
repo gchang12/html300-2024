@@ -41,10 +41,14 @@ def regenerate_episode_index():
         "urlName",
         "summary",
         "airdate",
+        #"series",
+        #"type",
     )
     index2 = list(filter(lambda episode: set(episode.keys()) == set(desired_fields), index))
     # strip newline characters
     for index_no, episode in enumerate(index2):
+        #episode['series'] = "FiM"
+        #episode['type'] = "episode"
         episode["id"] = index_no
         episode["title"] = episode["title"].strip()
         episode["urlName"] = episode["urlName"].strip()
@@ -65,6 +69,9 @@ def regenerate_episode_index():
 def regenerate_clipshow_index():
     """
     """
+    #episode['series'] = "FiM"
+    #episode['seasonNo'] = "FiF"
+    #episode['type'] = "episode"
 
 ## films
 # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Films
@@ -72,6 +79,9 @@ def regenerate_clipshow_index():
 def regenerate_film_index():
     """
     """
+    #episode['series'] = "FiM"
+    #episode['seasonNo'] = "The Movie"
+    #episode['type'] = "film"
 
 ## specials
 # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Specials
@@ -79,6 +89,10 @@ def regenerate_film_index():
 def regenerate_specials_index():
     """
     """
+    #episode['series'] = "FiM"
+    #episode['seasonNo'] = "Best Gift Ever"
+    #episode['seasonNo'] = "Rainbow Roadtrip"
+    #episode['type'] = "special"
 
 ## shorts
 # - https://mlp.fandom.com/wiki/Friendship_is_Magic_animated_media#Animated_shorts
@@ -86,6 +100,10 @@ def regenerate_specials_index():
 def regenerate_shorts_index():
     """
     """
+    #episode['series'] = "FiM"
+    #episode['seasonNo'] = "Best Gift Ever"
+    #episode['seasonNo'] = None
+    #episode['type'] = "short"
 
 # EQG
 ## films
@@ -94,6 +112,13 @@ def regenerate_shorts_index():
 def regenerate_eqg_films_index():
     """
     """
+    #episode['series'] = "EqG"
+    #episode['seasonNo'] = "Equestria Girls"
+    #episode['seasonNo'] = "Rainbow Rocks"
+    #episode['seasonNo'] = "Friendship Games"
+    #episode['seasonNo'] = "Legend of Everfree"
+    #episode['episodeNo'] = 1
+    #episode['type'] = "film"
 
 ## specials
 # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Specials
@@ -101,6 +126,11 @@ def regenerate_eqg_films_index():
 def regenerate_eqg_specials_index():
     """
     """
+    #episode['series'] = "EqG"
+    #episode['seasonNo'] = "Movie Magic"
+    #...
+    #episode['episodeNo'] = 1
+    #episode['type'] = "special"
 
 ## shorts
 # - https://mlp.fandom.com/wiki/Equestria_Girls_animated_media#Animated_shorts
@@ -110,6 +140,12 @@ def regenerate_eqg_specials_index():
 def regenerate_eqg_shorts_index():
     """
     """
+    #episode['series'] = "EqG"
+    #episode['seasonNo'] = "Rainbow Rocks"
+    #episode['seasonNo'] = "Friendship Games"
+    #episode['type'] = "short"
+    #...
+    #episode['episodeNo'] = 1
 
 # generate transcript line index
 
@@ -303,10 +339,31 @@ if __name__ == "__main__":
     def save_regenerated_animation_index():
         """
         """
+        index = []
+        # MLP:FIM S1-S9
+        index.extend(regenerate_episode_index())
+        # MLP:FIM S10 (FIF)
+        index.extend(regenerate_clipshow_index())
+        # MLP:Movie
+        index.extend(regenerate_film_index())
+        # MLP:BGE, MLP:RR
+        index.extend(regenerate_specials_index())
+        # MLP:BGE-Shorts, miscellany
+        index.extend(regenerate_shorts_index())
+        # MLP:EQG-{,RR,TFG,LoE}
+        index.extend(regenerate_eqg_films_index())
+        # MLP:EQG-{SB,MM,MM,...}
+        index.extend(regenerate_eqg_specials_index())
+        # MLP:EQG-{...}
+        index.extend(regenerate_eqg_shorts_index())
+        # sort by airdate
+        # group like items somehow
+
     def save_transcriptline_index2():
         """
         """
-    #save_unicorn_index()
-    #save_regenerated_episode_index()
-    #save_transcriptline_index()
+        # get episode index
+        # iterate over it, getting the appropriate filenames as appropriate.
 
+    #save_regenerated_animation_index()
+    #save_transcriptline_index2()
