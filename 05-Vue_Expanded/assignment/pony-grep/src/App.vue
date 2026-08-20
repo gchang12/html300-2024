@@ -5,6 +5,7 @@
   import IndexPage from './pages/IndexPage.vue'
   import EpisodeDirectory from './pages/EpisodeDirectory.vue'
   import TranscriptSearch from './pages/TranscriptSearch.vue'
+  //import LicensePage from './pages/LicensePage.vue'
 
   import EpisodeDirectory1 from './pages/episodeDirectories/EpisodeDirectory1.vue'
   import EpisodeDirectory2 from './pages/episodeDirectories/EpisodeDirectory2.vue'
@@ -24,6 +25,7 @@
     "/": TranscriptSearch,
     "/about": IndexPage,
     "/transcripts": EpisodeDirectory,
+    //"/licenses": LicensePage,
     "/transcripts/FiM/S1": EpisodeDirectory1,
     "/transcripts/FiM/S2": EpisodeDirectory2,
     "/transcripts/FiM/S3": EpisodeDirectory3,
@@ -64,6 +66,7 @@
                 <li class="nav-item">
                   <a class="nav-link" href="/#/transcripts">Transcripts</a>
                 </li>
+                <!-- <li class="nav-item"> <a class="nav-link" href="/#/licenses">Licenses</a> </li> -->
               </ul>
             </nav>
           </div>
@@ -74,17 +77,23 @@
       <component :is="currentView" />
     </main>
     <footer>
-      <div class="Credits">
+      <article class="Credits">
         <span class="FooterSectionHeader">
           Credits
         </span>
-        <a class="External" href="https://www.fandom.com/licensing">
-          Fandom
-        </a>
-        <a class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">
-          GitHub
-        </a>
-      </div>
+        <ul>
+          <li>
+            <a class="External" href="https://www.fandom.com/licensing">
+              Fandom
+            </a>
+          </li>
+          <li>
+            <a class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </article>
     </footer>
   </div>
 </template>
@@ -97,6 +106,7 @@
   text-align: center;
   color: #2c3e50;
   /*margin-top: 60px;*/
+  /*min-height: 100%;*/
 }
 </style>
 
