@@ -2,20 +2,20 @@
 
   import { ref, computed } from "vue";
 
-  import IndexPage from './components/IndexPage.vue'
-  import EpisodeDirectory from './components/EpisodeDirectory.vue'
-  import TranscriptSearch from './components/TranscriptSearch.vue'
+  import IndexPage from './pages/IndexPage.vue'
+  import EpisodeDirectory from './pages/EpisodeDirectory.vue'
+  import TranscriptSearch from './pages/TranscriptSearch.vue'
 
-  import EpisodeDirectory1 from './components/episodeDirectories/EpisodeDirectory1.vue'
-  import EpisodeDirectory2 from './components/episodeDirectories/EpisodeDirectory2.vue'
-  import EpisodeDirectory3 from './components/episodeDirectories/EpisodeDirectory3.vue'
-  import EpisodeDirectory4 from './components/episodeDirectories/EpisodeDirectory4.vue'
-  import EpisodeDirectory5 from './components/episodeDirectories/EpisodeDirectory5.vue'
-  import EpisodeDirectory6 from './components/episodeDirectories/EpisodeDirectory6.vue'
-  import EpisodeDirectory7 from './components/episodeDirectories/EpisodeDirectory7.vue'
-  import EpisodeDirectory8 from './components/episodeDirectories/EpisodeDirectory8.vue'
-  import EpisodeDirectory9 from './components/episodeDirectories/EpisodeDirectory9.vue'
-  //import DossierPage from './components/DossierPage.vue'
+  import EpisodeDirectory1 from './pages/episodeDirectories/EpisodeDirectory1.vue'
+  import EpisodeDirectory2 from './pages/episodeDirectories/EpisodeDirectory2.vue'
+  import EpisodeDirectory3 from './pages/episodeDirectories/EpisodeDirectory3.vue'
+  import EpisodeDirectory4 from './pages/episodeDirectories/EpisodeDirectory4.vue'
+  import EpisodeDirectory5 from './pages/episodeDirectories/EpisodeDirectory5.vue'
+  import EpisodeDirectory6 from './pages/episodeDirectories/EpisodeDirectory6.vue'
+  import EpisodeDirectory7 from './pages/episodeDirectories/EpisodeDirectory7.vue'
+  import EpisodeDirectory8 from './pages/episodeDirectories/EpisodeDirectory8.vue'
+  import EpisodeDirectory9 from './pages/episodeDirectories/EpisodeDirectory9.vue'
+  //import DossierPage from './pages/DossierPage.vue'
 
   // Excerpted from code in video demonstration.
 
@@ -99,3 +99,78 @@
   /*margin-top: 60px;*/
 }
 </style>
+
+<!--
+# Instructions
+
+Expand on your course project website. In the Lesson04 assignment, you converted Bootstrap to Vue. Now, we're going to take that site and refactor it into some components. You'll be adding in some functionality through props and mixins.
+
+These are the pages that will be making up your final project, so use the content (text, images) you want included in that final site.
+
+## Requirements
+
+    For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
+    The image component should have props for at least the image src, alt, & title attributes, use prop validation.
+    Creation and use of slot for header component
+    Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
+    Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
+
+Bonus: Use other components for existing content.    
+
+Extra Bonus: Use custom directives or a modifier.  
+		
+Lesson 08 Assignment
+Criteria	Ratings	Pts
+Components
+	
+2 pts
+Complete
+Refactored into component with props & validation
+1 pts
+Incomplete
+Missing props/validation
+0 pts
+Missing
+Not refactored
+	
+/ 2 pts
+Slots
+	
+2 pts
+Complete
+Creation and use of slot for header component
+1 pts
+Incomplete
+Didn’t fully build out slot with named attribute and default
+0 pts
+Missing
+No use of slot
+	
+/ 2 pts
+Mixin
+	
+2 pts
+Complete
+Created and used mixin
+1 pts
+Incomplete
+Didn’t fully implement mixin
+0 pts
+Missing
+Didn’t use a mixin
+	
+/ 2 pts
+Vue CLI
+	
+2 pts
+Complete
+Built correctly using Vue CLI
+1 pts
+Incomplete
+Somewhat uses Vue CLI/Vue features
+0 pts
+Missing
+No Vue CLI present/static files
+	
+/ 2 pts
+-->
