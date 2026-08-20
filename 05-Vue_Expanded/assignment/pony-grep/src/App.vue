@@ -83,12 +83,12 @@
         </span>
         <ul>
           <li>
-            <a class="External" href="https://www.fandom.com/licensing">
+            <a target="_blank" class="External" href="https://www.fandom.com/licensing">
               Fandom
             </a>
           </li>
           <li>
-            <a class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">
+            <a target="_blank" class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">
               GitHub
             </a>
           </li>

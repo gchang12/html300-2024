@@ -179,7 +179,7 @@
                 </tbody>
               </table>
               <p v-for="line in currentEpisode.summary" :key="line">{{ line }}</p>
-              <a :href="'https://mlp.fandom.com/wiki/' + currentEpisode.urlName">MLP Wikia Page</a>
+              <a target="_blank" :href="'https://mlp.fandom.com/wiki/' + currentEpisode.urlName">MLP Wikia Page</a>
             </div>
           </aside>
         </div>
