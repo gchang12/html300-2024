@@ -53,8 +53,8 @@
         <p>Trying to remember if a MLP:FiM character said something?</p>
         <p>You've come to the right place!
         <p><code>ponygrep</code> allows you to search all of MLP G4 for the bit of dialgoue you're thinking of.</p>
-        <article class="w-50 container">
-          <h2>How to Search</h2>
+        <article class="w-75 container">
+          <h2>Searching</h2>
           <section>
             <h3>Example</h3>
             <ol>
@@ -64,8 +64,8 @@
             </ol>
           </section>
         </article>
-        <article class="w-50 container">
-          <h2>How to Browse Transcripts</h2>
+        <article class="w-75 container">
+          <h2>Browsing Transcripts</h2>
           <section class="d-flex align-items-center flex-column">
             <h3>Instructions</h3>
             <ol>

@@ -79,7 +79,7 @@
 
 <template>
   <div id="episode-directory">
-    <h1>Transcript Viewer</h1>
+    <h1>Transcripts</h1>
 
     <div class="container">
       <div class="row">
