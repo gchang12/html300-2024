@@ -70,8 +70,8 @@
       currentEpisode.value = {};
     } else {
       currentEpisode.value = episodeList.find(episode => episode.id == id);
+      //alert("Scroll down for the transcript of S" + currentEpisode.value.seasonNo + " E" + currentEpisode.value.episodeNo + ", '" + currentEpisode.value.title + "'.");
     }
-    alert("Scroll down for the transcript of S" + currentEpisode.value.seasonNo + " E" + currentEpisode.value.episodeNo + ", '" + currentEpisode.value.title + "'.");
     //e.currentTarget.classList.add("");
   }
 

@@ -93,6 +93,7 @@
             </a>
           </li>
         </ul>
+        <span class="Disclaimer">All images are owned by Hasbro</span>
       </article>
     </footer>
   </div>
