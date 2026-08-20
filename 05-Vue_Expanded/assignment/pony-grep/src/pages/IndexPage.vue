@@ -46,10 +46,26 @@
 
 <template>
   <div id="index">
-    <article>
-      <h1>Search for a Line in the Dialogue of Every Episode in MLP:FiM Here, at Pony <code>grep</code>!</h1>
+    <article class="container w-50">
+      <h1>Welcome to <code>ponygrep</code>!</h1>
+      <section>
+        <h2>About Us</h2>
+        <p>Trying to remember if a MLP:FiM character said something?</p>
+        <p>You've come to the right place!
+        <p><code>ponygrep</code> allows you to search all of MLP G4 for the bit of dialgoue you're thinking of.</p>
+        <article class="w-50 container">
+          <h2>How to Search</h2>
+          <section>
+            <h3>Example</h3>
+            <ol>
+              <li class="Help">&ldquo;I want to see if &lsquo;friendship is magic&rsquo; is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="_fieldName">Dialogue</span> box now.&rdquo;</li>
+              <li class="Help">&ldquo;I want to see if Discord or Twilight says it. I'll input <span class="_fieldValue">Discord|Twilight</span> into the <span class="_fieldName">Character</span> field.&rdquo;</li> 
+              <li class="Help">&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="_fieldName">Search</span> button.&rdquo;</li>
+            </ol>
+          </section>
+        </article>
+      </section>
       <!-- <article> -->
-      <!-- <h2>About Us</h2> -->
       <!-- <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!  This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.  Just go on over to <a href="#/">Search</a> and input your query.</p> -->
       <!-- </article> -->
       <!-- <article> -->

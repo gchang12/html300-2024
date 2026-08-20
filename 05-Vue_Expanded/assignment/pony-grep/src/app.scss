@@ -73,17 +73,19 @@ main {
   justify-content: space-between;
 }
 
-span.Dialogue {
-  color: yellow;
-}
-span.Search {
-  color: blue;
-}
-span.Character {
-  color: orange;
-}
 span._fieldValue {
   text-decoration: underline;
+}
+
+span._fieldValue::before {
+  content: "‘";
+}
+span._fieldValue::after {
+  content: "’";
+}
+
+span._fieldName {
+  font-weight: bold;
 }
 
 .EpisodeIndex a[role='button'] {
