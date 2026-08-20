@@ -235,3 +235,10 @@ hr {
     width: 5rem;
   }
 }
+
+.External::after {
+  // https://www.svgrepo.com/svg/510970/external-link
+  //background-image: url("assets/external-link-svgrepo-com.svg");
+  content: '\1f517';
+  //n
+}
