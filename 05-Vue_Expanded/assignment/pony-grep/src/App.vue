@@ -26,6 +26,7 @@
     "/about": IndexPage,
     "/transcripts": EpisodeDirectory,
     //"/licenses": LicensePage,
+    // TODO: Remove all these
     "/transcripts/FiM/S1": EpisodeDirectory1,
     "/transcripts/FiM/S2": EpisodeDirectory2,
     "/transcripts/FiM/S3": EpisodeDirectory3,
@@ -51,7 +52,7 @@
   <div id="app">
     <header>
       <div class="container"> 
-        <div class="row justify-content-between align-items-center">
+        <div class="NaviBar row justify-content-between align-items-center">
           <div class="col-auto">
             <a href="/#/" class="img-link Logo">
               <img src="./assets/banner.png" />

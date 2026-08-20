@@ -210,6 +210,10 @@ hr {
       max-width: 100%;
     }
   }
+  .NaviBar {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
