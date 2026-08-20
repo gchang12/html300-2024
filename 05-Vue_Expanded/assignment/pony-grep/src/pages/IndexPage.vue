@@ -1,53 +1,9 @@
 <script setup>
-  // Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
-
-  //import { ref } from "vue";
-
-  /*
-  const seasonImages = [
-    {
-      seasonNo: 1,
-      imgName: "My_Little_Pony_Theme_Song.webp"
-    },
-    {
-      seasonNo: 2,
-      imgName: "My_Little_Pony_Theme_Song.webp"
-    },
-    {
-      seasonNo: 3,
-      imgName: "My_Little_Pony_Theme_Song.webp"
-    },
-    {
-      seasonNo: 4,
-      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
-    },
-    {
-      seasonNo: 5,
-      imgName: "Photo_Finish_taking_photo_S4_Opening.webp"
-    },
-    {
-      seasonNo: 6,
-      imgName: "Photo_Finish_taking_photo_S6_opening.webp"
-    },
-    {
-      seasonNo: 7,
-      imgName: "Photo_Finish_taking_photo_S7_opening.webp"
-    },
-    {
-      seasonNo: 8,
-      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
-    },
-    {
-      seasonNo: 9,
-      imgName: "Photo_Finish_taking_the_class_photo_S8_opening.webp"
-    },
-  ];
-  */
-
 </script>
 
 <template>
   <div id="index">
+    <!-- Bootstrap: 'w-75' to make text within more compact and readable. -->
     <article class="container w-75">
       <h1>Welcome to <code>ponygrep</code>!</h1>
       <div class="WelcomeMessage">
@@ -61,8 +17,10 @@
         <section class="Usage-Example">
           <h3>Example</h3>
           <div class="Usage-Step d-flex">
+            <!-- Bootstrap: 'img-thumbnail' for the image border. -->
             <img class="img-thumbnail" src="/images/search-form.png" />
             <ol class="m-5">
+              <!-- Bootstrap: 'm-3' because the spaces between each line of instruction makes it more readable. -->
               <li class="Help m-3">&ldquo;I want to see if &lsquo;friendship is magic&rsquo; is said in MLP G4. I'll input <span class="_fieldValue">friendship is magic</span> into the <span class="_fieldName">Dialogue</span> box now.&rdquo;</li>
               <li class="Help m-3">&ldquo;I want to see if Discord or Twilight says it. I'll input <span class="_fieldValue">Discord|Twilight</span> into the <span class="_fieldName">Character</span> field.&rdquo;</li> 
               <li class="Help m-3">&ldquo;Let's see if either Discord or Twilight say &lsquo;friendship is magic&rsquo; by hitting the <span class="_fieldName">Search</span> button.&rdquo;</li>
@@ -75,45 +33,47 @@
         <h2>Browsing Transcripts</h2>
         <hr />
         <section class="BrowsingStep">
-          <h3>Select Season</h3>
+          <h3>1. Select Season</h3>
           <img width="500px" class="img-thumbnail" src="/images/season-index.png" />
         </section>
         <hr />
         <section class="BrowsingStep">
-          <h3>Select Episode</h3>
+          <h3>2. Select Episode</h3>
           <img width="500px" class="img-thumbnail" src="/images/episode-index.png" />
         </section>
         <hr />
         <section class="BrowsingStep">
-          <h3>Scroll Down and View</h3>
+          <h3>3. Scroll Down and View</h3>
           <img width="500px" class="img-thumbnail" src="/images/transcript.png" />
         </section>
         <hr />
         <section class="BrowsingStep">
-          <h3>Close Transcript</h3>
+          <h3>4. Close Transcript</h3>
           <img width="500px" class="img-thumbnail" src="/images/close-transcript.png" />
         </section>
         <hr />
       </article>
-      <!-- <article> -->
-      <!-- <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!  This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.  Just go on over to <a href="#/">Search</a> and input your query.</p> -->
-      <!-- </article> -->
-      <!-- <article> -->
-      <!-- <h2>Episode Directory</h2> -->
-        <!-- <p>Wanna just read the transcripts and re-experience the magic of friendship through the magic of reading? Head on over to our <a href="#/transcripts">Transcripts</a> directory!</p> -->
-        <!-- <article id="mlp-fim"> -->
-        <!-- <h3>MLP:FiM</h3> -->
-        <!-- <div class="seasons"> -->
-        <!-- <a :href="'#/transcripts/FiM/S' + seasonImage.seasonNo" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo"> -->
-        <!-- <figure> -->
-        <!-- <img :src="'/images/' + seasonImage.imgName" /> -->
-        <!-- <figcaption>S{{ seasonImage.seasonNo }}</figcaption> -->
-        <!-- </figure> -->
-              <!-- </a> -->
-              <!-- </div> -->
-              <!-- </article> -->
-              <!-- </article> -->
     </article>
   </div>
 </template>
 
+<!-- NOTE: For possible recycling. Ignore, please! -->
+
+<!-- <article> -->
+<!-- <p>Trying to remember a line that a children's cartoon horse might have said? This is the perfect tool for finding that out!  This website scans every dialogue of if a character from <i>My Little Pony: Friendship is Magic</i> and checks if any character in this show ever said the thing you queried.  Just go on over to <a href="#/">Search</a> and input your query.</p> -->
+<!-- </article> -->
+<!-- <article> -->
+<!-- <h2>Episode Directory</h2> -->
+<!-- <p>Wanna just read the transcripts and re-experience the magic of friendship through the magic of reading? Head on over to our <a href="#/transcripts">Transcripts</a> directory!</p> -->
+<!-- <article id="mlp-fim"> -->
+<!-- <h3>MLP:FiM</h3> -->
+<!-- <div class="seasons"> -->
+<!-- <a :href="'#/transcripts/FiM/S' + seasonImage.seasonNo" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo"> -->
+<!-- <figure> -->
+<!-- <img :src="'/images/' + seasonImage.imgName" /> -->
+<!-- <figcaption>S{{ seasonImage.seasonNo }}</figcaption> -->
+<!-- </figure> -->
+<!-- </a> -->
+<!-- </div> -->
+<!-- </article> -->
+<!-- </article> -->

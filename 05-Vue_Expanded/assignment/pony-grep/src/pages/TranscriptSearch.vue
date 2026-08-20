@@ -1,5 +1,4 @@
 <script setup>
-  // Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
 
   import { ref } from "vue";
 
@@ -25,7 +24,6 @@
   }
 
   function searchAndParseResults(e) {
-    //console.log("something");
     const formData = new FormData(e.currentTarget.form);
     if (!e.currentTarget.reportValidity() || formData.get("dialoguePattern") === "") {
       return;
@@ -40,7 +38,6 @@
   }
 
   function resetResults() {
-    //console.log("something");
     dialoguePattern.value = "";
     searchResults.value = [];
     disableAccordions();
@@ -62,68 +59,48 @@
   <div id="transcript-search">
     <h1>Search Transcripts</h1>
 
+    <!-- Bootstrap: 'container' for Grid System layout. 1 row, 2 columns. (Parameters, Results). -->
     <div class="container">
       <div class="row">
 
         <article class="col-3">
           <h2>Parameters</h2>
-          <!-- <p>Try to find out if somebody said something in <i>My Little Pony: Friendship is Magic</i> by inputting a string into the <code>Regex Pattern</code> box.</p> -->
-          <!-- <p>Try to find out if somebody in particular said something by inputting their name into the <code>Character</code> box.</p> -->
-          <!-- <p>Wanna find out if they said it in a song? Check the <code>In songs only</code> box.</p> -->
-          <!-- <p>To find out if they said it in a particular season, input the season number into the <code>Season</code>.</p> -->
-          <!-- <p>Trying to find out if they said it in a particular episode in a season? Input a number into the <code>Episode</code> box; note that this only works if you have the <code>Season</code> box already populated.</p> -->
           <form>
             <div class="row">
               <div class="col Dialogue Field">
-                <label for="dialoguePattern" class="form-label">Dialogue</label>
+                <label for="dialoguePattern">Dialogue</label>
+                <!-- Bootstrap: 'form-control' for a text-box spanning the container width. -->
                 <input placeholder="friendship is magic" minlength="3" id="dialoguePattern" class="form-control" type="text" name="dialoguePattern" required />
                 <div class="Help form-text">Pattern to search for in all G4 dialogue.</div>
               </div>
-              <!-- <div class="col-2 Lyrics Field"> -->
-              <!-- <label for="isSung" class="form-label">Lyrics</label> -->
-              <!-- <input id="isSung" class="form-check" type="checkbox" name="isSung" /> -->
-              <!-- <div class="form-text">Search in lyrics as well?</div> -->
-              <!-- </div> -->
             </div>
             <div class="row">
               <div class="col Character Field">
-                <label for="speaker" class="form-label">Character</label>
+                <label for="speaker">Character</label>
                 <input placeholder="discord|mane six" id="speaker" class="form-control" type="text" name="speaker" />
+                <!-- Bootstrap: 'form-text' for spacing. -->
                 <div class="Help form-text">Limit results to lines spoken only by specified character(s).</div>
               </div>
             </div>
-            <!-- <div class="row"> -->
-            <!-- <div class="col Series Field"> -->
-            <!-- NOTE: Placeholder -->
-                <!-- <fieldset> -->
-                <!-- <legend>Series</legend> -->
-                <!-- <div class="MLP-FiM Field Choice"> -->
-                <!-- <label for="mlp-fim" class="form-label">MLP: FiM</label> -->
-                <!-- <input id="mlp-fim" class="form-check" disabled readonly checked type="checkbox" aria-label="readonly" /> -->
-                <!-- </div> -->
-                <!-- </fieldset> -->
-                <!-- </div> -->
-                <!-- </div> -->
             <button class="btn btn-primary" id="search-button" @click="searchAndParseResults">Search</button>
             <button class="btn btn-secondary" id="reset-button" type="button" @click="resetResults">Reset</button>
           </form>
         </article>
 
-        <!-- If no results, say so -->
         <article class="col">
           <h2>Results</h2>
-          <!-- Display help message, alternatively. -->
-          <!-- Otherwise, show table of results -->
-
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
               <h3 class="accordion-header" id="headingOne">
+                <!-- Bootstrap: 'd-flex', 'justify-content-between' to separate series title and result-count.-->
+                <!-- Bootstrap: 'btn-block' so that it spans entire width of container.-->
                 <button disabled data-series="FiM" @click="setActiveSeries" class="ShowResults d-flex justify-content-between btn btn-lg btn-block accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                   <span class="SeriesTitle">My Little Pony: Friendship is Magic</span><span v-if="searchResults.length > 0" class="ResultCount">{{ searchResults.length }}</span>
                 </button>
               </h3>
               <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample" v-if="activeSeries === 'FiM' && searchResults.length > 0">
                 <div class="SearchResults accordion-body">
+                  <!-- Bootstrap: 'table-striped' for line visibility. -->
                   <table class="table table-primary table-light table-striped">
                     <thead>
                       <tr>
@@ -151,7 +128,6 @@
               </div>
             </div>
           </div>
-
         </article>
 
       </div>
@@ -160,3 +136,22 @@
   </div>
 </template>
 
+<!-- NOTE: For recycling. Ignore! -->
+
+<!-- <div class="col-2 Lyrics Field"> -->
+<!-- <label for="isSung" class="form-label">Lyrics</label> -->
+<!-- <input id="isSung" class="form-check" type="checkbox" name="isSung" /> -->
+<!-- <div class="form-text">Search in lyrics as well?</div> -->
+<!-- </div> -->
+<!-- <div class="row"> -->
+<!-- <div class="col Series Field"> -->
+<!-- NOTE: Placeholder -->
+<!-- <fieldset> -->
+<!-- <legend>Series</legend> -->
+<!-- <div class="MLP-FiM Field Choice"> -->
+<!-- <label for="mlp-fim" class="form-label">MLP: FiM</label> -->
+<!-- <input id="mlp-fim" class="form-check" disabled readonly checked type="checkbox" aria-label="readonly" /> -->
+<!-- </div> -->
+<!-- </fieldset> -->
+<!-- </div> -->
+<!-- </div> -->

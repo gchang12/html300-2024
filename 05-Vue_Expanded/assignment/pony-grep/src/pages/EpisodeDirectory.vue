@@ -1,5 +1,4 @@
 <script setup>
-    // Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
 
   import { ref } from "vue";
 
@@ -11,7 +10,6 @@
   import transcriptLines from "../constants/smallTranscriptLines.js";
 
   const currentEpisode = ref({});
-  //const currentEpisode = ref(episodeList.find(() => true));
   const activeSeason = ref(-1);
 
   const seasonImages = [
@@ -54,7 +52,6 @@
   ];
 
   function setSeason(e) {
-    //console.log(e);
     const seasonNo = e.currentTarget.dataset.season;
     if (activeSeason.value != seasonNo) {
       activeSeason.value = seasonNo;
@@ -64,16 +61,13 @@
     console.log(activeSeason);
   }
 
-  // TODO: Use for all episode transcript directories and leverage urlParams
   function selectEpisode(e) {
     const id = e.currentTarget.dataset.id;
     if (id == currentEpisode.value.id) {
       currentEpisode.value = {};
     } else {
       currentEpisode.value = episodeList.find(episode => episode.id == id);
-      //alert("Scroll down for the transcript of S" + currentEpisode.value.seasonNo + " E" + currentEpisode.value.episodeNo + ", '" + currentEpisode.value.title + "'.");
     }
-    //e.currentTarget.classList.add("");
   }
 
 </script>
@@ -81,28 +75,35 @@
 <template>
   <div id="episode-directory">
     <h1>Transcripts</h1>
-
+    <!-- Bootstrap: 'container' to give content padding within root container. -->
     <div class="container">
+      <!-- Bootstrap: 'row' to set up Grid System layout. 2 rows, 2 columns.
+        (Seasons, Episodes)
+        (Transcript, Episode Info)
+      -->
+
       <div class="row">
+
         <div class="col">
           <h2>Seasons</h2>
           <aside id="mlp-fim" class="EpisodeIndex">
             <h3>MLP:FiM</h3>
+            <!-- Bootstrap: 'navbar-nav' for soon-to-be-added dropdown support -->
             <ol class="navbar-nav">
-              <!-- <li class="nav-item dropdown" v-for="seasonNo in [1, 2, 3, 4, 5, 6, 7, 8, 9]" :key="seasonNo"> -->
               <li class="nav-item" v-for="seasonImage in seasonImages" :key="seasonImage.seasonNo">
-                <!-- <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false"> -->
                 <!-- TODO:
                   For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
                   The image component should have props for at least the image src, alt, & title attributes, use prop validation.
                   Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
                 -->
+                <!-- Bootstrap: 'btn' to remove default button styling and especially for zero-opacity -->
                 <button class="btn" :data-season="seasonImage.seasonNo" @click="setSeason">
                   <figure>
                     <img :src="'/images/' + seasonImage.imgName" class="img-thumbnail" />
                     <figcaption>
                       <a class="nav-link" role="button">
-                        <!-- TODO: Dropdown not working. Temporary fix. -->
+                        <!-- NOTE: Dropdown not working. Temporary fix. -->
+                        <!-- Bootstrap: 'btn-block' to make button width span container width -->
                         <button class="btn btn-block btn-primary">
                           S{{seasonImage.seasonNo}}
                         </button>
@@ -114,22 +115,20 @@
             </ol>
           </aside>
         </div>
+
+        <!-- Bootstrap: 'col-2' because episode buttons don't need much width -->
         <div class="col-2">
-          <!-- <div v-if="seasonNo == activeSeason"> Active Season: {{ activeSeason }} </div> -->
-          <!-- <ol class="dropdown-menu" v-if="seasonNo == activeSeason"> -->
           <article>
             <h2>Episodes</h2>
             <div class="EpisodeList">
               <article class="container" v-if="activeSeason != -1">
                 <h3>S{{ activeSeason }}</h3>
+                <!-- TODO: Dropdown not working. Temporary fix. -->
                 <ol>
                   <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
-                    <!-- <a role="button" class="dropdown-item"> -->
                     <a class="EpisodeEntry" role="button">
-                      <!-- <button class="btn btn-secondary">E{{ episode.episodeNo }}</button>{{ episode.title }} -->
+                      <!-- Bootstrap: 'btn-secondary' to indicate that episodes are secondary wrt seasons; also for the background color -->
                       <button :title="episode.title" class="btn btn-secondary">E{{ episode.episodeNo }}</button>
-                      <!-- {{ episode.title }} -->
-                      <!-- E{{ episode.episodeNo }} {{ episode.title }} -->
                     </a>
                   </li>
                 </ol>
@@ -137,6 +136,7 @@
             </div>
           </article>
         </div>
+
       </div>
 
       <!-- NOTE: Technically, this is its own page, but I couldn't make it so due to technical limitations. -->
@@ -146,6 +146,7 @@
           <aside class="EpisodeInfo">
             <div v-if="Object.keys(currentEpisode).length !== 0">
               <h3>{{currentEpisode.title }}</h3>
+              <!-- Bootstrap: 'table' for sensible defaults, and 'table-light' for visibility. -->
               <table class="table table-light">
                 <tbody>
                   <tr>
@@ -171,6 +172,7 @@
         <div class="col">
           <main class="Transcript">
             <div class="content" v-if="Object.keys(currentEpisode).length !== 0">
+              <!-- Bootstrap: 'table-striped' to distinguish between consecutive lines of dialogue. -->
               <table class="table table-light table-striped">
                 <thead>
                   <tr>
