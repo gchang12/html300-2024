@@ -11,20 +11,6 @@
   let searchResults = ref([]);
   let dialoguePattern = ref("");
 
-  function enableAccordions() {
-    const resultsButtons = document.querySelectorAll(".ShowResults");
-    for (const button of resultsButtons) {
-      button.removeAttribute("disabled");
-    }
-  }
-
-  function disableAccordions() {
-    const resultsButtons = document.querySelectorAll(".ShowResults");
-    for (const button of resultsButtons) {
-      button.setAttribute("disabled", "disabled");
-    }
-  }
-
   function searchAndParseResults(e) {
     const formData = new FormData(e.currentTarget.form);
     if (!e.currentTarget.reportValidity() || formData.get("dialoguePattern") === "") {
@@ -36,14 +22,12 @@
     searchResults.value = parsedSearchResults;
     dialoguePattern.value = formData.get("dialoguePattern");
     e.preventDefault();
-    enableAccordions();
     console.log(searchResults.length);
   }
 
   function resetResults() {
     dialoguePattern.value = "";
     searchResults.value = [];
-    disableAccordions();
   }
 
 </script>
