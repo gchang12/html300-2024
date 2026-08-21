@@ -72,7 +72,6 @@
     } else {
       activeSeason.value = -1;
     }
-    console.log(activeSeason);
   }
 
   function selectEpisode(e) {
