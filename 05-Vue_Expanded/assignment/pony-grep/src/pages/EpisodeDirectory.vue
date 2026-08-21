@@ -13,6 +13,7 @@
   import transcriptLines from "../constants/smallTranscriptLines.js";
 
   import ImageButton from "../components/ImageButton.vue";
+  import LinkButton from "../components/LinkButton.vue";
 
   const currentEpisode = ref({});
   const activeSeason = ref(-1);
@@ -127,10 +128,10 @@
                 <!-- TODO: Dropdown not working. Temporary fix. -->
                 <ol>
                   <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
-                    <a class="EpisodeEntry" role="button">
-                      <!-- Bootstrap: 'btn-secondary' to indicate that episodes are secondary wrt seasons; also for the background color -->
-                      <b-button v-b-tooltip.hover.top :title="episode.title" class="btn btn-secondary">E{{ episode.episodeNo }}</b-button>
-                    </a>
+                    <LinkButton
+                        :title="episode.title"
+                        :captionText="'E' + episode.episodeNo"
+                        />
                   </li>
                 </ol>
               </article>
@@ -145,7 +146,7 @@
       -->
       <div class="row EpisodeData">
 
-        <div class="col-3">
+        <div class="col col-3">
           <aside class="EpisodeInfo">
             <div v-if="Object.keys(currentEpisode).length !== 0">
               <h3>{{currentEpisode.title }}</h3>
