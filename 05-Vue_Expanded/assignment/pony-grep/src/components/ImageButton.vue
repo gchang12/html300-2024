@@ -2,6 +2,7 @@
 
   import defineProps from 'vue';
 
+  // NOTE: On second thought, this may belong in the parent component.
   import useBorder from '../mixins/useBorder.js';
 
   /* TODO:

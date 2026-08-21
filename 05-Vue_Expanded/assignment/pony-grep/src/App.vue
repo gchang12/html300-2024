@@ -1,10 +1,10 @@
 <script setup>
 
   /* TODO:
-    For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
-    The image component should have props for at least the image src, alt, & title attributes, use prop validation.
-    Creation and use of slot for header component
-    Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
+    ( ) For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
+    ( ) The image component should have props for at least the image src, alt, & title attributes, use prop validation.
+    ( ) Creation and use of slot for header component
+    ( ) Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
     (X) Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
   */
 

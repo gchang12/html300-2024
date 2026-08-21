@@ -143,11 +143,6 @@ span._fieldName {
   color: white;
 }
 
-[data-series='FiM']::hover {
-  //background-color: purple;
-  //color: white;
-}
-
 footer ul {
   padding: 0;
   margin: 0;
@@ -187,10 +182,6 @@ form > * {
 hr {
   //color: white;
   background-color: white;
-}
-
-.BrowsingStep:nth-child(1) > h3::before {
-  content: "1. ";
 }
 
 /*
