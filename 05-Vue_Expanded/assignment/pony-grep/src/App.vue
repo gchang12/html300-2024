@@ -1,21 +1,25 @@
 <script setup>
 
+  /* TODO:
+    For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
+    The image component should have props for at least the image src, alt, & title attributes, use prop validation.
+    Creation and use of slot for header component
+    Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
+    (X) Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
+  */
+
   import { ref, computed } from "vue";
 
   import IndexPage from './pages/IndexPage.vue'
   import EpisodeDirectory from './pages/EpisodeDirectory.vue'
   import TranscriptSearch from './pages/TranscriptSearch.vue'
-  //import LicensePage from './pages/LicensePage.vue'
-  //import DossierPage from './pages/DossierPage.vue'
 
   // Excerpted from code in video demonstration.
-
   /* Start: Routing. */
   const routes = {
     "/": TranscriptSearch,
     "/about": IndexPage,
     "/transcripts": EpisodeDirectory,
-    //"/licenses": LicensePage,
   }
   const currentPath = ref(window.location.hash);
   window.addEventListener("hashchange", () => {
@@ -31,8 +35,10 @@
 <template>
   <div id="app">
     <header>
+      <!-- Bootstrap: 'container' declares grid layout; 1 row, 2 columns. (Logo, Navibar) -->
       <div class="container"> 
         <div class="NaviBar row justify-content-between align-items-center">
+          <!-- Bootstrap: 'col-auto' makes container width shrink to fit contents -->
           <div class="col-auto">
             <a href="/#/" class="img-link Logo">
               <img src="./assets/banner.png" />
@@ -40,14 +46,15 @@
           </div>
           <div class="col-auto">
             <nav>
+              <!-- Bootstrap: 'nav' makes container an actual navibar -->
               <ul class="nav">
                 <li class="nav-item">
                   <a class="nav-link" href="/#/about">About</a>
                 </li>
                 <li class="nav-item">
+                  <!-- Bootstrap: 'nav-link' provides v-centering. -->
                   <a class="nav-link" href="/#/transcripts">Transcripts</a>
                 </li>
-                <!-- <li class="nav-item"> <a class="nav-link" href="/#/licenses">Licenses</a> </li> -->
               </ul>
             </nav>
           </div>
@@ -64,16 +71,10 @@
         </span>
         <ul>
           <li>
-            All textual content is owned by
-            <a target="_blank" class="External" href="https://www.fandom.com/licensing">
-              Fandom
-            </a>
+            All textual content is owned by <a target="_blank" class="External" href="https://www.fandom.com/licensing">Fandom</a>
           </li>
           <li>
-            This project's
-            <a target="_blank" class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">
-              GitHub
-            </a>
+            This project's <a target="_blank" class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">GitHub</a> page
           </li>
         </ul>
         <span class="Disclaimer">All images are owned by Hasbro</span>
