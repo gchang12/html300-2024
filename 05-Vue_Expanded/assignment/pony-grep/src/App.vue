@@ -78,6 +78,7 @@
           </li>
         </ul>
         <span class="Disclaimer">All images are owned by Hasbro</span>
+        <span class="Disclaimer">Made with no AI</span>
       </article>
     </footer>
   </div>
