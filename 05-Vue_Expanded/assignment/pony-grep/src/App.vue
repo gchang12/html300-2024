@@ -76,7 +76,11 @@
           <li>
             This project's <a target="_blank" class="External" href="https://github.com/gchang12/html300-2024/tree/lesson8">GitHub</a> page
           </li>
+          <li>
+            Site logo provided by <a href="https://fontmeme.com/friendship-is-magic-font/" target="_blank" class="External">this site</a>
+          </li>
         </ul>
+
         <span class="Disclaimer">All images are owned by Hasbro</span>
         <span class="Disclaimer">Made with no AI</span>
       </article>
