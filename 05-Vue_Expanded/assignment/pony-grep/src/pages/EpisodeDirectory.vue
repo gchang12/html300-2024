@@ -125,7 +125,7 @@
             <div class="EpisodeList">
               <article class="container" v-if="activeSeason != -1">
                 <h3>S{{ activeSeason }}</h3>
-                <!-- TODO: Dropdown not working. Temporary fix. -->
+                <!-- TODO: Cannot figure out how to implement dropdown. Temporary fix. -->
                 <ol>
                   <li v-for="episode in episodeList.filter(episode => episode.seasonNo == activeSeason)" :data-id="episode.id" @click="selectEpisode" :key="episode.id">
                     <LinkButton

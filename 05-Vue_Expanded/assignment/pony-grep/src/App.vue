@@ -1,13 +1,5 @@
 <script setup>
 
-  /* TODO:
-    ( ) For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
-    ( ) The image component should have props for at least the image src, alt, & title attributes, use prop validation.
-    ( ) Creation and use of slot for header component
-    ( ) Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
-    (X) Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
-  */
-
   import { ref, computed } from "vue";
 
   import IndexPage from './pages/IndexPage.vue'
@@ -29,6 +21,18 @@
     return routes[currentPath.value.slice(1) || "/"] || IndexPage;
   });
   /* End: Routing. */
+
+  /* TODO
+  Source comprehensive transcript file and index file.
+  Modify index file and update transcript file to match it.
+  Add dropdown menus to episode-directory
+  Add fieldset to search form to allow user to specify where to grep
+  Put episode-transcript into its own set of pages.
+  Add new accordions for search results.
+  Make accordions appear only for specified series.
+  Get new images to use for indexes of other MLP G4 series. 
+  For CYOA shorts, implement branched transcripts
+  */
 
 </script>
 
@@ -100,77 +104,3 @@
 }
 </style>
 
-<!--
-# Instructions
-
-Expand on your course project website. In the Lesson04 assignment, you converted Bootstrap to Vue. Now, we're going to take that site and refactor it into some components. You'll be adding in some functionality through props and mixins.
-
-These are the pages that will be making up your final project, so use the content (text, images) you want included in that final site.
-
-## Requirements
-
-    For the image page, convert the image markup into a separate component in its own file, be sure to import it into the corresponding 'page' component
-    The image component should have props for at least the image src, alt, & title attributes, use prop validation.
-    Creation and use of slot for header component
-    Create a mixin for the image component that should toggle on/off a border around the image on click, apply the mixin to the image component.
-    Don't forget to add comments to your code explaining Bootstrap classes you added and your VUE code.
-
-Bonus: Use other components for existing content.    
-
-Extra Bonus: Use custom directives or a modifier.  
-		
-Lesson 08 Assignment
-Criteria	Ratings	Pts
-Components
-	
-2 pts
-Complete
-Refactored into component with props & validation
-1 pts
-Incomplete
-Missing props/validation
-0 pts
-Missing
-Not refactored
-	
-/ 2 pts
-Slots
-	
-2 pts
-Complete
-Creation and use of slot for header component
-1 pts
-Incomplete
-Didn’t fully build out slot with named attribute and default
-0 pts
-Missing
-No use of slot
-	
-/ 2 pts
-Mixin
-	
-2 pts
-Complete
-Created and used mixin
-1 pts
-Incomplete
-Didn’t fully implement mixin
-0 pts
-Missing
-Didn’t use a mixin
-	
-/ 2 pts
-Vue CLI
-	
-2 pts
-Complete
-Built correctly using Vue CLI
-1 pts
-Incomplete
-Somewhat uses Vue CLI/Vue features
-0 pts
-Missing
-No Vue CLI present/static files
-	
-/ 2 pts
--->
