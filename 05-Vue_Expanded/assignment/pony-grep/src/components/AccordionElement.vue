@@ -3,7 +3,7 @@
   import defineProps from 'vue';
 
   defineProps({
-    searchResults: Array,
+    //searchResults: Array,
     //seriesTitle: String,
     seriesName: String,
     collapseKey: String,
@@ -25,29 +25,8 @@
       <b-collapse :id="'collapse-' + collapseKey" :aria-labelledby="'heading-' + collapseKey">
         <b-card class="SearchResults accordion-body">
           <!-- Bootstrap: 'table-striped' for line visibility. -->
-          <table class="table table-primary table-light table-striped">
-            <thead>
-              <tr>
-                <th>Speaker</th>
-                <th>Line</th>
-                <th>Episode</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="result in searchResults" :key="result.id">
-                <th>
-                  {{ result.line.speaker }}
-                </th>
-                <td>
-                  {{ result.line.dialogue }}
-                </td>
-                <td>
-                  – S{{ result.seasonNo }} E{{ result.episodeNo }} –<br />
-                  <i>{{result.title}}</i>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <slot name="body">
+          </slot>
         </b-card>
       </b-collapse>
     </div>

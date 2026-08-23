@@ -6,7 +6,7 @@
   import searchTranscript from "../functions/searchTranscript.js";
   import parseTranscriptLines from "../functions/parseTranscriptLines.js";
 
-  import AccordionResults from "../components/AccordionResults.vue";
+  import AccordionElement from "../components/AccordionElement.vue";
 
   let searchResults = ref([]);
   let dialoguePattern = ref("");
@@ -66,15 +66,39 @@
 
         <article class="col">
           <h2>Results</h2>
-          <AccordionResults 
-            :searchResults="searchResults"
+          <AccordionElement 
             seriesName="FiM"
             collapseKey="1"
              >
              <template v-slot:header>
               <span class="SeriesTitle">My Little Pony: Friendship is Magic</span><span class="ResultCount">{{ searchResults.length }}</span>
              </template>
-          </AccordionResults>
+             <template v-slot:body>
+              <table class="table table-primary table-light table-striped">
+                <thead>
+                  <tr>
+                    <th>Speaker</th>
+                    <th>Line</th>
+                    <th>Episode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr v-for="result in searchResults" :key="result.id">
+                    <th>
+                      {{ result.line.speaker }}
+                    </th>
+                    <td>
+                      {{ result.line.dialogue }}
+                    </td>
+                    <td>
+                      – S{{ result.seasonNo }} E{{ result.episodeNo }} –<br />
+                      <i>{{result.title}}</i>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+             </template>
+          </AccordionElement>
         </article>
 
       </div>

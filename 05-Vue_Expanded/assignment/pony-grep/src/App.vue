@@ -32,6 +32,7 @@
   Make accordions appear only for specified series.
   Get new images to use for indexes of other MLP G4 series. 
   For CYOA shorts, implement branched transcripts
+  Highlight matched patterns
   */
 
 </script>
