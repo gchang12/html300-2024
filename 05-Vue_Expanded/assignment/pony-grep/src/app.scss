@@ -207,6 +207,16 @@ hr {
     display: flex;
     flex-direction: column;
   }
+  #transcript-search .container .row > * {
+    max-width: 100%;
+  }
+  #transcript-search .container .row {
+    display: flex;
+    flex-direction: column;
+  }
+  #index .Usage-Step.d-flex {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {
@@ -226,6 +236,13 @@ hr {
   }
   .EpisodeList {
     width: 5rem;
+  }
+  #transcript-search .SearchResults table thead {
+    display: none;
+  }
+  #transcript-search .SearchResults table tr {
+    display: flex;
+    flex-direction: column;
   }
 }
 
