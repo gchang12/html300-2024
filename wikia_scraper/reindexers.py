@@ -66,7 +66,6 @@ def regenerate_index(filename, data_to_append: dict):
     index2 = list(filter(lambda episode: set(episode.keys()) == set(desired_fields), index))
     # strip newline characters
     for index_no, episode in enumerate(index2):
-        episode.update(data_to_append)
         #episode['series'] = "FiM"
         #episode['type'] = "episode"
         #episode["id"] = index_no
@@ -82,6 +81,7 @@ def regenerate_index(filename, data_to_append: dict):
         if isinstance(episode['seasonNo'], str):
             episode["seasonNo"] = episode["seasonNo"].strip()
         # validate airdate
+        episode.update(data_to_append)
         _validate_date(episode)
     return index2
     #return sorted(index2, key=lambda episode: "S%d-E%02d" % (episode["seasonNo"], episode["episodeNo"]))
@@ -107,7 +107,7 @@ def regenerate_clipshow_index():
     filename = "output/FiM/indexes/FiF.json"
     data_to_append = {
         "series": "FiM",
-        #"seasonNo": "FiF",
+        "seasonNo": "FiF",
         "animationType": "clipshow",
     }
     index = regenerate_index(filename, data_to_append)
@@ -122,7 +122,7 @@ def regenerate_film_index():
     filename = "output/FiM/indexes/Movie.json"
     data_to_append = {
         "series": "FiM",
-        #"seasonNo": "FiF",
+        "seasonNo": "The Movie",
         "animationType": "film",
     }
     index = regenerate_index(filename, data_to_append)
@@ -162,7 +162,7 @@ def regenerate_shorts_index():
     filename = "output/FiM/indexes/shorts.json"
     data_to_append = {
         "series": "FiM",
-        #"seasonNo": "FiF",
+        "seasonNo": "Shorts",
         "animationType": "short",
     }
     index = regenerate_index(filename, data_to_append)
@@ -204,6 +204,7 @@ def regenerate_eqg_specials_index():
     filename = "output/EqG/indexes/specials.json"
     data_to_append = {
         "series": "EqG",
+        "seasonNo": "Specials",
         "animationType": "special",
     }
     index = regenerate_index(filename, data_to_append)
@@ -353,7 +354,8 @@ def generate_transcriptline_index2(episode_index):
                 elif episode['seasonNo'] == "Rainbow Roadtrip":
                     filepath = root_path.joinpath("Rainbow_Roadtrip").joinpath(episode['urlName'] + ".json")
                 else:
-                    raise Exception("Unknown episode encountered: %s" % episode['id'])
+                    filepath = Path("output", "FiM", "transcripts", "shorts").joinpath(episode['urlName'] + ".json")
+                    #raise Exception("Unknown episode encountered: (%s, %s)" % (episode['id'], episode['title']))
             elif episode['series'] == "EqG":
                 root_path = Path("output", "EqG", "transcripts")
                 try:
@@ -412,7 +414,10 @@ def generate_transcriptline_index2(episode_index):
                         #raise Exception("Unknown episode encountered: %s" % episode['id'])
         else:
             # FIM shorts
-            filepath = Path("output", "FiM", "transcripts", "shorts").joinpath(episode['urlName'] + ".json")
+            #filepath = Path("output", "FiM", "transcripts", "shorts").joinpath(episode['urlName'] + ".json")
+            pass
+        #raise Exception
+            raise Exception("Unknown episode encountered: (%s, %s)" % (episode['id'], episode['title']))
             #filepath = root_path.joinpath("shorts")
 
         #if not filepath.exists(): print(filepath)
@@ -692,4 +697,4 @@ if __name__ == "__main__":
             json.dump(transcriptline_index, wfile, indent=2)
 
     #save_regenerated_animation_index()
-    #save_transcriptline_index2()
+    save_transcriptline_index2()

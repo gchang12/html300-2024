@@ -2376,7 +2376,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Dance Magic",
-    "seasonNo": "Dance Magic",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Dance_Magic",
     "summary": [
       "My Little Pony Equestria Girls: Dance Magic is the first of three half-hour Equestria Girls specials.",
@@ -2390,7 +2390,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Movie Magic",
-    "seasonNo": "Movie Magic",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Movie_Magic",
     "summary": [
       "My Little Pony Equestria Girls: Movie Magic is the second of three half-hour Equestria Girls specials.",
@@ -2404,7 +2404,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Mirror Magic",
-    "seasonNo": "Mirror Magic",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Mirror_Magic",
     "summary": [
       "My Little Pony Equestria Girls: Mirror Magic is the third of three half-hour Equestria Girls specials.",
@@ -3531,7 +3531,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Forgotten Friendship",
-    "seasonNo": "Forgotten Friendship",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Forgotten_Friendship",
     "summary": [
       "My Little Pony Equestria Girls: Forgotten Friendship, also titled Most Likely to Be Forgotten and Sunset Shimmer's Saga, is the first of four hour-long Equestria Girls specials.",
@@ -3935,7 +3935,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Rollercoaster of Friendship",
-    "seasonNo": "Rollercoaster of Friendship",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Rollercoaster_of_Friendship",
     "summary": [
       "My Little Pony Equestria Girls: Rollercoaster of Friendship is the second of four hour-long Equestria Girls specials.",
@@ -4240,7 +4240,7 @@ export default [
     "id": 310
   },
   {
-    "seasonNo": null,
+    "seasonNo": "Shorts",
     "episodeNo": 1,
     "urlName": "Rarity's_Biggest_Fan",
     "title": "Rarity's Biggest Fan",
@@ -4267,7 +4267,7 @@ export default [
     "id": 312
   },
   {
-    "seasonNo": null,
+    "seasonNo": "Shorts",
     "episodeNo": 2,
     "urlName": "Ail-icorn",
     "title": "Ail-icorn",
@@ -4293,7 +4293,7 @@ export default [
     "id": 314
   },
   {
-    "seasonNo": null,
+    "seasonNo": "Shorts",
     "episodeNo": 3,
     "urlName": "Teacher_of_the_Month",
     "title": "Teacher of the Month",
@@ -4320,7 +4320,7 @@ export default [
     "id": 316
   },
   {
-    "seasonNo": null,
+    "seasonNo": "Shorts",
     "episodeNo": 4,
     "urlName": "Starlight_the_Hypnotist",
     "title": "Starlight_the_Hypnotist",
@@ -4347,7 +4347,7 @@ export default [
     "id": 318
   },
   {
-    "seasonNo": null,
+    "seasonNo": "Shorts",
     "episodeNo": 5,
     "urlName": "Sundae,_Sundae,_Sundae",
     "title": "Sundae, Sundae, Sundae",
@@ -4429,7 +4429,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Spring Breakdown",
-    "seasonNo": "Spring Breakdown",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Spring_Breakdown",
     "summary": [
       "My Little Pony Equestria Girls: Spring Breakdown is the third of four hour-long Equestria Girls specials.",
@@ -4717,7 +4717,7 @@ export default [
     "id": 345
   },
   {
-    "seasonNo": "Rainbow Roadtrip",
+    "seasonNo": "Specials",
     "episodeNo": 1,
     "urlName": "My_Little_Pony:_Rainbow_Roadtrip",
     "title": "My Little Pony: Rainbow Roadtrip",
@@ -4746,7 +4746,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Sunset's Backstage Pass",
-    "seasonNo": "Sunset's Backstage Pass",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Sunset%27s_Backstage_Pass",
     "summary": [
       "My Little Pony Equestria Girls: Sunset's Backstage Pass is the fourth and final of four hour-long Equestria Girls specials.",
@@ -5297,7 +5297,7 @@ export default [
   {
     "episodeNo": 1,
     "title": "Holidays Unwrapped",
-    "seasonNo": "Holidays Unwrapped",
+    "seasonNo": "Specials",
     "urlName": "My_Little_Pony_Equestria_Girls:_Holidays_Unwrapped",
     "summary": [
       "My Little Pony Equestria Girls: Holidays Unwrapped is a Christmas-themed Equestria Girls special. It is the last piece of Equestria Girls content produced by DHX Media. Unlike previous specials, it is a compilation of six seven-minute shorts instead of a single hour-long story."
