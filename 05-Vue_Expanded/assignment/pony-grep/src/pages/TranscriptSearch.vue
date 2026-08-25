@@ -22,12 +22,23 @@
     searchResults.value = parsedSearchResults;
     dialoguePattern.value = formData.get("dialoguePattern");
     e.preventDefault();
-    console.log(searchResults.length);
+    //console.log(searchResults.length);
   }
 
   function resetResults() {
     dialoguePattern.value = "";
     searchResults.value = [];
+  }
+
+  const vHighlight = {
+    inserted: (el) => {
+      const re = new RegExp(dialoguePattern.value, "ig");
+      //console.log("vHighlight: el", el);
+      //console.log(el.innerHTML);
+      //console.log("vHighlight: re", re);
+      //console.log("vHighlight: el.innerHTML", el.innerHTML);
+      el.innerHTML = el.innerHTML.replaceAll(re, (match) => "<span class='highlighted'>" + match + "</span>" );
+    }
   }
 
 </script>
@@ -87,7 +98,7 @@
                     <th>
                       {{ result.line.speaker }}
                     </th>
-                    <td>
+                    <td v-highlight>
                       {{ result.line.dialogue }}
                     </td>
                     <td>
