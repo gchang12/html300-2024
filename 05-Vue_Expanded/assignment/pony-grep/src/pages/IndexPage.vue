@@ -10,7 +10,7 @@
       <h1>Welcome to <code>ponygrep</code>!</h1>
       <div class="WelcomeMessage">
         <p>Trying to remember something a MLP:FiM character might have said?</p>
-        <p>You've come to the right place!
+        <p>You've come to the right place!</p>
         <p><code>ponygrep</code> allows you to search all of MLP G4 for the bit of dialogue you're thinking of.</p>
       </div>
       <hr />
